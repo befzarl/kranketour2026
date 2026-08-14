@@ -7,7 +7,42 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
     html, body, #map { height: 100%; margin: 0; padding: 0; }
-    #legend { position: absolute; bottom: 30px; left: 10px; background: white; padding: 10px; border-radius: 6px; box-shadow: 0 0 6px #888; font-size: 14px; z-index: 1000; }
+    #legend {
+      position: absolute;
+      bottom: 30px;
+      left: 10px;
+      max-height: 38vh;
+      overflow-y: auto;
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 0 6px #888;
+      font-size: 14px;
+      z-index: 1000;
+    }
+    .leaflet-control-layers-expanded {
+      max-height: 60vh;
+      overflow-y: auto;
+    }
+    @media (max-width: 600px) {
+      #legend {
+        bottom: 50px;
+        max-width: calc(100vw - 100px);
+        max-height: 22vh;
+        padding: 6px 8px;
+        font-size: 12px;
+      }
+      .leaflet-control-layers-expanded {
+        max-width: calc(100vw - 70px);
+        max-height: 45vh;
+        font-size: 13px;
+      }
+      .leaflet-control-layers-selector {
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+      }
+    }
   </style>
 </head>
 <body>
@@ -116,7 +151,8 @@
     Object.entries(categoryLayers).forEach(([name, layer]) => {
       overlays[`Lostopf: ${name}`] = layer;
     });
-    L.control.layers({ 'Schwarz-Weiß': bw }, overlays, { collapsed: false }).addTo(map);
+    const compactLayout = window.matchMedia('(max-width: 600px)').matches;
+    L.control.layers({ 'Schwarz-Weiß': bw }, overlays, { collapsed: compactLayout }).addTo(map);
   </script>
 </body>
 </html>
