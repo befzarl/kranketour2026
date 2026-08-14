@@ -113,7 +113,7 @@ const coordinates = [
   },
   {
     "id": "BP-24a",
-    "bahnhof": null,
+    "bahnhof": "Kaiserslautern Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 9,
@@ -121,14 +121,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 49.436253,
-    "longitude": 7.768677,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.435859,
+    "longitude": 7.768627,
+    "latitude2": 49.436253,
+    "longitude2": 7.768677
   },
   {
     "id": "BP-24b",
-    "bahnhof": null,
+    "bahnhof": "Königstein(Taunus)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 10,
@@ -136,14 +136,44 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 50.177917,
-    "longitude": 8.46898,
+    "latitude": 50.177951,
+    "longitude": 8.468855,
+    "latitude2": 50.177917,
+    "longitude2": 8.46898
+  },
+  {
+    "id": "BP-25a",
+    "bahnhof": "Arnsberg(Westf)",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 11,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Bhf-Paare",
+    "latitude": 51.405662,
+    "longitude": 8.067965,
+    "latitude2": null,
+    "longitude2": null
+  },
+  {
+    "id": "BP-25b",
+    "bahnhof": "Merzig(Saar)",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 12,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Bhf-Paare",
+    "latitude": 49.436419,
+    "longitude": 6.634192,
     "latitude2": null,
     "longitude2": null
   },
   {
     "id": "BP-26a",
-    "bahnhof": null,
+    "bahnhof": "Taubenheim(Spree)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 13,
@@ -151,14 +181,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 51.042262,
-    "longitude": 14.480583,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.0422,
+    "longitude": 14.480637,
+    "latitude2": 51.042262,
+    "longitude2": 14.480583
   },
   {
     "id": "BP-26b",
-    "bahnhof": null,
+    "bahnhof": "Berlin-Adlershof",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 14,
@@ -166,14 +196,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 52.435672,
-    "longitude": 13.540246,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.435031,
+    "longitude": 13.541129,
+    "latitude2": 52.435672,
+    "longitude2": 13.540246
   },
   {
     "id": "BP-31a",
-    "bahnhof": null,
+    "bahnhof": "Halle(Saale)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 15,
@@ -181,14 +211,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 51.477188,
-    "longitude": 11.987518,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.477509,
+    "longitude": 11.987085,
+    "latitude2": 51.477188,
+    "longitude2": 11.987518
   },
   {
     "id": "BP-31b",
-    "bahnhof": null,
+    "bahnhof": "Halle(Westf)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 16,
@@ -196,14 +226,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 52.057227,
-    "longitude": 8.35771,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.057295,
+    "longitude": 8.357729,
+    "latitude2": 52.057227,
+    "longitude2": 8.35771
   },
   {
     "id": "BP-32a",
-    "bahnhof": null,
+    "bahnhof": "Uelzen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 17,
@@ -211,14 +241,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 52.969922,
-    "longitude": 10.552857,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.969781,
+    "longitude": 10.553053,
+    "latitude2": 52.969922,
+    "longitude2": 10.552857
   },
   {
     "id": "BP-32b",
-    "bahnhof": null,
+    "bahnhof": "Plochingen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 18,
@@ -226,14 +256,44 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 48.710222,
-    "longitude": 9.41626,
+    "latitude": 48.71308,
+    "longitude": 9.41081,
+    "latitude2": 48.710222,
+    "longitude2": 9.41626
+  },
+  {
+    "id": "BP-39a",
+    "bahnhof": "Runkel",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 19,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Bhf-Paare",
+    "latitude": 50.405299,
+    "longitude": 8.159441,
+    "latitude2": null,
+    "longitude2": null
+  },
+  {
+    "id": "BP-39b",
+    "bahnhof": "Unkel",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 20,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Bhf-Paare",
+    "latitude": 50.602992,
+    "longitude": 7.219678,
     "latitude2": null,
     "longitude2": null
   },
   {
     "id": "BP-40a",
-    "bahnhof": null,
+    "bahnhof": "Lübeck-Dänischburg IKEA",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 21,
@@ -241,14 +301,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 53.911237,
-    "longitude": 10.734885,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.911202,
+    "longitude": 10.735581,
+    "latitude2": 53.911237,
+    "longitude2": 10.734885
   },
   {
     "id": "BP-40b",
-    "bahnhof": null,
+    "bahnhof": "Kaarst IKEA",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 22,
@@ -256,14 +316,44 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Bhf-Paare",
-    "latitude": 51.217327,
-    "longitude": 6.629644,
+    "latitude": 51.217023,
+    "longitude": 6.629881,
+    "latitude2": 51.217327,
+    "longitude2": 6.629644
+  },
+  {
+    "id": "P-4a",
+    "bahnhof": "Salzgitter-Bad",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 23,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Partnerstädte",
+    "latitude": 52.049824,
+    "longitude": 10.372335,
+    "latitude2": null,
+    "longitude2": null
+  },
+  {
+    "id": "P-4b",
+    "bahnhof": "Gotha",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 24,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Partnerstädte",
+    "latitude": 50.93907,
+    "longitude": 10.712568,
     "latitude2": null,
     "longitude2": null
   },
   {
     "id": "P-10a",
-    "bahnhof": null,
+    "bahnhof": "Nürnberg Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 25,
@@ -271,14 +361,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 49.454213,
-    "longitude": 11.070849,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.445616,
+    "longitude": 11.082989,
+    "latitude2": 49.454213,
+    "longitude2": 11.070849
   },
   {
     "id": "P-10b",
-    "bahnhof": null,
+    "bahnhof": "Gera Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 26,
@@ -286,14 +376,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 50.883063,
-    "longitude": 12.057639,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.883421,
+    "longitude": 12.077092,
+    "latitude2": 50.883063,
+    "longitude2": 12.057639
   },
   {
     "id": "P-16a",
-    "bahnhof": null,
+    "bahnhof": "Heide(Holst)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 27,
@@ -301,14 +391,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 54.193438,
-    "longitude": 9.10093,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 54.193563,
+    "longitude": 9.101029,
+    "latitude2": 54.193438,
+    "longitude2": 9.10093
   },
   {
     "id": "P-16b",
-    "bahnhof": null,
+    "bahnhof": "Anklam",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 28,
@@ -316,14 +406,44 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 53.856027,
-    "longitude": 13.701789,
+    "latitude": 53.856102,
+    "longitude": 13.701827,
+    "latitude2": 53.856027,
+    "longitude2": 13.701789
+  },
+  {
+    "id": "P-23a",
+    "bahnhof": "Saarlouis Hbf",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 29,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Partnerstädte",
+    "latitude": 49.32783,
+    "longitude": 6.750169,
+    "latitude2": null,
+    "longitude2": null
+  },
+  {
+    "id": "P-23b",
+    "bahnhof": "Eisenhüttenstadt",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 30,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Partnerstädte",
+    "latitude": 52.14798,
+    "longitude": 14.658435,
     "latitude2": null,
     "longitude2": null
   },
   {
     "id": "P-31a",
-    "bahnhof": null,
+    "bahnhof": "Frankenberg(Eder)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 31,
@@ -331,14 +451,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 51.054434,
-    "longitude": 8.78942,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.054565,
+    "longitude": 8.789181,
+    "latitude2": 51.054434,
+    "longitude2": 8.78942
   },
   {
     "id": "P-31b",
-    "bahnhof": null,
+    "bahnhof": "Frankenberg(Sachs)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 32,
@@ -346,14 +466,44 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 50.9112,
-    "longitude": 13.043289,
+    "latitude": 50.911233,
+    "longitude": 13.043191,
+    "latitude2": 50.9112,
+    "longitude2": 13.043289
+  },
+  {
+    "id": "P-34a",
+    "bahnhof": "Wernigerode Hbf",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 33,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Partnerstädte",
+    "latitude": 51.840254,
+    "longitude": 10.788805,
+    "latitude2": null,
+    "longitude2": null
+  },
+  {
+    "id": "P-34b",
+    "bahnhof": "Neustadt(Weinstr)Hbf",
+    "zeitbedarf": null,
+    "distanz": null,
+    "punkte_bahnhof": 34,
+    "punkte_aufgabe": 0,
+    "punkte_bonus": 0,
+    "aufgabe": null,
+    "lostopf": "Partnerstädte",
+    "latitude": 49.349553,
+    "longitude": 8.140757,
     "latitude2": null,
     "longitude2": null
   },
   {
     "id": "P-36a",
-    "bahnhof": null,
+    "bahnhof": "Wittenberge",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 35,
@@ -361,14 +511,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 53.002456,
-    "longitude": 11.762482,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.003115,
+    "longitude": 11.762871,
+    "latitude2": 53.002456,
+    "longitude2": 11.762482
   },
   {
     "id": "P-36b",
-    "bahnhof": null,
+    "bahnhof": "Elmshorn",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 36,
@@ -376,14 +526,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 53.75453,
-    "longitude": 9.659152,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.754025,
+    "longitude": 9.659408,
+    "latitude2": 53.75453,
+    "longitude2": 9.659152
   },
   {
     "id": "P-39a",
-    "bahnhof": null,
+    "bahnhof": "Arnstadt Süd",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 37,
@@ -391,14 +541,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 50.835115,
-    "longitude": 10.951666,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.831084,
+    "longitude": 10.954958,
+    "latitude2": 50.835115,
+    "longitude2": 10.951666
   },
   {
     "id": "P-39b",
-    "bahnhof": null,
+    "bahnhof": "Kassel-Wilhelmshöhe",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 38,
@@ -406,14 +556,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Partnerstädte",
-    "latitude": 51.311971,
-    "longitude": 9.448129,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.312559,
+    "longitude": 9.447116,
+    "latitude2": 51.311971,
+    "longitude2": 9.448129
   },
   {
     "id": "EB-1",
-    "bahnhof": null,
+    "bahnhof": "Tübingen Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 39,
@@ -421,14 +571,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 48.516138,
-    "longitude": 9.055184,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.515641,
+    "longitude": 9.055395,
+    "latitude2": 48.516138,
+    "longitude2": 9.055184
   },
   {
     "id": "EB-3",
-    "bahnhof": null,
+    "bahnhof": "Berlin Nordbahnhof",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 40,
@@ -436,14 +586,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 52.535092,
-    "longitude": 13.390183,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.532066,
+    "longitude": 13.388464,
+    "latitude2": 52.535092,
+    "longitude2": 13.390183
   },
   {
     "id": "EB-7",
-    "bahnhof": null,
+    "bahnhof": "Klais",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 41,
@@ -451,14 +601,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 47.479412,
-    "longitude": 11.239749,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 47.483032,
+    "longitude": 11.238589,
+    "latitude2": 47.479412,
+    "longitude2": 11.239749
   },
   {
     "id": "EB-10",
-    "bahnhof": null,
+    "bahnhof": "Unna-Königsborn",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 42,
@@ -466,14 +616,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.550914,
-    "longitude": 7.682614,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.55328,
+    "longitude": 7.687808,
+    "latitude2": 51.550914,
+    "longitude2": 7.682614
   },
   {
     "id": "EB-11",
-    "bahnhof": null,
+    "bahnhof": "Alfeld(Leine)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 43,
@@ -481,14 +631,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.983965,
-    "longitude": 9.809597,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.981417,
+    "longitude": 9.817779,
+    "latitude2": 51.983965,
+    "longitude2": 9.809597
   },
   {
     "id": "EB-12",
-    "bahnhof": null,
+    "bahnhof": "Bayreuth Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 44,
@@ -496,14 +646,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 49.959394,
-    "longitude": 11.579481,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.949616,
+    "longitude": 11.579985,
+    "latitude2": 49.959394,
+    "longitude2": 11.579481
   },
   {
     "id": "EB-16",
-    "bahnhof": null,
+    "bahnhof": "Goslar",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 45,
@@ -511,14 +661,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.906117,
-    "longitude": 10.429386,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.911573,
+    "longitude": 10.421436,
+    "latitude2": 51.906117,
+    "longitude2": 10.429386
   },
   {
     "id": "EB-17",
-    "bahnhof": null,
+    "bahnhof": "Lennestadt-Altenhundem",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 46,
@@ -526,14 +676,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.10113,
-    "longitude": 8.070652,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.104118,
+    "longitude": 8.071475,
+    "latitude2": 51.10113,
+    "longitude2": 8.070652
   },
   {
     "id": "EB-18",
-    "bahnhof": null,
+    "bahnhof": "Forst(Lausitz)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 47,
@@ -541,14 +691,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.732534,
-    "longitude": 14.660665,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.738882,
+    "longitude": 14.637628,
+    "latitude2": 51.732534,
+    "longitude2": 14.660665
   },
   {
     "id": "EB-23",
-    "bahnhof": null,
+    "bahnhof": "Siegen Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 48,
@@ -556,14 +706,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 50.874102,
-    "longitude": 8.01766,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.875939,
+    "longitude": 8.016508,
+    "latitude2": 50.874102,
+    "longitude2": 8.01766
   },
   {
     "id": "EB-25",
-    "bahnhof": null,
+    "bahnhof": "Bad Oldesloe",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 49,
@@ -571,14 +721,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 53.809475,
-    "longitude": 10.37737,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.80539,
+    "longitude": 10.382541,
+    "latitude2": 53.809475,
+    "longitude2": 10.37737
   },
   {
     "id": "E-2",
-    "bahnhof": null,
+    "bahnhof": "Eschborn",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 50,
@@ -586,14 +736,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.141516,
-    "longitude": 8.5665,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.143618,
+    "longitude": 8.560971,
+    "latitude2": 50.141516,
+    "longitude2": 8.5665
   },
   {
     "id": "E-10",
-    "bahnhof": null,
+    "bahnhof": "Köln Messe/Deutz",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 51,
@@ -601,14 +751,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.938715,
-    "longitude": 6.974353,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.940874,
+    "longitude": 6.975001,
+    "latitude2": 50.938715,
+    "longitude2": 6.974353
   },
   {
     "id": "E-11",
-    "bahnhof": null,
+    "bahnhof": "Bielefeld Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 52,
@@ -616,14 +766,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 52.022228,
-    "longitude": 8.529231,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.029261,
+    "longitude": 8.532722,
+    "latitude2": 52.022228,
+    "longitude2": 8.529231
   },
   {
     "id": "E-14",
-    "bahnhof": null,
+    "bahnhof": "Frankfurt(M)Lokalbahnhof",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 53,
@@ -631,14 +781,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.105252,
-    "longitude": 8.691505,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.102171,
+    "longitude": 8.693025,
+    "latitude2": 50.105252,
+    "longitude2": 8.691505
   },
   {
     "id": "E-17",
-    "bahnhof": null,
+    "bahnhof": "Wiesbaden Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 54,
@@ -646,14 +796,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.086323,
-    "longitude": 8.242165,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.070791,
+    "longitude": 8.243731,
+    "latitude2": 50.086323,
+    "longitude2": 8.242165
   },
   {
     "id": "E-18",
-    "bahnhof": null,
+    "bahnhof": "Hamburg Jungfernstieg",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 55,
@@ -661,14 +811,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 53.553509,
-    "longitude": 9.993047,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.552194,
+    "longitude": 9.993883,
+    "latitude2": 53.553509,
+    "longitude2": 9.993047
   },
   {
     "id": "E-21",
-    "bahnhof": null,
+    "bahnhof": "Aachen Schanz",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 56,
@@ -676,14 +826,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.772404,
-    "longitude": 6.080204,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.769862,
+    "longitude": 6.07384,
+    "latitude2": 50.772404,
+    "longitude2": 6.080204
   },
   {
     "id": "E-22",
-    "bahnhof": null,
+    "bahnhof": "Mannheim Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 57,
@@ -691,14 +841,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 49.47388,
-    "longitude": 8.469134,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.479354,
+    "longitude": 8.468921,
+    "latitude2": 49.47388,
+    "longitude2": 8.469134
   },
   {
     "id": "E-23",
-    "bahnhof": null,
+    "bahnhof": "Hamburg Reeperbahn",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 58,
@@ -706,14 +856,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 53.549733,
-    "longitude": 9.960524,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.549668,
+    "longitude": 9.957668,
+    "latitude2": 53.549733,
+    "longitude2": 9.960524
   },
   {
     "id": "E-25",
-    "bahnhof": null,
+    "bahnhof": "Düsseldorf-Zoo",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 59,
@@ -721,10 +871,10 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 51.238166,
-    "longitude": 6.779768,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.236962,
+    "longitude": 6.796924,
+    "latitude2": 51.238166,
+    "longitude2": 6.779768
   },
   {
     "id": "F-1",
@@ -818,7 +968,7 @@ const coordinates = [
   },
   {
     "id": "F-20",
-    "bahnhof": null,
+    "bahnhof": "Frankfurt(Main)Süd",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 66,
@@ -826,14 +976,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.10306,
-    "longitude": 8.685161,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.099365,
+    "longitude": 8.686457,
+    "latitude2": 50.10306,
+    "longitude2": 8.685161
   },
   {
     "id": "F-23",
-    "bahnhof": null,
+    "bahnhof": "Frankfurt-Mainkur",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 67,
@@ -841,14 +991,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.130842,
-    "longitude": 8.756596,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.134603,
+    "longitude": 8.767437,
+    "latitude2": 50.130842,
+    "longitude2": 8.756596
   },
   {
     "id": "F-25",
-    "bahnhof": null,
+    "bahnhof": "Friedberg Süd",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 68,
@@ -856,14 +1006,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.32208,
-    "longitude": 8.747313,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.320279,
+    "longitude": 8.747646,
+    "latitude2": 50.32208,
+    "longitude2": 8.747313
   },
   {
     "id": "H-1",
-    "bahnhof": null,
+    "bahnhof": "Salzgitter-Bad",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 69,
@@ -871,14 +1021,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 52.048221,
-    "longitude": 10.371587,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.049824,
+    "longitude": 10.372335,
+    "latitude2": 52.048221,
+    "longitude2": 10.371587
   },
   {
     "id": "H-2",
-    "bahnhof": null,
+    "bahnhof": "Holzminden",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 70,
@@ -886,14 +1036,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 51.82721,
-    "longitude": 9.45092,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.820268,
+    "longitude": 9.453743,
+    "latitude2": 51.82721,
+    "longitude2": 9.45092
   },
   {
     "id": "H-3",
-    "bahnhof": null,
+    "bahnhof": "Vallendar",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 71,
@@ -901,14 +1051,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 50.401625,
-    "longitude": 7.626797,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.399717,
+    "longitude": 7.610039,
+    "latitude2": 50.401625,
+    "longitude2": 7.626797
   },
   {
     "id": "H-4",
-    "bahnhof": null,
+    "bahnhof": "Wildau",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 72,
@@ -916,14 +1066,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 52.318206,
-    "longitude": 13.632312,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.319935,
+    "longitude": 13.633779,
+    "latitude2": 52.318206,
+    "longitude2": 13.632312
   },
   {
     "id": "H-6",
-    "bahnhof": null,
+    "bahnhof": "Witzenhausen Nord",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 73,
@@ -931,14 +1081,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 51.349949,
-    "longitude": 9.855173,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.351556,
+    "longitude": 9.863079,
+    "latitude2": 51.349949,
+    "longitude2": 9.855173
   },
   {
     "id": "H-8",
-    "bahnhof": null,
+    "bahnhof": "Riedlingen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 74,
@@ -946,14 +1096,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 48.153451,
-    "longitude": 9.475028,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.149576,
+    "longitude": 9.48498,
+    "latitude2": 48.153451,
+    "longitude2": 9.475028
   },
   {
     "id": "H-9",
-    "bahnhof": null,
+    "bahnhof": "Elstal",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 75,
@@ -961,14 +1111,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 52.540705,
-    "longitude": 13.002413,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.54749,
+    "longitude": 13.000114,
+    "latitude2": 52.540705,
+    "longitude2": 13.002413
   },
   {
     "id": "H-15",
-    "bahnhof": null,
+    "bahnhof": "Geisenheim",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 76,
@@ -976,14 +1126,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 49.98846,
-    "longitude": 7.962486,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.985973,
+    "longitude": 7.968804,
+    "latitude2": 49.98846,
+    "longitude2": 7.962486
   },
   {
     "id": "H-20",
-    "bahnhof": null,
+    "bahnhof": "Neubrücke(Nahe)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 77,
@@ -991,14 +1141,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 49.60764,
-    "longitude": 7.168789,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.606066,
+    "longitude": 7.172701,
+    "latitude2": 49.60764,
+    "longitude2": 7.168789
   },
   {
     "id": "H-22",
-    "bahnhof": null,
+    "bahnhof": "Gengenbach",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 78,
@@ -1006,14 +1156,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 48.404205,
-    "longitude": 8.01683,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.404659,
+    "longitude": 8.010192,
+    "latitude2": 48.404205,
+    "longitude2": 8.01683
   },
   {
     "id": "HM-1",
-    "bahnhof": null,
+    "bahnhof": "Wismar",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 79,
@@ -1021,14 +1171,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.892441,
-    "longitude": 11.462035,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.896837,
+    "longitude": 11.469433,
+    "latitude2": 53.892441,
+    "longitude2": 11.462035
   },
   {
     "id": "HM-3",
-    "bahnhof": null,
+    "bahnhof": "Soest",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 80,
@@ -1036,14 +1186,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 51.57193,
-    "longitude": 8.106754,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.578419,
+    "longitude": 8.104589,
+    "latitude2": 51.57193,
+    "longitude2": 8.106754
   },
   {
     "id": "HM-6",
-    "bahnhof": null,
+    "bahnhof": "Magdeburg Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 81,
@@ -1051,14 +1201,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 52.124803,
-    "longitude": 11.633467,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.130511,
+    "longitude": 11.626963,
+    "latitude2": 52.124803,
+    "longitude2": 11.633467
   },
   {
     "id": "HM-9",
-    "bahnhof": null,
+    "bahnhof": "Warnemünde",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 82,
@@ -1066,14 +1216,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.18327,
-    "longitude": 12.084485,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 54.176852,
+    "longitude": 12.091271,
+    "latitude2": 54.18327,
+    "longitude2": 12.084485
   },
   {
     "id": "HM-10",
-    "bahnhof": null,
+    "bahnhof": "Bremen Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 83,
@@ -1081,14 +1231,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.072508,
-    "longitude": 8.809627,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.083481,
+    "longitude": 8.813834,
+    "latitude2": 53.072508,
+    "longitude2": 8.809627
   },
   {
     "id": "HM-11",
-    "bahnhof": null,
+    "bahnhof": "Büsum",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 84,
@@ -1096,14 +1246,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.126998,
-    "longitude": 8.858265,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 54.133822,
+    "longitude": 8.867113,
+    "latitude2": 54.126998,
+    "longitude2": 8.858265
   },
   {
     "id": "HM-14",
-    "bahnhof": null,
+    "bahnhof": "Haffkrug",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 85,
@@ -1111,14 +1261,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.051919,
-    "longitude": 10.753891,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 54.054189,
+    "longitude": 10.742682,
+    "latitude2": 54.051919,
+    "longitude2": 10.753891
   },
   {
     "id": "HM-16",
-    "bahnhof": null,
+    "bahnhof": "Lüneburg",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 86,
@@ -1126,14 +1276,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.24917,
-    "longitude": 10.41417,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.249656,
+    "longitude": 10.41989,
+    "latitude2": 53.24917,
+    "longitude2": 10.41417
   },
   {
     "id": "HM-21",
-    "bahnhof": null,
+    "bahnhof": "Korbach Süd",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 87,
@@ -1141,14 +1291,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 51.271363,
-    "longitude": 8.872623,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.270264,
+    "longitude": 8.878815,
+    "latitude2": 51.271363,
+    "longitude2": 8.872623
   },
   {
     "id": "HM-25",
-    "bahnhof": null,
+    "bahnhof": "Nordenham",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 88,
@@ -1156,14 +1306,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.481878,
-    "longitude": 8.488052,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.483811,
+    "longitude": 8.487392,
+    "latitude2": 53.481878,
+    "longitude2": 8.488052
   },
   {
     "id": "MG-1",
-    "bahnhof": null,
+    "bahnhof": "Woffleben",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 89,
@@ -1171,14 +1321,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.556257,
-    "longitude": 10.723233,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.555968,
+    "longitude": 10.721395,
+    "latitude2": 51.556257,
+    "longitude2": 10.723233
   },
   {
     "id": "MG-2",
-    "bahnhof": null,
+    "bahnhof": "Titisee",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 90,
@@ -1186,14 +1336,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 47.900777,
-    "longitude": 8.152353,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 47.903402,
+    "longitude": 8.155069,
+    "latitude2": 47.900777,
+    "longitude2": 8.152353
   },
   {
     "id": "MG-4",
-    "bahnhof": null,
+    "bahnhof": "Timmendorfer Strand",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 91,
@@ -1201,14 +1351,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 53.999746,
-    "longitude": 10.778266,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.994212,
+    "longitude": 10.76227,
+    "latitude2": 53.999746,
+    "longitude2": 10.778266
   },
   {
     "id": "MG-6",
-    "bahnhof": null,
+    "bahnhof": "Hilchenbach",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 92,
@@ -1216,14 +1366,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.999127,
-    "longitude": 8.117039,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.99226,
+    "longitude": 8.107146,
+    "latitude2": 50.999127,
+    "longitude2": 8.117039
   },
   {
     "id": "MG-9",
-    "bahnhof": null,
+    "bahnhof": "Willingen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 93,
@@ -1231,14 +1381,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.289291,
-    "longitude": 8.617026,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.293342,
+    "longitude": 8.603635,
+    "latitude2": 51.289291,
+    "longitude2": 8.617026
   },
   {
     "id": "MG-16",
-    "bahnhof": null,
+    "bahnhof": "Oberwinden",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 94,
@@ -1246,14 +1396,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 48.154733,
-    "longitude": 8.045701,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.152529,
+    "longitude": 8.044583,
+    "latitude2": 48.154733,
+    "longitude2": 8.045701
   },
   {
     "id": "MG-17",
-    "bahnhof": null,
+    "bahnhof": "Thale Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 95,
@@ -1261,14 +1411,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.741649,
-    "longitude": 11.026719,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.746047,
+    "longitude": 11.031048,
+    "latitude2": 51.741649,
+    "longitude2": 11.026719
   },
   {
     "id": "MG-18",
-    "bahnhof": null,
+    "bahnhof": "Diez",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 96,
@@ -1276,14 +1426,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.372934,
-    "longitude": 8.011952,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.370127,
+    "longitude": 8.01962,
+    "latitude2": 50.372934,
+    "longitude2": 8.011952
   },
   {
     "id": "MG-21",
-    "bahnhof": null,
+    "bahnhof": "Metelen Land",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 97,
@@ -1291,14 +1441,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 52.15038,
-    "longitude": 7.251984,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.162494,
+    "longitude": 7.254173,
+    "latitude2": 52.15038,
+    "longitude2": 7.251984
   },
   {
     "id": "MG-25",
-    "bahnhof": null,
+    "bahnhof": "Fornsbach",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 98,
@@ -1306,14 +1456,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 48.976542,
-    "longitude": 9.663497,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.975445,
+    "longitude": 9.642498,
+    "latitude2": 48.976542,
+    "longitude2": 9.663497
   },
   {
     "id": "M-2",
-    "bahnhof": null,
+    "bahnhof": "Münster(Westf)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 99,
@@ -1321,14 +1471,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.967925,
-    "longitude": 7.616883,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.967925,
+    "longitude2": 7.616883
   },
   {
     "id": "M-5",
-    "bahnhof": null,
+    "bahnhof": "Münster(Westf)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 100,
@@ -1336,14 +1486,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.962954,
-    "longitude": 7.628904,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.962954,
+    "longitude2": 7.628904
   },
   {
     "id": "M-9",
-    "bahnhof": null,
+    "bahnhof": "Senden-Bösensell",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 101,
@@ -1351,14 +1501,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.911163,
-    "longitude": 7.500201,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.90703,
+    "longitude": 7.487687,
+    "latitude2": 51.911163,
+    "longitude2": 7.500201
   },
   {
     "id": "M-13",
-    "bahnhof": null,
+    "bahnhof": "Münster(Westf)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 102,
@@ -1366,14 +1516,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.956476,
-    "longitude": 7.629967,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.956476,
+    "longitude2": 7.629967
   },
   {
     "id": "M-14",
-    "bahnhof": null,
+    "bahnhof": "Münster(Westf)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 103,
@@ -1381,14 +1531,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.96763,
-    "longitude": 7.629557,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.96763,
+    "longitude2": 7.629557
   },
   {
     "id": "M-15",
-    "bahnhof": null,
+    "bahnhof": "Münster(Westf)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 104,
@@ -1396,14 +1546,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.960249,
-    "longitude": 7.626451,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.960249,
+    "longitude2": 7.626451
   },
   {
     "id": "M-19",
-    "bahnhof": null,
+    "bahnhof": "Telgte",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 105,
@@ -1411,14 +1561,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.985526,
-    "longitude": 7.790336,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.981193,
+    "longitude": 7.780876,
+    "latitude2": 51.985526,
+    "longitude2": 7.790336
   },
   {
     "id": "M-23",
-    "bahnhof": null,
+    "bahnhof": "Nottuln-Appelhülsen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 106,
@@ -1426,14 +1576,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.898162,
-    "longitude": 7.421932,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.892139,
+    "longitude": 7.426334,
+    "latitude2": 51.898162,
+    "longitude2": 7.421932
   },
   {
     "id": "M-24",
-    "bahnhof": null,
+    "bahnhof": "Münster(Westf)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 107,
@@ -1441,10 +1591,10 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.96299,
-    "longitude": 7.629862,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.96299,
+    "longitude2": 7.629862
   },
   {
     "id": "N-1",
@@ -1553,7 +1703,7 @@ const coordinates = [
   },
   {
     "id": "N-17",
-    "bahnhof": null,
+    "bahnhof": "Ebstorf(Uelzen)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 126,
@@ -1561,14 +1711,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 53.0157,
-    "longitude": 10.426253,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.017192,
+    "longitude": 10.41695,
+    "latitude2": 53.0157,
+    "longitude2": 10.426253
   },
   {
     "id": "N-20",
-    "bahnhof": null,
+    "bahnhof": "Pforzheim Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 127,
@@ -1576,14 +1726,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 48.888583,
-    "longitude": 8.703743,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.894152,
+    "longitude": 8.703099,
+    "latitude2": 48.888583,
+    "longitude2": 8.703743
   },
   {
     "id": "N-24",
-    "bahnhof": null,
+    "bahnhof": "Heimbach (Eifel)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 128,
@@ -1591,14 +1741,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 50.631987,
-    "longitude": 6.461743,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.636515,
+    "longitude": 6.4735,
+    "latitude2": 50.631987,
+    "longitude2": 6.461743
   },
   {
     "id": "R-3",
-    "bahnhof": null,
+    "bahnhof": "Seddin",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 129,
@@ -1606,14 +1756,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 52.289857,
-    "longitude": 12.989335,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.29184,
+    "longitude": 12.985452,
+    "latitude2": 52.289857,
+    "longitude2": 12.989335
   },
   {
     "id": "R-7",
-    "bahnhof": null,
+    "bahnhof": "Neuss Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 131,
@@ -1621,14 +1771,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.211383,
-    "longitude": 6.686205,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.204351,
+    "longitude": 6.684527,
+    "latitude2": 51.211383,
+    "longitude2": 6.686205
   },
   {
     "id": "R-9",
-    "bahnhof": null,
+    "bahnhof": "Völklingen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 132,
@@ -1636,14 +1786,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.248573,
-    "longitude": 6.845999,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.249091,
+    "longitude": 6.848156,
+    "latitude2": 49.248573,
+    "longitude2": 6.845999
   },
   {
     "id": "R-14",
-    "bahnhof": null,
+    "bahnhof": "Halle(Saale)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 133,
@@ -1651,14 +1801,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.482025,
-    "longitude": 11.991181,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.477509,
+    "longitude": 11.987085,
+    "latitude2": 51.482025,
+    "longitude2": 11.991181
   },
   {
     "id": "R-18",
-    "bahnhof": null,
+    "bahnhof": "Bebra",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 134,
@@ -1666,14 +1816,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 50.966395,
-    "longitude": 9.798999,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.969568,
+    "longitude": 9.797788,
+    "latitude2": 50.966395,
+    "longitude2": 9.798999
   },
   {
     "id": "R-19",
-    "bahnhof": null,
+    "bahnhof": "Mainz-Bischofsheim",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 135,
@@ -1681,14 +1831,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.986809,
-    "longitude": 8.366186,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.993226,
+    "longitude": 8.3575,
+    "latitude2": 49.986809,
+    "longitude2": 8.366186
   },
   {
     "id": "R-21",
-    "bahnhof": null,
+    "bahnhof": "Duisburg-Buchholz",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 136,
@@ -1696,14 +1846,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.390969,
-    "longitude": 6.80213,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.382919,
+    "longitude": 6.775406,
+    "latitude2": 51.390969,
+    "longitude2": 6.80213
   },
   {
     "id": "R-23",
-    "bahnhof": null,
+    "bahnhof": "Mannheim-Seckenheim",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 137,
@@ -1711,14 +1861,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.454135,
-    "longitude": 8.528916,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.451266,
+    "longitude": 8.53844,
+    "latitude2": 49.454135,
+    "longitude2": 8.528916
   },
   {
     "id": "R-24",
-    "bahnhof": null,
+    "bahnhof": "Seelze",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 138,
@@ -1726,14 +1876,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 52.392992,
-    "longitude": 9.586046,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.391675,
+    "longitude": 9.594314,
+    "latitude2": 52.392992,
+    "longitude2": 9.586046
   },
   {
     "id": "T-3",
-    "bahnhof": null,
+    "bahnhof": "Hamburg Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 139,
@@ -1741,14 +1891,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 53.55683,
-    "longitude": 10.005019,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.552736,
+    "longitude": 10.006909,
+    "latitude2": 53.55683,
+    "longitude2": 10.005019
   },
   {
     "id": "T-4",
-    "bahnhof": null,
+    "bahnhof": "Wiesbaden Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 140,
@@ -1756,14 +1906,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 50.070821,
-    "longitude": 8.241747,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.070791,
+    "longitude": 8.243731,
+    "latitude2": 50.070821,
+    "longitude2": 8.241747
   },
   {
     "id": "T-5",
-    "bahnhof": null,
+    "bahnhof": "Bad Nauheim",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 141,
@@ -1771,14 +1921,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 50.367841,
-    "longitude": 8.748345,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.367904,
+    "longitude": 8.749334,
+    "latitude2": 50.367841,
+    "longitude2": 8.748345
   },
   {
     "id": "T-10",
-    "bahnhof": null,
+    "bahnhof": "Vettweiß-Jakobwüllesheim",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 142,
@@ -1786,14 +1936,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 50.771626,
-    "longitude": 6.551073,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.766705,
+    "longitude": 6.565209,
+    "latitude2": 50.771626,
+    "longitude2": 6.551073
   },
   {
     "id": "T-14",
-    "bahnhof": null,
+    "bahnhof": "Frankfurt(Main)Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 143,
@@ -1801,14 +1951,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 50.109909,
-    "longitude": 8.658953,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.107145,
+    "longitude": 8.663789,
+    "latitude2": 50.109909,
+    "longitude2": 8.658953
   },
   {
     "id": "T-16",
-    "bahnhof": null,
+    "bahnhof": "Köln-Müngersdorf Technologiepark",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 144,
@@ -1816,14 +1966,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 50.944972,
-    "longitude": 6.898263,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.948394,
+    "longitude": 6.888201,
+    "latitude2": 50.944972,
+    "longitude2": 6.898263
   },
   {
     "id": "T-20",
-    "bahnhof": null,
+    "bahnhof": "Erfurt Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 145,
@@ -1831,14 +1981,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 50.978878,
-    "longitude": 11.031253,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.972356,
+    "longitude": 11.037993,
+    "latitude2": 50.978878,
+    "longitude2": 11.031253
   },
   {
     "id": "T-21",
-    "bahnhof": null,
+    "bahnhof": "Ludwigshafen(Rhein) Mitte",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 146,
@@ -1846,14 +1996,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 49.478088,
-    "longitude": 8.448842,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.479005,
+    "longitude": 8.452152,
+    "latitude2": 49.478088,
+    "longitude2": 8.448842
   },
   {
     "id": "T-22",
-    "bahnhof": null,
+    "bahnhof": "Bonn Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 147,
@@ -1861,14 +2011,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Tatort",
-    "latitude": 50.732541,
-    "longitude": 7.085292,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.732008,
+    "longitude": 7.097136,
+    "latitude2": 50.732541,
+    "longitude2": 7.085292
   },
   {
     "id": "B-4",
-    "bahnhof": null,
+    "bahnhof": "Baunatal-Guntershausen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 149,
@@ -1876,14 +2026,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.22652,
-    "longitude": 9.46901,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.229917,
+    "longitude": 9.466997,
+    "latitude2": 51.22652,
+    "longitude2": 9.46901
   },
   {
     "id": "B-9",
-    "bahnhof": null,
+    "bahnhof": "Gießen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 150,
@@ -1891,14 +2041,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 50.581109,
-    "longitude": 8.665803,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.579059,
+    "longitude": 8.661462,
+    "latitude2": 50.581109,
+    "longitude2": 8.665803
   },
   {
     "id": "B-11",
-    "bahnhof": null,
+    "bahnhof": "Werbig",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 151,
@@ -1906,14 +2056,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.564861,
-    "longitude": 14.405309,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.564886,
+    "longitude": 14.405238,
+    "latitude2": 52.564861,
+    "longitude2": 14.405309
   },
   {
     "id": "B-14",
-    "bahnhof": null,
+    "bahnhof": "Lünen Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 152,
@@ -1921,14 +2071,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.614409,
-    "longitude": 7.522341,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.617129,
+    "longitude": 7.529485,
+    "latitude2": 51.614409,
+    "longitude2": 7.522341
   },
   {
     "id": "B-18",
-    "bahnhof": null,
+    "bahnhof": "Altenbeken",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 153,
@@ -1936,14 +2086,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.7653,
-    "longitude": 8.92921,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.766433,
+    "longitude": 8.943319,
+    "latitude2": 51.7653,
+    "longitude2": 8.92921
   },
   {
     "id": "B-19",
-    "bahnhof": null,
+    "bahnhof": "Herlasgrün",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 154,
@@ -1951,14 +2101,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 50.570929,
-    "longitude": 12.235387,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.570936,
+    "longitude": 12.235424,
+    "latitude2": 50.570929,
+    "longitude2": 12.235387
   },
   {
     "id": "B-21",
-    "bahnhof": null,
+    "bahnhof": "Dortmund-Dorstfeld",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 155,
@@ -1966,14 +2116,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.513522,
-    "longitude": 7.418741,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.509376,
+    "longitude": 7.424864,
+    "latitude2": 51.513522,
+    "longitude2": 7.418741
   },
   {
     "id": "B-22",
-    "bahnhof": null,
+    "bahnhof": "Bürstadt",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 156,
@@ -1981,14 +2131,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 49.645661,
-    "longitude": 8.457419,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.645769,
+    "longitude": 8.458188,
+    "latitude2": 49.645661,
+    "longitude2": 8.457419
   },
   {
     "id": "B-23",
-    "bahnhof": null,
+    "bahnhof": "Dülmen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 157,
@@ -1996,14 +2146,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.829214,
-    "longitude": 7.276327,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.827676,
+    "longitude": 7.295765,
+    "latitude2": 51.829214,
+    "longitude2": 7.276327
   },
   {
     "id": "B-24",
-    "bahnhof": null,
+    "bahnhof": "Osnabrück Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 158,
@@ -2011,14 +2161,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.271668,
-    "longitude": 8.05723,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.272851,
+    "longitude": 8.061781,
+    "latitude2": 52.271668,
+    "longitude2": 8.05723
   },
   {
     "id": "U-2",
-    "bahnhof": null,
+    "bahnhof": "Mechernich",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 159,
@@ -2026,14 +2176,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 50.586438,
-    "longitude": 6.649587,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.591367,
+    "longitude": 6.642296,
+    "latitude2": 50.586438,
+    "longitude2": 6.649587
   },
   {
     "id": "U-4",
-    "bahnhof": null,
+    "bahnhof": "Kaub",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 160,
@@ -2041,14 +2191,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 50.087694,
-    "longitude": 7.763732,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.083197,
+    "longitude": 7.76875,
+    "latitude2": 50.087694,
+    "longitude2": 7.763732
   },
   {
     "id": "U-10",
-    "bahnhof": null,
+    "bahnhof": "Wasseralfingen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 161,
@@ -2056,14 +2206,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 48.860784,
-    "longitude": 10.103166,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.858615,
+    "longitude": 10.103645,
+    "latitude2": 48.860784,
+    "longitude2": 10.103166
   },
   {
     "id": "U-14",
-    "bahnhof": null,
+    "bahnhof": "Essen-Holthausen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 162,
@@ -2071,14 +2221,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 51.417126,
-    "longitude": 7.074189,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.417711,
+    "longitude": 7.072649,
+    "latitude2": 51.417126,
+    "longitude2": 7.074189
   },
   {
     "id": "U-15",
-    "bahnhof": null,
+    "bahnhof": "Mendig",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 163,
@@ -2086,14 +2236,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 50.377976,
-    "longitude": 7.284691,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.369658,
+    "longitude": 7.291007,
+    "latitude2": 50.377976,
+    "longitude2": 7.284691
   },
   {
     "id": "U-16",
-    "bahnhof": null,
+    "bahnhof": "Barsinghausen",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 164,
@@ -2101,14 +2251,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 52.299185,
-    "longitude": 9.470303,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 52.30489,
+    "longitude": 9.467112,
+    "latitude2": 52.299185,
+    "longitude2": 9.470303
   },
   {
     "id": "U-18",
-    "bahnhof": null,
+    "bahnhof": "Mainz Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 165,
@@ -2116,14 +2266,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 50.004014,
-    "longitude": 8.263958,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.001117,
+    "longitude": 8.25872,
+    "latitude2": 50.004014,
+    "longitude2": 8.263958
   },
   {
     "id": "U-22",
-    "bahnhof": null,
+    "bahnhof": "Hochneukirch",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 166,
@@ -2131,14 +2281,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 51.091737,
-    "longitude": 6.459103,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.103293,
+    "longitude": 6.466316,
+    "latitude2": 51.091737,
+    "longitude2": 6.459103
   },
   {
     "id": "U-23",
-    "bahnhof": null,
+    "bahnhof": "Witten Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 167,
@@ -2146,14 +2296,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 51.429008,
-    "longitude": 7.313015,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.435544,
+    "longitude": 7.329442,
+    "latitude2": 51.429008,
+    "longitude2": 7.313015
   },
   {
     "id": "U-24",
-    "bahnhof": null,
+    "bahnhof": "Papiermühle(Stadtr)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 168,
@@ -2161,10 +2311,10 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Unter Tage",
-    "latitude": 50.885672,
-    "longitude": 11.790006,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.885314,
+    "longitude": 11.790181,
+    "latitude2": 50.885672,
+    "longitude2": 11.790006
   },
   {
     "id": "WK-2",
@@ -2273,7 +2423,7 @@ const coordinates = [
   },
   {
     "id": "WK-15",
-    "bahnhof": null,
+    "bahnhof": "Kassel-Wilhelmshöhe",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 176,
@@ -2281,14 +2431,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Weltkulturerbe",
-    "latitude": 51.31316,
-    "longitude": 9.44579,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.312559,
+    "longitude": 9.447116,
+    "latitude2": 51.31316,
+    "longitude2": 9.44579
   },
   {
     "id": "WK-23",
-    "bahnhof": null,
+    "bahnhof": "Aachen Schanz",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 177,
@@ -2296,14 +2446,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Weltkulturerbe",
-    "latitude": 50.774844,
-    "longitude": 6.083981,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.769862,
+    "longitude": 6.07384,
+    "latitude2": 50.774844,
+    "longitude2": 6.083981
   },
   {
     "id": "WK-24",
-    "bahnhof": null,
+    "bahnhof": "Lübeck Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 178,
@@ -2311,14 +2461,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Weltkulturerbe",
-    "latitude": 53.866159,
-    "longitude": 10.67968,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.867547,
+    "longitude": 10.669821,
+    "latitude2": 53.866159,
+    "longitude2": 10.67968
   },
   {
     "id": "W-1",
-    "bahnhof": null,
+    "bahnhof": "Neustadt(Holst)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 179,
@@ -2326,14 +2476,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 54.107738,
-    "longitude": 10.814871,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 54.104002,
+    "longitude": 10.80849,
+    "latitude2": 54.107738,
+    "longitude2": 10.814871
   },
   {
     "id": "W-3",
-    "bahnhof": null,
+    "bahnhof": "Buxtehude",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 180,
@@ -2341,14 +2491,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 53.47695,
-    "longitude": 9.702181,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.470491,
+    "longitude": 9.688314,
+    "latitude2": 53.47695,
+    "longitude2": 9.702181
   },
   {
     "id": "W-4",
-    "bahnhof": null,
+    "bahnhof": "Lübeck-Travemünde Strand",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 181,
@@ -2356,14 +2506,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 53.961976,
-    "longitude": 10.889142,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 53.964795,
+    "longitude": 10.875604,
+    "latitude2": 53.961976,
+    "longitude2": 10.889142
   },
   {
     "id": "W-6",
-    "bahnhof": null,
+    "bahnhof": "Essen-Hügel",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 182,
@@ -2371,14 +2521,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 51.402474,
-    "longitude": 7.007615,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.404517,
+    "longitude": 7.008821,
+    "latitude2": 51.402474,
+    "longitude2": 7.007615
   },
   {
     "id": "W-7",
-    "bahnhof": null,
+    "bahnhof": "Capelle(Westf)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 183,
@@ -2386,14 +2536,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 51.725038,
-    "longitude": 7.612696,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 51.735268,
+    "longitude": 7.61108,
+    "latitude2": 51.725038,
+    "longitude2": 7.612696
   },
   {
     "id": "W-8",
-    "bahnhof": null,
+    "bahnhof": "Andernach",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 184,
@@ -2401,14 +2551,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 50.438174,
-    "longitude": 7.400095,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.434542,
+    "longitude": 7.404839,
+    "latitude2": 50.438174,
+    "longitude2": 7.400095
   },
   {
     "id": "W-11",
-    "bahnhof": null,
+    "bahnhof": "Stuttgart Neckarpark",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 185,
@@ -2416,14 +2566,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 48.792241,
-    "longitude": 9.229635,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 48.791998,
+    "longitude": 9.241052,
+    "latitude2": 48.792241,
+    "longitude2": 9.229635
   },
   {
     "id": "W-13",
-    "bahnhof": null,
+    "bahnhof": "Bingen(Rhein) Hbf",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 186,
@@ -2431,14 +2581,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 49.968539,
-    "longitude": 7.884273,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 49.968729,
+    "longitude": 7.884263,
+    "latitude2": 49.968539,
+    "longitude2": 7.884273
   },
   {
     "id": "W-20",
-    "bahnhof": null,
+    "bahnhof": "Rendsburg",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 187,
@@ -2446,14 +2596,14 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 54.306169,
-    "longitude": 9.662156,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 54.302262,
+    "longitude": 9.671134,
+    "latitude2": 54.306169,
+    "longitude2": 9.662156
   },
   {
     "id": "W-21",
-    "bahnhof": null,
+    "bahnhof": "Bad Neustadt(Saale)",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 188,
@@ -2461,10 +2611,10 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Wunschlos",
-    "latitude": 50.323079,
-    "longitude": 10.215723,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.328127,
+    "longitude": 10.226134,
+    "latitude2": 50.323079,
+    "longitude2": 10.215723
   },
   {
     "id": "K-1",
@@ -2603,7 +2753,7 @@ const coordinates = [
   },
   {
     "id": "K-23",
-    "bahnhof": null,
+    "bahnhof": "Sterbfritz",
     "zeitbedarf": null,
     "distanz": null,
     "punkte_bahnhof": 198,
@@ -2611,10 +2761,10 @@ const coordinates = [
     "punkte_bonus": 0,
     "aufgabe": null,
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 50.304875,
-    "longitude": 9.625067,
-    "latitude2": null,
-    "longitude2": null
+    "latitude": 50.312868,
+    "longitude": 9.625417,
+    "latitude2": 50.304875,
+    "longitude2": 9.625067
   }
 ];
 
@@ -2641,52 +2791,72 @@ const bhfPaarLines = [
   ],
   [
     [
-      49.436253,
-      7.768677
+      49.435859,
+      7.768627
     ],
     [
-      50.177917,
-      8.46898
+      50.177951,
+      8.468855
     ]
   ],
   [
     [
-      51.042262,
-      14.480583
+      51.405662,
+      8.067965
     ],
     [
-      52.435672,
-      13.540246
+      49.436419,
+      6.634192
     ]
   ],
   [
     [
-      51.477188,
-      11.987518
+      51.0422,
+      14.480637
     ],
     [
-      52.057227,
-      8.35771
+      52.435031,
+      13.541129
     ]
   ],
   [
     [
-      52.969922,
-      10.552857
+      51.477509,
+      11.987085
     ],
     [
-      48.710222,
-      9.41626
+      52.057295,
+      8.357729
     ]
   ],
   [
     [
-      53.911237,
-      10.734885
+      52.969781,
+      10.553053
     ],
     [
-      51.217327,
-      6.629644
+      48.71308,
+      9.41081
+    ]
+  ],
+  [
+    [
+      50.405299,
+      8.159441
+    ],
+    [
+      50.602992,
+      7.219678
+    ]
+  ],
+  [
+    [
+      53.911202,
+      10.735581
+    ],
+    [
+      51.217023,
+      6.629881
     ]
   ],
   [
@@ -2704,52 +2874,82 @@ const bhfPaarLines = [
 const partnerCityLines = [
   [
     [
-      49.454213,
-      11.070849
+      49.445616,
+      11.082989
     ],
     [
-      50.883063,
-      12.057639
+      50.883421,
+      12.077092
     ]
   ],
   [
     [
-      54.193438,
-      9.10093
+      54.193563,
+      9.101029
     ],
     [
-      53.856027,
-      13.701789
+      53.856102,
+      13.701827
     ]
   ],
   [
     [
-      51.054434,
-      8.78942
+      49.32783,
+      6.750169
     ],
     [
-      50.9112,
-      13.043289
+      52.14798,
+      14.658435
     ]
   ],
   [
     [
-      53.002456,
-      11.762482
+      51.054565,
+      8.789181
     ],
     [
-      53.75453,
-      9.659152
+      50.911233,
+      13.043191
     ]
   ],
   [
     [
-      50.835115,
-      10.951666
+      51.840254,
+      10.788805
     ],
     [
-      51.311971,
-      9.448129
+      49.349553,
+      8.140757
+    ]
+  ],
+  [
+    [
+      53.003115,
+      11.762871
+    ],
+    [
+      53.754025,
+      9.659408
+    ]
+  ],
+  [
+    [
+      50.831084,
+      10.954958
+    ],
+    [
+      51.312559,
+      9.447116
+    ]
+  ],
+  [
+    [
+      52.049824,
+      10.372335
+    ],
+    [
+      50.93907,
+      10.712568
     ]
   ]
 ];

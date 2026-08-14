@@ -109,10 +109,12 @@ def main():
     stations = stations.drop_duplicates("station_key", keep="first")
 
     records = draw.merge(
-        lots[["LosID", "Breitengrad Aufgabe", "Längengrad Aufgabe"]],
+        lots[["LosID", "Bahnhof", "Breitengrad Aufgabe", "Längengrad Aufgabe"]],
         on="LosID",
         how="left",
+        suffixes=("", "_los"),
     ).copy()
+    records["Bahnhof"] = records["Bahnhof"].fillna(records["Bahnhof_los"])
     records["station_key"] = records["Bahnhof"].map(normalize)
     records = records.merge(
         stations[["station_key", "Breitengrad Bahnhof", "Längengrad Bahnhof"]],
