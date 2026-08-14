@@ -14,9 +14,9 @@ LOTS_SHEET = "Lose"
 STATIONS_SHEET = "Hafas"
 PARAMETERS_SHEET = "Parameter"
 COLORS = [
-    "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b",
-    "#e377c2", "#7f7f7f", "#bcbd22", "#17becf", "#4c78a8", "#f58518",
-    "#54a24b", "#e45756", "#b279a2", "#9d755d", "#ff9da6", "#bab0ab",
+    "#1f77b4", "#2ca02c", "#9467bd", "#17becf", "#4c78a8", "#54a24b",
+    "#b279a2", "#7f7f7f", "#bcbd22", "#5f9ea0", "#3b6fb6", "#2e8b57",
+    "#6a5acd", "#00a6a6", "#708090", "#8a2be2", "#556b2f", "#4682b4",
 ]
 
 
