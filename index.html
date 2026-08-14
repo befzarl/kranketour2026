@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>Kranke Tour 2026 Karte</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    html, body, #map { height: 100%; margin: 0; padding: 0; }
+    #legend { position: absolute; bottom: 30px; left: 10px; background: white; padding: 10px; border-radius: 6px; box-shadow: 0 0 6px #888; font-size: 14px; z-index: 1000; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="legend"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="coordinates.js"></script>
+  <script>
+    const map = L.map('map').setView([51, 10], 6);
+    const bw = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors & CartoDB'
+    }).addTo(map);
+    const railwayLayer = L.tileLayer('https://tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
+      minZoom: 2,
+      maxZoom: 19,
+      tileSize: 256,
+      attribution: '<a href="https://www.openstreetmap.org/copyright">&copy; OpenStreetMap contributors</a>, Style: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="https://www.openrailwaymap.org/">OpenRailwayMap</a>',
+      opacity: 0.7
+    }).addTo(map);
+
+    const classicMarkers = L.layerGroup();
+    const bhfPaarLayer = L.layerGroup();
+    const partnerCityLayer = L.layerGroup();
+    const categoryLayers = Object.fromEntries(
+      Object.keys(lostopfColors).map(name => [name, L.layerGroup().addTo(map)])
+    );
+    const secondaryFeatures = [];
+
+    function popup(coord) {
+      return `<b>${coord.bahnhof || 'Aufgabe ohne Bahnhof'}</b><br>
+        Los: ${coord.id}<br>
+        Zeitbedarf: ${coord.zeitbedarf ?? '-'} min<br>
+        Distanz: ${coord.distanz ?? '-'} km<br>
+        Punkte Bahnhof: ${coord.punkte_bahnhof ?? '-'}<br>
+        Punkte Aufgabe: ${coord.punkte_aufgabe ?? '-'}<br>
+        Punkte Bonus: ${coord.punkte_bonus ?? '-'}<br>
+        Lostopf: ${coord.lostopf}<br>
+        Aufgabe: ${coord.aufgabe || '-'}`;
+    }
+
+    if (Array.isArray(coordinates)) {
+      coordinates.forEach(coord => {
+        const color = lostopfColors[coord.lostopf] || lostopfColors.Unbekannt;
+        const categoryLayer = categoryLayers[coord.lostopf] || categoryLayers.Unbekannt;
+        L.marker([coord.latitude, coord.longitude]).bindPopup(popup(coord)).addTo(classicMarkers);
+        L.circleMarker([coord.latitude, coord.longitude], {
+          radius: Math.max(3, Number(coord.punkte_aufgabe || 0) / 15),
+          color, fillColor: color, fillOpacity: 1, weight: 2
+        }).bindPopup(popup(coord)).addTo(categoryLayer);
+
+        if (coord.latitude2 !== null && coord.longitude2 !== null) {
+          const marker = L.circleMarker([coord.latitude2, coord.longitude2], {
+            radius: Math.max(3, Number(coord.punkte_aufgabe || 0) / 15),
+            color, fillColor: color, fillOpacity: 1, weight: 2
+          }).bindPopup(popup(coord));
+          const line = L.polyline([[coord.latitude, coord.longitude], [coord.latitude2, coord.longitude2]], {
+            color, weight: 2, opacity: 0.7, dashArray: '4, 8'
+          });
+          secondaryFeatures.push({ marker, line, categoryLayer });
+        }
+      });
+    }
+
+    function updateSecondaryVisibility() {
+      const visible = map.getZoom() >= 15;
+      secondaryFeatures.forEach(({ marker, line, categoryLayer }) => {
+        if (visible) {
+          marker.addTo(categoryLayer);
+          line.addTo(categoryLayer);
+        } else {
+          categoryLayer.removeLayer(marker);
+          categoryLayer.removeLayer(line);
+        }
+      });
+    }
+    map.on('zoomend', updateSecondaryVisibility);
+    updateSecondaryVisibility();
+
+    if (Array.isArray(bhfPaarLines)) {
+      bhfPaarLines.forEach(lineCoords => {
+        L.polyline(lineCoords, { color: lostopfColors['Bhf-Paare'], weight: 4, opacity: 0.7, dashArray: '6, 6' }).addTo(bhfPaarLayer);
+      });
+    }
+    if (Array.isArray(partnerCityLines)) {
+      partnerCityLines.forEach(lineCoords => {
+        L.polyline(lineCoords, { color: lostopfColors['Partnerstädte'], weight: 4, opacity: 0.7, dashArray: '6, 6' }).addTo(partnerCityLayer);
+      });
+    }
+
+    if (coordinates.length) {
+      map.fitBounds(L.latLngBounds(coordinates.map(coord => [coord.latitude, coord.longitude])), { padding: [20, 20] });
+    }
+
+    document.getElementById('legend').innerHTML = '<b>Lostopf</b><br>' + Object.entries(lostopfColors)
+      .map(([name, color]) => `<span style="display:inline-block;width:16px;height:16px;background:${color};margin-right:6px;border-radius:50%;border:1px solid #888"></span>${name}`)
+      .join('<br>');
+
+    const overlays = {
+      'OpenRailwayMap': railwayLayer,
+      'Klassische Marker': classicMarkers,
+      'Bahnhofspaar-Linien': bhfPaarLayer,
+      'Partnerstadt-Linien': partnerCityLayer
+    };
+    Object.entries(categoryLayers).forEach(([name, layer]) => {
+      overlays[`Lostopf: ${name}`] = layer;
+    });
+    L.control.layers({ 'Schwarz-Weiß': bw }, overlays, { collapsed: false }).addTo(map);
+  </script>
+</body>
+</html>
