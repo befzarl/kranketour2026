@@ -74,7 +74,8 @@
     const secondaryFeatures = [];
 
     function markerRadius(points) {
-      return Math.min(17, Math.max(7, 5 + Math.sqrt(Number(points || 0)) * 1.2));
+      const radius = Math.min(17, Math.max(7, 5 + Math.sqrt(Number(points || 0)) * 1.2));
+      return window.matchMedia('(max-width: 600px)').matches ? radius * 0.75 : radius;
     }
 
     function popup(coord) {
