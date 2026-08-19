@@ -7,16 +7,31 @@ from pathlib import Path
 
 import pandas as pd
 
-
 EXCEL_FILE = "Kranke Tour Tool 2026_input.xlsx"
 DRAW_SHEET = "Ziehung 2026"
 LOTS_SHEET = "Lose"
 STATIONS_SHEET = "Hafas"
 PARAMETERS_SHEET = "Parameter"
+ONLY_DRAWN_LOTS = True
 COLORS = [
-    "#1f77b4", "#2ca02c", "#9467bd", "#17becf", "#4c78a8", "#54a24b",
-    "#b279a2", "#7f7f7f", "#bcbd22", "#5f9ea0", "#3b6fb6", "#2e8b57",
-    "#6a5acd", "#00a6a6", "#708090", "#8a2be2", "#556b2f", "#4682b4",
+    "#1f77b4",
+    "#2ca02c",
+    "#9467bd",
+    "#17becf",
+    "#4c78a8",
+    "#54a24b",
+    "#b279a2",
+    "#7f7f7f",
+    "#bcbd22",
+    "#5f9ea0",
+    "#3b6fb6",
+    "#2e8b57",
+    "#6a5acd",
+    "#00a6a6",
+    "#708090",
+    "#8a2be2",
+    "#556b2f",
+    "#4682b4",
 ]
 
 
@@ -94,7 +109,9 @@ def main():
         raise FileNotFoundError(f"Excel file not found: {excel_path}")
 
     with readable_workbook_path(excel_path) as workbook_path:
-        draw = pd.read_excel(workbook_path, sheet_name=DRAW_SHEET).dropna(subset=["LosID"])
+        draw = pd.read_excel(workbook_path, sheet_name=DRAW_SHEET).dropna(
+            subset=["LosID"]
+        )
         lots = pd.read_excel(workbook_path, sheet_name=LOTS_SHEET)
         stations = pd.read_excel(workbook_path, sheet_name=STATIONS_SHEET)
         parameters = pd.read_excel(workbook_path, sheet_name=PARAMETERS_SHEET)
@@ -104,11 +121,25 @@ def main():
     lots["LosID"] = lots["LosID"].astype(str).str.strip()
     lots = lots.drop_duplicates("LosID", keep="first")
 
+    if ONLY_DRAWN_LOTS:
+        map_input = draw
+    else:
+        map_input = lots.rename(
+            columns={
+                "Bonus-punkte": "Punkte Bonus",
+                "Aufgaben-zeit (min)": "Zeit-bedarf (min)",
+            }
+        ).copy()
+        for column in draw.columns:
+            if column not in map_input.columns:
+                map_input[column] = pd.NA
+        map_input = map_input[draw.columns]
+
     stations = stations.copy()
     stations["station_key"] = stations["NAME"].map(normalize)
     stations = stations.drop_duplicates("station_key", keep="first")
 
-    records = draw.merge(
+    records = map_input.merge(
         lots[["LosID", "Bahnhof", "Breitengrad Aufgabe", "Längengrad Aufgabe"]],
         on="LosID",
         how="left",
@@ -159,8 +190,14 @@ def main():
                 "lostopf": get_lostopf(row["LosID"], prefix_mapping),
                 "latitude": round(float(primary_latitude), 6),
                 "longitude": round(float(primary_longitude), 6),
-                "latitude2": round(float(task_latitude), 6) if has_station and has_task else None,
-                "longitude2": round(float(task_longitude), 6) if has_station and has_task else None,
+                "latitude2": (
+                    round(float(task_latitude), 6) if has_station and has_task else None
+                ),
+                "longitude2": (
+                    round(float(task_longitude), 6)
+                    if has_station and has_task
+                    else None
+                ),
             }
         )
 
@@ -168,7 +205,9 @@ def main():
         lines = []
         category_records = pd.DataFrame(coordinates).query("lostopf == @lostopf")
         for _, group in category_records.groupby(
-            lambda index: re.sub(r"[a-z]$", "", str(coordinates[index]["id"]), flags=re.IGNORECASE)
+            lambda index: re.sub(
+                r"[a-z]$", "", str(coordinates[index]["id"]), flags=re.IGNORECASE
+            )
         ):
             if len(group) > 1:
                 lines.append(group[["latitude", "longitude"]].values.tolist())
@@ -190,7 +229,9 @@ def main():
         + ";\n",
         encoding="utf-8",
     )
-    print(f"Generated {output_path.name} with {len(coordinates)} locations; skipped {skipped} lots without coordinates.")
+    print(
+        f"Generated {output_path.name} with {len(coordinates)} locations; skipped {skipped} lots without coordinates."
+    )
 
 
 if __name__ == "__main__":
