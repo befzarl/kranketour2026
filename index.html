@@ -7,35 +7,6 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
     html, body, #map { height: 100%; margin: 0; padding: 0; }
-    #filters {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      z-index: 1000;
-      display: grid;
-      gap: 6px;
-      padding: 10px;
-      background: white;
-      border-radius: 6px;
-      box-shadow: 0 0 6px #888;
-      font-size: 14px;
-    }
-    #filters label {
-      display: grid;
-      gap: 3px;
-    }
-    #filters input[type="range"] {
-      width: 160px;
-    }
-    .filter-label {
-      display: flex;
-      justify-content: space-between;
-      gap: 8px;
-    }
-    .filter-value {
-      min-width: 3ch;
-      text-align: right;
-    }
     #legend {
       position: absolute;
       bottom: 30px;
@@ -61,15 +32,6 @@
         padding: 6px 8px;
         font-size: 12px;
       }
-      #filters {
-        top: 10px;
-        right: 10px;
-        padding: 6px 8px;
-        font-size: 12px;
-      }
-      #filters input[type="range"] {
-        width: 128px;
-      }
       .leaflet-control-layers-expanded {
         max-width: calc(100vw - 70px);
         max-height: 45vh;
@@ -85,16 +47,6 @@
 </head>
 <body>
   <div id="map"></div>
-  <div id="filters">
-    <label>
-      <span class="filter-label">Mind. Bahnhofspunkte <output id="bahnhof-punkte-wert" class="filter-value">0</output></span>
-      <input id="bahnhof-punkte-filter" type="range" min="0" max="750" step="5" value="0" />
-    </label>
-    <label>
-      <span class="filter-label">Mind. Aufgabenpunkte <output id="aufgaben-punkte-wert" class="filter-value">0</output></span>
-      <input id="aufgaben-punkte-filter" type="range" min="0" max="120" step="5" value="0" />
-    </label>
-  </div>
   <div id="legend"></div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -122,15 +74,62 @@
     const primaryFeatures = [];
     const secondaryFeatures = [];
 
+    const isMobile = window.matchMedia('(max-width: 600px)').matches;
+    const mobileScale = isMobile ? 0.75 : 1;
+
     function markerRadius(points) {
-      const radius = Math.min(17, Math.max(7, 5 + Math.sqrt(Number(points || 0)) * 1.2));
-      return window.matchMedia('(max-width: 600px)').matches ? radius * 0.75 : radius;
+      return Math.min(17, Math.max(5, Math.sqrt(Number(points || 0)) * 1.1)) * mobileScale;
     }
 
-    function totalPointsRadius(points) {
-      const radius = Math.min(26, Math.max(7, 5 + Math.sqrt(Number(points || 0)) * 1.2));
-      return window.matchMedia('(max-width: 600px)').matches ? radius * 0.75 : radius;
+    function makePieMarker(latlng, radius, colors, popup, popupOptions) {
+      if (colors.length === 1) {
+        return L.circleMarker(latlng, {
+          radius, color: colors[0], fillColor: colors[0], fillOpacity: 1, weight: 2
+        }).bindPopup(popup, popupOptions);
+      }
+      const r = radius;
+      const size = (r + 1) * 2;
+      const cx = r + 1, cy = r + 1;
+      const n = colors.length;
+      let paths = '';
+      for (let i = 0; i < n; i++) {
+        const a0 = (i / n) * 2 * Math.PI - Math.PI / 2;
+        const a1 = ((i + 1) / n) * 2 * Math.PI - Math.PI / 2;
+        const x0 = cx + r * Math.cos(a0), y0 = cy + r * Math.sin(a0);
+        const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
+        const large = n === 1 ? 1 : 0;
+        paths += `<path d="M${cx},${cy} L${x0},${y0} A${r},${r} 0 ${large},1 ${x1},${y1} Z" fill="${colors[i]}"/>`;
+      }
+      const svg = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg">`
+        + `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#fff" stroke-width="1"/>`
+        + paths
+        + `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>`
+        + `</svg>`;
+      return L.marker(latlng, {
+        icon: L.divIcon({ html: svg, className: '', iconSize: [size, size], iconAnchor: [cx, cy] }),
+        interactive: true
+      }).bindPopup(popup, popupOptions);
     }
+
+    function groupPopup(group) {
+      const first = group[0];
+      let html = `<b>Bahnhof: ${first.bahnhof || '-'}</b><br>Punkte Bahnhof: ${first.punkte_bahnhof ?? '-'}`;
+      if (group.length === 1) {
+        const c = group[0];
+        html += `<br>Los: ${c.id} &mdash; Lostopf: ${c.lostopf}`
+          + `<br>Punkte Aufgabe: ${c.punkte_aufgabe ?? '-'}${c.punkte_bonus ? ` + ${c.punkte_bonus} Bonus` : ''}`
+          + `<br>${c.aufgabe || ''}`;
+      } else {
+        html += group.map(c =>
+          `<hr style="margin:4px 0">`
+          + `<b>${c.id}</b> &mdash; ${c.lostopf}<br>`
+          + `Aufgabe: ${c.punkte_aufgabe ?? '-'}${c.punkte_bonus ? ` + ${c.punkte_bonus} Bonus` : ''} Pkt.<br>`
+          + `${c.aufgabe || ''}`
+        ).join('');
+      }
+      return `<div style="max-width:280px">${html}</div>`;
+    }
+
 
     function stationPopup(coord) {
       return `<b>Bahnhof: ${coord.bahnhof || '-'}</b><br>
@@ -152,66 +151,130 @@
     }
 
     if (Array.isArray(coordinates)) {
+      // Group entries by station coordinates so duplicate stations share one dot
+      const stationGroups = new Map();
       coordinates.forEach(coord => {
-        const color = lostopfColors[coord.lostopf] || lostopfColors.Unbekannt;
-        const categoryLayer = categoryLayers[coord.lostopf] || categoryLayers.Unbekannt;
-        const classicMarker = L.marker([coord.latitude, coord.longitude]).bindPopup(stationPopup(coord));
-        const categoryMarker = L.circleMarker([coord.latitude, coord.longitude], {
-          radius: markerRadius(coord.punkte_bahnhof),
-          color, fillColor: color, fillOpacity: 1, weight: 2
-        }).bindPopup(stationPopup(coord));
-        const totalPointsRing = L.circleMarker([coord.latitude, coord.longitude], {
-          radius: totalPointsRadius(Number(coord.punkte_bahnhof || 0) + Number(coord.punkte_aufgabe || 0)),
-          color, fill: false, weight: 2
-        }).bindPopup(stationPopup(coord));
-        primaryFeatures.push({ coord, classicMarker, categoryMarker, totalPointsRing, categoryLayer });
+        const key = `${coord.latitude},${coord.longitude}`;
+        if (!stationGroups.has(key)) stationGroups.set(key, []);
+        stationGroups.get(key).push(coord);
+      });
 
-        if (coord.latitude2 !== null && coord.longitude2 !== null) {
-          const marker = L.circleMarker([coord.latitude2, coord.longitude2], {
-            radius: markerRadius(coord.punkte_aufgabe),
-            color, fillColor: color, fillOpacity: 1, weight: 2
-          }).bindPopup(taskPopup(coord));
-          const line = L.polyline([[coord.latitude, coord.longitude], [coord.latitude2, coord.longitude2]], {
-            color, weight: 2, opacity: 0.7, dashArray: '4, 8'
-          });
-          secondaryFeatures.push({ coord, marker, line, categoryLayer });
+      stationGroups.forEach(group => {
+        const first = group[0];
+        const latlng = [first.latitude, first.longitude];
+        // Bhf dot: use the coord with the highest punkte_bahnhof as the station "owner"
+        const owner = group.reduce((a, b) => Number(b.punkte_bahnhof || 0) > Number(a.punkte_bahnhof || 0) ? b : a);
+        const ownerColor = lostopfColors[owner.lostopf] || lostopfColors.Unbekannt;
+        const ownerLayer = categoryLayers[owner.lostopf] || categoryLayers.Unbekannt;
+
+        const classicMarker = L.marker(latlng).bindPopup(groupPopup(group), { maxWidth: 300 });
+        const pieColors = [...new Set(group.map(c => lostopfColors[c.lostopf] || lostopfColors.Unbekannt))];
+        const categoryMarker = makePieMarker(latlng, markerRadius(owner.punkte_bahnhof), pieColors, groupPopup(group), { maxWidth: 300 });
+
+        // Stacked rings: each coord contributes its own colored solid + dashed ring
+        const rings = []; // { marker, categoryLayer }
+        let currentRadius = markerRadius(owner.punkte_bahnhof) / mobileScale;
+        for (const coord of group) {
+          const coordColor = lostopfColors[coord.lostopf] || lostopfColors.Unbekannt;
+          const coordLayer = categoryLayers[coord.lostopf] || categoryLayers.Unbekannt;
+          const aufgabe = Number(coord.punkte_aufgabe || 0);
+          if (aufgabe > 0) {
+            currentRadius = Math.min(40, currentRadius + Math.max(4, Math.sqrt(aufgabe) * 1.1));
+            rings.push({ marker: L.circleMarker(latlng, {
+              radius: currentRadius * mobileScale,
+              color: coordColor, fill: false, weight: 2
+            }).bindPopup(groupPopup(group)), categoryLayer: coordLayer, coord });
+          }
+          const bonus = Number(coord.punkte_bonus || 0);
+          if (bonus > 0) {
+            currentRadius = Math.min(50, currentRadius + Math.max(4, Math.sqrt(bonus) * 1.1));
+            rings.push({ marker: L.circleMarker(latlng, {
+              radius: currentRadius * mobileScale,
+              color: coordColor, fill: false, weight: 2, dashArray: '4, 5'
+            }).bindPopup(groupPopup(group)), categoryLayer: coordLayer, coord });
+          }
         }
+
+        primaryFeatures.push({ coords: group, classicMarker, categoryMarker, markerLayers: [...new Set(group.map(c => categoryLayers[c.lostopf] || categoryLayers.Unbekannt))], ownerLayer, rings });
+
+        group.forEach(coord => {
+          const taskColor = lostopfColors[coord.lostopf] || lostopfColors.Unbekannt;
+          const taskLayer = categoryLayers[coord.lostopf] || categoryLayers.Unbekannt;
+
+          // Per-lot zoomed-in view: filled bhf dot at station, rings at aufgabe location
+          const bhfDot = makePieMarker(latlng, markerRadius(coord.punkte_bahnhof), [taskColor], stationPopup(coord));
+
+          const aufgabeLatlng = (coord.latitude2 !== null && coord.longitude2 !== null)
+            ? [coord.latitude2, coord.longitude2] : latlng;
+          const aufgabeR = markerRadius(coord.punkte_bahnhof) / mobileScale
+            + Math.max(4, Math.sqrt(Number(coord.punkte_aufgabe || 0)) * 1.1);
+          const aufgabeRing = L.circleMarker(aufgabeLatlng, {
+            radius: Math.min(28, aufgabeR) * mobileScale,
+            color: taskColor, fill: false, weight: 2
+          }).bindPopup(taskPopup(coord));
+          const bonusRing = coord.punkte_bonus ? L.circleMarker(aufgabeLatlng, {
+            radius: Math.min(38, aufgabeR + Math.max(4, Math.sqrt(Number(coord.punkte_bonus)) * 1.1)) * mobileScale,
+            color: taskColor, fill: false, weight: 2, dashArray: '4, 5'
+          }).bindPopup(taskPopup(coord)) : null;
+
+          const zoomedMarkers = [bhfDot, aufgabeRing, ...(bonusRing ? [bonusRing] : [])];
+
+          if (coord.latitude2 !== null && coord.longitude2 !== null) {
+            const line = L.polyline([[coord.latitude, coord.longitude], [coord.latitude2, coord.longitude2]], {
+              color: taskColor, weight: 2, opacity: 0.7, dashArray: '4, 8'
+            });
+            secondaryFeatures.push({ coord, line, zoomedMarkers, categoryLayer: taskLayer });
+          } else {
+            secondaryFeatures.push({ coord, line: null, zoomedMarkers, categoryLayer: taskLayer });
+          }
+        });
       });
     }
 
     function meetsPointFilter(coord) {
       const minimumStationPoints = Number(document.getElementById('bahnhof-punkte-filter').value) || 0;
       const minimumTaskPoints = Number(document.getElementById('aufgaben-punkte-filter').value) || 0;
+      const minimumTotalPoints = Number(document.getElementById('gesamt-punkte-filter').value) || 0;
+      const total = Number(coord.punkte_bahnhof || 0) + Number(coord.punkte_aufgabe || 0) + Number(coord.punkte_bonus || 0);
       return Number(coord.punkte_bahnhof || 0) >= minimumStationPoints
-        && Number(coord.punkte_aufgabe || 0) >= minimumTaskPoints;
+        && Number(coord.punkte_aufgabe || 0) >= minimumTaskPoints
+        && total >= minimumTotalPoints;
+    }
+
+    function groupMeetsFilter(coords) {
+      return coords.some(meetsPointFilter);
     }
 
     function updateMarkerVisibility() {
       const showTasks = map.getZoom() >= 15;
-      primaryFeatures.forEach(({ coord, classicMarker, categoryMarker, totalPointsRing, categoryLayer }) => {
-        if (meetsPointFilter(coord)) {
-          classicMarker.addTo(classicMarkers);
-          categoryMarker.addTo(categoryLayer);
+      primaryFeatures.forEach(({ coords, classicMarker, categoryMarker, markerLayers, ownerLayer, rings }) => {
+        const anyLayerOn = markerLayers.some(l => map.hasLayer(l));
+        const visible = anyLayerOn && groupMeetsFilter(coords);
+        if (visible) {
+          if (map.hasLayer(classicMarkers)) classicMarker.addTo(classicMarkers);
+          else { classicMarkers.removeLayer(classicMarker); map.removeLayer(classicMarker); }
+          categoryMarker.addTo(ownerLayer);
           if (showTasks) {
-            categoryLayer.removeLayer(totalPointsRing);
+            rings.forEach(({ marker: r }) => ownerLayer.removeLayer(r));
           } else {
-            totalPointsRing.addTo(categoryLayer);
+            rings.forEach(({ marker: r }) => r.addTo(ownerLayer));
           }
         } else {
           classicMarkers.removeLayer(classicMarker);
-          categoryLayer.removeLayer(categoryMarker);
-          categoryLayer.removeLayer(totalPointsRing);
+          map.removeLayer(classicMarker);
+          ownerLayer.removeLayer(categoryMarker);
+          map.removeLayer(categoryMarker);
+          rings.forEach(({ marker: r }) => { ownerLayer.removeLayer(r); map.removeLayer(r); });
         }
       });
 
-
-      secondaryFeatures.forEach(({ coord, marker, line, categoryLayer }) => {
-        if (showTasks && meetsPointFilter(coord)) {
-          marker.addTo(categoryLayer);
-          line.addTo(categoryLayer);
+      secondaryFeatures.forEach(({ coord, line, zoomedMarkers, categoryLayer }) => {
+        if (showTasks && map.hasLayer(categoryLayer) && meetsPointFilter(coord)) {
+          zoomedMarkers.forEach(m => m.addTo(categoryLayer));
+          if (line) line.addTo(categoryLayer);
         } else {
-          categoryLayer.removeLayer(marker);
-          categoryLayer.removeLayer(line);
+          zoomedMarkers.forEach(m => categoryLayer.removeLayer(m));
+          if (line) categoryLayer.removeLayer(line);
         }
       });
     }
@@ -219,22 +282,20 @@
     function updatePointFilter() {
       document.getElementById('bahnhof-punkte-wert').value = document.getElementById('bahnhof-punkte-filter').value;
       document.getElementById('aufgaben-punkte-wert').value = document.getElementById('aufgaben-punkte-filter').value;
+      document.getElementById('gesamt-punkte-wert').value = document.getElementById('gesamt-punkte-filter').value;
       updateMarkerVisibility();
     }
 
-    document.getElementById('bahnhof-punkte-filter').addEventListener('input', updatePointFilter);
-    document.getElementById('aufgaben-punkte-filter').addEventListener('input', updatePointFilter);
-    map.on('zoomend', updateMarkerVisibility);
-    updateMarkerVisibility();
+    map.on('zoomend overlayadd overlayremove', updateMarkerVisibility);
 
     if (Array.isArray(bhfPaarLines)) {
       bhfPaarLines.forEach(lineCoords => {
-        L.polyline(lineCoords, { color: lostopfColors['Bhf-Paare'], weight: 4, opacity: 0.7, dashArray: '6, 6' }).addTo(bhfPaarLayer);
+        L.polyline(lineCoords, { color: lostopfColors['Bhf-Paare'], weight: 2, opacity: 0.7, dashArray: '6, 6' }).addTo(bhfPaarLayer);
       });
     }
     if (Array.isArray(partnerCityLines)) {
       partnerCityLines.forEach(lineCoords => {
-        L.polyline(lineCoords, { color: lostopfColors['Partnerstädte'], weight: 4, opacity: 0.7, dashArray: '6, 6' }).addTo(partnerCityLayer);
+        L.polyline(lineCoords, { color: lostopfColors['Partnerstädte'], weight: 2, opacity: 0.7, dashArray: '6, 6' }).addTo(partnerCityLayer);
       });
     }
 
@@ -246,17 +307,81 @@
       .map(([name, color]) => `<span style="display:inline-block;width:16px;height:16px;background:${color};margin-right:6px;border-radius:50%;border:1px solid #888"></span>${name}`)
       .join('<br>');
 
-    const overlays = {
+    const allOverlays = {
       'OpenRailwayMap': railwayLayer,
       'Klassische Marker': classicMarkers,
       'Bahnhofspaar-Linien': bhfPaarLayer,
       'Partnerstadt-Linien': partnerCityLayer
     };
     Object.entries(categoryLayers).forEach(([name, layer]) => {
-      overlays[`Lostopf: ${name}`] = layer;
+      allOverlays[`Lostopf: ${name}`] = layer;
     });
     const compactLayout = window.matchMedia('(max-width: 600px)').matches;
-    L.control.layers({ 'Schwarz-Weiß': bw }, overlays, { collapsed: compactLayout }).addTo(map);
+    const layerControl = L.control.layers({ 'Schwarz-Weiß': bw }, allOverlays, { collapsed: compactLayout }).addTo(map);
+
+    // Insert a CSS divider after the 4th overlay label (before Lostopf entries)
+    // Use a MutationObserver so the HR survives Leaflet re-renders
+    function injectLayerDivider() {
+      const layersList = layerControl.getContainer().querySelector('.leaflet-control-layers-overlays');
+      if (!layersList) return;
+      const labels = layersList.querySelectorAll('label');
+      if (labels[3] && !layersList.querySelector('.layer-section-divider')) {
+        const hr = document.createElement('hr');
+        hr.className = 'layer-section-divider';
+        hr.style.cssText = 'margin:4px 0;border:none;border-top:1px solid #bbb;';
+        labels[3].insertAdjacentElement('afterend', hr);
+      }
+    }
+    injectLayerDivider();
+    new MutationObserver(injectLayerDivider).observe(
+      layerControl.getContainer().querySelector('.leaflet-control-layers-overlays'),
+      { childList: true }
+    );
+
+    // Button + sliders live outside the layers list so Leaflet re-renders can't remove them
+    const toggleBtn = document.createElement('button');
+    toggleBtn.textContent = 'Alle Kategorien abwählen';
+    toggleBtn.style.cssText = 'display:block;width:calc(100% - 12px);margin:4px 6px 6px;font-size:12px;padding:3px 6px;cursor:pointer;border:1px solid #aaa;border-radius:4px;background:#f5f5f5;box-sizing:border-box;';
+    L.DomEvent.disableClickPropagation(toggleBtn);
+    layerControl.getContainer().appendChild(toggleBtn);
+
+    const sliderHr = document.createElement('hr');
+    sliderHr.style.cssText = 'margin:4px 0;border:none;border-top:1px solid #bbb;';
+    layerControl.getContainer().appendChild(sliderHr);
+
+    const sliderPanel = document.createElement('div');
+    sliderPanel.style.cssText = 'padding:4px 6px 6px;display:grid;gap:5px;font-size:12px;';
+    sliderPanel.innerHTML = `
+      <label style="display:grid;gap:2px">
+        <span style="display:flex;justify-content:space-between">Mind. Bahnhofspunkte <output id="bahnhof-punkte-wert" style="min-width:3ch;text-align:right">0</output></span>
+        <input id="bahnhof-punkte-filter" type="range" min="0" max="750" step="5" value="0" style="width:100%" />
+      </label>
+      <label style="display:grid;gap:2px">
+        <span style="display:flex;justify-content:space-between">Mind. Aufgabenpunkte <output id="aufgaben-punkte-wert" style="min-width:3ch;text-align:right">0</output></span>
+        <input id="aufgaben-punkte-filter" type="range" min="0" max="120" step="5" value="0" style="width:100%" />
+      </label>
+      <label style="display:grid;gap:2px">
+        <span style="display:flex;justify-content:space-between">Mind. Gesamtpunkte <output id="gesamt-punkte-wert" style="min-width:3ch;text-align:right">0</output></span>
+        <input id="gesamt-punkte-filter" type="range" min="0" max="900" step="5" value="0" style="width:100%" />
+      </label>`;
+    L.DomEvent.disableClickPropagation(sliderPanel);
+    L.DomEvent.disableScrollPropagation(sliderPanel);
+    layerControl.getContainer().appendChild(sliderPanel);
+
+    document.getElementById('bahnhof-punkte-filter').addEventListener('input', updatePointFilter);
+    document.getElementById('aufgaben-punkte-filter').addEventListener('input', updatePointFilter);
+    document.getElementById('gesamt-punkte-filter').addEventListener('input', updatePointFilter);
+    updateMarkerVisibility();
+
+    let allCategoriesOn = true;
+    toggleBtn.addEventListener('click', () => {
+      allCategoriesOn = !allCategoriesOn;
+      Object.values(categoryLayers).forEach(l => {
+        if (allCategoriesOn) map.addLayer(l); else map.removeLayer(l);
+      });
+      toggleBtn.textContent = allCategoriesOn ? 'Alle Kategorien abwählen' : 'Alle Kategorien auswählen';
+      updateMarkerVisibility();
+    });
   </script>
 </body>
 </html>
