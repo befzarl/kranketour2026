@@ -127,6 +127,11 @@
       return window.matchMedia('(max-width: 600px)').matches ? radius * 0.75 : radius;
     }
 
+    function totalPointsRadius(points) {
+      const radius = Math.min(26, Math.max(7, 5 + Math.sqrt(Number(points || 0)) * 1.2));
+      return window.matchMedia('(max-width: 600px)').matches ? radius * 0.75 : radius;
+    }
+
     function stationPopup(coord) {
       return `<b>Bahnhof: ${coord.bahnhof || '-'}</b><br>
         Los: ${coord.id}<br>
@@ -156,7 +161,7 @@
           color, fillColor: color, fillOpacity: 1, weight: 2
         }).bindPopup(stationPopup(coord));
         const totalPointsRing = L.circleMarker([coord.latitude, coord.longitude], {
-          radius: markerRadius(Number(coord.punkte_bahnhof || 0) + Number(coord.punkte_aufgabe || 0)),
+          radius: totalPointsRadius(Number(coord.punkte_bahnhof || 0) + Number(coord.punkte_aufgabe || 0)),
           color, fill: false, weight: 2
         }).bindPopup(stationPopup(coord));
         primaryFeatures.push({ coord, classicMarker, categoryMarker, totalPointsRing, categoryLayer });
