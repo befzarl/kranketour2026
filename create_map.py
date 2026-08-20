@@ -10,7 +10,6 @@ import pandas as pd
 EXCEL_FILE = "Kranke Tour Tool 2026_input.xlsx"
 DRAW_SHEET = "Ziehung 2026"
 LOTS_SHEET = "Lose"
-STATIONS_SHEET = "Hafas"
 PARAMETERS_SHEET = "Parameter"
 ONLY_DRAWN_LOTS = False
 COLORS = [
@@ -33,12 +32,6 @@ COLORS = [
     "#556b2f",
     "#4682b4",
 ]
-
-
-def normalize(value):
-    if pd.isna(value):
-        return ""
-    return re.sub(r"[^a-z0-9]", "", str(value).casefold())
 
 
 def clean_value(value):
@@ -113,7 +106,6 @@ def main():
             subset=["LosID"]
         )
         lots = pd.read_excel(workbook_path, sheet_name=LOTS_SHEET)
-        stations = pd.read_excel(workbook_path, sheet_name=STATIONS_SHEET)
         parameters = pd.read_excel(workbook_path, sheet_name=PARAMETERS_SHEET)
 
     draw["LosID"] = draw["LosID"].astype(str).str.strip()
@@ -127,29 +119,11 @@ def main():
             "Aufgaben-zeit (min)": "Zeit-bedarf (min)",
         }
     ).copy()
-    for column in draw.columns:
-        if column not in map_input.columns:
-            map_input[column] = pd.NA
-    map_input = map_input[draw.columns]
-
     if ONLY_DRAWN_LOTS:
         drawn_los_ids = set(draw["LosID"])
         map_input = map_input[map_input["LosID"].isin(drawn_los_ids)].copy()
 
-    stations = stations.copy()
-    stations["station_key"] = stations["NAME"].map(normalize)
-    stations = stations.drop_duplicates("station_key", keep="first")
-    records = map_input.merge(
-        lots[["LosID", "Breitengrad Aufgabe", "Längengrad Aufgabe"]],
-        on="LosID",
-        how="left",
-    ).copy()
-    records["station_key"] = records["Bahnhof"].map(normalize)
-    records = records.merge(
-        stations[["station_key", "Breitengrad Bahnhof", "Längengrad Bahnhof"]],
-        on="station_key",
-        how="left",
-    )
+    records = map_input
 
     prefix_mapping = lostopf_mapping(parameters)
     lostopf_names = list(prefix_mapping.values())
@@ -162,23 +136,15 @@ def main():
     coordinates = []
     skipped = 0
     for _, row in records.iterrows():
-        station_latitude = row["Breitengrad Bahnhof"]
-        station_longitude = row["Längengrad Bahnhof"]
         task_latitude = row["Breitengrad Aufgabe"]
         task_longitude = row["Längengrad Aufgabe"]
-        has_station = valid_coordinate(station_latitude, station_longitude)
-        has_task = valid_coordinate(task_latitude, task_longitude)
-
-        if not has_station and not has_task:
+        if not valid_coordinate(task_latitude, task_longitude):
             skipped += 1
             continue
-
-        primary_latitude = station_latitude if has_station else task_latitude
-        primary_longitude = station_longitude if has_station else task_longitude
         coordinates.append(
             {
                 "id": clean_value(row["LosID"]),
-                "bahnhof": clean_value(row["Bahnhof"]),
+                "aufgabenadresse": clean_value(row["Google Adresse"]),
                 "zeitbedarf": clean_value(row["Zeit-bedarf (min)"]),
                 "distanz": clean_value(row["Distanz (km)"]),
                 "punkte_bahnhof": clean_value(row["Punkte Bahnhof"]),
@@ -186,16 +152,8 @@ def main():
                 "punkte_bonus": clean_value(row["Punkte Bonus"]),
                 "aufgabe": clean_value(row["Beschreibung"]),
                 "lostopf": get_lostopf(row["LosID"], prefix_mapping),
-                "latitude": round(float(primary_latitude), 6),
-                "longitude": round(float(primary_longitude), 6),
-                "latitude2": (
-                    round(float(task_latitude), 6) if has_station and has_task else None
-                ),
-                "longitude2": (
-                    round(float(task_longitude), 6)
-                    if has_station and has_task
-                    else None
-                ),
+                "latitude": round(float(task_latitude), 6),
+                "longitude": round(float(task_longitude), 6),
             }
         )
 
