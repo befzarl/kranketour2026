@@ -12,7 +12,7 @@ DRAW_SHEET = "Ziehung 2026"
 LOTS_SHEET = "Lose"
 STATIONS_SHEET = "Hafas"
 PARAMETERS_SHEET = "Parameter"
-ONLY_DRAWN_LOTS = True
+ONLY_DRAWN_LOTS = False
 COLORS = [
     "#1f77b4",
     "#2ca02c",
