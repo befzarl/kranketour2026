@@ -120,33 +120,53 @@
       Object.keys(lostopfColors).map(name => [name, L.layerGroup().addTo(map)])
     );
     const primaryFeatures = [];
+    const secondaryFeatures = [];
 
     function markerRadius(points) {
       const radius = Math.min(17, Math.max(7, 5 + Math.sqrt(Number(points || 0)) * 1.2));
       return window.matchMedia('(max-width: 600px)').matches ? radius * 0.75 : radius;
     }
 
+    function stationPopup(coord) {
+      return `<b>Bahnhof: ${coord.bahnhof || '-'}</b><br>
+        Los: ${coord.id}<br>
+        Punkte Bahnhof: ${coord.punkte_bahnhof ?? '-'}<br>
+        Lostopf: ${coord.lostopf}<br>
+        Aufgabenbeschreibung: ${coord.aufgabe || '-'}`;
+    }
+
     function taskPopup(coord) {
-      return `<b>Aufgabenort: ${coord.aufgabenadresse || '-'}</b><br>
+      return `<b>Aufgabe: ${coord.aufgabenadresse || '-'}</b><br>
         Los: ${coord.id}<br>
         Zeitbedarf: ${coord.zeitbedarf ?? '-'} min<br>
         Distanz: ${coord.distanz ?? '-'} km<br>
         Punkte Aufgabe: ${coord.punkte_aufgabe ?? '-'}<br>
         Punkte Bonus: ${coord.punkte_bonus ?? '-'}<br>
         Lostopf: ${coord.lostopf}<br>
-        Aufgabe: ${coord.aufgabe || '-'}`;
+        Aufgabenbeschreibung: ${coord.aufgabe || '-'}`;
     }
 
     if (Array.isArray(coordinates)) {
       coordinates.forEach(coord => {
         const color = lostopfColors[coord.lostopf] || lostopfColors.Unbekannt;
         const categoryLayer = categoryLayers[coord.lostopf] || categoryLayers.Unbekannt;
-        const classicMarker = L.marker([coord.latitude, coord.longitude]).bindPopup(taskPopup(coord));
+        const classicMarker = L.marker([coord.latitude, coord.longitude]).bindPopup(stationPopup(coord));
         const categoryMarker = L.circleMarker([coord.latitude, coord.longitude], {
-          radius: markerRadius(coord.punkte_aufgabe),
+          radius: markerRadius(coord.punkte_bahnhof),
           color, fillColor: color, fillOpacity: 1, weight: 2
-        }).bindPopup(taskPopup(coord));
+        }).bindPopup(stationPopup(coord));
         primaryFeatures.push({ coord, classicMarker, categoryMarker, categoryLayer });
+
+        if (coord.latitude2 !== null && coord.longitude2 !== null) {
+          const marker = L.circleMarker([coord.latitude2, coord.longitude2], {
+            radius: markerRadius(coord.punkte_aufgabe),
+            color, fillColor: color, fillOpacity: 1, weight: 2
+          }).bindPopup(taskPopup(coord));
+          const line = L.polyline([[coord.latitude, coord.longitude], [coord.latitude2, coord.longitude2]], {
+            color, weight: 2, opacity: 0.7, dashArray: '4, 8'
+          });
+          secondaryFeatures.push({ coord, marker, line, categoryLayer });
+        }
       });
     }
 
@@ -167,6 +187,17 @@
           categoryLayer.removeLayer(categoryMarker);
         }
       });
+
+      const showTasks = map.getZoom() >= 15;
+      secondaryFeatures.forEach(({ coord, marker, line, categoryLayer }) => {
+        if (showTasks && meetsPointFilter(coord)) {
+          marker.addTo(categoryLayer);
+          line.addTo(categoryLayer);
+        } else {
+          categoryLayer.removeLayer(marker);
+          categoryLayer.removeLayer(line);
+        }
+      });
     }
 
     function updatePointFilter() {
@@ -177,6 +208,7 @@
 
     document.getElementById('bahnhof-punkte-filter').addEventListener('input', updatePointFilter);
     document.getElementById('aufgaben-punkte-filter').addEventListener('input', updatePointFilter);
+    map.on('zoomend', updateMarkerVisibility);
     updateMarkerVisibility();
 
     if (Array.isArray(bhfPaarLines)) {

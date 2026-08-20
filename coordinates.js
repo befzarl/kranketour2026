@@ -23,6 +23,7 @@ const lostopfColors = {
 const coordinates = [
   {
     "id": "B-01",
+    "bahnhof": "Uelzen",
     "aufgabenadresse": "Friedensreich-Hundertwasser-Platz 1, 29525 Uelzen",
     "zeitbedarf": 15,
     "distanz": 0.1,
@@ -31,11 +32,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Hundertwasser Banhof Uelzen hat mehrere Türme.\nAufgabe: Findet den eurer Meinung nach Hübschesten Turm und geht dort hin, und Sagt dann Rapunzel lass dein Haar herunter.\nBonus: Redet mit Wiener Dialekt.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.969023,
-    "longitude": 10.552415
+    "latitude": 52.969781,
+    "longitude": 10.553053,
+    "latitude2": 52.969023,
+    "longitude2": 10.552415
   },
   {
     "id": "B-02",
+    "bahnhof": "Doberlug-Kirchhain",
     "aufgabenadresse": "Bahnhofsallee, 03253 Doberlug-Kirchhain",
     "zeitbedarf": 3,
     "distanz": 0.3,
@@ -44,11 +48,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Doberlug-Kirchhain ist eine Doppelstadt, der Turmbahnhof befindet sich genau in der Mitte. Die Gleise verbinden und trennen die beiden Stadtteile. \nAufgabe: Findet den Bahnübergang; posiert für ein Foto vor der Schranke\nBonus: Teilt euer Team für das Foto auf beide Seiten des geschlossenen Bahnübergangs auf.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.619954,
-    "longitude": 13.560973
+    "latitude": 51.620576,
+    "longitude": 13.564241,
+    "latitude2": 51.619954,
+    "longitude2": 13.560973
   },
   {
     "id": "B-03",
+    "bahnhof": "Lindau-Insel",
     "aufgabenadresse": "Hafenpl. 2, 88131 Lindau (Bodensee)-Insel",
     "zeitbedarf": 5,
     "distanz": 0.2,
@@ -57,11 +64,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Beim Bahnhof Lindau-Insel handelt es sich um einen Inselbahnhof.\nAufgabe: Geht zum nahegelegenen Mangturm und erstellt ein Foto von Euch, auf dem sowohl der Mangturm (bzw. ein Stück davon), als auch der auf der anderen Seite des Hafens liegende Leuchtturm zu sehen sind.\nBonus: Ihr ergänzt Euch selbst als weitere Türme.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 47.54446,
-    "longitude": 9.683489
+    "latitude": 47.544341,
+    "longitude": 9.680469,
+    "latitude2": 47.54446,
+    "longitude2": 9.683489
   },
   {
     "id": "B-04",
+    "bahnhof": "Baunatal-Guntershausen",
     "aufgabenadresse": "Zugang zum Weg (ggü. Sportplatz Guntershausen) über\nHinter der Brücke, 34225 Baunatal",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -70,11 +80,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Baunatal-Guntershausen ist Keilbahnhof.\nAufgabe: Teamfoto vom Standort zwischen den beiden Eisenbahnstrecken auf dem Weg am Nordufer der Fulda, Foto mit Team mit der Eisenbahnbrücke über die Fulda.\nBonus: bei einem Zug auf der Brücke beim Teamfoto\n \n",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.22652,
-    "longitude": 9.46901
+    "latitude": 51.229917,
+    "longitude": 9.466997,
+    "latitude2": 51.22652,
+    "longitude2": 9.46901
   },
   {
     "id": "B-05",
+    "bahnhof": "Essen Hbf",
     "aufgabenadresse": " Theaterpl. 11, 45127 Essen",
     "zeitbedarf": 10,
     "distanz": 0.5,
@@ -83,11 +96,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In Essen muss der Bezug zum Essen gefunden werden ohne dabei Lebensmittel zu verwenden. \nAufgabe: Findet in der Innenstadt fünf Belege, die sprachlich, visuell oder kreativ mit Essen verbunden sind ohne das die Belege Lebensmittel beinhalten.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.454595,
-    "longitude": 7.011127
+    "latitude": 51.451355,
+    "longitude": 7.014793,
+    "latitude2": 51.454595,
+    "longitude2": 7.011127
   },
   {
     "id": "B-06",
+    "bahnhof": "Berlin-Schöneberg",
     "aufgabenadresse": "Hauptstraße 155, 10827 Berlin",
     "zeitbedarf": 5,
     "distanz": 1.4,
@@ -96,11 +112,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Turmbahnhof Berlin-Schöneberg der Ring- und Wannseebahn; David Bowie lebte von 1976-1978 in der Hauptstr. 155.\nAufgabe: Stellt Euch vor die Gedenktafel für David Bowie und singt einen seiner Songs (Video mindestens 1 min lang!)\nBonus: Wenn Ihr auch noch einen Song von Iggy Pop singt (Video mindestens 1 min lang), der zeitweise Davids Nachbar war, bekommt Ihr 10 Bonuspunkte.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.489252,
-    "longitude": 13.359617
+    "latitude": 52.479377,
+    "longitude": 13.352068,
+    "latitude2": 52.489252,
+    "longitude2": 13.359617
   },
   {
     "id": "B-07",
+    "bahnhof": "Holzwickede",
     "aufgabenadresse": "Allee 9, 59439 Holzwickede",
     "zeitbedarf": 5,
     "distanz": 0.65,
@@ -109,11 +128,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Nimm Dir eine Auszeit und Besuche den Spielplatz im Zentrum von Holzwickede. Bonus: Fahre eine Runde mit der Seilbahn/-rutsche",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.500244,
-    "longitude": 7.617668
+    "latitude": 51.504767,
+    "longitude": 7.619647,
+    "latitude2": 51.500244,
+    "longitude2": 7.617668
   },
   {
     "id": "B-08",
+    "bahnhof": "Stuttgart-Zuffenhausen",
     "aufgabenadresse": "Stammheimer Str. 13, 70372 Stuttgart",
     "zeitbedarf": 10,
     "distanz": 0.5,
@@ -122,11 +144,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Bahnhof Zuffenhausen ist ein Keil- und Inselbahnhof, steht kurz vor dem Tunnelausgang der Schnellfahrstrecke Stuttgart-Mannheim. Gleichzeitig ist Zuffenhausen ein bedeutender Ort für die Automobilindustrie. Das Porsche-Stammwerk befindet sich in der unmittelbaren Nähe\nAufgabe: Genießt den wunderschönen Blick auf die Gleise neben dem Zaun und macht ein Gruppenfoto mit einem vorbeifahrenden Zug. \nBonus: Handelt es sich um einen ICE der aus der Schnellfahrstrecke kommt oder auf diese fährt, gibt es 10 Bonuspunkte. Ist ein Porsche auf diesem Bild zu sehen gibt es 10 weitere Punkte. ",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 48.833376,
-    "longitude": 9.165093
+    "latitude": 48.82944,
+    "longitude": 9.166972,
+    "latitude2": 48.833376,
+    "longitude2": 9.165093
   },
   {
     "id": "B-09",
+    "bahnhof": "Gießen",
     "aufgabenadresse": "Liebigstraße 8, 35390 Gießen",
     "zeitbedarf": 15,
     "distanz": 0.5,
@@ -135,11 +160,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Baut vor dem Mathematikum ein \"unmoegliches Dreieck\" (Penrose- Dreieck) aus gefundenem Material (Stoecke, Stifte, Papprolle, gefaltete Zeitung o.ae.) und fotografiert es aus genau dem Winkel, aus dem die optische Taeuschung funktioniert - das Dreieck soll im Foto so aussehen, als koennte es nicht existieren. Foto mit Mathematikum im Hintergrund",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 50.581109,
-    "longitude": 8.665803
+    "latitude": 50.579059,
+    "longitude": 8.661462,
+    "latitude2": 50.581109,
+    "longitude2": 8.665803
   },
   {
     "id": "B-10",
+    "bahnhof": "Hamburg-Harburg",
     "aufgabenadresse": "Hörstener Straße - gegenüber des P+R",
     "zeitbedarf": 1,
     "distanz": 0.1,
@@ -148,11 +176,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Ausgang Hörstener Straße - macht ein Bild des Inselbahnhofsgebäudes",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 53.456248,
-    "longitude": 9.991699
+    "latitude": 53.455908,
+    "longitude": 9.991701,
+    "latitude2": 53.456248,
+    "longitude2": 9.991699
   },
   {
     "id": "B-11",
+    "bahnhof": "Werbig",
     "aufgabenadresse": "15306 Seelow",
     "zeitbedarf": 2,
     "distanz": 0.015,
@@ -161,11 +192,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Im Turmbahnhof Werbig kreuzen sich die Strecken 6078 Strausberg - Küstrin-Kietz und 6156 Werbig - Frankfurt(Oder). Die Strecke 6078 wird auch Ostbahn genannt und führte von Berlin bis Kaliningrad.\nAufgabe: Macht ein Foto Eurer Gruppe auf dem Bahnsteig der \"Ostbahn\" mit dem Kreuzungsbauwerk im Hintergrund und posiert dabei als Turm.\nBonus: Das Kreuzungsbauwerk wird dabei von einem Zug überfahren.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.564861,
-    "longitude": 14.405309
+    "latitude": 52.564886,
+    "longitude": 14.405238,
+    "latitude2": 52.564861,
+    "longitude2": 14.405309
   },
   {
     "id": "B-12",
+    "bahnhof": "Hude",
     "aufgabenadresse": "Zwillingsbuche, Vielstedter Str. 48, 27798 Hude (Oldb)",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -174,11 +208,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Macht ein Foto vor der Zwillingsbuche. Dabei habt ihr alle die gleiche Körperhaltung und den gleichen Gesichtsausdruck passend zur aktuellen Stimmung im Team.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 53.105628,
-    "longitude": 8.451799
+    "latitude": 53.109429,
+    "longitude": 8.460956,
+    "latitude2": 53.105628,
+    "longitude2": 8.451799
   },
   {
     "id": "B-13",
+    "bahnhof": "Minden(Westf)",
     "aufgabenadresse": "Brückenkopf 7A, 32423 Minden",
     "zeitbedarf": 2,
     "distanz": 0.9,
@@ -187,11 +224,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:\ndirekt an der Weser steht die Skulptur \"Vorausschauende Maßnahme\" als Meßstelle des Wasserpegels.\nAufgabe:\nMacht ein Gruppenfoto mit der Skulptur im Hintergrund und stellt diese mit euren Koerpern nach.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.290829,
-    "longitude": 8.925005
+    "latitude": 52.290138,
+    "longitude": 8.934728,
+    "latitude2": 52.290829,
+    "longitude2": 8.925005
   },
   {
     "id": "B-14",
+    "bahnhof": "Lünen Hbf",
     "aufgabenadresse": "Willy-Brandt-Platz, 44532 Lünen",
     "zeitbedarf": 10,
     "distanz": 0.7,
@@ -200,11 +240,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info:Innenstädte sind voller kleiner Details, die man normalerweise übersieht.\nAufgabe:Sucht fünf unterschiedliche Dinge in Schaufenstern:\netwas Blaues,\netwas Rundes,\netwas mit Tiermotiv,\netwas mit einer Zahl,\nund etwas Spiegelndes.\nErstellt daraus eine Fotocollage.\nBonus: Findet ein Schaufenster, in dem sich euer gesamtes Team spiegeln kann.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.614409,
-    "longitude": 7.522341
+    "latitude": 51.617129,
+    "longitude": 7.529485,
+    "latitude2": 51.614409,
+    "longitude2": 7.522341
   },
   {
     "id": "B-16",
+    "bahnhof": "Ludwigshafen(Rh)Hbf",
     "aufgabenadresse": "Pasadenaallee, 67059 Ludwigshafen am Rhein",
     "zeitbedarf": 2,
     "distanz": 0.23,
@@ -213,11 +256,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Ludwigshafen am Rhein (Hbf) ist ein ausergewöhnlicher Keil- und Turmbahnhof Bahnhof\nAufgabe: Findet eine Treppe, klettert auf die ihn überspannende Pylonbrücke der B37 und entdeckt die Form des Bahnhofs von oben (mit Fotodokumentation)\nBonus: macht ein Foto von einem Teammitglied, das in die korrekte Richtung des seit kurzem abgerissenen Ludwigshafener Rathauses zeigt",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 49.477626,
-    "longitude": 8.433248
+    "latitude": 49.476529,
+    "longitude": 8.433042,
+    "latitude2": 49.477626,
+    "longitude2": 8.433248
   },
   {
     "id": "B-17",
+    "bahnhof": "Döbeln Hbf",
     "aufgabenadresse": "Hauptbahnhof, 04720 Döbeln",
     "zeitbedarf": 5,
     "distanz": 0.2,
@@ -226,11 +272,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Beim Bahnhof Döbeln Hbf handelt es sich um einen Keilbahnhof.\nAufgabe: Geht zum Spielplatz am Bahnhof. Auf diesem befindet sich eine Sandkasten-Spiel-Eisenbahn. Stellt dort per Foto eine typische KT-Szene nach, in der Ihr schnell aus dem Zug springt, um ein Foto vom Bahnhofsschild zu machen, und dabei mächtig Ärger vom Zub bekommt.\nBonus: Ihr schafft es, Euch ein Sandförmchen auszuleihen und einen formechten Sandkuchen zu backen.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.126955,
-    "longitude": 13.097104
+    "latitude": 51.126568,
+    "longitude": 13.094988,
+    "latitude2": 51.126955,
+    "longitude2": 13.097104
   },
   {
     "id": "B-18",
+    "bahnhof": "Altenbeken",
     "aufgabenadresse": "Am Stapelsberg, 33184 Altenbeken",
     "zeitbedarf": 3,
     "distanz": 1.4,
@@ -239,11 +288,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Altenbeken war Keilbahnhof; mit nachträglich gebautem Verbindungsgleis nun ein Inselbahnhof; Altenbeken ist \"Eisenbahnerstadt\" mit Wahrzeichen Viadukt im Stadtwappen\nAufgabe: Foto mit Team vom Aussichtspunkt über dem Großen Viadukt\nBonus: Foto mit Team am ausgewiesenen Aussichtspunkt ggü. Kreuzkapelle (51.76315, 8.92743)\n",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.7653,
-    "longitude": 8.92921
+    "latitude": 51.766433,
+    "longitude": 8.943319,
+    "latitude2": 51.7653,
+    "longitude2": 8.92921
   },
   {
     "id": "B-20",
+    "bahnhof": "Hameln",
     "aufgabenadresse": "Osterstraße 15, 31785 Hameln",
     "zeitbedarf": 5,
     "distanz": 1.2,
@@ -252,11 +304,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Hameln ist für die Geschichte des Rattenfängers von Hameln bekannt, eine der bekanntesten deutschen Sagen. Der Keilbahnhof wurde ursprünglich im Jahr 1872 gebaut.\nAufgabe: Stellt euch vor die Statue des Rattenfängers und nehmt ein Video auf, in dem ihr die Geschichte vom Rattenfänger von Hameln nachspielt.\nBonus: Findet und fotografiert Rattenstatuen in der Stadt (5 Punkte pro Statue, max. 15 Punkte)",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.104432,
-    "longitude": 9.359461
+    "latitude": 52.10185,
+    "longitude": 9.375906,
+    "latitude2": 52.104432,
+    "longitude2": 9.359461
   },
   {
     "id": "B-21",
+    "bahnhof": "Dortmund-Dorstfeld",
     "aufgabenadresse": "Dorstfelder Hellweg 73, 44149 Dortmund",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -265,11 +320,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Mache ein Foto des DSW21-Betriebswerks. Bonus: Eine Stadtbahn vom Typ B100S verlässt oder fährt gerade in das BW.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.513522,
-    "longitude": 7.418741
+    "latitude": 51.509376,
+    "longitude": 7.424864,
+    "latitude2": 51.513522,
+    "longitude2": 7.418741
   },
   {
     "id": "B-22",
+    "bahnhof": "Bürstadt",
     "aufgabenadresse": "Bahnhofsallee 17, 68642 Bürstadt",
     "zeitbedarf": 1,
     "distanz": 0.088,
@@ -278,11 +336,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Durch Bürstadt fährt die Nibelungenbahn.\nAufgabe: Findet heraus, warum sie so genannt wird und zitiert eine Strophe aus der Nibelungensage. Nehmt es als Audio auf.\nBonus: Nehmt es als Video auf und macht es theatralisch mit dem Bahnhofsschild im Hintergrund",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 49.645661,
-    "longitude": 8.457419
+    "latitude": 49.645769,
+    "longitude": 8.458188,
+    "latitude2": 49.645661,
+    "longitude2": 8.457419
   },
   {
     "id": "B-23",
+    "bahnhof": "Dülmen",
     "aufgabenadresse": "Borkener Str. 1A, 48249 Dülmen",
     "zeitbedarf": 10,
     "distanz": 1.5,
@@ -291,11 +352,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Beruehmt ist der Ort fuer die \"Duelmener Wildpferde\": seit ueber 600 Jahren lebt im Merfelder Bruch die letzte freilebende Wildpferdherde Europas (~300 Tiere). Einmal im Jahr werden die Jaehrlinge in einem grossen Spektakel eingefangen. \nAufgabe: \"Wildpferd-Fang!\" - das Team galoppiert als wilde Herde vor der Wildpferd-Statue an der Borkener Str. (wiehern erlaubt!). Eine Person ist der Faenger und muss ein \"Jaehrling\"-Mitglied mit einem Schal oder aehnlichem \"einfangen\" (umwickeln) und macht davon ein Video",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 51.829214,
-    "longitude": 7.276327
+    "latitude": 51.827676,
+    "longitude": 7.295765,
+    "latitude2": 51.829214,
+    "longitude2": 7.276327
   },
   {
     "id": "B-24",
+    "bahnhof": "Osnabrück Hbf",
     "aufgabenadresse": "Raiffeisenplatz, 49074 Osnabrück",
     "zeitbedarf": 2,
     "distanz": 0.5,
@@ -304,11 +368,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Turmbahnhof Osnabrück wurde 1895 errichtet. Auch Etagenbahnhof genannt, kreuzen sich hier NV und FV auf zwei  übereinanderliegenden Ebenen\nAufgabe: Macht ein Bild von euch MIT der Hase\nBonus: kleine Abkühlung! Haltet die Füße ins Wasser und macht ein Bild von euch IN der Hase",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 52.271668,
-    "longitude": 8.05723
+    "latitude": 52.272851,
+    "longitude": 8.061781,
+    "latitude2": 52.271668,
+    "longitude2": 8.05723
   },
   {
     "id": "B-25",
+    "bahnhof": "Bad Kreuznach",
     "aufgabenadresse": "Kurhausstraße 2-8, 55543 Bad Kreuznach",
     "zeitbedarf": 3,
     "distanz": 0.9,
@@ -317,11 +384,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Brückenhäuser über die Nahe - eine der wenigen bebauten Brücken in Europa.\nAufgabe: Macht ein Foto der Brückenhäuser von der Naheinsel (Kurhausstraße) aus, auf dem die Brücke und die Brückenhäuser inkl. der Schilder der Handwerksbetriebe an den Hausfassaden zu erkennen sind. \nBonus: Trinkt ein Getränk im Schwedischen Kaffee und macht dabei ein Foto von euch.",
     "lostopf": "Turm/Insel/Keil/Kopf-Bahnhöfe",
-    "latitude": 49.844377,
-    "longitude": 7.857305
+    "latitude": 49.842399,
+    "longitude": 7.866435,
+    "latitude2": 49.844377,
+    "longitude2": 7.857305
   },
   {
     "id": "BP-01a",
+    "bahnhof": "Lorch(Rhein)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -331,10 +401,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Lorch(Württ)\n",
     "lostopf": "Bhf-Paare",
     "latitude": 50.0403,
-    "longitude": 7.812843
+    "longitude": 7.812843,
+    "latitude2": 50.0403,
+    "longitude2": 7.812843
   },
   {
     "id": "BP-01b",
+    "bahnhof": "Lorch(Württ)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -344,10 +417,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Lorch(Rhein)\n",
     "lostopf": "Bhf-Paare",
     "latitude": 48.797906,
-    "longitude": 9.695761
+    "longitude": 9.695761,
+    "latitude2": 48.797906,
+    "longitude2": 9.695761
   },
   {
     "id": "BP-02a",
+    "bahnhof": "Schwaig",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -357,10 +433,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Schweighofen\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.471494,
-    "longitude": 11.200442
+    "longitude": 11.200442,
+    "latitude2": 49.471494,
+    "longitude2": 11.200442
   },
   {
     "id": "BP-02b",
+    "bahnhof": "Schweighofen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -370,10 +449,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Schwaig\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.032686,
-    "longitude": 7.999224
+    "longitude": 7.999224,
+    "latitude2": 49.032686,
+    "longitude2": 7.999224
   },
   {
     "id": "BP-03a",
+    "bahnhof": "Landstuhl",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -383,10 +465,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Strullendorf\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.416287,
-    "longitude": 7.565931
+    "longitude": 7.565931,
+    "latitude2": 49.416287,
+    "longitude2": 7.565931
   },
   {
     "id": "BP-03b",
+    "bahnhof": "Strullendorf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -396,10 +481,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Landstuhl\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.84555,
-    "longitude": 10.96167
+    "longitude": 10.96167,
+    "latitude2": 49.84555,
+    "longitude2": 10.96167
   },
   {
     "id": "BP-05a",
+    "bahnhof": "Regensburg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -409,10 +497,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Sonneberg(Thür)Hbf\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.011672,
-    "longitude": 12.099617
+    "longitude": 12.099617,
+    "latitude2": 49.011672,
+    "longitude2": 12.099617
   },
   {
     "id": "BP-05b",
+    "bahnhof": "Sonneberg(Thür)Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -422,10 +513,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Regensburg Hbf\n",
     "lostopf": "Bhf-Paare",
     "latitude": 50.355078,
-    "longitude": 11.168848
+    "longitude": 11.168848,
+    "latitude2": 50.355078,
+    "longitude2": 11.168848
   },
   {
     "id": "BP-06a",
+    "bahnhof": "Heilbronn Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -435,10 +529,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Heilsbronn\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.143306,
-    "longitude": 9.207715
+    "longitude": 9.207715,
+    "latitude2": 49.143306,
+    "longitude2": 9.207715
   },
   {
     "id": "BP-06b",
+    "bahnhof": "Heilsbronn",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -448,10 +545,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Heilbronn Hbf\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.34595,
-    "longitude": 10.791053
+    "longitude": 10.791053,
+    "latitude2": 49.34595,
+    "longitude2": 10.791053
   },
   {
     "id": "BP-07a",
+    "bahnhof": "Maulbronn West",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -461,10 +561,13 @@ const coordinates = [
     "aufgabe": "Info: Bahnhofspaar mit Schnabelwaid",
     "lostopf": "Bhf-Paare",
     "latitude": 48.983671,
-    "longitude": 8.781788
+    "longitude": 8.781788,
+    "latitude2": 48.983671,
+    "longitude2": 8.781788
   },
   {
     "id": "BP-07b",
+    "bahnhof": "Schnabelwaid",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -474,10 +577,13 @@ const coordinates = [
     "aufgabe": "Info: Bahnhofspaar mit Maulbronn West",
     "lostopf": "Bhf-Paare",
     "latitude": 49.810453,
-    "longitude": 11.59566
+    "longitude": 11.59566,
+    "latitude2": 49.810453,
+    "longitude2": 11.59566
   },
   {
     "id": "BP-08a",
+    "bahnhof": "Amberg",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -487,10 +593,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Bamberg",
     "lostopf": "Bhf-Paare",
     "latitude": 49.447616,
-    "longitude": 11.862902
+    "longitude": 11.862902,
+    "latitude2": 49.447616,
+    "longitude2": 11.862902
   },
   {
     "id": "BP-08b",
+    "bahnhof": "Bamberg",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -500,10 +609,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Amberg",
     "lostopf": "Bhf-Paare",
     "latitude": 49.900759,
-    "longitude": 10.899489
+    "longitude": 10.899489,
+    "latitude2": 49.900759,
+    "longitude2": 10.899489
   },
   {
     "id": "BP-09a",
+    "bahnhof": "Viersen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -513,10 +625,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Zweibrücken Hbf\n",
     "lostopf": "Bhf-Paare",
     "latitude": 51.254947,
-    "longitude": 6.403896
+    "longitude": 6.403896,
+    "latitude2": 51.254947,
+    "longitude2": 6.403896
   },
   {
     "id": "BP-09b",
+    "bahnhof": "Zweibrücken Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -526,10 +641,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Viersen\n",
     "lostopf": "Bhf-Paare",
     "latitude": 49.246805,
-    "longitude": 7.356643
+    "longitude": 7.356643,
+    "latitude2": 49.246805,
+    "longitude2": 7.356643
   },
   {
     "id": "BP-10a",
+    "bahnhof": "Goldhausen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -539,10 +657,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Silberhausen",
     "lostopf": "Bhf-Paare",
     "latitude": 50.461438,
-    "longitude": 7.873057
+    "longitude": 7.873057,
+    "latitude2": 50.461438,
+    "longitude2": 7.873057
   },
   {
     "id": "BP-10b",
+    "bahnhof": "Silberhausen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -552,10 +673,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Goldhausen",
     "lostopf": "Bhf-Paare",
     "latitude": 51.319425,
-    "longitude": 10.34241
+    "longitude": 10.34241,
+    "latitude2": 51.319425,
+    "longitude2": 10.34241
   },
   {
     "id": "BP-11a",
+    "bahnhof": "Herzberg(Harz)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -565,10 +689,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Nierstein",
     "lostopf": "Bhf-Paare",
     "latitude": 51.643861,
-    "longitude": 10.329923
+    "longitude": 10.329923,
+    "latitude2": 51.643861,
+    "longitude2": 10.329923
   },
   {
     "id": "BP-11b",
+    "bahnhof": "Nierstein",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -578,10 +705,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Herzberg(Harz)",
     "lostopf": "Bhf-Paare",
     "latitude": 49.872002,
-    "longitude": 8.34281
+    "longitude": 8.34281,
+    "latitude2": 49.872002,
+    "longitude2": 8.34281
   },
   {
     "id": "BP-12a",
+    "bahnhof": "Rot am See",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -591,10 +721,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Rothensee",
     "lostopf": "Bhf-Paare",
     "latitude": 49.249393,
-    "longitude": 10.030336
+    "longitude": 10.030336,
+    "latitude2": 49.249393,
+    "longitude2": 10.030336
   },
   {
     "id": "BP-12b",
+    "bahnhof": "Magdeburg-Rothensee",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -604,10 +737,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Rot am See",
     "lostopf": "Bhf-Paare",
     "latitude": 52.186756,
-    "longitude": 11.647915
+    "longitude": 11.647915,
+    "latitude2": 52.186756,
+    "longitude2": 11.647915
   },
   {
     "id": "BP-13a",
+    "bahnhof": "Halbe",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -617,10 +753,13 @@ const coordinates = [
     "aufgabe": "Info: Halbe gehört zum Bhf-Paar mit Leer(Ostfriesl)",
     "lostopf": "Bhf-Paare",
     "latitude": 52.108384,
-    "longitude": 13.701855
+    "longitude": 13.701855,
+    "latitude2": 52.108384,
+    "longitude2": 13.701855
   },
   {
     "id": "BP-13b",
+    "bahnhof": "Leer(Ostfriesl)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -630,10 +769,13 @@ const coordinates = [
     "aufgabe": "Info: Leer gehört zum Bhf-Paar mit Halbe",
     "lostopf": "Bhf-Paare",
     "latitude": 53.23165,
-    "longitude": 7.465283
+    "longitude": 7.465283,
+    "latitude2": 53.23165,
+    "longitude2": 7.465283
   },
   {
     "id": "BP-14a",
+    "bahnhof": "Sorge",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -643,10 +785,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Elend",
     "lostopf": "Bhf-Paare",
     "latitude": 51.693414,
-    "longitude": 10.697347
+    "longitude": 10.697347,
+    "latitude2": 51.693414,
+    "longitude2": 10.697347
   },
   {
     "id": "BP-14b",
+    "bahnhof": "Elend",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -656,10 +801,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Sorge",
     "lostopf": "Bhf-Paare",
     "latitude": 51.74597,
-    "longitude": 10.690129
+    "longitude": 10.690129,
+    "latitude2": 51.74597,
+    "longitude2": 10.690129
   },
   {
     "id": "BP-15a",
+    "bahnhof": "Süßen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -669,10 +817,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Kuchen",
     "lostopf": "Bhf-Paare",
     "latitude": 48.683641,
-    "longitude": 9.76028
+    "longitude": 9.76028,
+    "latitude2": 48.683641,
+    "longitude2": 9.76028
   },
   {
     "id": "BP-15b",
+    "bahnhof": "Kuchen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -682,10 +833,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Süßen",
     "lostopf": "Bhf-Paare",
     "latitude": 48.640523,
-    "longitude": 9.8034
+    "longitude": 9.8034,
+    "latitude2": 48.640523,
+    "longitude2": 9.8034
   },
   {
     "id": "BP-16a",
+    "bahnhof": "Karlsruhe Entenfang",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -695,10 +849,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Quakenbrück",
     "lostopf": "Bhf-Paare",
     "latitude": 49.010666,
-    "longitude": 8.359504
+    "longitude": 8.359504,
+    "latitude2": 49.010666,
+    "longitude2": 8.359504
   },
   {
     "id": "BP-16b",
+    "bahnhof": "Quakenbrück",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -708,10 +865,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Karlsruhe-Entenfang",
     "lostopf": "Bhf-Paare",
     "latitude": 52.673943,
-    "longitude": 7.947819
+    "longitude": 7.947819,
+    "latitude2": 52.673943,
+    "longitude2": 7.947819
   },
   {
     "id": "BP-17a",
+    "bahnhof": "Salzbergen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -721,10 +881,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Salzkotten",
     "lostopf": "Bhf-Paare",
     "latitude": 52.32325,
-    "longitude": 7.350526
+    "longitude": 7.350526,
+    "latitude2": 52.32325,
+    "longitude2": 7.350526
   },
   {
     "id": "BP-17b",
+    "bahnhof": "Salzkotten",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -734,10 +897,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Salzbergen",
     "lostopf": "Bhf-Paare",
     "latitude": 51.672875,
-    "longitude": 8.600489
+    "longitude": 8.600489,
+    "latitude2": 51.672875,
+    "longitude2": 8.600489
   },
   {
     "id": "BP-18a",
+    "bahnhof": "Frankfurt(Main)Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -747,10 +913,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Frankfurt (Oder)",
     "lostopf": "Bhf-Paare",
     "latitude": 50.107145,
-    "longitude": 8.663789
+    "longitude": 8.663789,
+    "latitude2": 50.107145,
+    "longitude2": 8.663789
   },
   {
     "id": "BP-18b",
+    "bahnhof": "Frankfurt(Oder)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -760,10 +929,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Frankfurt (Main)",
     "lostopf": "Bhf-Paare",
     "latitude": 52.336416,
-    "longitude": 14.546496
+    "longitude": 14.546496,
+    "latitude2": 52.336416,
+    "longitude2": 14.546496
   },
   {
     "id": "BP-19a",
+    "bahnhof": "Hodenhagen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -773,10 +945,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Großen-Buseck\n",
     "lostopf": "Bhf-Paare",
     "latitude": 52.766564,
-    "longitude": 9.595056
+    "longitude": 9.595056,
+    "latitude2": 52.766564,
+    "longitude2": 9.595056
   },
   {
     "id": "BP-19b",
+    "bahnhof": "Großen Buseck",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -786,10 +961,13 @@ const coordinates = [
     "aufgabe": "Bhf-Paar mit Hodenhagen",
     "lostopf": "Bhf-Paare",
     "latitude": 50.605784,
-    "longitude": 8.782073
+    "longitude": 8.782073,
+    "latitude2": 50.605784,
+    "longitude2": 8.782073
   },
   {
     "id": "BP-20a",
+    "bahnhof": "Eislingen(Fils)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -799,10 +977,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Feuerbach\n",
     "lostopf": "Bhf-Paare",
     "latitude": 48.696594,
-    "longitude": 9.704812
+    "longitude": 9.704812,
+    "latitude2": 48.696594,
+    "longitude2": 9.704812
   },
   {
     "id": "BP-20b",
+    "bahnhof": "Stuttgart-Feuerbach",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -812,10 +993,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Eislingen\n",
     "lostopf": "Bhf-Paare",
     "latitude": 48.813673,
-    "longitude": 9.169382
+    "longitude": 9.169382,
+    "latitude2": 48.813673,
+    "longitude2": 9.169382
   },
   {
     "id": "BP-21a",
+    "bahnhof": "Köln Messe/Deutz",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -825,10 +1009,13 @@ const coordinates = [
     "aufgabe": "Info: Köln Messe/Deutz wurde im selben Jahr eröffnet wie Hamburg-Altona.",
     "lostopf": "Bhf-Paare",
     "latitude": 50.940874,
-    "longitude": 6.975001
+    "longitude": 6.975001,
+    "latitude2": 50.940874,
+    "longitude2": 6.975001
   },
   {
     "id": "BP-21b",
+    "bahnhof": "Hamburg-Altona",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -838,10 +1025,13 @@ const coordinates = [
     "aufgabe": "Info: Köln Messe/Deutz wurde im selben Jahr eröffnet wie Hamburg-Altona.",
     "lostopf": "Bhf-Paare",
     "latitude": 53.552695,
-    "longitude": 9.935175
+    "longitude": 9.935175,
+    "latitude2": 53.552695,
+    "longitude2": 9.935175
   },
   {
     "id": "BP-22a",
+    "bahnhof": "Weinheim(Bergstr)Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -851,10 +1041,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Bierbach",
     "lostopf": "Bhf-Paare",
     "latitude": 49.553302,
-    "longitude": 8.665351
+    "longitude": 8.665351,
+    "latitude2": 49.553302,
+    "longitude2": 8.665351
   },
   {
     "id": "BP-22b",
+    "bahnhof": "Bierbach",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -864,10 +1057,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Weinheim(Bergstr)",
     "lostopf": "Bhf-Paare",
     "latitude": 49.26189,
-    "longitude": 7.282011
+    "longitude": 7.282011,
+    "latitude2": 49.26189,
+    "longitude2": 7.282011
   },
   {
     "id": "BP-23a",
+    "bahnhof": "Steinsfurt",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -877,10 +1073,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Steinfurt-Burgsteinfurt",
     "lostopf": "Bhf-Paare",
     "latitude": 49.235822,
-    "longitude": 8.907978
+    "longitude": 8.907978,
+    "latitude2": 49.235822,
+    "longitude2": 8.907978
   },
   {
     "id": "BP-23b",
+    "bahnhof": "Steinfurt-Burgsteinfurt",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -890,10 +1089,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Steinsfurt",
     "lostopf": "Bhf-Paare",
     "latitude": 52.147384,
-    "longitude": 7.32934
+    "longitude": 7.32934,
+    "latitude2": 52.147384,
+    "longitude2": 7.32934
   },
   {
     "id": "BP-24a",
+    "bahnhof": "Kaiserslautern Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -903,10 +1105,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Königstein(Taunus)",
     "lostopf": "Bhf-Paare",
     "latitude": 49.435859,
-    "longitude": 7.768627
+    "longitude": 7.768627,
+    "latitude2": 49.435859,
+    "longitude2": 7.768627
   },
   {
     "id": "BP-24b",
+    "bahnhof": "Königstein(Taunus)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -916,10 +1121,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Kaiserslautern",
     "lostopf": "Bhf-Paare",
     "latitude": 50.177951,
-    "longitude": 8.468855
+    "longitude": 8.468855,
+    "latitude2": 50.177951,
+    "longitude2": 8.468855
   },
   {
     "id": "BP-25a",
+    "bahnhof": "Arnsberg(Westf)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -929,10 +1137,13 @@ const coordinates = [
     "aufgabe": "Info: Bhf Paar mit Merzig(Saar): Wie heißt unser aktueller Bundeskanzler und wo kommt er her?",
     "lostopf": "Bhf-Paare",
     "latitude": 51.405662,
-    "longitude": 8.067965
+    "longitude": 8.067965,
+    "latitude2": 51.405662,
+    "longitude2": 8.067965
   },
   {
     "id": "BP-25b",
+    "bahnhof": "Merzig(Saar)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -942,10 +1153,13 @@ const coordinates = [
     "aufgabe": "Info: Bhf Paar mit Arnsberg(Westf): Wie heißt unser aktueller Bundeskanzler und wo kommt er her?",
     "lostopf": "Bhf-Paare",
     "latitude": 49.436419,
-    "longitude": 6.634192
+    "longitude": 6.634192,
+    "latitude2": 49.436419,
+    "longitude2": 6.634192
   },
   {
     "id": "BP-27a",
+    "bahnhof": "Oberhausen Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -955,10 +1169,13 @@ const coordinates = [
     "aufgabe": "Info: Oberhausen als Pendant zu Unterhausen",
     "lostopf": "Bhf-Paare",
     "latitude": 51.474878,
-    "longitude": 6.851588
+    "longitude": 6.851588,
+    "latitude2": 51.474878,
+    "longitude2": 6.851588
   },
   {
     "id": "BP-27b",
+    "bahnhof": "Unterhausen(Bay)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -968,10 +1185,13 @@ const coordinates = [
     "aufgabe": "Info: Unterhausen als Pendant zu Oberhausen",
     "lostopf": "Bhf-Paare",
     "latitude": 48.716773,
-    "longitude": 11.100288
+    "longitude": 11.100288,
+    "latitude2": 48.716773,
+    "longitude2": 11.100288
   },
   {
     "id": "BP-30a",
+    "bahnhof": "Hauenstein(Pfalz)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -981,10 +1201,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Cloppenburg",
     "lostopf": "Bhf-Paare",
     "latitude": 49.201394,
-    "longitude": 7.830006
+    "longitude": 7.830006,
+    "latitude2": 49.201394,
+    "longitude2": 7.830006
   },
   {
     "id": "BP-30b",
+    "bahnhof": "Cloppenburg",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -994,10 +1217,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Hauenstein",
     "lostopf": "Bhf-Paare",
     "latitude": 52.843996,
-    "longitude": 8.055763
+    "longitude": 8.055763,
+    "latitude2": 52.843996,
+    "longitude2": 8.055763
   },
   {
     "id": "BP-31a",
+    "bahnhof": "Halle(Saale)Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1007,10 +1233,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Halle(Westf)",
     "lostopf": "Bhf-Paare",
     "latitude": 51.477509,
-    "longitude": 11.987085
+    "longitude": 11.987085,
+    "latitude2": 51.477509,
+    "longitude2": 11.987085
   },
   {
     "id": "BP-31b",
+    "bahnhof": "Halle(Westf)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1020,10 +1249,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Halle(Saale)Hbf",
     "lostopf": "Bhf-Paare",
     "latitude": 52.057295,
-    "longitude": 8.357729
+    "longitude": 8.357729,
+    "latitude2": 52.057295,
+    "longitude2": 8.357729
   },
   {
     "id": "BP-32a",
+    "bahnhof": "Uelzen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1033,10 +1265,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Plochingen\nInfo: Verbunden durch Hundertwasser bauten \"Wohnen unterm Regenturm\" in Plochingen (von der Bahn aus sichtbar) und dem Bahnhof Uelzen",
     "lostopf": "Bhf-Paare",
     "latitude": 52.969781,
-    "longitude": 10.553053
+    "longitude": 10.553053,
+    "latitude2": 52.969781,
+    "longitude2": 10.553053
   },
   {
     "id": "BP-32b",
+    "bahnhof": "Plochingen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1046,10 +1281,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Uelzen\nInfo: Verbunden durch Hundertwasser bauten \"Wohnen unterm Regenturm\" in Plochingen (von der Bahn aus sichtbar) und dem Bahnhof Uelzen",
     "lostopf": "Bhf-Paare",
     "latitude": 48.71308,
-    "longitude": 9.41081
+    "longitude": 9.41081,
+    "latitude2": 48.71308,
+    "longitude2": 9.41081
   },
   {
     "id": "BP-33a",
+    "bahnhof": "Warburg(Westf)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1059,10 +1297,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Essen-Werden",
     "lostopf": "Bhf-Paare",
     "latitude": 51.492953,
-    "longitude": 9.163845
+    "longitude": 9.163845,
+    "latitude2": 51.492953,
+    "longitude2": 9.163845
   },
   {
     "id": "BP-33b",
+    "bahnhof": "Essen-Werden",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1072,10 +1313,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Warburg(Westf)",
     "lostopf": "Bhf-Paare",
     "latitude": 51.386828,
-    "longitude": 6.997845
+    "longitude": 6.997845,
+    "latitude2": 51.386828,
+    "longitude2": 6.997845
   },
   {
     "id": "BP-34a",
+    "bahnhof": "Eichwalde",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1085,10 +1329,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Buchenhain",
     "lostopf": "Bhf-Paare",
     "latitude": 52.371352,
-    "longitude": 13.615398
+    "longitude": 13.615398,
+    "latitude2": 52.371352,
+    "longitude2": 13.615398
   },
   {
     "id": "BP-34b",
+    "bahnhof": "Buchenhain",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1098,10 +1345,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Eichwalde",
     "lostopf": "Bhf-Paare",
     "latitude": 48.031255,
-    "longitude": 11.497442
+    "longitude": 11.497442,
+    "latitude2": 48.031255,
+    "longitude2": 11.497442
   },
   {
     "id": "BP-35a",
+    "bahnhof": "Magdeburg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1111,10 +1361,13 @@ const coordinates = [
     "aufgabe": "Info: Das Reisemagazin Tripz kürt den schönsten Hauptbahnhof. Im letzten Jahr wurde der schönste Bahnhof Magdeburg Hbf.",
     "lostopf": "Bhf-Paare",
     "latitude": 52.130511,
-    "longitude": 11.626963
+    "longitude": 11.626963,
+    "latitude2": 52.130511,
+    "longitude2": 11.626963
   },
   {
     "id": "BP-35b",
+    "bahnhof": "Hof Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1124,10 +1377,13 @@ const coordinates = [
     "aufgabe": "Info: Das Reisemagazin Tripz kürt den schönsten und den hässlichsten Hauptbahnhof. Im letzten Jahr wurde Hof Hbf an letzter von 388 Stellen gewählt.",
     "lostopf": "Bhf-Paare",
     "latitude": 50.307743,
-    "longitude": 11.923067
+    "longitude": 11.923067,
+    "latitude2": 50.307743,
+    "longitude2": 11.923067
   },
   {
     "id": "BP-36a",
+    "bahnhof": "Rüsselsheim",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1137,10 +1393,13 @@ const coordinates = [
     "aufgabe": "Info: Rüsselsheim am Main hat internationale Bekanntheit erlangt durch den Automobilhersteller Opel, der seinen Hauptsitz in der Stadt hat. Angefangen hat Opel jedoch mit Nähmaschinen und Fahrrädern.",
     "lostopf": "Bhf-Paare",
     "latitude": 49.991639,
-    "longitude": 8.413583
+    "longitude": 8.413583,
+    "latitude2": 49.991639,
+    "longitude2": 8.413583
   },
   {
     "id": "BP-36b",
+    "bahnhof": "Rüsselbach",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1150,10 +1409,13 @@ const coordinates = [
     "aufgabe": "Info: Der Bahnhof Rüsselbach liegt irgendwo mitten im Nirgendwo. Passt aber trotzdem zu Rüsselsheim (Bahnhofspaar).",
     "lostopf": "Bhf-Paare",
     "latitude": 49.608738,
-    "longitude": 11.231771
+    "longitude": 11.231771,
+    "latitude2": 49.608738,
+    "longitude2": 11.231771
   },
   {
     "id": "BP-37a",
+    "bahnhof": "Wolfsburg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1163,10 +1425,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Wolfhagen",
     "lostopf": "Bhf-Paare",
     "latitude": 52.429498,
-    "longitude": 10.787784
+    "longitude": 10.787784,
+    "latitude2": 52.429498,
+    "longitude2": 10.787784
   },
   {
     "id": "BP-37b",
+    "bahnhof": "Wolfhagen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1176,10 +1441,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Wolfsburg",
     "lostopf": "Bhf-Paare",
     "latitude": 51.331471,
-    "longitude": 9.178943
+    "longitude": 9.178943,
+    "latitude2": 51.331471,
+    "longitude2": 9.178943
   },
   {
     "id": "BP-38a",
+    "bahnhof": "Brand Tropical Islands",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1189,10 +1457,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Wüstenbrand",
     "lostopf": "Bhf-Paare",
     "latitude": 52.029953,
-    "longitude": 13.72149
+    "longitude": 13.72149,
+    "latitude2": 52.029953,
+    "longitude2": 13.72149
   },
   {
     "id": "BP-38b",
+    "bahnhof": "Wüstenbrand",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1202,10 +1473,13 @@ const coordinates = [
     "aufgabe": "Bahnhofspaar mit Brand Tropical Islands",
     "lostopf": "Bhf-Paare",
     "latitude": 50.805483,
-    "longitude": 12.756417
+    "longitude": 12.756417,
+    "latitude2": 50.805483,
+    "longitude2": 12.756417
   },
   {
     "id": "BP-39a",
+    "bahnhof": "Runkel",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1215,10 +1489,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Unkel",
     "lostopf": "Bhf-Paare",
     "latitude": 50.405299,
-    "longitude": 8.159441
+    "longitude": 8.159441,
+    "latitude2": 50.405299,
+    "longitude2": 8.159441
   },
   {
     "id": "BP-39b",
+    "bahnhof": "Unkel",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1228,10 +1505,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Runkel",
     "lostopf": "Bhf-Paare",
     "latitude": 50.602992,
-    "longitude": 7.219678
+    "longitude": 7.219678,
+    "latitude2": 50.602992,
+    "longitude2": 7.219678
   },
   {
     "id": "BP-40a",
+    "bahnhof": "Lübeck-Dänischburg IKEA",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1241,10 +1521,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Kaarst IKEA",
     "lostopf": "Bhf-Paare",
     "latitude": 53.911202,
-    "longitude": 10.735581
+    "longitude": 10.735581,
+    "latitude2": 53.911202,
+    "longitude2": 10.735581
   },
   {
     "id": "BP-40b",
+    "bahnhof": "Kaarst IKEA",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -1254,10 +1537,13 @@ const coordinates = [
     "aufgabe": "Bhf Paar mit Lübeck-Dänischburg IKEA",
     "lostopf": "Bhf-Paare",
     "latitude": 51.217023,
-    "longitude": 6.629881
+    "longitude": 6.629881,
+    "latitude2": 51.217023,
+    "longitude2": 6.629881
   },
   {
     "id": "E-01",
+    "bahnhof": "Rödermark-Ober Roden",
     "aufgabenadresse": "Breidertring 2A, 63322 Rödermark",
     "zeitbedarf": 3,
     "distanz": 1.2,
@@ -1266,11 +1552,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Hole Dir ein Eis in der Eisdiele Veneto in Rödermark.\nAlternative: Stellt mit euren Körpern eine Eiswaffel vor der Eisdiele dar und macht ein Foto davon oder erstellt einen 15-sekündigen Werbespot für die Eisdiele.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 49.968231,
-    "longitude": 8.837821
+    "latitude": 49.973622,
+    "longitude": 8.828961,
+    "latitude2": 49.968231,
+    "longitude2": 8.837821
   },
   {
     "id": "E-02",
+    "bahnhof": "Eschborn",
     "aufgabenadresse": "Götzenstraße 44, 65760 Eschborn",
     "zeitbedarf": 5,
     "distanz": 0.5,
@@ -1279,11 +1568,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Eiscafé San Marco Eschborn\nSamstag 10:00–19:00\nSonntag 12:00–19:00\nAufgabe: Macht ein Gruppenfoto vor der Eisdiele\nBonus: Gruppenfoto mit Eis",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.141516,
-    "longitude": 8.5665
+    "latitude": 50.143618,
+    "longitude": 8.560971,
+    "latitude2": 50.141516,
+    "longitude2": 8.5665
   },
   {
     "id": "E-03",
+    "bahnhof": "Salzwedel",
     "aufgabenadresse": "Burgstraße 6, 29410 Salzwedel",
     "zeitbedarf": 15,
     "distanz": 1.2,
@@ -1292,11 +1584,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Salzwedel in der Altmark (Sachsen-Anhalt) ist DIE Baumkuchen-Stadt Deutschlands. Aufgabe: Kauft ein Stueck Baumkuchen und baut daraus (oder daneben) einen \"menschlichen Baumkuchen\": stellt euch uebereinander/hinterein- ander als Schichten auf - jede \"Schicht\" haelt ein Stueck Kuchen hoch. Foto mit Manufaktur/Laden im Hintergrund. Falls kein Baumkuchen zu bekommen ist: Formt euren eigenen Baumkuchen-Ring, stellt euch im Kreis auf, Arme verschränkt, und fotografiert das Ganze von oben (einer steigt auf eine Bank/Mauer). Schild: \"Baumkuchen — 1 Ring, [Anzahl] Schichten\".Bonus: Ringe im echten Kuchen zählen ODER die Anzahl eurer \"Menschenschichten\" auf ein Schild schreiben.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 52.852736,
-    "longitude": 11.152739
+    "latitude": 52.858113,
+    "longitude": 11.162035,
+    "latitude2": 52.852736,
+    "longitude2": 11.152739
   },
   {
     "id": "E-04",
+    "bahnhof": "Hanau West",
     "aufgabenadresse": "Fahrstraße 14a, 63450 Hanau",
     "zeitbedarf": 10,
     "distanz": 0.9,
@@ -1305,11 +1600,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Holt euch ein Eis im Eiscafé Costa\nAlternativ macht ein lustiges Bild auf/an einer der Bänke in der Straße",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.134292,
-    "longitude": 8.918133
+    "latitude": 50.131949,
+    "longitude": 8.908818,
+    "latitude2": 50.134292,
+    "longitude2": 8.918133
   },
   {
     "id": "E-05",
+    "bahnhof": "Mainz Römisches Theater",
     "aufgabenadresse": "Dagobertstraße 24, 55116 Mainz",
     "zeitbedarf": 10,
     "distanz": 0.5,
@@ -1318,11 +1616,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Das N'Eis am Rhein (12-20 Uhr) ist für seine unkonventionellen Eissorten bekannt. (Die meisten Sorten sind sogar ganz lecker)\nAufgabe: Macht ein kurzes Video (10-30 Sek.), in dem ihr der neutralen Tourbegleitung eure Reaktion auf das Probieren einer Eissorte möglichst anschaulich darstellt. Falls die Eisdiele geschlossen hat, erledigt stattdessen die Bonus-Aufgabe (für diese gibt es dann allerdings \"nur\" 20 Punkte).\nBonus: Von dort ist es nicht weit zur Mainzer Südbrücke. Diese wurde nach dem 2. Weltkrieg aus ursprünglich für Ukraine bestimmten Brückenteilen, die im angrenzenden Gustavsburg lagerten, wiederaufgebaut. Die Brücke sowie die Tafel der Rheinkilometrierung inkl. Kilometerangabe sind im Hintergrund des Videos zu sehen: Tipp: Victor-Hugo-Ufer.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 49.995655,
-    "longitude": 8.282249
+    "latitude": 49.993465,
+    "longitude": 8.277565,
+    "latitude2": 49.995655,
+    "longitude2": 8.282249
   },
   {
     "id": "E-06",
+    "bahnhof": "Vechta",
     "aufgabenadresse": "Klingenhagen 20, 49377 Vechta",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -1331,11 +1632,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Eine(r) aus dem Team gönnt euch ein essbares Produkt aus Gino's Caffe Rösterei, alle anderen beneiden sie/ihn sichtbar darum.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 52.730083,
-    "longitude": 8.289898
+    "latitude": 52.728904,
+    "longitude": 8.280367,
+    "latitude2": 52.730083,
+    "longitude2": 8.289898
   },
   {
     "id": "E-07",
+    "bahnhof": "Soest",
     "aufgabenadresse": "Brüdertor 4, 59494 Soest",
     "zeitbedarf": 5,
     "distanz": 0.2,
@@ -1344,11 +1648,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Selbstgemachtes Eis aus hochwertigen Zutaten gibt es in der \"Eismanufaktur Soest\".\nAufgabe: Macht ein Foto vor der Eisdiele.\nBonus: gönnt euch eine Kugel Eis an diesem aufregenden Tag.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 51.576905,
-    "longitude": 8.103639
+    "latitude": 51.578419,
+    "longitude": 8.104589,
+    "latitude2": 51.576905,
+    "longitude2": 8.103639
   },
   {
     "id": "E-08",
+    "bahnhof": "Verden(Aller)",
     "aufgabenadresse": "Bernhard-Warnecke-Straße 18, 27283 Verden (Aller)",
     "zeitbedarf": 8,
     "distanz": 1.1,
@@ -1357,11 +1664,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Pommes Gold Gelb ist eine evangelistische Pommesbude. Das Motto ist: „Begegne Jesus - ER sättigt dich“.\nAufgabe: Macht ein Foto mit der Pommesbude.\nBonus: Teilt euch geschwisterlich eine Portion Pommes und rezitiert dabei den Psalm \"Der Herr ist mein Hirte\" bis \"...trösten mich\". Haltet das in einem Video fest.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 52.914459,
-    "longitude": 9.248475
+    "latitude": 52.920818,
+    "longitude": 9.237855,
+    "latitude2": 52.914459,
+    "longitude2": 9.248475
   },
   {
     "id": "E-09",
+    "bahnhof": "Berlin Gesundbrunnen",
     "aufgabenadresse": "Badstraße 1-5, 13357 Berlin",
     "zeitbedarf": 15,
     "distanz": 0.2,
@@ -1370,11 +1680,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Infos: Die traditionelle „Curry Baude\" wird seit dem Fall der Mauer 1989 von Reina Lehmann geführt. Als gelernter Fleischer mit etablierter Fleischerei bietet er Wurstwaren nach eigener Rezeptur an, auch die Ketchupsauce ist ein selbst kreiertes Familiengeheimnis.  (Spiegel Doku: https://youtu.be/yuklMj90Ngs?si=e4r2PcdLRBG1h98i )\nAufgabe: Esse eine Currywurst bei Curry Baude Gesundbrunnen beim Reina. Außerhalb der Öffnungszeiten: Esst eine Pommes vor der Bude (zb von McD) und verweilt die 15min  ",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 52.549518,
-    "longitude": 13.386963
+    "latitude": 52.548963,
+    "longitude": 13.388513,
+    "latitude2": 52.549518,
+    "longitude2": 13.386963
   },
   {
     "id": "E-10",
+    "bahnhof": "Köln Messe/Deutz",
     "aufgabenadresse": "Siegesstraße 18, 50679 Köln",
     "zeitbedarf": 6,
     "distanz": 0.3,
@@ -1383,11 +1696,14 @@ const coordinates = [
     "punkte_bonus": 25,
     "aufgabe": "Info: Lommerzheim, oder auch \"Lommi\" genannt, ist die Kult-Gaststätte in Köln op dr Schäl Sick. Da muss ma ma jewesen sinn.\nAufgabe: bestellt euch und trinkt ein Kölsch, Wasser oder ein anderes Getränk im Lommi. Solltet ihr außerhalb der Öffnungszeiten dort sein, macht ein Gruppenbild davor mit dem DAB-Schild.\nBonusaufgabe: Dokumentiert euren Besuch mit einem Bild, in dem mindestens eine Person eine saure Gurke bestellt hat und in die Kamera zeigt",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.938715,
-    "longitude": 6.974353
+    "latitude": 50.940874,
+    "longitude": 6.975001,
+    "latitude2": 50.938715,
+    "longitude2": 6.974353
   },
   {
     "id": "E-11",
+    "bahnhof": "Bielefeld Hbf",
     "aufgabenadresse": "Klosterpl. 5, 33602 Bielefeld",
     "zeitbedarf": 5,
     "distanz": 1.2,
@@ -1396,11 +1712,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "\nInfo: Madeleine sagt von sich selbst, dass sie schon als Kind ein Café eröffnen wollte - es wurde dann ein Eis-Café. Überzeugt Euch davon, ob es die richtige Entscheidung war.\nAufgabe: Geht zu \"Madeleine's homemade Ice Cream\" und macht ein Gruppenbild vor der Eisdiele.\nBonus: Esst ein Eis (Öffnungszeiten Sa, 13-21 Uhr, So 13-19 Uhr).",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 52.022228,
-    "longitude": 8.529231
+    "latitude": 52.029261,
+    "longitude": 8.532722,
+    "latitude2": 52.022228,
+    "longitude2": 8.529231
   },
   {
     "id": "E-12",
+    "bahnhof": "Koblenz Stadtmitte",
     "aufgabenadresse": "Braugasse 6, 56068 Koblenz",
     "zeitbedarf": 8,
     "distanz": 0.6,
@@ -1409,11 +1728,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das Eis ist sehr lecker.\nAufgabe: Esst ein Eis von der Eisdiele eGeloSia; alternativ: Gruppenfoto in der gleich Pose wie und neben der Skulptur des Koblenzer Originals \"Dä Gummi\" (Gemüsegasse 13)\nBonus: Eine Portion Sahne auf dem Eis",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.3608,
-    "longitude": 7.59663
+    "latitude": 50.357961,
+    "longitude": 7.590024,
+    "latitude2": 50.3608,
+    "longitude2": 7.59663
   },
   {
     "id": "E-13",
+    "bahnhof": "Mayschoß",
     "aufgabenadresse": "Ahr-Rotweinstraße, 53508 Mayschoß",
     "zeitbedarf": 8,
     "distanz": 1.2,
@@ -1422,11 +1744,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Von der Saffenburg aus gibt es eine schöne Aussicht auf das Ahrtal und die wieder aufgebaute Ahrtalbahn. \nAufgabe: Macht ein Gruppenbild wie ihr in der Saffenburghütte etwas essbares oder trinkbares konsumiert. Solltet ihr außerhalb der Öffnungszeiten dort sein, macht ein Gruppenbild vor der Saffenburg und erholt euch 5 min.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.51957,
-    "longitude": 7.023919
+    "latitude": 50.517233,
+    "longitude": 7.020463,
+    "latitude2": 50.51957,
+    "longitude2": 7.023919
   },
   {
     "id": "E-14",
+    "bahnhof": "Frankfurt(M)Lokalbahnhof",
     "aufgabenadresse": "Klappergasse 8, 60594 Frankfurt am Main",
     "zeitbedarf": 1,
     "distanz": 0.45,
@@ -1435,11 +1760,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die \"Fraa Rauscher\" ist eine typische Äppelwoiwirtschaft im Frankfurter Stadtteil Sachsenhausen.\nAufgabe: Macht ein Teamfoto mit Frau Rauscher.\nBonus: Macht ein Teamfoto mit der Ampel, auf der Frau Rauscher als Ampelmännchen erscheint.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.105252,
-    "longitude": 8.691505
+    "latitude": 50.102171,
+    "longitude": 8.693025,
+    "latitude2": 50.105252,
+    "longitude2": 8.691505
   },
   {
     "id": "E-15",
+    "bahnhof": "Rheinhausen Ost",
     "aufgabenadresse": "Atroper Str. 16, 47226 Duisburg",
     "zeitbedarf": 20,
     "distanz": 1.1,
@@ -1448,11 +1776,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Aufgabe: Hole Dir einen Döner bei First-Kebap in Duisburg Rheinhausen. \nBonus: Nimm trotz des schmalen Talers extra Käse\nAlternative: Führt eine Passanten-/Straßenumfrage durch nach dem besten Dönerladen von Duisburg mit mindestens 10 Teilnehmern. Dokumentiert die Umfrage mit meheren Fotos (mind. 1 Foto pro Passantenbefragung). ",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 51.410018,
-    "longitude": 6.720346
+    "latitude": 51.401873,
+    "longitude": 6.724108,
+    "latitude2": 51.410018,
+    "longitude2": 6.720346
   },
   {
     "id": "E-16",
+    "bahnhof": "Balduinstein",
     "aufgabenadresse": "Bahnhofstraße 19, 65558 Balduinstein-Hausen",
     "zeitbedarf": 5,
     "distanz": 0.1,
@@ -1461,11 +1792,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Ein Café in einem ehemaligen Stellwerk. Mit Stellwerk.\nSamstag 11:00–18:00\nSonntag 11:00–18:00\nAufgabe: Macht ein Gruppenfoto im Café vor dem Stellwerk. Alternative, falls das Café geschlossen hat: Macht ein Gruppenfoto vor dem Café. \nBonus: Gruppenfoto auf dem mindestens 2 Teammitglieder eine Tasse Kaffee in der Hand halten",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.346757,
-    "longitude": 7.968074
+    "latitude": 50.347388,
+    "longitude": 7.967609,
+    "latitude2": 50.346757,
+    "longitude2": 7.968074
   },
   {
     "id": "E-17",
+    "bahnhof": "Wiesbaden Hbf",
     "aufgabenadresse": "Kranzpl., 65183 Wiesbaden",
     "zeitbedarf": 10,
     "distanz": 1.8,
@@ -1474,11 +1808,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Aufgabe: Tischt am Kochbrunnen ein feines \"Kurschatten-Dinner\" auf inkl. erfundenem Edel-Trinkspruch auf das Wiesbadener Wasser. Video des Trinkspruchs. \nBonus: Eine regionale Spezialitaet (z.B. \"Handkaes\") im Video probieren.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.086323,
-    "longitude": 8.242165
+    "latitude": 50.070791,
+    "longitude": 8.243731,
+    "latitude2": 50.086323,
+    "longitude2": 8.242165
   },
   {
     "id": "E-18",
+    "bahnhof": "Hamburg Jungfernstieg",
     "aufgabenadresse": "Jungfernstieg 54, 20354 Hamburg",
     "zeitbedarf": 10,
     "distanz": 0.2,
@@ -1487,11 +1824,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das Becken der Binnenalster enthält so viel Wasser, wie alle Hamburger zusammen täglich an Trinkwasser verbrauchen\nAufgabe: Macht ein Bild am Jungfernstieg-Anleger mit mindestens einem Eis\nBonus: Die Alsterfontäne ist eingeschaltet und ebenfalls zu sehen",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 53.553509,
-    "longitude": 9.993047
+    "latitude": 53.552194,
+    "longitude": 9.993883,
+    "latitude2": 53.553509,
+    "longitude2": 9.993047
   },
   {
     "id": "E-19",
+    "bahnhof": "Frankfurt(M)Hauptwache",
     "aufgabenadresse": "Oeder Weg 44, 60318 Frankfurt am Main",
     "zeitbedarf": 15,
     "distanz": 0.8,
@@ -1500,11 +1840,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Bei Eis Christina (10-22:30 Uhr) gibt es m.E. das beste Eis in Frankfurt. \nAufgabe: Esst hier eine Kugel Eis aus der sehr großen Auswahl. Hinweis 15 Min Aufgabenzeit ist wegen der ggf. auftretenedenden Wartezeit. \nWenn Lokalität geschlossen: Macht ein Bild vom Eschenheimer Tor (großer Turm an der gleichnamigen U-Bahn-Station)\n",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.120857,
-    "longitude": 8.680764
+    "latitude": 50.113926,
+    "longitude": 8.678947,
+    "latitude2": 50.120857,
+    "longitude2": 8.680764
   },
   {
     "id": "E-20",
+    "bahnhof": "Bad Bergzabern",
     "aufgabenadresse": "Marktstraße 22, 76887 Bad Bergzabern",
     "zeitbedarf": 8,
     "distanz": 0.5,
@@ -1513,11 +1856,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das Eis ist sehr lecker.\nAufgabe: Esst ein Eis von der Eisdiele Gelatiamo; alternativ: Macht ein Foto vorm Bad Berzabener Zinnfigurenmuseum (Marktstraße 14)\nBonus: Eine Portion Sahne auf dem Eis",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 49.10106,
-    "longitude": 7.99669
+    "latitude": 49.103209,
+    "longitude": 8.002787,
+    "latitude2": 49.10106,
+    "longitude2": 7.99669
   },
   {
     "id": "E-21",
+    "bahnhof": "Aachen Schanz",
     "aufgabenadresse": "Löhergraben 1-3, 52064 Aachen",
     "zeitbedarf": 1,
     "distanz": 0.6,
@@ -1526,11 +1872,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Aachener Printen sind ein würziges, festes Lebkuchen-Gebäck aus Honig, das ursprünglich als Weihnachtsgebäck entstand und heute ganzjährig angeboten wird.\nAufgabe: Macht ein Foto vor dem Printen-Geschäft \"Nobis Printen E. K.\"\nBonus: Ihr habt alle eine Printe in der Hand!",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.772404,
-    "longitude": 6.080204
+    "latitude": 50.769862,
+    "longitude": 6.07384,
+    "latitude2": 50.772404,
+    "longitude2": 6.080204
   },
   {
     "id": "E-22",
+    "bahnhof": "Mannheim Hbf",
     "aufgabenadresse": "Meerfeldstraße 45, 68163 Mannheim",
     "zeitbedarf": 5,
     "distanz": 0.9,
@@ -1539,11 +1888,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die leckerste Eisdiele Mannheims ist die \"Eismanufaktur zeitgEISt\".\nAufgabe: Bestellt euch eine Eiskugel eurer Wahl und esst es;\nÖffnungszeiten: Sa+So 12-20h\nFalls geschlossen: Foto vor der Eisdiele reicht",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 49.47388,
-    "longitude": 8.469134
+    "latitude": 49.479354,
+    "longitude": 8.468921,
+    "latitude2": 49.47388,
+    "longitude2": 8.469134
   },
   {
     "id": "E-23",
+    "bahnhof": "Hamburg Reeperbahn",
     "aufgabenadresse": "Reeperbahn 108-114, 20359 Hamburg",
     "zeitbedarf": 10,
     "distanz": 0.2,
@@ -1552,11 +1904,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Kult Penny hatte diverse Dokumentationen im TV. Bekannt vor allem für die Chararcterdarsteller und Originale: https://youtu.be/ifoQ_f3-IFU?si=Gqi1BLu94LoT6wAI \nAufgabe: Macht ein Video vor dem Eingang, wie einer/eine lallend eure Schiffspatente, nach Kapitän zur See, Harald Krull, aufzählt. \nBonus: trinkt dabei aus dem billigsten Penny-Bier.",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 53.549733,
-    "longitude": 9.960524
+    "latitude": 53.549668,
+    "longitude": 9.957668,
+    "latitude2": 53.549733,
+    "longitude2": 9.960524
   },
   {
     "id": "E-24",
+    "bahnhof": "Frankfurt(M)Konstablerwache",
     "aufgabenadresse": "Hasengasse 5-7, 60311 Frankfurt am Main",
     "zeitbedarf": 15,
     "distanz": 0.45,
@@ -1565,11 +1920,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Ilse Schreiber Wurstimbiss in der Kleinmarkthalle von Frankfurt ist Kult. Die namensgebende Dame arbeitet dort seit 1974.\nAufgabe: Esst eine Wurst bei ihrem Imbiss. Vegetarier können sich alternativ auch eine Focaccia oder ähnliches in der Kleinmarkthalle kaufen.\nAlternative: Yok Yok Kiosk ist auch Kult. Ist jetzt Am Hauptbahnhof 6. Wenn offen, da was kaufen. Wenn geschlossen, holt euch im Hauptbahnhof etwas aus einem Automaten und konsumiert es vor dem Yok Yok. Mit Beweisbild ;)",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 50.112697,
-    "longitude": 8.683381
+    "latitude": 50.114623,
+    "longitude": 8.687098,
+    "latitude2": 50.112697,
+    "longitude2": 8.683381
   },
   {
     "id": "E-25",
+    "bahnhof": "Düsseldorf-Zoo",
     "aufgabenadresse": "Nordstraße 53, 40477 Düsseldorf-Stadtbezirk 1",
     "zeitbedarf": 20,
     "distanz": 1.3,
@@ -1578,11 +1936,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: \"Himmel & Ähd\" (gebratene Blutwurst, Kartoffelpüree und Zwiebeln), hier namensgebend für die aufzusuchende gastronomische Lokalität (Öffnungszeiten Sa, So 11:30-0 Uhr), ist ein typisch rheinisches Gericht.\nAufgabe: Macht ein Gruppenfoto vor dem \"Himmel & Ähd\". Stellt dabei pantomimisch typische Bewohner von \"Himmel & Ähd\" dar.\nBonus: Gönnt Euch mindestens ein \"Füchschen\" im \"Himmel & Ähd\" (gerne um weitere rheinische Spezialitäten von der Speisekarte ergänzt).",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 51.238166,
-    "longitude": 6.779768
+    "latitude": 51.236962,
+    "longitude": 6.796924,
+    "latitude2": 51.238166,
+    "longitude2": 6.779768
   },
   {
     "id": "E-99",
+    "bahnhof": "Greven",
     "aufgabenadresse": "Martinistraße 12, 48268 Greven",
     "zeitbedarf": 5,
     "distanz": 1,
@@ -1591,11 +1952,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Gelateria Gregori.\nAufgabe: Bestellt euch eine Eiskugel eurer Wahl und esst es;\nÖffnungszeiten: Sa+So 11:30-19:30h\nFalls geschlossen: Foto vor der Eisdiele reicht",
     "lostopf": "Essen+Trinken/Eisdiele",
-    "latitude": 52.093345,
-    "longitude": 7.610417
+    "latitude": 52.089946,
+    "longitude": 7.599353,
+    "latitude2": 52.093345,
+    "longitude2": 7.610417
   },
   {
     "id": "EB-01",
+    "bahnhof": "Tübingen Hbf",
     "aufgabenadresse": "Europapl. 19, 72072 Tübingen",
     "zeitbedarf": 18,
     "distanz": 0.1,
@@ -1604,11 +1968,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Tübingen Hbf war ein ehemaliger FV-Bahnhof. Hier hat der IC 2010 / IC 2011 IC „Loreley“ gehalten\nAufgabe: Schaut euch jeden Bahnsteig im Tübingen Hauptbahnhof an und macht jeweils ein Gruppenfoto vom Anfang und Ende jeden Bahnsteigs und schätzt an welchem Gleis der ehemalige Loreley gehalten haben könnte. \nBonus: Wenn ihr eine IC1-Ganitur in der Nähe findet gibt es 20 Bonuspunkte",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 48.516138,
-    "longitude": 9.055184
+    "latitude": 48.515641,
+    "longitude": 9.055395,
+    "latitude2": 48.516138,
+    "longitude2": 9.055184
   },
   {
     "id": "EB-02",
+    "bahnhof": "Probstzella",
     "aufgabenadresse": "Bahnhofstraße 2, 07330 Probstzella",
     "zeitbedarf": 10,
     "distanz": 0.1,
@@ -1617,11 +1984,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Probstzella war an der Strecke Berlin-Muenchen ein bedeutender Fernverkehrs- und innerdeutscher GRENZBAHNHOF der DDR (\"Tor zum Westen\"); heute halten dort keine IC/ICE mehr regulaer. Das denkmalgeschuetzte Aufgabe: Stellt am Bahnhof die alte Grenzkontrolle nach - einer mimt den strengen Grenzer, der die \"Ausweise\" (irgendein Kaertchen) der anderen misstrauisch prueft. Video der Kontrolle Bonus: Selbst gebasteltes Schild \"Herzlich willkommen im Westen!\"\nhochhalten und gemeinsam jubelnd die imaginaere Grenze ueberqueren.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 50.528208,
-    "longitude": 11.384679
+    "latitude": 50.528231,
+    "longitude": 11.383568,
+    "latitude2": 50.528208,
+    "longitude2": 11.384679
   },
   {
     "id": "EB-03",
+    "bahnhof": "Berlin Nordbahnhof",
     "aufgabenadresse": "Bernauer Str. 111, 13355 Berlin",
     "zeitbedarf": 1,
     "distanz": 0.55,
@@ -1630,11 +2000,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der einst als Stettiner Bahnhof eröffnete Berliner Nordbahnhof war in die 1950er Jahre der Ausgangspunkt für den Zugbetrieb von und zur Ostsee. Heute besteht nur noch ein Teil der einst umfangreichen Zuganlagen für den S-Bahn-Betrieb, der durch die Deutsche Teilung zudem lange nicht mehr bedient wurde. \nAufgabe: Geht zur Gedenkstätte Berliner Mauer und zeigt euch ratlos, wie ihr dieses Hindernis überwinden wollt",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 52.535092,
-    "longitude": 13.390183
+    "latitude": 52.532066,
+    "longitude": 13.388464,
+    "latitude2": 52.535092,
+    "longitude2": 13.390183
   },
   {
     "id": "EB-04",
+    "bahnhof": "Altena(Westf)",
     "aufgabenadresse": "Fritz-Thomee-Straße 80, 58762 Altena",
     "zeitbedarf": 5,
     "distanz": 0.95,
@@ -1643,11 +2016,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In Altena hielt bis Sommer 2026 noch die IC-Linie 34. Zudem befindet sich dort die erste Jugendherberge der Welt\nAufgabe: Mache ein Bild vor dem Torbogen der Jugendherberge (=Burg) Altena",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.29906,
-    "longitude": 7.675666
+    "latitude": 51.301981,
+    "longitude": 7.668808,
+    "latitude2": 51.29906,
+    "longitude2": 7.675666
   },
   {
     "id": "EB-05",
+    "bahnhof": "Bad Bevensen",
     "aufgabenadresse": "Dahlenburger Str. 5, 29549 Bad Bevensen",
     "zeitbedarf": 3,
     "distanz": 1.2,
@@ -1656,11 +2032,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Bad Bevensen fiel der \"Fahrplan-Harmonisierung\" zum Opfer.\nAufgabe: Findet das Schild mit zwei deutschen, einer isländischen, einer kanadischen und einer US-amerikanischen Stadt und macht von dort ein Gruppenfoto mit der Sonnenuhr.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 53.080046,
-    "longitude": 10.587806
+    "latitude": 53.078247,
+    "longitude": 10.574141,
+    "latitude2": 53.080046,
+    "longitude2": 10.587806
   },
   {
     "id": "EB-06",
+    "bahnhof": "Langen-Flugsicherung",
     "aufgabenadresse": "Paul-Ehrlich-Straße 51-59, 63225 Langen (Hessen)\nBonus: Am DFS-Campus 1-3",
     "zeitbedarf": 2,
     "distanz": 0.8,
@@ -1669,11 +2048,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Langen liegt südlich von Frankfurt a.M. und ist Hauptsitz der Deutschen Flugsicherung und des Paul-Ehrlich-Institutes. Mit Langen am Arlberg hat es wenig gemein außer bis vor kurzem auch einen FV-Halt bei der Direktverbindung von Wien über beiden Langen nach Frankfurt.\nAufgabe: Mache ein Foto vor dem Haupteingang des Paul-Ehrlich-Institutes.\nBonus: Mache auch ein Foto vor dem Haupteingang des Campus der Deutschen Flugsicherung.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 50.005611,
-    "longitude": 8.649778
+    "latitude": 50.005707,
+    "longitude": 8.658565,
+    "latitude2": 50.005611,
+    "longitude2": 8.649778
   },
   {
     "id": "EB-08",
+    "bahnhof": "Ludwigsburg",
     "aufgabenadresse": null,
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -1682,11 +2064,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Früher hielt hier der \"IR\" Rennsteig  https://www.ice-treff.de/index.php\nAufgabe: Den Herzog Nachäffen,  Suche dir eine Statue und Possiere daneben in gleicher Haltung",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 48.897548,
-    "longitude": 9.191563
+    "latitude": 48.891862,
+    "longitude": 9.18542,
+    "latitude2": 48.897548,
+    "longitude2": 9.191563
   },
   {
     "id": "EB-09",
+    "bahnhof": "Castrop-Rauxel Hbf",
     "aufgabenadresse": "Europapl. 6, 44575 Castrop-Rauxel",
     "zeitbedarf": 2,
     "distanz": 1.3,
@@ -1695,11 +2080,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In Castrop-Rauxel hat schon lange kein Fernverkehrszug mehr gehalten, trotzdem war die Stadt ein Internetstar.                  Aufgabe: Geht zur Europahalle und nehmt das Gefühl von Catrop-Rauxel wahr indem ihr ein Gruppefoto vor der Europahalle macht",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.564828,
-    "longitude": 7.311671
+    "latitude": 51.573526,
+    "longitude": 7.30398,
+    "latitude2": 51.564828,
+    "longitude2": 7.311671
   },
   {
     "id": "EB-10",
+    "bahnhof": "Unna-Königsborn",
     "aufgabenadresse": "Friedrich-Ebert-Straße 97, 59425 Unna",
     "zeitbedarf": 5,
     "distanz": 0.65,
@@ -1708,11 +2096,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Unna ist seit 2025 kein Fernverkehrs-Halt mehr (Hellweger Anzeiger vom 22.1.2025).\nAufgabe: Der Windpumpe am Friedrichsborn fehlt leider das Windrad. Stellt dieses szenisch nach.\nBonus: Pustet vor der Windpumpe einen Gegenstand an, weg oder aus (z. B. Windrad, Löwenzahn, Kerze - was Euch einfällt).",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.550914,
-    "longitude": 7.682614
+    "latitude": 51.55328,
+    "longitude": 7.687808,
+    "latitude2": 51.550914,
+    "longitude2": 7.682614
   },
   {
     "id": "EB-11",
+    "bahnhof": "Alfeld(Leine)",
     "aufgabenadresse": "Hannoversche Str. 54A, 31061 Alfeld (Leine)",
     "zeitbedarf": 2,
     "distanz": 0.7,
@@ -1721,11 +2112,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Alfeld(Leine) ist seit 2024 kein FV-Halt mehr.\nAufgabe: Lauft zum (ggf. noch zweifarbigen) Wohnhaus vor dem FAGUS-Werk (UNESO-Weltkulturerbe; heute GreCon) und macht ein Foto, das sowohl das Wohnhaus als auch die Fabrik zeigt. ",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.983965,
-    "longitude": 9.809597
+    "latitude": 51.981417,
+    "longitude": 9.817779,
+    "latitude2": 51.983965,
+    "longitude2": 9.809597
   },
   {
     "id": "EB-12",
+    "bahnhof": "Bayreuth Hbf",
     "aufgabenadresse": "Festspielhügel 1- 2, 95445 Bayreuth",
     "zeitbedarf": 3,
     "distanz": 1.2,
@@ -1734,11 +2128,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Bayreuth Hbf war von 2001 bis 2004 mit dem ICE-TD auf der Franken-Sachsen-Magstrale ans deutsche Fernverkehrsnetz angebuden Aufgabe: Macht ein Foto mit dem Bayreuther Festspielhaus Bonus: Die Büste von Richard Wagner ist mit auf dem Foto",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 49.959394,
-    "longitude": 11.579481
+    "latitude": 49.949616,
+    "longitude": 11.579985,
+    "latitude2": 49.959394,
+    "longitude2": 11.579481
   },
   {
     "id": "EB-13",
+    "bahnhof": "Berlin Anhalter Bf",
     "aufgabenadresse": "Anhalter Steg, Tempelhofer Ufer 27, 10963 Berlin",
     "zeitbedarf": 5,
     "distanz": 0.7,
@@ -1747,11 +2144,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Berlin Anhalter Bahnhof: Der Bahnhof war vor dem Zweiten Weltkrieg wichtigste Station für die Verbindungen nach Mittel- und Süddeutschland, Österreich und Italien.\nAufgabe: Dreht ein Video auf der Brücke unter der Brücke, in dem Ihr das Wort \"Brückenzug\" nachstellt.\nBonus: Wenn Ihr von der Brücke aus Fahrzeuge aller 4 Verkehrsarten (Straße, Schiene, Wasser, Luft) fotografiert (können auch mehrere Fotos sein), gibt es 10 Bonuspunkte.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 52.499363,
-    "longitude": 13.37923
+    "latitude": 52.503486,
+    "longitude": 13.381362,
+    "latitude2": 52.499363,
+    "longitude2": 13.37923
   },
   {
     "id": "EB-14",
+    "bahnhof": "Schwerte(Ruhr)",
     "aufgabenadresse": "Bahnhofstr. 35, 58239 Schwerte",
     "zeitbedarf": 5,
     "distanz": null,
@@ -1760,11 +2160,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Lege einen Halt in Schwerte (Ruhr) ein. Bonus: Mache ein Foto mit einem Bus der Linie 430 (Ri. Dortmund-Hörde)",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.442164,
-    "longitude": 7.559462
+    "latitude": 51.442281,
+    "longitude": 7.55896,
+    "latitude2": 51.442164,
+    "longitude2": 7.559462
   },
   {
     "id": "EB-15",
+    "bahnhof": "Trier Hbf",
     "aufgabenadresse": "Bahnhofspl. 1, 54292 Trier",
     "zeitbedarf": 18,
     "distanz": 0.1,
@@ -1773,11 +2176,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Trier Hbf war ein ehemaliger FV-Bahnhof. Hier hatte früher sogar ein ICE gehalten, die Jahre danach noch die IC-Linie 35 Norddeich Mole - Luxemburg \nAufgabe: Schaut euch jeden Bahnsteig im Trier Hauptbahnhof an und macht jeweils ein Gruppenfoto vom Anfang und Ende jeden Bahnsteigs und schätzt an welchem Gleis der ehemalige ICE 1 gehalten haben könnte. \nBonus: Wenn ihr eine CFL-Ganitur (Pseudo-Fernverkehr) in der Nähe findet gibt es 20 Bonuspunkte",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 49.757186,
-    "longitude": 6.651517
+    "latitude": 49.756846,
+    "longitude": 6.652453,
+    "latitude2": 49.757186,
+    "longitude2": 6.651517
   },
   {
     "id": "EB-16",
+    "bahnhof": "Goslar",
     "aufgabenadresse": "Markt 6, 38640 Goslar",
     "zeitbedarf": 5,
     "distanz": 0.9,
@@ -1786,11 +2192,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Goslar am Harz ist UNESCO-Weltkulturerbe und hatte bis 2002 FV-Halte; heute nur noch Regionalverkehr. Am Marktplatz gibt es ein beruehmtes Glockenspiel: mehrmals taeglich kommen kleine Bergmann-Figuren heraus und stellen den historischen Bergbau am Rammelsberg nach. Aufgabe: Macht ein Gruppenfoto am Goslarer Marktplatz mit dem Glockenspiel-Haus im Hintergrund. Teammitglieder posieren als Bergmaenner (pantomimisch\nhacken/schaufeln) (n-1, mind. 2). Bonus: Filmt das Glockenspiel LIVE in Aktion - die Figuren muessen sichtbar draussen sein, Team mit im Bild. Spielzeiten: 09:00, 12:00, 15:00 und 18:00 Uhr.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.906117,
-    "longitude": 10.429386
+    "latitude": 51.911573,
+    "longitude": 10.421436,
+    "latitude2": 51.906117,
+    "longitude2": 10.429386
   },
   {
     "id": "EB-17",
+    "bahnhof": "Lennestadt-Altenhundem",
     "aufgabenadresse": "Hundemstraße 46, 57368 Lennestadt-Altenhundem",
     "zeitbedarf": 2,
     "distanz": 0.35,
@@ -1799,11 +2208,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Lennestadt-Altenhundem ist eine alte Eisenbahnerstadt am Nordende der Steilstrecke der Ruhr-Sieg-Bahn. Bis vor ein paar Montaten hielen hier wieder für ein paar Jahre Fernzüge (IC-Linie 34)\nAufgabe: Macht ein Foto wie ihr die die Hunde auf der Aussenseite der Zoohandlung anbellt.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.10113,
-    "longitude": 8.070652
+    "latitude": 51.104118,
+    "longitude": 8.071475,
+    "latitude2": 51.10113,
+    "longitude2": 8.070652
   },
   {
     "id": "EB-18",
+    "bahnhof": "Forst(Lausitz)",
     "aufgabenadresse": "Wehrinselstraße 42, 03149 Forst (Lausitz)",
     "zeitbedarf": 2,
     "distanz": 2.1,
@@ -1812,11 +2224,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: In Forst(Lausitz) hat der EC Wawel auf seinem früheren Weg von Hamburg nach Krakow gehalten.\nAufgabe: Besucht den Ostdeutschen Rosengarten und macht ein Gruppenfoto vor dem Eingang.\nBonus: Ein Gruppenmitglied hält eine blühende Rose in der Hand.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.732534,
-    "longitude": 14.660665
+    "latitude": 51.738882,
+    "longitude": 14.637628,
+    "latitude2": 51.732534,
+    "longitude2": 14.660665
   },
   {
     "id": "EB-19",
+    "bahnhof": "Osterholz-Scharmbeck",
     "aufgabenadresse": "Hafenstraße 26, 27711 Osterholz-Scharmbeck",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -1825,11 +2240,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Osterholz-Scharmbeck wurde wiederkehrend von Fernverkehrszügen v/n Bremerhaven bedient.\nAufgabe: Gruppenfoto vor der Skulptur \"Onkel Hermann\".",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 53.217213,
-    "longitude": 8.808701
+    "latitude": 53.222776,
+    "longitude": 8.797434,
+    "latitude2": 53.217213,
+    "longitude2": 8.808701
   },
   {
     "id": "EB-20",
+    "bahnhof": "Leverkusen Mitte",
     "aufgabenadresse": "Carl-Leverkus-Straße 1, 51373 Leverkusen",
     "zeitbedarf": 2,
     "distanz": 0.85,
@@ -1838,11 +2256,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Carl Leverkus war ein deutscher Apotheker, Firmengründer und Chemieunternehmer\nAufgabe: Macht ein Foto in der Carl-Leverkus-Straße\nBonus: Auf dem Foto ist irgendwo das Logo von Bayer Leverkusen zu sehen",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.032599,
-    "longitude": 6.981838
+    "latitude": 51.031514,
+    "longitude": 6.991661,
+    "latitude2": 51.032599,
+    "longitude2": 6.981838
   },
   {
     "id": "EB-21",
+    "bahnhof": "Gemünden(Main)",
     "aufgabenadresse": "Parkplatz, 97737 Gemünden am Main",
     "zeitbedarf": 10,
     "distanz": 1,
@@ -1851,11 +2272,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Gemünden war bis 2010 noch Halt für verschiedene IC. \nAufgabe: Geht an den Main mit euren Papierbooten (mindestens 3, https://wunderbunt.de/papierboot-falten/) und veranstaltet ein Rennen auf dem Wasser über mindestens 10 m. Die Boote müssen danach wieder aus dem Wasser genommen werden. Ihr könnt jedes beliebige Gewässer in Gemünden nutzen.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 50.054862,
-    "longitude": 9.690089
+    "latitude": 50.050018,
+    "longitude": 9.699894,
+    "latitude2": 50.054862,
+    "longitude2": 9.690089
   },
   {
     "id": "EB-22",
+    "bahnhof": "Werdohl",
     "aufgabenadresse": "Vosslohstraße 4, 58791 Werdohl",
     "zeitbedarf": 3,
     "distanz": 0.2,
@@ -1864,11 +2288,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Linie 34 wurde wegen Brückenschäden zum April 2026 eingestellt. \nAufgabe: Begutachtet die nächste Brücke, über die Nenne, von unten. Wenn möglich findet ein Bezeichnungschild und das Alter heraus.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.259893,
-    "longitude": 7.759961
+    "latitude": 51.259485,
+    "longitude": 7.757544,
+    "latitude2": 51.259893,
+    "longitude2": 7.759961
   },
   {
     "id": "EB-23",
+    "bahnhof": "Siegen Hbf",
     "aufgabenadresse": "Morleystraße 1, 57072 Siegen",
     "zeitbedarf": 5,
     "distanz": 0.4,
@@ -1877,11 +2304,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Linie 34 fährt nicht mehr nach Siegen, deswegen ist der IC -Halt leider weggefallen.                                                                                  Aufgabe: Geht zum Apollo-Theater Siegen und spielt eine Zähne von Thomas und die Lokomotive nach, macht davon ein Bild. ",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 50.874102,
-    "longitude": 8.01766
+    "latitude": 50.875939,
+    "longitude": 8.016508,
+    "latitude2": 50.874102,
+    "longitude2": 8.01766
   },
   {
     "id": "EB-24",
+    "bahnhof": "Lübeck Hbf",
     "aufgabenadresse": "Hüxstraße 4, 23552 Lübeck-Lübecker Altstadt",
     "zeitbedarf": 2,
     "distanz": 1.3,
@@ -1890,11 +2320,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Lübeck ist bekannt für Marzipan. \nAufgabe: Geht zum Marzipanmuseum und macht ein Foto davor.\nBonus: Mindestens ein Team-Mitglied isst auf dem Foto eine Marzipan-Spezialität.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 53.867037,
-    "longitude": 10.686108
+    "latitude": 53.867547,
+    "longitude": 10.669821,
+    "latitude2": 53.867037,
+    "longitude2": 10.686108
   },
   {
     "id": "EB-25",
+    "bahnhof": "Bad Oldesloe",
     "aufgabenadresse": "Hude 5, 23843 Bad Oldesloe",
     "zeitbedarf": 5,
     "distanz": 0.6,
@@ -1903,11 +2336,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Bad Oldesloe war lange Zeit Halt für einige FV-Züge.\nAufgabe: Beweisfoto, dass Bad Oldesloe die Beste-Trave-Stadt ist.\nBonus: Füße im Wasser der Beste UND der Trave.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 53.809475,
-    "longitude": 10.37737
+    "latitude": 53.80539,
+    "longitude": 10.382541,
+    "latitude2": 53.809475,
+    "longitude2": 10.37737
   },
   {
     "id": "EB-26",
+    "bahnhof": "Bestwig",
     "aufgabenadresse": "59909 Bestwig",
     "zeitbedarf": 2,
     "distanz": 0.5,
@@ -1916,11 +2352,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Bestwig wurde bis 1991 von einem D-Zug der Relation Amsterdam - Bad Wildungen bedient \nAufgabe:  Findet das historische Bahnsignal und den Wasserkran und macht dort ein Foto \nBonus: Auf dem Foto ist ein Zug zu erkennen.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 51.361725,
-    "longitude": 8.398086
+    "latitude": 51.361913,
+    "longitude": 8.397839,
+    "latitude2": 51.361725,
+    "longitude2": 8.398086
   },
   {
     "id": "EB-27",
+    "bahnhof": "Dagebüll Mole",
     "aufgabenadresse": "Osewoldter Sielzug, 25899 Dagebüll",
     "zeitbedarf": 1,
     "distanz": 1.1,
@@ -1929,11 +2368,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Bis zum Fpl-Wechsel im Dezember 2025 fuhren saisonale IC-Kurswagen nach Dagebüll Mole. In Dagebüll beginnt die Halligbahn Dagebüll–Oland–Langeneß, die Dagebüll mit den Halligen in 900 m-Spurweite verbindet und von Loren befahren wird.\nAufgabe: Macht ein Team-Selfie vor einem Bahnübergang der Halligbahn. Der Bahnübergang muss im Hintergrund sichtbar sein.\nBonus: Nehmt ein Video einer Lore auf, die die Steigung zwischen dem Bahnübergang und dem Deich befährt (egal ob bergauf oder bergab). Alle anwesenden Teammitglieder müssen auf dem Video zu sehen sein.",
     "lostopf": "Ehemalige FV-Bahnhöfe",
-    "latitude": 54.72529,
-    "longitude": 8.699904
+    "latitude": 54.729909,
+    "longitude": 8.690989,
+    "latitude2": 54.72529,
+    "longitude2": 8.699904
   },
   {
     "id": "EM-01",
+    "bahnhof": "Lette(Kr Coesfeld)",
     "aufgabenadresse": "Bahnhofsallee 10, 48653 Coesfeld-Lette",
     "zeitbedarf": 5,
     "distanz": 0.45,
@@ -1942,11 +2384,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:\ndas Eisenbahnmuseum 'Alter Bahnhof Lette' zeigt einen repräsentativen Querschnitt der Eisenbahngeschichte im Westmünsterland inklusive der Technik eines mechanischen Stellwerkes.\nAufgabe:\nMacht einen Spaziergang vom Eisenbahnmuseum zum Heimatmuseum und vergesst nicht ein Gruppenfoto vor dem Heimatmuseum und im Museumsgarten des Eisenbahnmuseeums mit seinen Formsignalen.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 51.895696,
-    "longitude": 7.190053
+    "latitude": 51.892495,
+    "longitude": 7.186998,
+    "latitude2": 51.895696,
+    "longitude2": 7.190053
   },
   {
     "id": "EM-02",
+    "bahnhof": "Nürnberg Hbf",
     "aufgabenadresse": "Lessingstraße 6, 90443 Nürnberg",
     "zeitbedarf": 10,
     "distanz": 0.7,
@@ -1955,11 +2400,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Eisenbahnen wirken aus unterschiedlichen Blickwinkeln völlig verschieden – monumental, technisch oder nostalgisch.\nAufgabe:Erstellt eine kleine Foto-Serie mit:\neiner Nahaufnahme eines technischen Details\neiner symmetrischen Aufnahme von Gleisen oder Wagen\neiner „epischen“ Perspektive, bei der etwas besonders groß wirkt\nAlle drei Bilder müssen unterschiedliche Perspektiven verwenden. In den Bildern muss jedes Teammitglied mindestens einmal enthalten sein.\nBonus: Macht die Bilder im Museum (Sa+So 10-18h) Eintritt für DB Mitarbeiter frei",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 49.445447,
-    "longitude": 11.074542
+    "latitude": 49.445616,
+    "longitude": 11.082989,
+    "latitude2": 49.445447,
+    "longitude2": 11.074542
   },
   {
     "id": "EM-03",
+    "bahnhof": "Horb",
     "aufgabenadresse": "Rangierbahnhof 8, 72160 Horb am Neckar",
     "zeitbedarf": 5,
     "distanz": 1.3,
@@ -1968,11 +2416,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die Schienenverkehrsgesellschaft mbH (SVG) ist ein privates Eisenbahnverkehrs- und Infrastrukturunternehmen (EVU/EIU) mit Sitz in Stuttgart und einer Niederlassung mit Museum in Horb am Neckar. Die SVG betreibt vor allem Sonderzüge im Personenverkehr.\nAufgabe: Macht ein Foto mit oder auf einem Wagen / Prellbock",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 48.435514,
-    "longitude": 8.676633
+    "latitude": 48.441471,
+    "longitude": 8.688982,
+    "latitude2": 48.435514,
+    "longitude2": 8.676633
   },
   {
     "id": "EM-04",
+    "bahnhof": "Dresden Freiberger Straße",
     "aufgabenadresse": "Zwickauer Str. 86, 01187 Dresden-Plauen",
     "zeitbedarf": 2,
     "distanz": 1.9,
@@ -1981,11 +2432,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Das Bahnbetriebswerk Dresden-Altstadt ist ein ehemaliges Bahnbetriebswerk in Dresden. Es beheimatete hauptsächlich Personen- und Schnellzuglokomotiven.\nAufgabe: Steigt auf die Nossener Brücke und blickt auf die Drehscheibe und die Dampflokomotiven herunter. Schießt ein Gruppenfoto.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 51.039595,
-    "longitude": 13.711675
+    "latitude": 51.047991,
+    "longitude": 13.719864,
+    "latitude2": 51.039595,
+    "longitude2": 13.711675
   },
   {
     "id": "EM-05",
+    "bahnhof": "Hamm(Westf)Hbf",
     "aufgabenadresse": "Schumannstraße 35, 59063 Hamm",
     "zeitbedarf": 10,
     "distanz": 1.4,
@@ -1994,11 +2448,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Die Museumseisenbahn Hamm verfügt neben einem Bahnbetriebswerk in der Schumannstraße sogar auch über eine eigene Strecke mit 3,7 km Länge.\nAufgabe: Macht ein schönes Foto mit historischer Eisenbahn im Hintergrund (und hinter dem Zaun).\nBonus: Besucht das Bahnbetriebswerk (Öffnungszeiten laut Google Sa 11-17:30 Uhr; laut Website Betriebszeit Sa 12-18 Uhr).",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 51.670345,
-    "longitude": 7.81669
+    "latitude": 51.678078,
+    "longitude": 7.807821,
+    "latitude2": 51.670345,
+    "longitude2": 7.81669
   },
   {
     "id": "EM-06",
+    "bahnhof": "Wismar",
     "aufgabenadresse": "Poeler Str. 3, 23970 Wismar",
     "zeitbedarf": 5,
     "distanz": 0.2,
@@ -2007,11 +2464,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Eisenbahnfreunde Wismar e.V.\nAufgabe: Macht ein Foto vom Lokschuppen und ein Foto vom Gebäude mit der Aufschrift \"Bahnbetriebswerk Wismar\". Die Aufschrift muss gut lesbar sein!",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 53.897772,
-    "longitude": 11.467907
+    "latitude": 53.896837,
+    "longitude": 11.469433,
+    "latitude2": 53.897772,
+    "longitude2": 11.467907
   },
   {
     "id": "EM-07",
+    "bahnhof": "Hochdahl",
     "aufgabenadresse": "Ziegeleiweg 1-3, 40699 Erkrath",
     "zeitbedarf": 5,
     "distanz": 0.35,
@@ -2020,11 +2480,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Das Eisenbahnmuseum in Hochdahl hat an diesem Sonntag (23.08.26) geöffnet. \nAufgabe: Macht vor dem Gelände ein Gruppenbild mit sovielen Fahrzeugen und dem Formsignal des Museums.\nBonus: Laut der Website hat das Museum am Sonntag geöffnet, macht im Museum ein Gruppenbild zusammen mit der Schleuderstelle.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 51.218077,
-    "longitude": 6.947842
+    "latitude": 51.218832,
+    "longitude": 6.944419,
+    "latitude2": 51.218077,
+    "longitude2": 6.947842
   },
   {
     "id": "EM-08",
+    "bahnhof": "Berlin Olympiastadion",
     "aufgabenadresse": "Rossitter Weg 1, 14053 Berlin",
     "zeitbedarf": 1,
     "distanz": 1.1,
@@ -2033,11 +2496,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Berliner U-Bahn-Museum\nAufgabe: Macht ein Teamfoto vor dem Eingang zum Museum\nBonus: Macht ein Foto mit Eurem Team, auf dem mindestens 4 U-Bahnzüge gleichzeitig zu sehen sind (4 Züge, nicht 4 Triebwagen in einem Zug!)",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 52.517375,
-    "longitude": 13.249982
+    "latitude": 52.511166,
+    "longitude": 13.242389,
+    "latitude2": 52.517375,
+    "longitude2": 13.249982
   },
   {
     "id": "EM-09",
+    "bahnhof": "Schwerin Hbf",
     "aufgabenadresse": "Zum Bahnhof 13, 19053 Schwerin",
     "zeitbedarf": 5,
     "distanz": 0.2,
@@ -2046,11 +2512,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Das Eisenbahnmuseum ist im Juli 2023 zu einem großen Teil abgebrannt und wird seit dem aufwändig wieder Instand gesetzt.\nAufgabe: Macht ein Teamfoto mit der Dampfschneeschleuder im Hintergrund. (Diese steht auf dem Außengelände und kann von Bahnsteig 4 aus gesehen werden; entsprechend ist kein Eintritt notwendig!)",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 53.636112,
-    "longitude": 11.406135
+    "latitude": 53.634739,
+    "longitude": 11.407455,
+    "latitude2": 53.636112,
+    "longitude2": 11.406135
   },
   {
     "id": "EM-10",
+    "bahnhof": "Koblenz-Lützel",
     "aufgabenadresse": "Schönbornsluster Str. 14, 56070 Koblenz",
     "zeitbedarf": 1,
     "distanz": 1.6,
@@ -2059,11 +2528,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: DB Museum Koblenz-Lützel (geöffnet Samstag 10:00 bis 16:00 Uhr)\nAufgabe: Macht ein Gruppenfoto vor dem Eingang\nBonus: Gruppenfoto im Museum vor der E03 - 20 Punkte",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 50.377449,
-    "longitude": 7.592857
+    "latitude": 50.367487,
+    "longitude": 7.591607,
+    "latitude2": 50.377449,
+    "longitude2": 7.592857
   },
   {
     "id": "EM-11",
+    "bahnhof": "Nördlingen",
     "aufgabenadresse": "Am Hohen Weg 6a, 86720 Nördlingen-Wemdinger Viertel",
     "zeitbedarf": 5,
     "distanz": 0.15,
@@ -2072,11 +2544,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: das Bayerische Eisenbahnmuseum am Bahnhof zeigt historische Dampfloks.\nAufgabe: Macht in der Naehe des Eisenbahnmuseums ein \"Dampflok-Video\": ahmt eine anfahrende Dampflok nach - Kolbenarme kreisen, Dampfgeraeusche (\"Tsch-tsch-tsch\"), langsam beschleunigen. Video (mind. 30s). Bonus: Eine ECHTE Dampflok ist im Video zu sehen.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 48.850441,
-    "longitude": 10.499475
+    "latitude": 48.850841,
+    "longitude": 10.497863,
+    "latitude2": 48.850441,
+    "longitude2": 10.499475
   },
   {
     "id": "EM-12",
+    "bahnhof": "Emden Hbf",
     "aufgabenadresse": "Minibahn Emden, Bahnhofsplatz 11b, 26721 Emden",
     "zeitbedarf": 2,
     "distanz": 0.35,
@@ -2085,11 +2560,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Die Emder Modell Dampffreunde e.V. präsentieren ihre selbstgebauten Eisenbahnmodelle in den Maßstäben 1:11 bis 1:8\nAufgabe: Macht ein Bild mit der Denkmallok 043 903-4 vor der Minibahn Emden\nBonus: Fahrt eine Runde auf der Minibahn (sonntags 10:00-17:00) + Foto",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 53.368415,
-    "longitude": 7.196195
+    "latitude": 53.369036,
+    "longitude": 7.195176,
+    "latitude2": 53.368415,
+    "longitude2": 7.196195
   },
   {
     "id": "EM-13",
+    "bahnhof": "Neustadt(Weinstr)Hbf",
     "aufgabenadresse": "Schillerstraße 3, 67434 Neustadt an der Weinstraße",
     "zeitbedarf": 10,
     "distanz": 0.1,
@@ -2098,11 +2576,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: In Neustadt an der Weinstraße befindet sich das Eisenbahnmuseum der Pfalz von wo aus die Kuckucksbähnel abfährt.\nAufgabe: stimmt ein kurzes Lied an oder sagt ein Gedicht über die Kuckucksbähnel auf (real existierend oder frei erfunden)\nBonus: im Video ist eine Lok oder ein Wagen der Kuckucksbähnel zu sehen",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 49.349475,
-    "longitude": 8.139921
+    "latitude": 49.349553,
+    "longitude": 8.140757,
+    "latitude2": 49.349475,
+    "longitude2": 8.139921
   },
   {
     "id": "EM-14",
+    "bahnhof": "Letschin",
     "aufgabenadresse": "Bahnhofstraße 15A, 15324 Letschin",
     "zeitbedarf": 3,
     "distanz": 0.65,
@@ -2111,11 +2592,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Das Eisenbahnmuseum Letschin hat leider nur Samstagvormittags geöffnet.\nAufgabe: Gruppenfoto mit möglichst vielen Schrankenbäumen im Hintergrund.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 52.630176,
-    "longitude": 14.355144
+    "latitude": 52.632725,
+    "longitude": 14.347447,
+    "latitude2": 52.630176,
+    "longitude2": 14.355144
   },
   {
     "id": "EM-15",
+    "bahnhof": "Bielefeld Hbf",
     "aufgabenadresse": "Stadtheider Str. 11, 33609 Bielefeld",
     "zeitbedarf": 5,
     "distanz": 2.1,
@@ -2124,11 +2608,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Lokschuppen Bielefeld ist ein Veranstaltungs- und Kulturzentrum in einem historischen Bahnbetriebswerk, das gelegentlich Eisenbahnausstellungen und Events bietet.\nAufgabe: Macht ein Foto mit der Drehscheibe im Hintergrund (Vorsicht: Privatgelände, aber öffentlich zugänglich!)\nBonus: Auf der Drehscheibe steht ein beliebiges Schienenfahrzeug",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 52.036761,
-    "longitude": 8.550876
+    "latitude": 52.029261,
+    "longitude": 8.532722,
+    "latitude2": 52.036761,
+    "longitude2": 8.550876
   },
   {
     "id": "EM-16",
+    "bahnhof": "Falkenberg(Elster)",
     "aufgabenadresse": "Schwarzer Weg, 04895 Falkenberg/Elster",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -2137,11 +2624,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Vor dem Mueseum ist eine historische Dampflock der Baureihe 52 zu finden.\nAufgabe:Spielt Verstecken. Alle Teammitglieder -1 verstecken sich an, um, unter usw. der Dampflock. Zwischen jedem Mitglied müssen min. 2 m Abstand sein und es darf nicht mehr als 50% von jeder Person sichtbar sein und gleichzeitig muss du im Bild eindeutig auffindbar sein.\nBonus: Macht ein kurzes Erklärvideo zu einer der Signale vor Ort, in dem ihr beschreibt, wie es funktioniert und welche Stellung/Lichtsignal Fahrt, bzw. Halt bedeuten.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 51.588578,
-    "longitude": 13.245968
+    "latitude": 51.58362,
+    "longitude": 13.247685,
+    "latitude2": 51.588578,
+    "longitude2": 13.245968
   },
   {
     "id": "EM-17",
+    "bahnhof": "Darmstadt-Kranichstein",
     "aufgabenadresse": "Steinstraße 7, 64291 Darmstadt",
     "zeitbedarf": 15,
     "distanz": 0.2,
@@ -2150,11 +2640,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Das Musseum ist ggü vom Bahnhof. Der Bü kann teils 20 min am Stück geschlossen sein beachte dies, vorallem für den Rückweg.\nAufgabe: Singt vor dem Musseum das Lied: Auf der Schwäbischen eissenbahne mit Hessischem Aktzent ;-) https://www.youtube.com/watch?v=3vYoL_qLsXA&t=38s",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 49.907909,
-    "longitude": 8.679794
+    "latitude": 49.906826,
+    "longitude": 8.679359,
+    "latitude2": 49.907909,
+    "longitude2": 8.679794
   },
   {
     "id": "EM-18",
+    "bahnhof": "Neuenmarkt-Wirsberg",
     "aufgabenadresse": "Birkenstraße 5, 95339 Neuenmarkt",
     "zeitbedarf": 5,
     "distanz": 0.3,
@@ -2163,11 +2656,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Mitten im schönen Oberfranken, am Fuße der Schiefen Ebene, liegt das Eisenbahnerdorf Neuenmarkt. Das dort angesiedelte Deutsche Dampflokomotiv Museum bietet Ihnen ein Eisenbahnerlebnis der besonderen Art.         \nAufgabe: Macht ein Bild vor dem gelben Infoschild ",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 50.094219,
-    "longitude": 11.581813
+    "latitude": 50.093676,
+    "longitude": 11.581061,
+    "latitude2": 50.094219,
+    "longitude2": 11.581813
   },
   {
     "id": "EM-19",
+    "bahnhof": "Jünkerath",
     "aufgabenadresse": "Mühlengasse 3a, 54584 Jünkerath",
     "zeitbedarf": 20,
     "distanz": 1.1,
@@ -2176,11 +2672,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Im Eisenbahnmuseum Jünkerath geht es vor allem um die Eisenbahngeschichte im Eifel- und Moselraum. Es wurde in der Aartal Überflutung teilweise zerstört und an anderer Stelle wieder aufgebaut. Öffnungszeiten sind Sa 14-16 Uhr.\nAufgabe: Findet den Roheisenpfannenwagen am Bahnhof. Macht ein Foto mit dem Roheisenpfannenwagen. Findet anschließend das neue Eisenbahnmuseum und macht ein Foto mit euch drauf. Euer (digitales) Bild mit dem Roheisenpfannenwagen muss hier auch zu sehen sein. \nBonus: Besucht das Eisenbahnmuseum.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 50.35001,
-    "longitude": 6.570763
+    "latitude": 50.344769,
+    "longitude": 6.580939,
+    "latitude2": 50.35001,
+    "longitude2": 6.570763
   },
   {
     "id": "EM-20",
+    "bahnhof": "Schönberger Strand",
     "aufgabenadresse": "Am Schierbek 1, 24217 Schönberg (Holstein)-Schönberger Strand",
     "zeitbedarf": 1,
     "distanz": 0.05,
@@ -2189,11 +2688,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Schönberger Strand\nAufgabe: Macht ein Foto vor einer historischen Straßenbahn",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 54.411103,
-    "longitude": 10.412848
+    "latitude": 54.410736,
+    "longitude": 10.412798,
+    "latitude2": 54.411103,
+    "longitude2": 10.412848
   },
   {
     "id": "EM-21",
+    "bahnhof": "Halle Steintorbrücke",
     "aufgabenadresse": "Halle Steintorbrücke, 06112 Halle (Saale)",
     "zeitbedarf": 5,
     "distanz": 0.1,
@@ -2202,11 +2704,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Halle Steintorbrücke - DB Museum Halle, macht ein Foto am Eingang auf Bahnsteig 1, Es muss das Zwischensignal ZR21 und das Schild des Eisenbahnmuseums auf dem Foto zu sehen sein.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 51.490466,
-    "longitude": 11.987569
+    "latitude": 51.490201,
+    "longitude": 11.986895,
+    "latitude2": 51.490466,
+    "longitude2": 11.987569
   },
   {
     "id": "EM-22",
+    "bahnhof": "Großauheim(Kr Hanau)",
     "aufgabenadresse": "Heideäcker 1, 63457 Hanau",
     "zeitbedarf": 5,
     "distanz": 1.4,
@@ -2215,11 +2720,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das historische Bahnbetriebswerk Hanau beherbergt die Museumseisenbahn Hanau e.V., ihre Schienenfahrzeuge (u.a. die Dampflok 50 3552) sowie die Fahrzeuge verschiedener weiterer \"Schwesterorganisationen\" (z.B. die 01 150 der Stiftung Deutscher Dampflokomotiven). Die Anlage besteht aus zwei (Teil-)Ringlokschuppen, zwei Drehscheiben und einem Rechteckschuppen, der derzeit wieder aufgebaut wird.\nAufgabe: Besorgt \"Mikrofone\" (bzw. andere Gegenstände, die ihr als solche nutzt), stellt euch zwischen die Drehscheiben (bzw. falls geschlossen vor den Eingang) und dreht ein Video, auf dem ihr das gesamte Lied \"Where It's At\" von Beck singt (im Refrain wird von \"Two Turntables and a Microphone\" gesungen = \"zwei Drehscheiben\" sind passend zur Anlage). Hierzu kann die Karaoke-Version des Lieds auf YouTube hilfreich sein.\nBonus: Mindestens eine der Drehscheiben ist im Hintergrund sichtbar.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 50.114992,
-    "longitude": 8.941966
+    "latitude": 50.10705,
+    "longitude": 8.943837,
+    "latitude2": 50.114992,
+    "longitude2": 8.941966
   },
   {
     "id": "EM-23",
+    "bahnhof": "Bochum-Dahlhausen",
     "aufgabenadresse": "Dr.-C.-Otto-Straße 191, 44879 Bochum",
     "zeitbedarf": 10,
     "distanz": 1.5,
@@ -2228,11 +2736,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache am Eisenbahnmuseum Bochum Dahlhausen ein Foto mit einem historischen Fahrzeug",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 51.432873,
-    "longitude": 7.12641
+    "latitude": 51.426358,
+    "longitude": 7.140842,
+    "latitude2": 51.432873,
+    "longitude2": 7.12641
   },
   {
     "id": "EM-24",
+    "bahnhof": "Rosenheim",
     "aufgabenadresse": "Rathausstraße 24, 83022 Rosenheim",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -2241,11 +2752,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Der Lokschuppen Rosenheim ist ein Ausstellungszentrum in Rosenheim gegenüber vom alten Rosenheimer Bahnhof (der nicht lang nach seiner Eröffnung in das Rathhaus umgewandelt wurde).\nAufgabe: Foto von einem Teammitglied liegend auf dem Boden zwischen die \"Gleise\" im Hof vorm Lokschuppen.\nBonus: Kaufe und versende eine Postkarte vom Lokschuppen. Foto mit der Postkarte mit Adresse & Briefmarke am Briefkasten reicht. Der nächste Briefkasten ist in der Königstr. 23, mit der längere Route zürück zum Bahnhof über die Bahnhofsstraße läuft man auch den großen Postfilial vorbei.",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 47.852735,
-    "longitude": 12.128282
+    "latitude": 47.850018,
+    "longitude": 12.119202,
+    "latitude2": 47.852735,
+    "longitude2": 12.128282
   },
   {
     "id": "EM-25",
+    "bahnhof": "Gummersbach-Dieringhausen",
     "aufgabenadresse": "Hohler Str. 2, 51645 Gummersbach-Dieringhausen",
     "zeitbedarf": 10,
     "distanz": 0.85,
@@ -2254,11 +2768,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: In Dieringhausen liegt das Eisenbahnmuseum auf dem denkmalgeschuetzten Gelaende des ehemaligen Bahnbetriebswerks (seit 1905). Frueher fuhr die Bahn mitten durch den Ort; rund ums Museum stehen noch die alten Eisenbahner-Dienstwohnungen aus der Kaiserzeit. Aufgabe: Sucht in der Naehe des Museums ein Ueberbleibsel der alten Eisenbahnzeit (alte Dienstwohnung, Strassenname mit Bahn-Bezug, sichtbare Gleise, Prellbock, Signal o.ae.) und posiert davor als Eisenbahner von 1905, die stolz ihr Bahnbetriebswerk eroeffnen. Foto.\nBonus: Eine echte Lok ist im Foto sichtbar",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 50.983683,
-    "longitude": 7.53276
+    "latitude": 50.98542,
+    "longitude": 7.542483,
+    "latitude2": 50.983683,
+    "longitude2": 7.53276
   },
   {
     "id": "EM-99",
+    "bahnhof": "Lengerich(Westf)",
     "aufgabenadresse": "Lienener Straße 100, 49525 Lengerich",
     "zeitbedarf": 5,
     "distanz": 1.5,
@@ -2267,11 +2784,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der gemeinnützige Förderverein \"Eisenbahn-Tradition e.V.\" hat sich zum Ziel gesetzt,  einen historischen Dampfzug im Stil der ersten Hälfte der 1950er Jahre zu erhalten und zu betreiben und auf Strecken des Tecklenburger-, Münster- und Osnabrücker Landes einzusetzen.\nAn unserem WE finden jeweils Dampflokseminare statt.\nAufgabe: stellt euch selbst ein Teilnahme-Zertifikat an der KrankenTour aus und macht ein Gruppenbild damit vor dem Lokschuppen. Falls die Schranke zu ist, könnt ihr hinter der Tankstelle ein Bild mit Lokschuppen machen.\nBonus: eine rauchende Dampflok auf dem Bild",
     "lostopf": "Eisenbahnmuseum",
-    "latitude": 52.16885,
-    "longitude": 7.888764
+    "latitude": 52.175785,
+    "longitude": 7.878459,
+    "latitude2": 52.16885,
+    "longitude2": 7.888764
   },
   {
     "id": "F-01",
+    "bahnhof": "Bad Homburg",
     "aufgabenadresse": "Schöne Aussicht 10, 61348 Bad Homburg vor der Höhe",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -2280,11 +2800,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Macht ein Teamfoto vor dem Eingang zum Museum",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.223555,
-    "longitude": 8.621756
+    "latitude": 50.219904,
+    "longitude": 8.620624,
+    "latitude2": 50.223555,
+    "longitude2": 8.621756
   },
   {
     "id": "F-02",
+    "bahnhof": "Michelstadt",
     "aufgabenadresse": "Marktpl., 64720 Michelstadt",
     "zeitbedarf": 10,
     "distanz": 0.8,
@@ -2293,11 +2816,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Michelstadt hat eine über 1000 Jahre alte Geschichte und ist das Zentrum des Odenwaldes.\nAufgabe: Finde drei Gebäude die 500 Jahre oder älter sind (angeschrieben oder nachweisbar).\nBonus: Ihr findet 1 Gebäude das 1000 Jahre oder älter ist.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 49.678656,
-    "longitude": 9.004149
+    "latitude": 49.684858,
+    "longitude": 9.001453,
+    "latitude2": 49.678656,
+    "longitude2": 9.004149
   },
   {
     "id": "F-03",
+    "bahnhof": "Mainz Hbf",
     "aufgabenadresse": "Schillerpl., 55116 Mainz",
     "zeitbedarf": 10,
     "distanz": 0.8,
@@ -2306,11 +2832,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Fastnachtsbrunnen in Mainz ist 1967 erbaut und ist von über 200 Bronzefiguren verziert.\nAufgabe: Ein Teammitglied muss sich verkleiden, die dargestellte Verkleidung muss erkennbar sein als solche\nBonus: Mehrere Teammitglieder verkleiden sich",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 49.99803,
-    "longitude": 8.268117
+    "latitude": 50.001117,
+    "longitude": 8.25872,
+    "latitude2": 49.99803,
+    "longitude2": 8.268117
   },
   {
     "id": "F-04",
+    "bahnhof": "Bad Nauheim",
     "aufgabenadresse": "Sprudelhof, 61231 Bad Nauheim",
     "zeitbedarf": 2,
     "distanz": 0.5,
@@ -2319,11 +2848,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Sprudelhof ist eine Kuranlage in Bad Nauheim, welche zwischen 1905 und 1911 im Jugendstil entstand. Er gilt zusammen als ein hervorragendes Beispiel dieses Stils und ist zugleich eines der gelungensten und geschlossensten Bauwerke dieser Epoche. \nAufgabe: Trinkt Sprudel im Sprudelhof vor einem Sprudel",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.367455,
-    "longitude": 8.743555
+    "latitude": 50.367904,
+    "longitude": 8.749334,
+    "latitude2": 50.367455,
+    "longitude2": 8.743555
   },
   {
     "id": "F-05",
+    "bahnhof": "Dietzenbach Mitte",
     "aufgabenadresse": "Am Bieberbach 49, 63128 Dietzenbach",
     "zeitbedarf": 1,
     "distanz": 0.6,
@@ -2332,11 +2864,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto mit SkulpTouren Park - Stillleben\n",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.019755,
-    "longitude": 8.784356
+    "latitude": 50.01766,
+    "longitude": 8.789218,
+    "latitude2": 50.019755,
+    "longitude2": 8.784356
   },
   {
     "id": "F-06",
+    "bahnhof": "Neu-Isenburg",
     "aufgabenadresse": "Bahnhofstraße 227, 63263 Neu-Isenburg",
     "zeitbedarf": 2,
     "distanz": 0.2,
@@ -2345,11 +2880,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Foto zwischen den beiden Autoverladerampen von DB Autozug in Neu-Isenburg oder von der Ostseite auf die Rampen Bonus: es ist ein Zug auf dem Foto zu erkennen",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.053028,
-    "longitude": 8.666109
+    "latitude": 50.053052,
+    "longitude": 8.665609,
+    "latitude2": 50.053028,
+    "longitude2": 8.666109
   },
   {
     "id": "F-07",
+    "bahnhof": "Wiesbaden Hbf",
     "aufgabenadresse": "Kurhausplatz 1, 65189 Wiesbaden",
     "zeitbedarf": 1,
     "distanz": 1.7,
@@ -2358,11 +2896,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vor der Spielbank Wiesbaden\n",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.084855,
-    "longitude": 8.246956
+    "latitude": 50.070791,
+    "longitude": 8.243731,
+    "latitude2": 50.084855,
+    "longitude2": 8.246956
   },
   {
     "id": "F-09",
+    "bahnhof": "Idstein(Taunus)",
     "aufgabenadresse": "Schloßgasse, 65510 Idstein",
     "zeitbedarf": 1,
     "distanz": 1.2,
@@ -2371,11 +2912,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Foto vor dem Hexenturm. Bonus: Findet eine Hexe und macht ein Foto mit ihr.\nWir sind nicht mehr im Mittelalter, demnach ist Folter keinea adäquate Methode mehr um das Geständnis einer verdächtigen Hexe zu erhalten.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.222202,
-    "longitude": 8.268604
+    "latitude": 50.21599,
+    "longitude": 8.257264,
+    "latitude2": 50.222202,
+    "longitude2": 8.268604
   },
   {
     "id": "F-11",
+    "bahnhof": "Aschaffenburg Hbf",
     "aufgabenadresse": "Schloßpl. 4, 63739 Aschaffenburg",
     "zeitbedarf": 1,
     "distanz": 0.8,
@@ -2384,11 +2928,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vor dem Schloss auf der Brücke\n",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 49.975607,
-    "longitude": 9.142129
+    "latitude": 49.980557,
+    "longitude": 9.143697,
+    "latitude2": 49.975607,
+    "longitude2": 9.142129
   },
   {
     "id": "F-12",
+    "bahnhof": "Seligenstadt(Hess)",
     "aufgabenadresse": "Wilhelm-Leuschner-Straße 6, 63500 Seligenstadt",
     "zeitbedarf": 1,
     "distanz": 1.5,
@@ -2397,11 +2944,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: In Seligenstadt finden Spielbegeisterte des Flipper- und Arcademuseum\nAufgabe: Foto vor dem Flipper- und Arcademuseum\nBonus: Spielt eine Runde Flipper oder Arcade",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.052843,
-    "longitude": 8.968901
+    "latitude": 50.04146,
+    "longitude": 8.967472,
+    "latitude2": 50.052843,
+    "longitude2": 8.968901
   },
   {
     "id": "F-13",
+    "bahnhof": "Limburg(Lahn)",
     "aufgabenadresse": "Dompl., 65549 Limburg",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -2410,11 +2960,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Genießt die Schöne Aussicht auf das Lahntal. Bonus: Foto vom Museum, in dem sich die \"goldene Badewanne\" befindet.\nDer Bus LM5 von Limburg (Süd) nach Limburg (Lahn) ist im FV-Ticket inkludiert.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.389155,
-    "longitude": 8.067555
+    "latitude": 50.384119,
+    "longitude": 8.062342,
+    "latitude2": 50.389155,
+    "longitude2": 8.067555
   },
   {
     "id": "F-14",
+    "bahnhof": "Osthofen",
     "aufgabenadresse": "Nähe Kreuzung Abenheimer Hohl/ An der Bergkirche, 67574 Osthofen",
     "zeitbedarf": 1,
     "distanz": 1.4,
@@ -2423,11 +2976,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vom Flakhäuschen\n",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 49.699655,
-    "longitude": 8.313356
+    "latitude": 49.705423,
+    "longitude": 8.325988,
+    "latitude2": 49.699655,
+    "longitude2": 8.313356
   },
   {
     "id": "F-15",
+    "bahnhof": "Hanau West",
     "aufgabenadresse": "Philippsruher Allee 47, 63454 Hanau",
     "zeitbedarf": 2,
     "distanz": 1.4,
@@ -2436,11 +2992,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Schloss Philippsruh errichtet zwischen 1700 und 1725 vom Grafen Philipp Reinhard von Hanau.\nAufgabe: Macht ein Bild, in dem mindestens ein Teammitglied eine Krone trägt.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.127865,
-    "longitude": 8.893889
+    "latitude": 50.131949,
+    "longitude": 8.908818,
+    "latitude2": 50.127865,
+    "longitude2": 8.893889
   },
   {
     "id": "F-16",
+    "bahnhof": "Zeppelinheim",
     "aufgabenadresse": "60549 Frankfurt am Main",
     "zeitbedarf": 10,
     "distanz": 0.75,
@@ -2449,11 +3008,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Beliebt bei Planespotter: Dort könnt Ihr Starts und Landungen beobachten. \nAufgabe: Beobachtet ein Start oder Landung davon und macht ein Gruppenbild mit dem Flieger in der Luft.\nBonus: Es ist eine besondere Maschiene, lasst euch die Besonderheit von einem Planespotter erklären!",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.039564,
-    "longitude": 8.596913
+    "latitude": 50.036516,
+    "longitude": 8.605153,
+    "latitude2": 50.039564,
+    "longitude2": 8.596913
   },
   {
     "id": "F-18",
+    "bahnhof": "Frankfurt(M)Ostendstraße",
     "aufgabenadresse": "Sonnemannstraße 1, 60314 Frankfurt am Main",
     "zeitbedarf": 15,
     "distanz": 0.6,
@@ -2462,11 +3024,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Im Ostend gibt es eine Grafittikunst von Artmos4. Im Mittelpunkt steht eine orange-weiße S-Bahn, die den Frankfurter Nahverkehr jahrzehntelang geprägt hat. Zwar ist die Baureihe seit Ende 2014 aus dem Betrieb verschwunden, aber ihr typischer Look bleibt unvergessen. Die Bahn hält an der fiktiven Station „Sonnemannstraße“. \nAufgabe: Macht ein Foto von mindestens zwei Teammitgliedern vor der S-Bahn Station und bildet den Namen der Baureihe mit Handzeichen, so dass er auf dem Foto erkennbar ist.\nBonus: N Schobbe (Ebbelwoi) is aach druff uffm Foddo.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.109311,
-    "longitude": 8.696383
+    "latitude": 50.112562,
+    "longitude": 8.696987,
+    "latitude2": 50.109311,
+    "longitude2": 8.696383
   },
   {
     "id": "F-19",
+    "bahnhof": "Bad Vilbel",
     "aufgabenadresse": "Klaus-Havenstein-Weg 2, 61118 Bad Vilbel",
     "zeitbedarf": 2,
     "distanz": 0.8,
@@ -2475,11 +3040,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die Wasserburg Bad Vilbel.\nAufgabe: Foto vor der Wasserburg Bad Vilbel, der Wassergraben sollte gut zu sehen sein.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.185103,
-    "longitude": 8.744544
+    "latitude": 50.188588,
+    "longitude": 8.73956,
+    "latitude2": 50.185103,
+    "longitude2": 8.744544
   },
   {
     "id": "F-20",
+    "bahnhof": "Frankfurt(Main)Süd",
     "aufgabenadresse": "Laubestraße 26, 60594 Frankfurt am Main",
     "zeitbedarf": 5,
     "distanz": 0.45,
@@ -2488,11 +3056,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Held der Steine ist ein deutscher Webvideopruduzent und Einzelhändler \nAufgabe: Macht ein Foto vorm Geschäft vom Held der Steine Bonus: Ihr habt dabei Klemmbausteine in der Hand",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.10306,
-    "longitude": 8.685161
+    "latitude": 50.099365,
+    "longitude": 8.686457,
+    "latitude2": 50.10306,
+    "longitude2": 8.685161
   },
   {
     "id": "F-21",
+    "bahnhof": "Frankfurt(Main)Hbf",
     "aufgabenadresse": "Untermainkai, 60329 Frankfurt am Main",
     "zeitbedarf": 5,
     "distanz": 1,
@@ -2501,11 +3072,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Auf nach Nizza!\nAufgabe: Dreht ein Video, auf dem mindestens 2 Teammitglieder über den roten Teppich des Filmfestivals von Nizza flanieren. Der Schriftzug \"Nizza\" muss in dem Video zu sehen sein.\nBonus: Macht ein Foto mit Eurem Team und einer österreichischen Flagge (muss in der Nähe sein).",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.106955,
-    "longitude": 8.674953
+    "latitude": 50.107145,
+    "longitude": 8.663789,
+    "latitude2": 50.106955,
+    "longitude2": 8.674953
   },
   {
     "id": "F-22",
+    "bahnhof": "Frankfurt(Main)-Gateway Gardens",
     "aufgabenadresse": "Kapitän-Lehmann-Straße, 60549 Frankfurt am Main",
     "zeitbedarf": 10,
     "distanz": 1.6,
@@ -2514,11 +3088,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Fahre am Frankfurter Flughafen mit dem Skytrain zu Terminal 3",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.051603,
-    "longitude": 8.585854
+    "latitude": 50.056574,
+    "longitude": 8.594495,
+    "latitude2": 50.051603,
+    "longitude2": 8.585854
   },
   {
     "id": "F-23",
+    "bahnhof": "Frankfurt-Mainkur",
     "aufgabenadresse": "Cassellastraße 30-32, 60386 Frankfurt-Ost",
     "zeitbedarf": 5,
     "distanz": 1.6,
@@ -2527,11 +3104,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: In Frankfurt gibt es nicht nur hohe Gebäude, sondern auch teure Autos.\nAufgabe: Macht ein Gruppenfoto vor dem Lamborghini Autohaus an der Klassikstadt. \nBonus: Macht ein Foto von einem Gruppenmitglied in einem Lamborghini.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.130842,
-    "longitude": 8.756596
+    "latitude": 50.134603,
+    "longitude": 8.767437,
+    "latitude2": 50.130842,
+    "longitude2": 8.756596
   },
   {
     "id": "F-24",
+    "bahnhof": "Frankfurt(M)Taunusanlage",
     "aufgabenadresse": "Opernplatz 1, 60313 Frankfurt am Main",
     "zeitbedarf": 10,
     "distanz": 0.45,
@@ -2540,11 +3120,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Frankfurt(M)Taunusanlage - Alte Oper Frankfurt\nInfo: Nach Kriegszerstörung lange als 'schönste Ruine Deutschlands' diskutiert, erst 1981 wiedereröffnet.\nAufgabe: Posiert auf der Freitreppe der Alten Oper wie für ein Albumcover - macht ein Gruppenfoto.\nBonus: Findet die Giebel-Inschrift 'Dem Wahren Schönen Guten' und fotografiert sie.",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.11583,
-    "longitude": 8.67139
+    "latitude": 50.113565,
+    "longitude": 8.668864,
+    "latitude2": 50.11583,
+    "longitude2": 8.67139
   },
   {
     "id": "F-25",
+    "bahnhof": "Friedberg Süd",
     "aufgabenadresse": "Frankfurter Straße 33, 61169 Friedberg (Hessen)",
     "zeitbedarf": 2,
     "distanz": 0.3,
@@ -2553,11 +3136,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Elvis Presley leistete seinen Militärdienst in der Kaserne von Friedberg\nAufgabe: Macht ein Foto von euch mit dem Elvis Presley Denkmal",
     "lostopf": "Frankfurt & Rhein-Main-Region",
-    "latitude": 50.32208,
-    "longitude": 8.747313
+    "latitude": 50.320279,
+    "longitude": 8.747646,
+    "latitude2": 50.32208,
+    "longitude2": 8.747313
   },
   {
     "id": "H-01",
+    "bahnhof": "Salzgitter-Bad",
     "aufgabenadresse": "Klesmerplatz 10, 38259 Salzgitter",
     "zeitbedarf": 1,
     "distanz": 0.2,
@@ -2566,11 +3152,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die Ostfalia Hochschule hat ihren Standort im \"Stadtteil\" SZ-Calbecht (285 Einwohner!). Leider ist es bis dahin zu weit. \nAufgabe: Macht ein Bild vor dem Klesmerbrunnen am Klesmerplatz\nBonus: Holt euch was leckeres von der Ümit-Bäckerei in der  Vorsalzer Straße (Fotobeweis)\n",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 52.048221,
-    "longitude": 10.371587
+    "latitude": 52.049824,
+    "longitude": 10.372335,
+    "latitude2": 52.048221,
+    "longitude2": 10.371587
   },
   {
     "id": "H-02",
+    "bahnhof": "Holzminden",
     "aufgabenadresse": "Haarmannpl. 3, 37603 Holzminden",
     "zeitbedarf": 2,
     "distanz": 0.85,
@@ -2579,11 +3168,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Die HAWK hat neben Hildesheim und Göttingen auch einen Standort in Holzminden.\nAufgabe: Foto vor dem HAWK-Gebäude, der Untere Teich sollte ebenfalls erkennbar sein.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 51.82721,
-    "longitude": 9.45092
+    "latitude": 51.820268,
+    "longitude": 9.453743,
+    "latitude2": 51.82721,
+    "longitude2": 9.45092
   },
   {
     "id": "H-03",
+    "bahnhof": "Vallendar",
     "aufgabenadresse": "Vinzenz Pallotti University, Pallottistraße 3, 56179 Vallendar",
     "zeitbedarf": 1,
     "distanz": 1.6,
@@ -2592,11 +3184,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die Stadt Vallendar ist ein Mittelzentrum im Landkreis Mayen-Koblenz in Rheinland-Pfalz. Sie liegt 5,7 km nördlich von Koblenz.\nAufgabe: Mache ein Foto vor der Vinzenz Pallotti Universität.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 50.401625,
-    "longitude": 7.626797
+    "latitude": 50.399717,
+    "longitude": 7.610039,
+    "latitude2": 50.401625,
+    "longitude2": 7.626797
   },
   {
     "id": "H-04",
+    "bahnhof": "Wildau",
     "aufgabenadresse": "Technische Hochschule Wildau [FH], 15745 Wildau",
     "zeitbedarf": 5,
     "distanz": 0.15,
@@ -2605,11 +3200,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die TH Wildau entstand auf einem historischen Industriegelände und verbindet alte Backsteinarchitektur mit modernen Hochschulgebäuden.\nAufgabe: Auf dem Hochschul Gelände steht eine Dampflok der Baureihe 52. Haltet eine Präsentation über die Baureihe, bei der ihr Anhand einer Zeichnung (selbsterstellt und nicht digital) etwas erklärt. Dokumentiert dies mit Bildern oder einem Video.  \nBonus: Ihr erklärt auch noch wie eine Dampfmaschine funktioniert in bester \"Feuerzangenbowle\" manier.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 52.318206,
-    "longitude": 13.632312
+    "latitude": 52.319935,
+    "longitude": 13.633779,
+    "latitude2": 52.318206,
+    "longitude2": 13.632312
   },
   {
     "id": "H-05",
+    "bahnhof": "Sigmaringen",
     "aufgabenadresse": "Burgstraße, 72488 Sigmaringen",
     "zeitbedarf": 5,
     "distanz": 0.7,
@@ -2618,11 +3216,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Bis zur Hochschule ist es leider zu weit \nAufgabe: Geht daher zur Donaubühne und spielt ein kleines Theaterstück (2min)",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 48.088923,
-    "longitude": 9.214426
+    "latitude": 48.086984,
+    "longitude": 9.221851,
+    "latitude2": 48.088923,
+    "longitude2": 9.214426
   },
   {
     "id": "H-06",
+    "bahnhof": "Witzenhausen Nord",
     "aufgabenadresse": "37213 Witzenhausen",
     "zeitbedarf": 5,
     "distanz": 0.45,
@@ -2631,11 +3232,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Standort der Uni Kassel ist bekannt für seinen Fachbereich Ökologische Agrarwissenschaften und bekannt für sein Forschungsgewächshaus.\nAufgabe: Geht zum alten Hörsaalgebäude und macht ein witziges Foto ",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 51.349949,
-    "longitude": 9.855173
+    "latitude": 51.351556,
+    "longitude": 9.863079,
+    "latitude2": 51.349949,
+    "longitude2": 9.855173
   },
   {
     "id": "H-07",
+    "bahnhof": "Bad Sooden-Allendorf",
     "aufgabenadresse": "Rosenstraße 1-3, 37242 Bad Sooden-Allendorf",
     "zeitbedarf": 5,
     "distanz": 0.3,
@@ -2644,11 +3248,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: In Bad Sooden-Allendorf gibt es ein liebevoll gestaltetes Salzmuseum mit vielen Infos zur Salzgeschichte des Ortes.\nAufgabe: Schürft Salz unter dem Torbogen direkt neben dem Salzmuseum, der Euch dabei als Behelfs-Salzstollen dient.\nBonus: Ihr esst eine Salzbrezel, habt einen Salzstreuer mit im Bild oder fotografiert Euch in einem Kreis aus Salz (10 Punkte). Ihr besucht das Salzmuseum (Öffnungszeiten Sa+So 14-17 Uhr) (30 Punkte).",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 51.2692,
-    "longitude": 9.965572
+    "latitude": 51.267974,
+    "longitude": 9.968696,
+    "latitude2": 51.2692,
+    "longitude2": 9.965572
   },
   {
     "id": "H-08",
+    "bahnhof": "Riedlingen",
     "aufgabenadresse": "Lange Str. 4-6, 88499 Riedlingen",
     "zeitbedarf": 2,
     "distanz": 1.1,
@@ -2657,11 +3264,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In Riedlingen kann aus über 40 Studienfächern gewählt werden.\nAufgabe: Foto vor dem Lichtspielhaus",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 48.153451,
-    "longitude": 9.475028
+    "latitude": 48.149576,
+    "longitude": 9.48498,
+    "latitude2": 48.153451,
+    "longitude2": 9.475028
   },
   {
     "id": "H-09",
+    "bahnhof": "Elstal",
     "aufgabenadresse": "Rosa-Luxemburg-Allee 35, 14641 Wustermark-Elstal",
     "zeitbedarf": 2,
     "distanz": 1.1,
@@ -2670,11 +3280,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In der Eisenbahnersiedlung Elstal befindet sich die Theologische Hochschule Elstal. In unmittelbarer Nähe befindet sich das Cafe Zwischenhalt in einem alten Reisezugwagen. Aufgabe: Macht vor dem Cafe ein Gruppenfoto.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 52.540705,
-    "longitude": 13.002413
+    "latitude": 52.54749,
+    "longitude": 13.000114,
+    "latitude2": 52.540705,
+    "longitude2": 13.002413
   },
   {
     "id": "H-10",
+    "bahnhof": "Suderburg",
     "aufgabenadresse": "In den Twieten 1, 29556 Suderburg",
     "zeitbedarf": 1,
     "distanz": 1.4,
@@ -2683,11 +3296,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Teamfoto vor dem kapellenähnlichen Gebäude der Ostfalia Hochschule für angewandte Wissenschaften Campus Suderburg Asta.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 52.89857,
-    "longitude": 10.446428
+    "latitude": 52.904892,
+    "longitude": 10.43279,
+    "latitude2": 52.89857,
+    "longitude2": 10.446428
   },
   {
     "id": "H-11",
+    "bahnhof": "Kronach",
     "aufgabenadresse": "Güterstraße 7, 96317 Kronach",
     "zeitbedarf": 5,
     "distanz": 0.3,
@@ -2696,11 +3312,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Kronach – Heimatstadt von Lucas Cranach dem Älteren.\nAufgabe: Erfindet ein neues Gemälde des berühmten Malers und stellt es als lebendes Kunstwerk nach und haltet es fotografisch.\nBonus: Vergebt eurem Werk einen möglichst pompösen Museumstitel.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 50.241033,
-    "longitude": 11.320905
+    "latitude": 50.239612,
+    "longitude": 11.320115,
+    "latitude2": 50.241033,
+    "longitude2": 11.320905
   },
   {
     "id": "H-12",
+    "bahnhof": "Schmalkalden-Fachhochschule",
     "aufgabenadresse": "96317 Kronach",
     "zeitbedarf": 5,
     "distanz": 0.3,
@@ -2709,11 +3328,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Schmalkalden - Stahl und Eisen\nAufgabe: Geht zum Bach \"Stille\" und macht eine Meditationsrunde. Haltet dies fotographisch mit dem Bach im Hintergrund fest.\nBonus: bringt einen Stahlgegenstand mit aufs Bild.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 50.718517,
-    "longitude": 10.463216
+    "latitude": 50.716422,
+    "longitude": 10.463487,
+    "latitude2": 50.718517,
+    "longitude2": 10.463216
   },
   {
     "id": "H-13",
+    "bahnhof": "Bad Liebenzell",
     "aufgabenadresse": "Deutschland",
     "zeitbedarf": 1,
     "distanz": 0.75,
@@ -2722,11 +3344,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die Internationale Hochschule Liebenzell ging aus dem Theologischen Seminar Liebenzell hervor. Die Hochschule hat ca. 300 Studierende, der Ort 9300 Einwohner\nAufgabe: Macht ein Foto, auf dem eine*r von euch als Professor*in eine Vorlesung hält, während die anderen gebannt lauschen oder schlafen.\nBonus: Macht Fotos vor 3 Kirchen in Bad Liebenzell",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 48.773259,
-    "longitude": 8.727453
+    "latitude": 48.772578,
+    "longitude": 8.734039,
+    "latitude2": 48.773259,
+    "longitude2": 8.727453
   },
   {
     "id": "H-14",
+    "bahnhof": "Rotenburg a.d. Fulda",
     "aufgabenadresse": "Im Heienbach, 36199 Rotenburg an der Fulda",
     "zeitbedarf": 1,
     "distanz": 1.6,
@@ -2735,11 +3360,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Es geht bergab für kleine Hochschulen. Macht ein Foto der Waldkugelbahn. Bonus: Lasst eine Kugel rollen",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 51.005947,
-    "longitude": 9.744637
+    "latitude": 50.997855,
+    "longitude": 9.733344,
+    "latitude2": 51.005947,
+    "longitude2": 9.744637
   },
   {
     "id": "H-15",
+    "bahnhof": "Geisenheim",
     "aufgabenadresse": "Mühlstraße 8, 65366 Geisenheim",
     "zeitbedarf": 2,
     "distanz": 0.95,
@@ -2748,11 +3376,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Wer sich dem Weinbau näher widmen möchte, kann in Geisenheim Önologie studieren. \nAufgabe: Begebt euch zur schönsten Weinsicht im Rheingau 2012 und macht ein Foto mit allen Mitgliedern (n-1) auf der Bank sitzend. \nBonus: ihr stoßt auf dem Foto mit einem Getränk (passenderweise: Wein/Traubensaft) an.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 49.98846,
-    "longitude": 7.962486
+    "latitude": 49.985973,
+    "longitude": 7.968804,
+    "latitude2": 49.98846,
+    "longitude2": 7.962486
   },
   {
     "id": "H-16",
+    "bahnhof": "Elsfleth",
     "aufgabenadresse": "Weserstraße 52, 26931 Elsfleth",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -2761,11 +3392,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Die Jade Hochschule hat neben Wilhelmshaven und Oldenburg(Oldb) auch einen Standort in Elsfleth.\nAufgabe: Macht ein Foto vor dem Gebäude, das optisch einem \"Bauklotz\" gleicht. Die Hunte sollte dabei auch erkennbar sein.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 53.242864,
-    "longitude": 8.466509
+    "latitude": 53.234103,
+    "longitude": 8.464026,
+    "latitude2": 53.242864,
+    "longitude2": 8.466509
   },
   {
     "id": "H-18",
+    "bahnhof": "Mittweida",
     "aufgabenadresse": "Technikumpl. 17, 09648 Mittweida",
     "zeitbedarf": 10,
     "distanz": 1.2,
@@ -2774,11 +3408,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Mittweida soll zu fast 50% aus Studenten bestehen. Die Hochschule hat einen Schwerpunkt auf Technik.\nAufgabe: Baut mit Materialien, die ihr findet eine Brücke. Spannweite mindestens 20 cm. Macht ein Bild mit dieser, eurem Team und dem Gebäude der Hochschule im Hintergrund.\nBonus: Die Brücke trägt mehr als 2 kg für mindestens 15 Sekunden.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 50.987156,
-    "longitude": 12.97306
+    "latitude": 50.987545,
+    "longitude": 12.959863,
+    "latitude2": 50.987156,
+    "longitude2": 12.97306
   },
   {
     "id": "H-19",
+    "bahnhof": "Eichstätt Stadt",
     "aufgabenadresse": "Ostenstraße 26, 85072 Eichstätt",
     "zeitbedarf": 5,
     "distanz": 1,
@@ -2787,11 +3424,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die Katholische Universität Eichstätt-Ingolstadt (KU), von 1980 bis 2001 Katholische Universität Eichstätt, ist die einzige katholische Universität im deutschsprachigen Raum und eine von über 200 katholischen Universitäten weltweit. Sie liegt in kirchlicher Trägerschaft, ist zugleich staatlich anerkannt und steht Studierenden aller Religionen und Weltanschauungen offen.\nAufgabe: Legt mit eurem Team euch in das \"H\" des Helipads und bildet es mit eurem Team lendig nach.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 48.887677,
-    "longitude": 11.188215
+    "latitude": 48.893296,
+    "longitude": 11.179602,
+    "latitude2": 48.887677,
+    "longitude2": 11.188215
   },
   {
     "id": "H-20",
+    "bahnhof": "Neubrücke(Nahe)",
     "aufgabenadresse": "Campusallee, 55768 Hoppstädten-Weiersbach",
     "zeitbedarf": 5,
     "distanz": 0.35,
@@ -2800,11 +3440,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In der schönen Pfalz kann man im idyllischen Hoppstädten am Umwelt-Campus Birkenfeld studieren.\nAufgabe: Findet einen Platz für ein schönes Gruppenfoto und trinkt auf das Glück der Studierenden bei ihren nächsten Klausuren.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 49.60764,
-    "longitude": 7.168789
+    "latitude": 49.606066,
+    "longitude": 7.172701,
+    "latitude2": 49.60764,
+    "longitude2": 7.168789
   },
   {
     "id": "H-21",
+    "bahnhof": "Hattenheim",
     "aufgabenadresse": "65375 Oestrich-Winkel",
     "zeitbedarf": 5,
     "distanz": 0.7,
@@ -2813,11 +3456,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: In Hattenheim befindet sich die EBS Universität für Wirtschaft und Recht.\nAufgabe: Macht ein Foto vom Birmanischen Teehaus neben dem Campus der EBS.\nBonus: Trinkt ein Heißgetränk (es muss nicht unbedingt Tee sein) vor dem Birmanischen Teehaus.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 50.012315,
-    "longitude": 8.048284
+    "latitude": 50.013663,
+    "longitude": 8.0568,
+    "latitude2": 50.012315,
+    "longitude2": 8.048284
   },
   {
     "id": "H-22",
+    "bahnhof": "Gengenbach",
     "aufgabenadresse": "Klosterstraße 14, 77723 Gengenbach",
     "zeitbedarf": 2,
     "distanz": 0.6,
@@ -2826,11 +3472,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In Gengenbach kann aus 7 Studiengängen gewählt werden.\nAufgabe: Foto von der Blackforest Business School",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 48.404205,
-    "longitude": 8.01683
+    "latitude": 48.404659,
+    "longitude": 8.010192,
+    "latitude2": 48.404205,
+    "longitude2": 8.01683
   },
   {
     "id": "H-23",
+    "bahnhof": "Münchberg",
     "aufgabenadresse": "Kulmbacher Str. 76, 95213 Münchberg",
     "zeitbedarf": 1,
     "distanz": 1,
@@ -2839,11 +3488,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Hochschule Hof - Ast Münchberg. Macht ein Foto vor dem historischen Gebäude in der Kulmbacher Str.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 50.192412,
-    "longitude": 11.780712
+    "latitude": 50.189043,
+    "longitude": 11.790667,
+    "latitude2": 50.192412,
+    "longitude2": 11.780712
   },
   {
     "id": "H-24",
+    "bahnhof": "Benediktbeuern",
     "aufgabenadresse": "Don-Bosco-Straße 3, 83671 Benediktbeuern",
     "zeitbedarf": 5,
     "distanz": 0.5,
@@ -2852,11 +3504,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Benediktbeuern ist ein Pfarrdorf und eine gleichnamige Gemeinde im oberbayerischen Landkreis Bad Tölz-Wolfratshausen im Alpenvorland am Fuße der 1801 Meter hohen Benediktenwand mit 3768 Einwohnern. Hier befindet sich in einer denkmalgeschützten Klosteranalge der Campus Benediktbeuern der Katholischen Stiftungshochschule München, an dem man Soziale Arbeit, Religionspädagogik und kirchliche Bildungsarbeit studieren kann.\nAufgabe: Apropos soziale Arbeit: Macht ein Foto vom sozialen Engagement eures Teams vor Ort. Z.B. indem ihr Müll sammelt, am Bahnhof aufräumt oder Unkraut beseitigt. Seid gerne kreativ!\nBonus: Belohnt euch für euer soziales Engagment mit einer Runde Bier (oder Apfelschorle) in der Klosterbräustüberl. Und dokumentiert das selbstverständlich mit einem Foto.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 47.708241,
-    "longitude": 11.398178
+    "latitude": 47.709121,
+    "longitude": 11.403051,
+    "latitude2": 47.708241,
+    "longitude2": 11.398178
   },
   {
     "id": "H-25",
+    "bahnhof": "Neuendettelsau",
     "aufgabenadresse": "91564 Neuendettelsau",
     "zeitbedarf": 2,
     "distanz": 0.65,
@@ -2865,11 +3520,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: In Neuendettelsau befindet sich die Augustana-Hochschule, eine der kleineren theologischen Hochschulen Deutschlands.\nAufgabe: Haltet vor der Hochschule eine 30-sekündige Vorlesung über ein völlig frei erfundenes wissenschaftliches Fachgebiet.\nBonus: Verwendet dabei mindestens drei erfundene Fachbegriffe.",
     "lostopf": "Kleine Hochschulorte",
-    "latitude": 49.283301,
-    "longitude": 10.775864
+    "latitude": 49.282675,
+    "longitude": 10.782372,
+    "latitude2": 49.283301,
+    "longitude2": 10.775864
   },
   {
     "id": "HM-01",
+    "bahnhof": "Wismar",
     "aufgabenadresse": "Rudolph-Karstadt-Platz 1, 23966 Wismar",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -2878,11 +3536,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In Wismar befindet sich das Stammhaus einer der - wenn nicht der - bekanntesten Kaufhauskette Deutschlands: Karstadt.\nAufgabe: Macht ein Gruppenfoto vor dem Stammhaus von Karstadt",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.892441,
-    "longitude": 11.462035
+    "latitude": 53.896837,
+    "longitude": 11.469433,
+    "latitude2": 53.892441,
+    "longitude2": 11.462035
   },
   {
     "id": "HM-02",
+    "bahnhof": "Cuxhaven(Alte Liebe)",
     "aufgabenadresse": "Alte Liebe, 27472 Cuxhaven",
     "zeitbedarf": 12,
     "distanz": 0.65,
@@ -2891,11 +3552,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Cuxhaven (Nordsee, Elbmündung) - Alte Liebe\nInfo: Die 'Alte Liebe' ist ein historisches Aussichts-/Anlegerbauwerk; beliebter Schiffsbeobachtungspunkt an der Elbmündung.\nAufgabe: Entdeckt an der 'Alten Liebe' ein vorbeifahrendes Schiff, winkt ihm gemeinsam und ruft 'Gute Reise!' - Foto im Moment des Winkens.\nBonus: Lauft zur nahen Kugelbake (nördlichster Punkt Niedersachsens) und macht dort ein zweites Foto.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.87056,
-    "longitude": 8.7175
+    "latitude": 53.871767,
+    "longitude": 8.70963,
+    "latitude2": 53.87056,
+    "longitude2": 8.7175
   },
   {
     "id": "HM-03",
+    "bahnhof": "Soest",
     "aufgabenadresse": "Kungelgäßchen 2, 59494 Soest",
     "zeitbedarf": 2,
     "distanz": 0.85,
@@ -2904,11 +3568,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Soest war trotz der Entfernung vom Meer eine der wichtigsten Hansestädte und sein Geld dabei vor allem mit Salz verdient.\nAufgabe: Macht ein Foto von euch, wie ihr im Kungelgäßchen zwielichtige Geschäfte abschließt.\nBonus: Die gehandelte Ware ist tatsächlich Salz",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 51.57193,
-    "longitude": 8.106754
+    "latitude": 51.578419,
+    "longitude": 8.104589,
+    "latitude2": 51.57193,
+    "longitude2": 8.106754
   },
   {
     "id": "HM-04",
+    "bahnhof": "Scharbeutz",
     "aufgabenadresse": "Seebrücke Scharbeutz, Scharbeutz",
     "zeitbedarf": 1,
     "distanz": 1.6,
@@ -2917,11 +3584,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die Bäderbahn an der SH-Ostküste ist nach Eröffnung der FBQ dem Untergang geweiht. Nutzt diese Chance um Scharbeutz einen Besuch abzustatten\nAufgabe: Geht zur Seebrücke und macht ein Bild am Ende der Brücke\nBonus: Mit min. einem Fischbrötchen in der Hand (Achtung auf die Möwen)",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.028223,
-    "longitude": 10.759687
+    "latitude": 54.018743,
+    "longitude": 10.745762,
+    "latitude2": 54.028223,
+    "longitude2": 10.759687
   },
   {
     "id": "HM-05",
+    "bahnhof": "Eckernförde",
     "aufgabenadresse": "Frau-Clara-Straße 22, 24340 Eckernförde",
     "zeitbedarf": 2,
     "distanz": 0.8,
@@ -2930,11 +3600,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Aufgabe: Foto im Innenhof der Bonbonkocherei. Macht ein bedröppeltes Gesicht, wenn ihr außerhalb der Öffnungszeiten (Samstags bis 18 Uhr und Sonntags 11-17 Uhr) dort aufkreuzt.\nBonus: Gönnt euch eine Tüte Bruchware aus dem Automaten.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.474035,
-    "longitude": 9.836771
+    "latitude": 54.4676,
+    "longitude": 9.835115,
+    "latitude2": 54.474035,
+    "longitude2": 9.836771
   },
   {
     "id": "HM-06",
+    "bahnhof": "Magdeburg Hbf",
     "aufgabenadresse": "Domplatz 12-13, 39104 Magdeburg",
     "zeitbedarf": 1,
     "distanz": 0.9,
@@ -2943,11 +3616,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Magdeburg war im Mittelalter eine der bedeutendsten Handels- und Hansestädte Mitteleuropas.\nAufgabe: Mache ein Foto vor dem Magdeburger Dom.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 52.124803,
-    "longitude": 11.633467
+    "latitude": 52.130511,
+    "longitude": 11.626963,
+    "latitude2": 52.124803,
+    "longitude2": 11.633467
   },
   {
     "id": "HM-07",
+    "bahnhof": "Norddeich Mole",
     "aufgabenadresse": "Strandstraße 1, 26506 Norden",
     "zeitbedarf": 7,
     "distanz": 1.2,
@@ -2956,11 +3632,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Wer kennt sie nicht, die Züge nach Norddeich Mole. Nun habt ihr die Chance den Ort kennen zu lernen.\nAufgabe: Ins Watt mit den Landratten! Macht eine Wattwanderung, bei der min. ein Teammitglied Barfuß im Watt steht. Nicht in geschützten Bereichen! Ansonsten kann es überall in Norddeich sein.\nBonus: Das gesamte Team steht Barfuß im Watt.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.618376,
-    "longitude": 7.149687
+    "latitude": 53.624315,
+    "longitude": 7.158806,
+    "latitude2": 53.618376,
+    "longitude2": 7.149687
   },
   {
     "id": "HM-08",
+    "bahnhof": "Stade",
     "aufgabenadresse": "Hökerstraße 2, 21682 Stade",
     "zeitbedarf": 3,
     "distanz": 0.75,
@@ -2969,11 +3648,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: 1601 wurde Stade zum zweiten Mal und nun dauerhaft „verhanst“, d. h. aus der Hanse ausgeschlossen, da die Stadt 1587 englische Tuchkaufleute der Merchant Adventurer aufgenommen hatte. Zählt aber irgendwie trotzdem dazu :)\nAufgabe: Geht zum Rathauseingang und positioniert euch so, dass Ihr ein Gruppenbild von unten erstellt. Die Figuren auf dem Tor werden zu zusätzlichen \"Teammitgliedern\"",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.601201,
-    "longitude": 9.476835
+    "latitude": 53.596143,
+    "longitude": 9.477008,
+    "latitude2": 53.601201,
+    "longitude2": 9.476835
   },
   {
     "id": "HM-09",
+    "bahnhof": "Warnemünde",
     "aufgabenadresse": "Strandaufgang 2, 18119 Rostock",
     "zeitbedarf": 5,
     "distanz": 1,
@@ -2982,11 +3664,14 @@ const coordinates = [
     "punkte_bonus": 25,
     "aufgabe": "Info: ab an den Strand heißt es in Warnemünde. \nAufgabe: Fahrt zur Strandbar WAL und macht ein Foto mit einer Palme der Strandbar im Hintergrund\nBonus: Bringt nach Frankfurt/Münster mindestens 100g Strandsand mit.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.18327,
-    "longitude": 12.084485
+    "latitude": 54.176852,
+    "longitude": 12.091271,
+    "latitude2": 54.18327,
+    "longitude2": 12.084485
   },
   {
     "id": "HM-10",
+    "bahnhof": "Bremen Hbf",
     "aufgabenadresse": "Wüstestätte 1, 28195 Bremen",
     "zeitbedarf": 5,
     "distanz": 1.4,
@@ -2995,11 +3680,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Heini Holtenbeen hat es wahrlich nicht leicht. Aber trotz aller Widrigkeiten ist er ein findiger Bursche und hält sich mit seinem ganz eigenen Geschäftsmodell über Wasser  - er ist im Tabak- bzw. Pferde(mist)geschäft.\nAufgabe: Stattet ihm einen Besuch in der \"Schnoor\" ab.\nBonus: Bringt ihm (und Euch) ein paar \"Schnoorkuller\" mit.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.072508,
-    "longitude": 8.809627
+    "latitude": 53.083481,
+    "longitude": 8.813834,
+    "latitude2": 53.072508,
+    "longitude2": 8.809627
   },
   {
     "id": "HM-11",
+    "bahnhof": "Büsum",
     "aufgabenadresse": "Südstrand 7A, 25761 Büsum",
     "zeitbedarf": 2,
     "distanz": 1.1,
@@ -3008,11 +3696,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Büsum ist eine Reise wert.\nAufgabe: Foto vor dem Büsumer Leuchtturm, der ganz zu sehen sein sollte.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.126998,
-    "longitude": 8.858265
+    "latitude": 54.133822,
+    "longitude": 8.867113,
+    "latitude2": 54.126998,
+    "longitude2": 8.858265
   },
   {
     "id": "HM-14",
+    "bahnhof": "Haffkrug",
     "aufgabenadresse": "Seebrücke Haffkrug, 23683 Scharbeutz",
     "zeitbedarf": 10,
     "distanz": 0.9,
@@ -3021,11 +3712,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Mache ein Foto auf der Seebrücke Haffkrug und genieße die Seeluft. Bonus: Auf dem Foto ist eine fliegende Möwe zu sehen",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 54.051919,
-    "longitude": 10.753891
+    "latitude": 54.054189,
+    "longitude": 10.742682,
+    "latitude2": 54.051919,
+    "longitude2": 10.753891
   },
   {
     "id": "HM-15",
+    "bahnhof": "Hamburg Elbbrücken",
     "aufgabenadresse": "Grandeswerderstraße, 20457 Hamburg",
     "zeitbedarf": 5,
     "distanz": 1.5,
@@ -3034,11 +3728,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: HafenCity Aussichtspunkt\nAufgabe: Steigt auf den Turm und macht ein Gruppenfoto mit der Elnphilharmonie im Hintergrund\nBonus: Gruppenfoto mit der Decatur-Brücke im Hintergrund",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.538671,
-    "longitude": 10.008004
+    "latitude": 53.534824,
+    "longitude": 10.02466,
+    "latitude2": 53.538671,
+    "longitude2": 10.008004
   },
   {
     "id": "HM-16",
+    "bahnhof": "Lüneburg",
     "aufgabenadresse": "Am Sande, 21335 Lüneburg",
     "zeitbedarf": 12,
     "distanz": 0.48,
@@ -3047,11 +3744,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Lüneburg (Hansestadt, Salzstadt) - Platz 'Am Sande'\nInfo: Die schiefen Giebelhäuser entstehen durch Bodensenkungen vom jahrhundertelangen Salzabbau ('Lüneburg versinkt').\nAufgabe: Findet ein schiefes Giebelhaus und stellt euch so davor, dass ihr genauso schief steht wie das Haus.\nBonus: Findet das Giebelhaus 'Brausebad' (mit goldenem Mörser) am Platz und fotografiert es.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.24917,
-    "longitude": 10.41417
+    "latitude": 53.249656,
+    "longitude": 10.41989,
+    "latitude2": 53.24917,
+    "longitude2": 10.41417
   },
   {
     "id": "HM-17",
+    "bahnhof": "Buxtehude",
     "aufgabenadresse": "Schützenhofweg 2, 21614 Buxtehude",
     "zeitbedarf": 1,
     "distanz": 1.4,
@@ -3060,11 +3760,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Buxtehude - bekannt für den Wettlauf zwischen Hase und Igel - verlor den Status einer Hansestadt im Jahr 1591, bekam ihn aber 2014 wieder zugesprochen.\nAufgabe: Macht ein Bild vor der Hansekogge",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.478811,
-    "longitude": 9.70051
+    "latitude": 53.470491,
+    "longitude": 9.688314,
+    "latitude2": 53.478811,
+    "longitude2": 9.70051
   },
   {
     "id": "HM-19",
+    "bahnhof": "Bremerhaven Hbf",
     "aufgabenadresse": "27568 Bremerhaven",
     "zeitbedarf": 2,
     "distanz": 1.7,
@@ -3073,11 +3776,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Sucht alle deutschen Städte, die in der Kompassrose aufgeführt sind und zeigt das Ergebnis auf dem Foto (mit den Fingern).",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.539493,
-    "longitude": 8.579512
+    "latitude": 53.534912,
+    "longitude": 8.599555,
+    "latitude2": 53.539493,
+    "longitude2": 8.579512
   },
   {
     "id": "HM-20",
+    "bahnhof": "Lünen Hbf",
     "aufgabenadresse": "Treppenkaskade an der Lippe, Münsterstraße 1I, 44534 Lünen",
     "zeitbedarf": 1,
     "distanz": 0.55,
@@ -3086,11 +3792,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Lünen gehörte ab 1476 als sogenannte Beistadt dem mittelalterlichen Hansebund an und ist heute Mitglied im Hansebund der Neuzeit.\nAufgabe: Gehe zur Treppenkaskade an der Lippe und mache ein Foto vom Fluß.\nBonus: ein oder mehrere Boote sind auf dem Foto",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 51.615628,
-    "longitude": 7.523043
+    "latitude": 51.617129,
+    "longitude": 7.529485,
+    "latitude2": 51.615628,
+    "longitude2": 7.523043
   },
   {
     "id": "HM-21",
+    "bahnhof": "Korbach Süd",
     "aufgabenadresse": "Kirchpl. 2, 34497 Korbach",
     "zeitbedarf": 5,
     "distanz": 0.55,
@@ -3099,11 +3808,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Korbach trat 1469 der Hanse bei. Sie ist eine der südlichsten Hansestädte und die einzige in Hessen.\nAufgabe: Sucht etwas mit eindeutigem Hanse Bezug (Schriftzug Hanse, Denkmal, ect.).  ",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 51.271363,
-    "longitude": 8.872623
+    "latitude": 51.270264,
+    "longitude": 8.878815,
+    "latitude2": 51.271363,
+    "longitude2": 8.872623
   },
   {
     "id": "HM-23",
+    "bahnhof": "Lübeck-Travemünde Strand",
     "aufgabenadresse": "S-Bahn Stuttgart",
     "zeitbedarf": 10,
     "distanz": 1.1,
@@ -3112,11 +3824,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Das Molenfeuer Travemünde ist ein kleiner Leuchtturm auf der Nordermole in Lübeck-Travemünde.\nAufgabe: Macht ein Selfie vor dem Leuchtturm.\nBonusaufgabe: Esst dabei ein Fischbrötchen",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.961989,
-    "longitude": 10.889111
+    "latitude": 53.964795,
+    "longitude": 10.875604,
+    "latitude2": 53.961989,
+    "longitude2": 10.889111
   },
   {
     "id": "HM-24",
+    "bahnhof": "Hamburg-Blankenese",
     "aufgabenadresse": "Strandweg 38, 22587 Altona",
     "zeitbedarf": 10,
     "distanz": 1.3,
@@ -3125,11 +3840,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: In Hamburg sagt man, dass sich die Kapitäne in Blankenese zur Ruhe gesetzt haben. Von hier aus kann man die gigantischen Containerschiffe beobachten, die im Hamburger Hafen verkehren.\nAufgabe: Macht ein Bild, bei der mindestens eine Person die nackten Füße im Sand hat und im Hintergrund ein großes Schiff zu sehen ist.\nBonus: Lauft auf dem Weg zum Strand durch das Treppenviertel. Macht ein Foto auf einer langen Treppe, auf dem alle Teammitglieder zu sehen sind.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.556258,
-    "longitude": 9.804848
+    "latitude": 53.564364,
+    "longitude": 9.814607,
+    "latitude2": 53.556258,
+    "longitude2": 9.804848
   },
   {
     "id": "HM-25",
+    "bahnhof": "Nordenham",
     "aufgabenadresse": "Müllerstraße 46, 26954 Nordenham",
     "zeitbedarf": 5,
     "distanz": 0.45,
@@ -3138,11 +3856,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Nordenham hat den größten privaten Hafen Europas.\nAufgabe: Macht ein Foto auf dem Union Pier.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 53.481878,
-    "longitude": 8.488052
+    "latitude": 53.483811,
+    "longitude": 8.487392,
+    "latitude2": 53.481878,
+    "longitude2": 8.488052
   },
   {
     "id": "HM-99",
+    "bahnhof": "Warendorf",
     "aufgabenadresse": "Heumarkt 3, 48231 Warendorf",
     "zeitbedarf": 2,
     "distanz": 0.6,
@@ -3151,11 +3872,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Warendorf ist Mitglied im Hansebund der Neuzeit.\nDer Heumarkt und sein Spielbrunnen „Blauer Montag\". Handwerker hatten sich über die vielen Arbeitszeiten beklagt und nach Unnachgiebigkeit der Arbeitgeber den Montag einfach „blau gemacht\" (sich frei genommen).\nAufgabe: Macht ein Foto wie ihr blau macht und dabei eine beliebige Art von Spiel spielt.",
     "lostopf": "Hanse/Meer/Küste/Deich",
-    "latitude": 51.951514,
-    "longitude": 7.990983
+    "latitude": 51.950091,
+    "longitude": 7.984464,
+    "latitude2": 51.951514,
+    "longitude2": 7.990983
   },
   {
     "id": "K-01",
+    "bahnhof": "Aha",
     "aufgabenadresse": "Vorderaha 5, 79859 Schluchsee",
     "zeitbedarf": 1,
     "distanz": 0.3,
@@ -3164,11 +3888,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Ortsteil Aha am Schluchsee im Schwarzwald wurde erstmals 1352 unter dem Namen „In der Ache“ erwähnt und war ursprünglich eine kleine Siedlung mit Kapelle und landwirtschaftlicher Nutzung. Im 20. Jahrhundert veränderte sich der Ort stark, als 1933 der Schluchsee aufgestaut wurde.\nAufgabe: Macht ein Gruppenbild am Schiffsanleger des Schluchsees (See im Hintergrund)\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 47.833079,
-    "longitude": 8.132605
+    "latitude": 47.833224,
+    "longitude": 8.134349,
+    "latitude2": 47.833079,
+    "longitude2": 8.132605
   },
   {
     "id": "K-02",
+    "bahnhof": "Alpen",
     "aufgabenadresse": "Burgstraße, 46519 Alpen",
     "zeitbedarf": 1,
     "distanz": 0.9,
@@ -3177,11 +3904,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Bild vor der Alpener Motte\n(ehemalige hölzerne Burg)",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 51.578496,
-    "longitude": 6.517964
+    "latitude": 51.583392,
+    "longitude": 6.518041,
+    "latitude2": 51.578496,
+    "longitude2": 6.517964
   },
   {
     "id": "K-03",
+    "bahnhof": "Kork",
     "aufgabenadresse": "Auf dem Bühl 6-14, 77694 Kehl",
     "zeitbedarf": 1,
     "distanz": 0.75,
@@ -3190,11 +3920,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild unter dem Schwanz vom Korker Stier\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 48.566578,
-    "longitude": 7.868758
+    "latitude": 48.570019,
+    "longitude": 7.874797,
+    "latitude2": 48.566578,
+    "longitude2": 7.868758
   },
   {
     "id": "K-04",
+    "bahnhof": "Busenberg-Schindhard",
     "aufgabenadresse": "Ortsschild Busenberg, 76891 Busenberg",
     "zeitbedarf": 10,
     "distanz": 0.32,
@@ -3203,11 +3936,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Busenberg-Schindhard (Pfalz) - kranker Ortsname\nAufgabe: Dreht am Ortsschild 'Busenberg' einen kurzen Werbespot à la Dessous-Kampagne: alle posieren übertrieben selbstbewusst mit herausgestreckter Brust und Model-Blick (Video, mind. 15s).",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.1405,
-    "longitude": 7.8025
+    "latitude": 49.138868,
+    "longitude": 7.799703,
+    "latitude2": 49.1405,
+    "longitude2": 7.8025
   },
   {
     "id": "K-05",
+    "bahnhof": "Oschatz",
     "aufgabenadresse": "Bahnhofsplatz 1, 04758 Oschatz",
     "zeitbedarf": 1,
     "distanz": 0.1,
@@ -3216,11 +3952,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild vom Schmalspurbahnhof (Döllnitztalbahn)\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 51.311298,
-    "longitude": 13.10508
+    "latitude": 51.31174,
+    "longitude": 13.104056,
+    "latitude2": 51.311298,
+    "longitude2": 13.10508
   },
   {
     "id": "K-06",
+    "bahnhof": "Kuchen",
     "aufgabenadresse": "Hauptstraße 66, 73329 Kuchen",
     "zeitbedarf": 1,
     "distanz": 1,
@@ -3229,11 +3968,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Wie wäre es mit einem Kuchen in Kuchen? Dann besucht doch die Bäckerei Germania, Öffnungszeiten tgl. 6-20 Uhr\nAufgabe: Macht ein Bild von euch vor der Bäckerei Germania und tut so als würded ihr genüsslich einen Kuchen essen\nBonus: Erledige die Aufgabe mit einem echten Kuchen im Bild",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 48.635032,
-    "longitude": 9.801924
+    "latitude": 48.640523,
+    "longitude": 9.8034,
+    "latitude2": 48.635032,
+    "longitude2": 9.801924
   },
   {
     "id": "K-07",
+    "bahnhof": "Simmelsdorf-Hüttenbach",
     "aufgabenadresse": "Bahnhofstraße 24, 91245 Simmelsdorf",
     "zeitbedarf": 1,
     "distanz": 0.3,
@@ -3242,11 +3984,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Mache ein Bld am EAST-END Dirtpark & Pumptrack. Bonus: Ein Fahrradfahrer ist im Bild\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.60078,
-    "longitude": 11.343457
+    "latitude": 49.598459,
+    "longitude": 11.341671,
+    "latitude2": 49.60078,
+    "longitude2": 11.343457
   },
   {
     "id": "K-08",
+    "bahnhof": "Sulzbach-Rosenberg",
     "aufgabenadresse": "Im Schloss, 92237 Sulzbach",
     "zeitbedarf": 1,
     "distanz": 0.95,
@@ -3255,11 +4000,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild vom Sulzbacher Schloss\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.505299,
-    "longitude": 11.73605
+    "latitude": 49.499478,
+    "longitude": 11.739277,
+    "latitude2": 49.505299,
+    "longitude2": 11.73605
   },
   {
     "id": "K-09",
+    "bahnhof": "Feucht Ost",
     "aufgabenadresse": "Mittlerer Zeidlerweg 8, 90537 Feucht",
     "zeitbedarf": 1,
     "distanz": 0.65,
@@ -3268,11 +4016,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild vom Zeidlerschloss Feucht\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.37679,
-    "longitude": 11.213893
+    "latitude": 49.376032,
+    "longitude": 11.220502,
+    "latitude2": 49.37679,
+    "longitude2": 11.213893
   },
   {
     "id": "K-10",
+    "bahnhof": "Geilenkirchen",
     "aufgabenadresse": "Friedlandplatz, 52511 Geilenkirchen",
     "zeitbedarf": 1,
     "distanz": 0.35,
@@ -3281,11 +4032,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild am Brunnen Friedlandplatz\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 50.962797,
-    "longitude": 6.122523
+    "latitude": 50.961039,
+    "longitude": 6.124518,
+    "latitude2": 50.962797,
+    "longitude2": 6.122523
   },
   {
     "id": "K-11",
+    "bahnhof": "Güterglück",
     "aufgabenadresse": "Bahnhofststraße 54, 39264 Güterglück",
     "zeitbedarf": 1,
     "distanz": 0.2,
@@ -3294,11 +4048,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: macht ein Bild von der Eisenbahnüberführung im Ort (mit Bahnübergangsschild im Hintergrund)\nerst 2004 stillgelegter Abschnitt der Wetzlarer Bahn",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 51.992756,
-    "longitude": 11.985386
+    "latitude": 51.993474,
+    "longitude": 11.986389,
+    "latitude2": 51.992756,
+    "longitude2": 11.985386
   },
   {
     "id": "K-12",
+    "bahnhof": "Quadrath-Ichendorf",
     "aufgabenadresse": "Köln-Aachener-Straße, 50127 Bergheim",
     "zeitbedarf": 2,
     "distanz": 0.85,
@@ -3307,11 +4064,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die historische Brikettpresse wurde als Industriedenkmal aufgestellt.\nAufgabe: Macht ein Bild von der historischen Brikettpresse.\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 50.936611,
-    "longitude": 6.695878
+    "latitude": 50.937777,
+    "longitude": 6.686533,
+    "latitude2": 50.936611,
+    "longitude2": 6.695878
   },
   {
     "id": "K-13",
+    "bahnhof": "Lauterecken-Grumbach",
     "aufgabenadresse": "Bahnhofstraße, 67742 Lauterecken",
     "zeitbedarf": 1,
     "distanz": 0.1,
@@ -3320,11 +4080,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mach ein Bild von der Draisinentour\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.653495,
-    "longitude": 7.590575
+    "latitude": 49.653709,
+    "longitude": 7.59071,
+    "latitude2": 49.653495,
+    "longitude2": 7.590575
   },
   {
     "id": "K-14",
+    "bahnhof": "Lauda",
     "aufgabenadresse": "Josef-Schmitt-Straße 2, 97922 Lauda-Königshofen",
     "zeitbedarf": 2,
     "distanz": 0.7,
@@ -3333,11 +4096,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Mache ein Foto vom Narrenbrunnen Lauda",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.569848,
-    "longitude": 9.703359
+    "latitude": 49.565385,
+    "longitude": 9.709512,
+    "latitude2": 49.569848,
+    "longitude2": 9.703359
   },
   {
     "id": "K-15",
+    "bahnhof": "Trompet",
     "aufgabenadresse": "Lohfelder Weg 91, 47239 Duisburg",
     "zeitbedarf": 5,
     "distanz": 1.1,
@@ -3346,11 +4112,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Lauft zur Wasserskianlage. Dreht ein Video, auf dem Ihr das Wasserskifahren nachstellt (mind. 1 min lang). Bonus: Füße vom Team in Wasser\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 51.407481,
-    "longitude": 6.670274
+    "latitude": 51.413489,
+    "longitude": 6.669107,
+    "latitude2": 51.407481,
+    "longitude2": 6.670274
   },
   {
     "id": "K-16",
+    "bahnhof": "Dreieich-Dreieichenhain",
     "aufgabenadresse": "Fahrgasse 52, 63303 Dreieich",
     "zeitbedarf": 1,
     "distanz": 0.8,
@@ -3359,11 +4128,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Foto von der Burg Hayn\n",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 50.001851,
-    "longitude": 8.716155
+    "latitude": 49.998468,
+    "longitude": 8.708693,
+    "latitude2": 50.001851,
+    "longitude2": 8.716155
   },
   {
     "id": "K-17",
+    "bahnhof": "Bengel",
     "aufgabenadresse": "Moselstraße, 54538 Bengel",
     "zeitbedarf": 1,
     "distanz": 0.35,
@@ -3372,11 +4144,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Macht ein Gruppenfoto vor der Wassertretanlage Bengel, Bonus: Gruppenfoto mit Füßen im Wasser\nÖffnungszeiten tgl. 9-17 Uhr",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 50.01214,
-    "longitude": 7.061291
+    "latitude": 50.010379,
+    "longitude": 7.05803,
+    "latitude2": 50.01214,
+    "longitude2": 7.061291
   },
   {
     "id": "K-18",
+    "bahnhof": "Elend",
     "aufgabenadresse": "Ortsschild Elend, 38875 Oberharz am Brocken",
     "zeitbedarf": 10,
     "distanz": 0.4,
@@ -3385,11 +4160,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Elend (Harz) - kranker Ortsname, Harzquerbahn\nInfo: 'Elend' kommt von mittelhochdeutsch 'ellende' = Fremde/Ausland - nicht von Jammer.\nAufgabe: Macht ein Gruppenfoto am Ortsschild 'Elend' mit dem theatralisch-traurigsten Gesichtsausdruck - einer mimt das 'größte Elend'.\nBonus: Wenn ihr auch den Nachbarort 'Sorge' anfahrt, montiert beide Fotos als Diptychon 'Von der Sorge ins Elend' im Logbuch.",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 51.744,
-    "longitude": 10.694
+    "latitude": 51.74597,
+    "longitude": 10.690129,
+    "latitude2": 51.744,
+    "longitude2": 10.694
   },
   {
     "id": "K-19",
+    "bahnhof": "Witzwort",
     "aufgabenadresse": "Dorfschule, Kirchenweg 2, 25889 Witzwort",
     "zeitbedarf": 2,
     "distanz": 2,
@@ -3398,11 +4176,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Macht ein Foto mit dem Schriftzug \"Lütt Dörp School\"",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 54.398533,
-    "longitude": 8.986042
+    "latitude": 54.386097,
+    "longitude": 8.998558,
+    "latitude2": 54.398533,
+    "longitude2": 8.986042
   },
   {
     "id": "K-20",
+    "bahnhof": "Oberbillig",
     "aufgabenadresse": "Moselstraße 10, 54331 Oberbillig",
     "zeitbedarf": 2,
     "distanz": 0.8,
@@ -3411,11 +4192,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Oberbillig ist eng mit dem luxemburgischen Ort Wasserbillig auf der anderen Flussseite verknüpft. Daher herrscht reger Verkehr zwischen beiden Orten. \nAufgabe: begebt euch zum Fähranleger und macht ein Gruppenfoto. \nBonus: zeigt der neutralen Tourbegleitung eure weltgewandte Seite und schippert auf die andere Moselseite (1€ je Fahrt) und macht dort einen Schnappschuss, der erkennen lässt, dass ihr euch auf der luxemburgischen Seite befindet.",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.712554,
-    "longitude": 6.504178
+    "latitude": 49.710162,
+    "longitude": 6.511634,
+    "latitude2": 49.712554,
+    "longitude2": 6.504178
   },
   {
     "id": "K-21",
+    "bahnhof": "Holm-Seppensen",
     "aufgabenadresse": "Bahnhofsweg 4, 21244 Buchholz in der Nordheide-Holm-Seppensen",
     "zeitbedarf": 1,
     "distanz": 0.02,
@@ -3424,11 +4208,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vor dem bunten Signal des Kulturbahnhofs Holm-Seppensen.",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 53.284908,
-    "longitude": 9.8702
+    "latitude": 53.284812,
+    "longitude": 9.870008,
+    "latitude2": 53.284908,
+    "longitude2": 9.8702
   },
   {
     "id": "K-22",
+    "bahnhof": "Haßloch(Pfalz)",
     "aufgabenadresse": "Rathauspl. 3, 67454 Haßloch",
     "zeitbedarf": 3,
     "distanz": 1.2,
@@ -3437,11 +4224,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der frühere, althochdeutsche Ortsname „Hasalaha“ bedeutet so viel wie „durch Haselgebüsch fließendes Gewässer“. „Hasal“ ist die althochdeutsche Bezeichnung für den Haselstrauch, „aha“ heißt so viel wie „Wasser“ oder „Bach“.\nAufgabe: Lasst ein wenig Liebe da. Macht ein Gruppenfoto mit einem (gerne selbstgebastelten Herz) auf dem Rathausplatz vor den Brunnenskulturen.",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 49.362889,
-    "longitude": 8.256279
+    "latitude": 49.371956,
+    "longitude": 8.253396,
+    "latitude2": 49.362889,
+    "longitude2": 8.256279
   },
   {
     "id": "K-23",
+    "bahnhof": "Sterbfritz",
     "aufgabenadresse": "36391 Sinntal",
     "zeitbedarf": 7,
     "distanz": 1.2,
@@ -3450,11 +4240,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Legende nach starb hier an der Kinzigquelle das tapfere Pferd \"Fritz\" eines Soldaten, nach langer und anstrengender Reise.\nAufgabe: Gedenkt seiner Strapazen und erfrischt euch an der Quelle. Macht ein Foto davon. \nBonus: Spielt die Szene mit dem Pferd und die Namensgeschichte von Sterbfritz nach. Haltet dies in einem Video fest.",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 50.304875,
-    "longitude": 9.625067
+    "latitude": 50.312868,
+    "longitude": 9.625417,
+    "latitude2": 50.304875,
+    "longitude2": 9.625067
   },
   {
     "id": "K-24",
+    "bahnhof": "Killer",
     "aufgabenadresse": "Am Peitschenmuseum 1, 72393 Burladingen",
     "zeitbedarf": 15,
     "distanz": 0.05,
@@ -3463,11 +4256,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Infos: nur Stunden Takt am WE 2h takt.  Es gibt ein Peitschen Museum, das hat Sonntags geöffnet.\nAufgabe: Singt i Shot the Sheriff von Bob Marley vor dem Museum und geht danach entspannt was essen (2h takt ;-))",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 48.315912,
-    "longitude": 9.060908
+    "latitude": 48.315684,
+    "longitude": 9.060828,
+    "latitude2": 48.315912,
+    "longitude2": 9.060908
   },
   {
     "id": "K-25",
+    "bahnhof": "Icking",
     "aufgabenadresse": "Dickweg 3-9, 82057 Icking",
     "zeitbedarf": 1,
     "distanz": 1.1,
@@ -3476,11 +4272,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Ein neuer Modebegriff ist \"Ick\" und kommt im Dating-Kontext vor, wenn jemand durch bestimmte Eigenschaften, Verhaltensweisen oder Eigenarten eines Partners plötzlich das Interesse verliert. Witzigerweise gibt es in Bayern den Ort \"Icking\", unweit von München.\nAufgabe: Fahrt zum Bahnhof Icking, geht zur Straße \"Dickweg\" und macht ein Bild vom Straßenschild.\nBonusaufgabe: Das Bild bearbeiten und den Teil \"ick\" farblich highlighten. ohne den Erstbuchstaben ;)",
     "lostopf": "Kranke Ortsnamen",
-    "latitude": 47.960219,
-    "longitude": 11.435444
+    "latitude": 47.953249,
+    "longitude": 11.436647,
+    "latitude2": 47.960219,
+    "longitude2": 11.435444
   },
   {
     "id": "M-01",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Windthorststraße, 48143 Münster",
     "zeitbedarf": 5,
     "distanz": 0.4,
@@ -3489,11 +4288,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Münster hat eine Vielzahl von Yogastudios. Aufgabe: Geht in den Park in der Nähe vom Hauptbahnhof und macht den herabschauenden Hund und ein Foto davon. ",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.957495,
-    "longitude": 7.630883
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.957495,
+    "longitude2": 7.630883
   },
   {
     "id": "M-02",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "48143 Promenade, 48143 Münster",
     "zeitbedarf": 5,
     "distanz": 1.9,
@@ -3502,11 +4304,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Es gibt in Münster eine alte Lok, mit der Bombentrümmer aus der Stadt transportiert wurden.\nAufgabe: Macht ein Foto von der Lok.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.967925,
-    "longitude": 7.616883
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.967925,
+    "longitude2": 7.616883
   },
   {
     "id": "M-03",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Bergstraße 3, 48143 Münster",
     "zeitbedarf": 5,
     "distanz": 1.1,
@@ -3515,11 +4320,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Aufgabe: Macht ein Bild vor dem Kiepenkerl-Denkmal und habt dabei möglichst viele Gepäckstücke dabei!\nBonus: Für jedes sichtbare Gepäckstück auf dem Rücken gibt es 5 Bonuspunkte, maximal gibt es 30 Bonuspunkte",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.964276,
-    "longitude": 7.626182
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.964276,
+    "longitude2": 7.626182
   },
   {
     "id": "M-04",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Schillerstraße, 48155 Münster",
     "zeitbedarf": 2,
     "distanz": 1.8,
@@ -3528,11 +4336,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Macht ein Bild auf der Schillerbrücke",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.951351,
-    "longitude": 7.650665
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.951351,
+    "longitude2": 7.650665
   },
   {
     "id": "M-05",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Lambertikirchpl. 1, 48143 Münster",
     "zeitbedarf": 2,
     "distanz": 0.9,
@@ -3541,11 +4352,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Foto des Teams mit den 3 Wiedertäuferkäfigen",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.962954,
-    "longitude": 7.628904
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.962954,
+    "longitude2": 7.628904
   },
   {
     "id": "M-06",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Jüdefelder Eck Kiosk, Münzstraße 1 a, 48143 Münster",
     "zeitbedarf": 1,
     "distanz": 1.9,
@@ -3554,11 +4368,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Foto mit dem Kriegsveteranen, der nach dem zweiten Weltkrieg Trümmer aus der Stadt befördert hat.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.967123,
-    "longitude": 7.617273
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.967123,
+    "longitude2": 7.617273
   },
   {
     "id": "M-07",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Hafenplatz, 48155 Münster",
     "zeitbedarf": 2,
     "distanz": 0.85,
@@ -3567,11 +4384,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Münster liegt mitten im Inland und trotzdem gibt es einen schönen Stadthafen in der Stadt\nAufgabe: Geht zum Stadthafen und macht ein Foto mit mind 3 Fahrrädern im Bild\nBonus: Findet die Spelunke und macht auch davon ein Foto.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.950934,
-    "longitude": 7.63689
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.950934,
+    "longitude2": 7.63689
   },
   {
     "id": "M-08",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Salzstraße 38, 48143 Münster",
     "zeitbedarf": 12,
     "distanz": 1.05,
@@ -3580,11 +4400,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Münster - Erbdrostenhof (Barockpalais von J.C. Schlaun)\nInfo: Von Johann Conrad Schlaun, 1757 vollendet; im Krieg zerstört und originalgetreu wiederaufgebaut.\nAufgabe: Stellt euch vor dem barocken Erbdrostenhof in Pose wie adelige Hofgesellschaft des 18. Jh. - mit angedeuteter Perücke, Fächer und vornehmer Verbeugung.\nBonus: Findet eine Info-/Gedenktafel mit dem Baujahr und fotografiert sie.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.96083,
-    "longitude": 7.63
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.96083,
+    "longitude2": 7.63
   },
   {
     "id": "M-09",
+    "bahnhof": "Senden-Bösensell",
     "aufgabenadresse": "Brock 7, 48308 Senden",
     "zeitbedarf": 1,
     "distanz": 1.5,
@@ -3593,11 +4416,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Bonus: Gruppenfoto mit einer Minigolfbahn im Hintergrund",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.911163,
-    "longitude": 7.500201
+    "latitude": 51.90703,
+    "longitude": 7.487687,
+    "latitude2": 51.911163,
+    "longitude2": 7.500201
   },
   {
     "id": "M-10",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Adenauerallee, 48149 Münster",
     "zeitbedarf": 5,
     "distanz": 1.3,
@@ -3606,11 +4432,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der See staut das Wasser der Aa (was ein blöder Name für einen Fluss)\nAufgabe: Macht ein Bild vom Rondell mit dem See im Hintergrund \nBonus: Die \"Giant Pool-Balls\" und der See sind gleichzeitig im Bild zu sehen",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.95682,
-    "longitude": 7.617589
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.95682,
+    "longitude2": 7.617589
   },
   {
     "id": "M-12",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Prinzipalmarkt 10, 48143 Münster",
     "zeitbedarf": 5,
     "distanz": 0.9,
@@ -3619,11 +4448,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Im Friedenssaal in Münster wurde 1648 der Westfälische Frieden geschlossen.\nAufgabe: Mache ein Foto vor dem Historischen Rathaus.\nBonus: Mache ein Foto im Friedenssaal (evtl. ist dies nur im Rahmen einer Führung möglich).",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.961808,
-    "longitude": 7.627967
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.961808,
+    "longitude2": 7.627967
   },
   {
     "id": "M-13",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Schorlemerstraße 15, 48143 Münster",
     "zeitbedarf": 5,
     "distanz": "0,4",
@@ -3632,11 +4464,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besichtige den Matchasee und schreibe eine Google Maps Rezension dazu",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.956476,
-    "longitude": 7.629967
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.956476,
+    "longitude2": 7.629967
   },
   {
     "id": "M-14",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Breul 16B, 48143 Münster",
     "zeitbedarf": 5,
     "distanz": 1.4,
@@ -3645,11 +4480,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Infos: Hier ist der Name Programm, erholt euch von den Strapazen der Kranken Tour auf dem Spielplatz.\nAufgabe: Rutscht einmal aus dem Flugzeug (50% des Teams)",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.96763,
-    "longitude": 7.629557
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.96763,
+    "longitude2": 7.629557
   },
   {
     "id": "M-15",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Picassoplatz 1, 48143 Münster",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -3658,11 +4496,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Münster beherbergt ein Pablo Picasso Kunstmuseum\nAufgabe: Fahrt zum Haupteingang des Museums und macht ein Gruppenbild am Eingang. Sollte das Museum offen sein, mit einem Prospekt/Fyler des Museums in die Kamera zeigend.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.960249,
-    "longitude": 7.626451
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.960249,
+    "longitude2": 7.626451
   },
   {
     "id": "M-16",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Am Kreuztor, 48143 Münster",
     "zeitbedarf": 10,
     "distanz": 1.6,
@@ -3671,11 +4512,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Brunnen \"Sketch for a fountain\" wurde durch Bürgerinnen und Bürger der Stadt Münster angekauft und nach der \"Skulptur Projekte 2017\" an seinen Ursprungsort zurückgebracht.\nAufgabe: Gesellt Euch zum Brunnen dazu.\nBonus: Für Badebekleidung",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.96728,
-    "longitude": 7.622258
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.96728,
+    "longitude2": 7.622258
   },
   {
     "id": "M-17",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Dompl. 10, 48143 Münster",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -3684,11 +4528,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Hier hängen die ältesten Mettwürste Westfalens.\nAufgabe: Foto vor dem Museum für Kunst und Kultur",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.961629,
-    "longitude": 7.624167
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.961629,
+    "longitude2": 7.624167
   },
   {
     "id": "M-18",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Boelckeweg 3, 48155 Münster",
     "zeitbedarf": 1,
     "distanz": 2.2,
@@ -3697,11 +4544,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Gasometer Münster - Macht ein Foto mit dem Gasometer Münster, das Gasometer und das Eingangstor müssen auf dem Bild sein",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.942981,
-    "longitude": 7.648669
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.942981,
+    "longitude2": 7.648669
   },
   {
     "id": "M-19",
+    "bahnhof": "Telgte",
     "aufgabenadresse": "Emstor 5-7, 48291 Telgte",
     "zeitbedarf": 12,
     "distanz": 0.9,
@@ -3710,11 +4560,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: An diesem Ort starten bei gutem Wetter Heißluftballons.\nAufgabe: Beobachtet die Wiese und macht dabei eine kurze Meditation von 10 Minuten. Dokumentiert eure innere Ruhe mit einem Foto.\nBonus: Ein Heißluftballon ist auf dem Foto zu sehen.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.985526,
-    "longitude": 7.790336
+    "latitude": 51.981193,
+    "longitude": 7.780876,
+    "latitude2": 51.985526,
+    "longitude2": 7.790336
   },
   {
     "id": "M-20",
+    "bahnhof": "Münster-Mecklenbeck",
     "aufgabenadresse": "Heroldstraße, 48163 Münster",
     "zeitbedarf": 5,
     "distanz": 1.1,
@@ -3723,11 +4576,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besucht den Kinderspielplatz Heroldstraße (Heidbusch) und macht ein Gruppenfoto von euch auf der Spieleisenbahn. Einer aus dem Team darf in der Lok sitzen, der Rest findet seinen Platz im Reisezugwagen.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.920124,
-    "longitude": 7.573848
+    "latitude": 51.924058,
+    "longitude": 7.577507,
+    "latitude2": 51.920124,
+    "longitude2": 7.573848
   },
   {
     "id": "M-21",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Ludgerikreisel Münster, 48142 Münster",
     "zeitbedarf": 10,
     "distanz": 0.7,
@@ -3736,11 +4592,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der legendäre Ludgerikreisel wurde durch Social Media in Zeiten der Covid-19 Pandemie sehr bekannt. Man munkelt es liefen dort schon einige Leute einen Marathon im Kreis\nAufgabe: Mind. eine Person umrundet den Kreisverkehr so schnell wie möglich. Die anderen machen ein Video. \nBonus: Kommentiert das Video, als ob der Läufer/die Läuferin einen Marathon rennt.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.955791,
-    "longitude": 7.626453
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.955791,
+    "longitude2": 7.626453
   },
   {
     "id": "M-22",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Domplatz 28, 48143 Münster",
     "zeitbedarf": 12,
     "distanz": 1.2,
@@ -3749,11 +4608,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Münster - St.-Paulus-Dom (astronomische Uhr)\nInfo: Die astronomische Uhr von 1540 läuft entgegen dem Uhrzeigersinn; täglich um 12 Uhr (So 12:30) spielt ein Glockenspiel.\nAufgabe: Findet im Dom die astronomische Uhr und stellt als Team die Zeigerstellung mit euren Körpern/Armen nach - einer ist der Stundenzeiger, einer der Minutenzeiger.\nBonus: Seid um 12:00 Uhr (So 12:30) da und filmt das Glockenspiel live.",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.96333,
-    "longitude": 7.62556
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.96333,
+    "longitude2": 7.62556
   },
   {
     "id": "M-23",
+    "bahnhof": "Nottuln-Appelhülsen",
     "aufgabenadresse": "Schulze-Frenkings-Hof 40, 48301 Nottuln-Appelhülsen",
     "zeitbedarf": 1,
     "distanz": 0.85,
@@ -3762,11 +4624,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Foto vor dem Schulze Frenkings-Hof",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.898162,
-    "longitude": 7.421932
+    "latitude": 51.892139,
+    "longitude": 7.426334,
+    "latitude2": 51.898162,
+    "longitude2": 7.421932
   },
   {
     "id": "M-24",
+    "bahnhof": "Münster(Westf)Hbf",
     "aufgabenadresse": "Alter Steinweg 6/7, 48143 Münster",
     "zeitbedarf": 5,
     "distanz": 0.85,
@@ -3775,11 +4640,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Das Krameramtshaus gehört zu den ältesten und besterhaltenen Gildehäusern der Stadt. Errichtet im Jahr 1589, diente es als Versammlungs- und Verwaltungssitz des Krameramts, der Zunft der Kaufleute. Heutzutage ist dort ein deutsch-niederländisches Kultur- und Forschungszentrum. \nAufgabe: macht ein Foto/Video, wie 2 Personen eures Teams Tandem fahren - ob dieses geborgt ist, imaginär, oder sonst wie ist eurer Kreativität überlassen. ",
     "lostopf": "Münster Stadt & Umland/Fahrrad",
-    "latitude": 51.96299,
-    "longitude": 7.629862
+    "latitude": 51.956566,
+    "longitude": 7.635715,
+    "latitude2": 51.96299,
+    "longitude2": 7.629862
   },
   {
     "id": "MG-01",
+    "bahnhof": "Woffleben",
     "aufgabenadresse": "Schulstraße 15, 99755 Ellrich-Woffleben",
     "zeitbedarf": 1,
     "distanz": 0.35,
@@ -3788,11 +4656,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das Eiskaffee und Minigolf Blaurock befindet sich im Ortsteil Woffleben der mit 432 Einwohner der drittgrößte Ortsteil der Stadt Ellrich ist. \nAufgabe: Macht ein Foto vor dem Eiskaffee\nBonus: Ein Bus ist auf dem Foto",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.556257,
-    "longitude": 10.723233
+    "latitude": 51.555968,
+    "longitude": 10.721395,
+    "latitude2": 51.556257,
+    "longitude2": 10.723233
   },
   {
     "id": "MG-02",
+    "bahnhof": "Titisee",
     "aufgabenadresse": "Seestraße 21/1, 79822 Titisee-Neustadt, Germany",
     "zeitbedarf": 1,
     "distanz": 0.4,
@@ -3801,11 +4672,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Keine normale Minigolf-Anlage, sondern \"Adventure-Golf\". \"Adventure Minigolf ist eine Mischung auf klassischem Golf und Minigolf. Das Green und die hügelige Landschaft aus dem Golf werden mit den kurzen Laufwegen und den Hinternissen des Minigolf kombiniert, was noch mehr Spaß für Jung und Alt bietet.\" Nebenan steht die Märklin World Titisee; es gibt auch Kombikarten für Minigolf und die Märklin World.\nAufgabe: Foto des Teams vor der Minigolf-Anlage.\nBonus: Besucht die Märklin World Titisee, die neben dem Minigolfplatz steht.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 47.900777,
-    "longitude": 8.152353
+    "latitude": 47.903402,
+    "longitude": 8.155069,
+    "latitude2": 47.900777,
+    "longitude2": 8.152353
   },
   {
     "id": "MG-03",
+    "bahnhof": "Burgstädt",
     "aufgabenadresse": "Hainstraße 19, 09249 Burgstädt",
     "zeitbedarf": 5,
     "distanz": 1.2,
@@ -3814,11 +4688,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besuche die Bahn \"Minigolfanlage im Park\" in Burgstädt",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.915387,
-    "longitude": 12.822683
+    "latitude": 50.915817,
+    "longitude": 12.812707,
+    "latitude2": 50.915387,
+    "longitude2": 12.822683
   },
   {
     "id": "MG-04",
+    "bahnhof": "Timmendorfer Strand",
     "aufgabenadresse": "Kurparkstraße 2, 23669 Timmendorfer Strand",
     "zeitbedarf": 2,
     "distanz": 1.4,
@@ -3827,11 +4704,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die Miniaturgolfbahn ist die erste Anlage der Bundesrepublik Deutschland an der Ostsee.\nAufgabe: Findet raus, wann sie eröffnet wurde und macht ein Bild von der Informationstafel, auf der die Info zu finden ist.\nBonus: Gruppenfoto mit einer Minigolfbahn im Hintergrund",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 53.999746,
-    "longitude": 10.778266
+    "latitude": 53.994212,
+    "longitude": 10.76227,
+    "latitude2": 53.999746,
+    "longitude2": 10.778266
   },
   {
     "id": "MG-05",
+    "bahnhof": "Miltenberg",
     "aufgabenadresse": "Minigolfanlage, 63897 Miltenberg",
     "zeitbedarf": 12,
     "distanz": 1.4,
@@ -3840,11 +4720,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Miltenberg am Main - Minigolf\nInfo: Miltenberg hat eine der ältesten Fachwerk-Altstädte; das 'Schnatterloch' am Marktplatz und das Wirtshaus 'Zum Riesen' sind berühmt.\nAufgabe: Fotografiert die Minigolf-Anlage und baut aus Naturmaterialien ein eigenes Minigolf-Hindernis - führt einen Schlag durch das Hindernis vor.\nBonus: Fotografiert zusätzlich das 'Schnatterloch' am Marktplatz.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 49.70361,
-    "longitude": 9.26528
+    "latitude": 49.706481,
+    "longitude": 9.248467,
+    "latitude2": 49.70361,
+    "longitude2": 9.26528
   },
   {
     "id": "MG-06",
+    "bahnhof": "Hilchenbach",
     "aufgabenadresse": "Ferndorfstraße 16, 57271 Hilchenbach",
     "zeitbedarf": 2,
     "distanz": 1.3,
@@ -3853,11 +4736,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Hilchenbach hat 14.412 Einwohner und liegt im Siegerland\nAufgabe: Macht ein Foto vor der Minigolf-Anlage",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.999127,
-    "longitude": 8.117039
+    "latitude": 50.99226,
+    "longitude": 8.107146,
+    "latitude2": 50.999127,
+    "longitude2": 8.117039
   },
   {
     "id": "MG-07",
+    "bahnhof": "Kälberau",
     "aufgabenadresse": "Bahnhofstraße 21, 63755 Alzenau",
     "zeitbedarf": 5,
     "distanz": 0.15,
@@ -3866,11 +4752,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Kälberau hat 1345 Einwohner und eines der Highlights ist sicher das Adventure-Minigolf Kahltalmühle\nAufgabe: Macht ein Foto vor der dem Eingang\nBonus: Spielt eine Runde (Beweisbild ist die ausgefüllte Spielkarte)",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.09053,
-    "longitude": 9.089848
+    "latitude": 50.090911,
+    "longitude": 9.091445,
+    "latitude2": 50.09053,
+    "longitude2": 9.089848
   },
   {
     "id": "MG-08",
+    "bahnhof": "Schneverdingen",
     "aufgabenadresse": "Walter-Peters-Park, Verdener Str. 38, 29640 Schneverdingen",
     "zeitbedarf": 2,
     "distanz": 1.3,
@@ -3879,11 +4768,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vor dem Adventure-Schnucken-Golf.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 53.11266,
-    "longitude": 9.78633
+    "latitude": 53.11057,
+    "longitude": 9.798868,
+    "latitude2": 53.11266,
+    "longitude2": 9.78633
   },
   {
     "id": "MG-09",
+    "bahnhof": "Willingen",
     "aufgabenadresse": "Am Golfpl. 4, 34508 Willingen (Upland)",
     "zeitbedarf": 1,
     "distanz": 1.7,
@@ -3892,11 +4784,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info:\ndie Minigolfanlage liegt direkt unter dem Eisenbahnviadukt.\nAufgabe:\nMacht ein Gruppenfoto vor der Anlage \"Abenteuergolf Willingen\".\nBonus:\nauf dem Bild ist ein durchfahrender Zug auf dem Viadukt zu sehen",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.289291,
-    "longitude": 8.617026
+    "latitude": 51.293342,
+    "longitude": 8.603635,
+    "latitude2": 51.289291,
+    "longitude2": 8.617026
   },
   {
     "id": "MG-10",
+    "bahnhof": "Alzey Süd",
     "aufgabenadresse": "Kettenheimer Weg, 55232 Alzey",
     "zeitbedarf": 10,
     "distanz": 0.8,
@@ -3905,11 +4800,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Minigolfplatz in Alzey bietet Freizeitvergnügen für Jung und Alt. \nAufgabe: Spielt Minigolf. Es muss ein Schläger, ein Ball und ein Loch erkennbar sein. Dokumentiert wie viel Schläge ihr für eure Bahn benötigt. Im Hintergrund muss die Minigolfbahn zu sehen sein. \nBonus: Mindestens zwei Teammitglieder spielen drei Bahnen auf der Anlage gegeneinander. Öffnungszeiten Sa+So 11-18h",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 49.738575,
-    "longitude": 8.114408
+    "latitude": 49.738134,
+    "longitude": 8.118732,
+    "latitude2": 49.738575,
+    "longitude2": 8.114408
   },
   {
     "id": "MG-11",
+    "bahnhof": "Bad Karlshafen",
     "aufgabenadresse": "An d. Schlagd 4, 34385 Bad Karlshafen",
     "zeitbedarf": 10,
     "distanz": 1,
@@ -3918,11 +4816,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Direkt am Dreiländereck gelegen, wo die Diemel in die Weser mündet, liegt dieser kleine Minigolfplatz.\nAufgabe: Spielt pantomimisch Pit-Pat mit mindestens drei Bildern (Konzentration zum Schlag, Ausführung, Freude bei einem Hole-in-One). Dabei soll das Prinzip der Minigolf-Variante klar werden.\nBonus: Nutzt das original Equipment ",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.642294,
-    "longitude": 9.449357
+    "latitude": 51.64627,
+    "longitude": 9.44571,
+    "latitude2": 51.642294,
+    "longitude2": 9.449357
   },
   {
     "id": "MG-12",
+    "bahnhof": "Winterberg(Westf)",
     "aufgabenadresse": "Am Kurpark 2, 59955 Winterberg",
     "zeitbedarf": 5,
     "distanz": 0.55,
@@ -3931,11 +4832,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Winterberg ist ein Urlaubsparadies in NRW, ob Sommer oder Winter, es ist für alle etwas dabei. Aufgabe: Geht zum Minigolfplatz und stellt eine Skisprungszene nach, macht davon ein Foto.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.196001,
-    "longitude": 8.534367
+    "latitude": 51.198585,
+    "longitude": 8.532408,
+    "latitude2": 51.196001,
+    "longitude2": 8.534367
   },
   {
     "id": "MG-13",
+    "bahnhof": "Kahl(Main)",
     "aufgabenadresse": "Campingplatz 1, 63796 Kahl am Main",
     "zeitbedarf": 5,
     "distanz": 0.7,
@@ -3944,11 +4848,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Der Minigolfplatz rund um die \"Kahler Sandhasen\" freut sich über Euren Besuch. Hier wurde sogar schon um die Hessische Meisterschaft gespielt.\nAufgabe: Macht ein Foto vor dem Minigolfplatz (oder noch besser auf dem Minigolfplatz) und tut dabei so, als hättet Ihr alle gleichzeitig einen Ball abbekommen.\nBonus: Spielt eine Runde Minigolf (Öffnungszeiten Sa 14-20, So 11-20 Uhr)",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.081817,
-    "longitude": 9.008281
+    "latitude": 50.07687,
+    "longitude": 9.005468,
+    "latitude2": 50.081817,
+    "longitude2": 9.008281
   },
   {
     "id": "MG-14",
+    "bahnhof": "Barmstedt Brunnenstr",
     "aufgabenadresse": "Seestraße 0, 25355 Barmstedt",
     "zeitbedarf": 2,
     "distanz": 0.75,
@@ -3957,11 +4864,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Macht ein Foto vor dem Minigolfplatz am Rantzauer See",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 53.786514,
-    "longitude": 9.763561
+    "latitude": 53.792619,
+    "longitude": 9.761888,
+    "latitude2": 53.786514,
+    "longitude2": 9.763561
   },
   {
     "id": "MG-16",
+    "bahnhof": "Oberwinden",
     "aufgabenadresse": "Kirchberg 9, 79297 Winden im Elztal, Germany",
     "zeitbedarf": 5,
     "distanz": 0.7,
@@ -3970,11 +4880,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Neben dem Minigolfplatz gibt es eine Freizeitanlage mit Bewegungsparcour.\nAufgabe: Macht ein bisschen Sport, ihr faule Säcke! Jedes Teammitglied muss mindestens drei der Geräte ausprobieren und ihr musst jede Kombination von Person und Gerät fotografieren.\nBonus: Spielt mindestens eine Bahn Minigolf.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 48.154733,
-    "longitude": 8.045701
+    "latitude": 48.152529,
+    "longitude": 8.044583,
+    "latitude2": 48.154733,
+    "longitude2": 8.045701
   },
   {
     "id": "MG-17",
+    "bahnhof": "Thale Hbf",
     "aufgabenadresse": "Goetheweg 4, 06502 Thale",
     "zeitbedarf": 5,
     "distanz": 0.7,
@@ -3983,11 +4896,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Besuche die Bahn \"Minigolf an der Talstation\" in Thale. Bonus: Tut so, als würdet ihr Minigolf spielen und lasst euch dabei fotografieren.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.741649,
-    "longitude": 11.026719
+    "latitude": 51.746047,
+    "longitude": 11.031048,
+    "latitude2": 51.741649,
+    "longitude2": 11.026719
   },
   {
     "id": "MG-18",
+    "bahnhof": "Diez",
     "aufgabenadresse": "Christiansweg, 65582 Diez",
     "zeitbedarf": 1,
     "distanz": 0.9,
@@ -3996,11 +4912,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Minigolf im (Wester-)Wald, eine belebende Aktivität an einem heißen Sommertag...\nAufgabe: Gruppenfoto mit der Minigolfbahn im Hintergrund",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.372934,
-    "longitude": 8.011952
+    "latitude": 50.370127,
+    "longitude": 8.01962,
+    "latitude2": 50.372934,
+    "longitude2": 8.011952
   },
   {
     "id": "MG-19",
+    "bahnhof": "Bad Berleburg",
     "aufgabenadresse": "Minigolfanlage, 57319 Bad Berleburg",
     "zeitbedarf": 12,
     "distanz": 0.25,
@@ -4009,11 +4928,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Bad Berleburg - Minigolf\nAufgabe: Macht ein Foto an der Minigolf-Anlage und spielt eine imaginäre Runde mit einem Stock als Schläger - einer kommentiert wie ein Sportreporter (Video erlaubt).",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.05278,
-    "longitude": 8.39444
+    "latitude": 51.051197,
+    "longitude": 8.394109,
+    "latitude2": 51.05278,
+    "longitude2": 8.39444
   },
   {
     "id": "MG-20",
+    "bahnhof": "Bad Laasphe",
     "aufgabenadresse": " Sebastian-Kneipp-Straße 20, 57334 Bad Laasphe",
     "zeitbedarf": 3,
     "distanz": 1.2,
@@ -4022,11 +4944,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Bad Laasphe hat 13.148 Einwohner und liegt im Wittgensteiner Land. \nAufgabe: Mache ein Foto vor der Minigolf-Anlage",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.930293,
-    "longitude": 8.407337
+    "latitude": 50.929312,
+    "longitude": 8.42072,
+    "latitude2": 50.930293,
+    "longitude2": 8.407337
   },
   {
     "id": "MG-21",
+    "bahnhof": "Metelen Land",
     "aufgabenadresse": "Samberg 61, 48629 Metelen",
     "zeitbedarf": 5,
     "distanz": 1.8,
@@ -4035,11 +4960,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die Gemeinde Metelen liegt in der Münsterländer Parklandschaft und hat 6539 Einwohner. Die naturbelassene Minigolfanlage in der Metelener Heide ist ein Riesenspaß für Familien und Minigolffans von Nah und Fern. Öffnungszeiten: Samstag 11:00-22:00, Sonntag 11:00-19:00.\nAufgabe: Macht ein Gruppenfoto mit einer Minigolfbahn im Hintergrund und stellt dabei die Hindernisse nach.\nBonus: Spielt eine Runde Minigolf und macht ein Foto beim Einlochen.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 52.15038,
-    "longitude": 7.251984
+    "latitude": 52.162494,
+    "longitude": 7.254173,
+    "latitude2": 52.15038,
+    "longitude2": 7.251984
   },
   {
     "id": "MG-22",
+    "bahnhof": "Bad Segeberg",
     "aufgabenadresse": "Winklersgang 2A, 23795 Bad Segeberg",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -4048,11 +4976,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Foto vor der Minigolf-Anlage (Blickrichtung Jugendherberge)",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 53.939372,
-    "longitude": 10.314335
+    "latitude": 53.933805,
+    "longitude": 10.308163,
+    "latitude2": 53.939372,
+    "longitude2": 10.314335
   },
   {
     "id": "MG-23",
+    "bahnhof": "St Goar",
     "aufgabenadresse": "Am Hafen 1, 56329 St. Goar",
     "zeitbedarf": 2,
     "distanz": 0.5,
@@ -4061,11 +4992,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Aufgabe:\nMacht ein Gruppenfoto vor der Anlage \"Minigolf - Aries am Rhein\".\nBonus: findet eine Lore auf dem nahen Spielplatz und macht dort ein Gruppenfoto.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 50.152876,
-    "longitude": 7.711544
+    "latitude": 50.150155,
+    "longitude": 7.714587,
+    "latitude2": 50.152876,
+    "longitude2": 7.711544
   },
   {
     "id": "MG-24",
+    "bahnhof": "Bad Liebenwerda",
     "aufgabenadresse": "Am Kurpark 1, 04924 Bad Liebenwerda",
     "zeitbedarf": 5,
     "distanz": 0.3,
@@ -4074,11 +5008,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: In Bad Liebenwerda gibt es einen Minigolfplatz im Stadtpark. Ausleihen kann man sich Equipment im Restaurant \"Villa Nuova\"\nAufgabe: Spielt Minigolf. Es muss ein Schläger, ein Ball und ein Loch erkennbar sein. Dokumentiert wie viel Schläge ihr für eure Bahn benötigt. Im Hintergrund muss die Minigolfbahn zu sehen sein. \nBonus: Mindestens zwei Teammitglieder spielen drei Bahnen auf der Anlage gegeneinander. Öffnungszeiten Sa+So 11-23h",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.51593,
-    "longitude": 13.402116
+    "latitude": 51.518401,
+    "longitude": 13.40293,
+    "latitude2": 51.51593,
+    "longitude2": 13.402116
   },
   {
     "id": "MG-25",
+    "bahnhof": "Fornsbach",
     "aufgabenadresse": "Am Waldsee 9, 71540 Murrhardt",
     "zeitbedarf": 5,
     "distanz": 1.7,
@@ -4087,11 +5024,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Eines der wenigen Naherholungsseen in der Region. Ausgestattet mit Spielmöglichkeiten und einem großen Fest im Sommer\nAufgabe: Neben dem Minigolf ist eine Rutsche entlang der Staumauer, macht ein Video, wie Ihr rutscht :) ",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 48.976542,
-    "longitude": 9.663497
+    "latitude": 48.975445,
+    "longitude": 9.642498,
+    "latitude2": 48.976542,
+    "longitude2": 9.663497
   },
   {
     "id": "MG-99",
+    "bahnhof": "Billerbeck",
     "aufgabenadresse": "Helker Berg 5, 48727 Billerbeck",
     "zeitbedarf": 2,
     "distanz": 2,
@@ -4100,11 +5040,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: im Sportpark Billerbeck findet sich eine Mini-Golf-Anlage.\nAufgabe: macht ein Gruppenfoto vor der Anlage.",
     "lostopf": "Mini-Golf in Mini-Städten",
-    "latitude": 51.968092,
-    "longitude": 7.290834
+    "latitude": 51.981341,
+    "longitude": 7.297482,
+    "latitude2": 51.968092,
+    "longitude2": 7.290834
   },
   {
     "id": "N-01",
+    "bahnhof": "Seebrugg",
     "aufgabenadresse": "Seebrugg 10, 79859 Schluchsee",
     "zeitbedarf": 1,
     "distanz": 0.5,
@@ -4113,11 +5056,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besucht die BSW Angler- und Wandergruppe, Foto mit Holzschild\nZiel des ehm. IC Seebrugg",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 47.801429,
-    "longitude": 8.196188
+    "latitude": 47.803516,
+    "longitude": 8.191115,
+    "latitude2": 47.801429,
+    "longitude2": 8.196188
   },
   {
     "id": "N-02",
+    "bahnhof": "Baiersbronn Bf",
     "aufgabenadresse": "Stöckerweg 16, 72270 Baiersbronn",
     "zeitbedarf": 1,
     "distanz": 0.5,
@@ -4126,11 +5072,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Besucht den Schnapsbrunnen am Stöckerweg in Baiersbronn. Hier gibts gegen Kleingeld auch etwas zu trinken.\nAufgabe: Macht ein Gruppenfoto mit dem Schild \"Schnapsbrunnen\" oder mit dem Brunnen im Hintergrund.\nBonus: Gruppenfoto mit einem Getränk kleiner als 50 ml in der Hand.",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 48.501834,
-    "longitude": 8.369239
+    "latitude": 48.503576,
+    "longitude": 8.372038,
+    "latitude2": 48.501834,
+    "longitude2": 8.369239
   },
   {
     "id": "N-03",
+    "bahnhof": "Waltershausen Schnepfenthal",
     "aufgabenadresse": "99880 Waltershausen",
     "zeitbedarf": 1,
     "distanz": 1.1,
@@ -4139,11 +5088,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Besuche das Waltershausen Gleisdreieck; Bonus Bild mit Straßenbahn\n",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 50.889766,
-    "longitude": 10.577837
+    "latitude": 50.883974,
+    "longitude": 10.576211,
+    "latitude2": 50.889766,
+    "longitude2": 10.577837
   },
   {
     "id": "N-04",
+    "bahnhof": "Garmisch-Partenkirchen",
     "aufgabenadresse": "Karl-und Martin-Neuner-Platz, 1, 82467 Garmisch-Partenkirchen",
     "zeitbedarf": 1,
     "distanz": 2.1,
@@ -4152,11 +5104,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Bild vor der Große Olympiaschanze (im Olympia Skistadion)\n",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 47.481788,
-    "longitude": 11.117389
+    "latitude": 47.491452,
+    "longitude": 11.097013,
+    "latitude2": 47.481788,
+    "longitude2": 11.117389
   },
   {
     "id": "N-05",
+    "bahnhof": "Füssen",
     "aufgabenadresse": "Tiroler Str. 29, 87629 Füssen",
     "zeitbedarf": 1,
     "distanz": 1.3,
@@ -4165,11 +5120,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Wandere zum Lechfall und fotografiere diesen von der Brücke aus\n",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 47.561817,
-    "longitude": 10.694816
+    "latitude": 47.57071,
+    "longitude": 10.696789,
+    "latitude2": 47.561817,
+    "longitude2": 10.694816
   },
   {
     "id": "N-06",
+    "bahnhof": "Aschaffenburg Hochschule",
     "aufgabenadresse": "Godelsberg 29, 63739 Aschaffenburg",
     "zeitbedarf": 5,
     "distanz": 1.7,
@@ -4178,11 +5136,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Wandere zur kleinen Aussichtsplatform an der Kippenburg. Der Teufelsgruß ist in der \"Rock-Szene\" weit verbreitet ;)\nAufgabe: Mache ein Team Foto, alle machen den Teufelsgruß \"Mano cornuta\".\nBonus: Findet zudem einen Ast mit drei Zacken",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 49.976918,
-    "longitude": 9.175747
+    "latitude": 49.974445,
+    "longitude": 9.160416,
+    "latitude2": 49.976918,
+    "longitude2": 9.175747
   },
   {
     "id": "N-07",
+    "bahnhof": "Ronneburg(Thür)",
     "aufgabenadresse": "07580 Ronneburg",
     "zeitbedarf": 1,
     "distanz": 1,
@@ -4191,11 +5152,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Aufgabe: Wandere zur Erlebnisbrücke Drachenschwanz, gehe auf diese und fotografiert die Eisenbahnbrücke von dieser aus (Bonus Zug im Bild)",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 50.857474,
-    "longitude": 12.169759
+    "latitude": 50.859555,
+    "longitude": 12.18172,
+    "latitude2": 50.857474,
+    "longitude2": 12.169759
   },
   {
     "id": "N-08",
+    "bahnhof": "Bensheim",
     "aufgabenadresse": "Außerhalb 2, 64625 Bensheim",
     "zeitbedarf": 10,
     "distanz": 1.8,
@@ -4204,11 +5168,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Besucht das Bensheimer Lusthaus. Auf dem Gipfel des Kirchberges  befindet sich das bewirtschaftete Kirchberghäuschen, welches am 2. Juni 1857 als „Lusthaus“ eingeweiht wurde.\nAufgabe: Setzt euch in der Gruppe in die Weinberge und genieß den Ausblick auf die Rheinebene. Macht ein Selfie in einer lustvollen Pose.\nBonus: Besorgt euch ein Glas Wein von der Rebesorte, die dort angebaut wird und inkludiert es im Foto.",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 49.687662,
-    "longitude": 8.626577
+    "latitude": 49.681329,
+    "longitude": 8.616717,
+    "latitude2": 49.687662,
+    "longitude2": 8.626577
   },
   {
     "id": "N-10",
+    "bahnhof": "Donaueschingen",
     "aufgabenadresse": "Fürstenbergstraße, 78166 Donaueschingen",
     "zeitbedarf": 1,
     "distanz": 0.6,
@@ -4217,11 +5184,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Foto mit dem Team um die \"Donauquelle\"\nFoto am Ring unten erstellen",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 47.951845,
-    "longitude": 8.502506
+    "latitude": 47.947899,
+    "longitude": 8.498788,
+    "latitude2": 47.951845,
+    "longitude2": 8.502506
   },
   {
     "id": "N-11",
+    "bahnhof": "Wernigerode Westerntor",
     "aufgabenadresse": "Marktpl., 38855 Wernigerode",
     "zeitbedarf": 1,
     "distanz": 0.4,
@@ -4230,11 +5200,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Foto am Wohltäterbrunnen\nRathausplatz",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 51.833593,
-    "longitude": 10.784566
+    "latitude": 51.83396,
+    "longitude": 10.780256,
+    "latitude2": 51.833593,
+    "longitude2": 10.784566
   },
   {
     "id": "N-12",
+    "bahnhof": "Husum",
     "aufgabenadresse": "Zingel 10, 25813 Husum",
     "zeitbedarf": 3,
     "distanz": 0.7,
@@ -4243,11 +5216,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Fahrt nach Husum und begebt euch zum Hafen. Besucht dort die Aussichtsplattform und macht ein Selfie mit dem Husumer Au im Hintergrund.",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 54.474928,
-    "longitude": 9.046185
+    "latitude": 54.472083,
+    "longitude": 9.055953,
+    "latitude2": 54.474928,
+    "longitude2": 9.046185
   },
   {
     "id": "N-13",
+    "bahnhof": "Kaub",
     "aufgabenadresse": "Adolfstraße 19A, 56349 Kaub",
     "zeitbedarf": 1,
     "distanz": 0.75,
@@ -4256,11 +5232,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Wandere zur Aussichtsplatform und mache ein Bild mit der Burg Pfalzgrafenstein\n\n(Antonia hat überprüft. Weg ist in Ordnung. Es führt ein Serpentinenweg zur genannten Stelle)",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 50.085445,
-    "longitude": 7.769685
+    "latitude": 50.083197,
+    "longitude": 7.76875,
+    "latitude2": 50.085445,
+    "longitude2": 7.769685
   },
   {
     "id": "N-14",
+    "bahnhof": "Happurg",
     "aufgabenadresse": "Am Baggersee 1, 91230 Happurg",
     "zeitbedarf": 1,
     "distanz": 0.85,
@@ -4269,11 +5248,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild am Baggerseerestaurant\n",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 49.503028,
-    "longitude": 11.462278
+    "latitude": 49.500052,
+    "longitude": 11.468355,
+    "latitude2": 49.503028,
+    "longitude2": 11.462278
   },
   {
     "id": "N-15",
+    "bahnhof": "Eiswoog",
     "aufgabenadresse": "Eiswoog 1, 67305 Ramsen",
     "zeitbedarf": 1,
     "distanz": 0.2,
@@ -4282,11 +5264,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild mit dem Eistalviadukt (stillgelegte Strecke)\nFolgt dem Weg am prellbock vorbei bis zum Widerlager",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 49.515089,
-    "longitude": 7.982407
+    "latitude": 49.516578,
+    "longitude": 7.983562,
+    "latitude2": 49.515089,
+    "longitude2": 7.982407
   },
   {
     "id": "N-16",
+    "bahnhof": "Oberstdorf",
     "aufgabenadresse": "Nebelhornstraße 67C, 87561 Oberstdorf",
     "zeitbedarf": 3,
     "distanz": 1,
@@ -4295,11 +5280,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Willkommen am südlichsten Bahnhof Deutschlands! In Oberstdorf haben Skifahren und Skitourismus Tradition. \nAufgabe: begebt euch zur Talstation der Nebelhornbahn und posiert als Skispringer. \nBonus: tragt dabei ein oder mehrere Teile Skiausrüstung (Stpcke, Helm, usw.)",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 47.40473,
-    "longitude": 10.285427
+    "latitude": 47.411032,
+    "longitude": 10.278097,
+    "latitude2": 47.40473,
+    "longitude2": 10.285427
   },
   {
     "id": "N-17",
+    "bahnhof": "Ebstorf(Uelzen)",
     "aufgabenadresse": "Westerholz, 29574 Ebstorf",
     "zeitbedarf": 2,
     "distanz": 0.85,
@@ -4308,11 +5296,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vor dem Naturdenkmal 1000-jährige Eiche.",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 53.0157,
-    "longitude": 10.426253
+    "latitude": 53.017192,
+    "longitude": 10.41695,
+    "latitude2": 53.0157,
+    "longitude2": 10.426253
   },
   {
     "id": "N-18",
+    "bahnhof": "Detmold",
     "aufgabenadresse": "Pieperweg 1A, 32756 Detmold",
     "zeitbedarf": 3,
     "distanz": 1.8,
@@ -4321,11 +5312,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: der Wanderbahnhof Detmold ist\nPreisträger des Jahres 2025 von mobil.nrw. \nAufgabe: macht eine Wanderung zum Palaisgarten in Detmold. Dort könnt ihr eine Ruhepause unter dem Mammutbaum am Schwanenteich einlegen. Versucht den Mammutbaum mit euren Armen zu umfassen und macht ein Foto davon. ",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 51.929278,
-    "longitude": 8.876692
+    "latitude": 51.940745,
+    "longitude": 8.872859,
+    "latitude2": 51.929278,
+    "longitude2": 8.876692
   },
   {
     "id": "N-19",
+    "bahnhof": "St Georgen(Schwarzw)",
     "aufgabenadresse": "Seilerberg 6, 78112 St. Georgen im Schwarzwald",
     "zeitbedarf": 7,
     "distanz": 0.4,
@@ -4334,11 +5328,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Ihr seit im Herz des Schwarzwaldes. Der soll seinen Namen von den Römern und dem dichten Bewuchs durch Buchen haben.\nAufgabe: Von den Buchen ist nicht mehr viel zu sehen. Macht Bilder mit je 2 unterschiedlichen Laub- und Nadelbäumen, die ihr korrekt benennen müsst (schriftlich im Bild). \nBonus: Ihr macht eine Wanderung von mindestens 3km. Als Nachweis dient ein Track (Screenshot des Weges oder als Datei), den ihr erstellt.",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 48.121236,
-    "longitude": 8.343597
+    "latitude": 48.123813,
+    "longitude": 8.341955,
+    "latitude2": 48.121236,
+    "longitude2": 8.343597
   },
   {
     "id": "N-20",
+    "bahnhof": "Pforzheim Hbf",
     "aufgabenadresse": "Kreuzstraße 2A, 75175 Pforzheim",
     "zeitbedarf": 10,
     "distanz": 0.8,
@@ -4347,11 +5344,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "\nAufgabe: Gehe zum Flößerdenkmal/ Gleichzeitig Flussmündung der Nagold / Enz. Singe das Badner Lied. https://www.youtube.com/watch?v=Io9_kwb9PEI\nBonus: Singe zusammen",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 48.888583,
-    "longitude": 8.703743
+    "latitude": 48.894152,
+    "longitude": 8.703099,
+    "latitude2": 48.888583,
+    "longitude2": 8.703743
   },
   {
     "id": "N-21",
+    "bahnhof": "Frankenstein(Pfalz)",
     "aufgabenadresse": "Hauptstraße 28, 67468 Frankenstein",
     "zeitbedarf": 15,
     "distanz": 0.65,
@@ -4360,11 +5360,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:Die Burgruine Frankenstein thront auf einem steilen Felsvorsprung im Pfälzerwald direkt über dem gleichnamigen Dorf.\nAufgabe: Steigt den steilen Pfad hoch zur Burgruine auf und genießt bei einem Getränk oder Snack die Natur.",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 49.438835,
-    "longitude": 7.974638
+    "latitude": 49.438867,
+    "longitude": 7.969802,
+    "latitude2": 49.438835,
+    "longitude2": 7.974638
   },
   {
     "id": "N-22",
+    "bahnhof": "Zwingenberg(Bergstr)",
     "aufgabenadresse": "Auf dem Berg 11, 64673 Zwingenberg",
     "zeitbedarf": 5,
     "distanz": 0.6,
@@ -4373,11 +5376,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Nibelungensteig ist ein Weitwanderweg durch den Odenwald, der sich zwischen Hessen, Baden-Württemberg und Bayern über 130km und 4000hm erstreckt. \nAufgabe: Macht ein Foto vor dem Start der Strecke, welches mit einem großen \"N\" markiert ist und stellt dabei die Szene aus der Sage nach, in der Siegfried am Brunnen durch Hagen getötet wird. ",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 49.724078,
-    "longitude": 8.616342
+    "latitude": 49.725902,
+    "longitude": 8.609119,
+    "latitude2": 49.724078,
+    "longitude2": 8.616342
   },
   {
     "id": "N-23",
+    "bahnhof": "Waren(Müritz)",
     "aufgabenadresse": "Kietzstraße 9, 17192 Waren (Müritz)",
     "zeitbedarf": 2,
     "distanz": 1.2,
@@ -4386,11 +5392,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Macht ein entspanntes Foto vor der Kietzbrücke, sodass der Schriftzug \"Kietz-Brücke\" klar zu sehen ist.",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 53.513668,
-    "longitude": 12.679713
+    "latitude": 53.521512,
+    "longitude": 12.680678,
+    "latitude2": 53.513668,
+    "longitude2": 12.679713
   },
   {
     "id": "N-24",
+    "bahnhof": "Heimbach (Eifel)",
     "aufgabenadresse": "Superwash, Hengebachstraße 1, 52396 Heimbach-Hasenfeld",
     "zeitbedarf": 2,
     "distanz": 1.6,
@@ -4399,11 +5408,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Rursee ist ein beliebtes Naherholungsziel in der Region. Aufgabe: Wandert zum Wanderpunkt Heimbach und macht dort ein Gruppenfoto und dem Panorama im Hintergrund",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 50.631987,
-    "longitude": 6.461743
+    "latitude": 50.636515,
+    "longitude": 6.4735,
+    "latitude2": 50.631987,
+    "longitude2": 6.461743
   },
   {
     "id": "N-25",
+    "bahnhof": "Wilhelmshaven",
     "aufgabenadresse": "Südstrand 84, 26382 Wilhelmshaven",
     "zeitbedarf": 2,
     "distanz": 2.1,
@@ -4412,11 +5424,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: In Wilhelmshaven befindet sich die Nationalparkverwaltung vom Nationalpark Niedersächsisches Wattenmeer.\nAufgabe: Macht ein Video auf der Südstrandpromenade, auf dem ihr die Möwen von \"Findet Nemo\" spielt. Dabei musst ihr laut und wiederholend \"Meines!\" schreien und der Strand muss im Hintergrund sichtbar sein.\nBonus:  Eine echte Möwe spielt mit (max. 10 m von euch entfernt).",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 53.512442,
-    "longitude": 8.138985
+    "latitude": 53.518795,
+    "longitude": 8.114901,
+    "latitude2": 53.512442,
+    "longitude2": 8.138985
   },
   {
     "id": "N-99",
+    "bahnhof": "Havixbeck",
     "aufgabenadresse": "Lasbeck 43, 48329 Havixbeck",
     "zeitbedarf": 3,
     "distanz": 1.9,
@@ -4425,11 +5440,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Hotel Café Pannkokenhus Teitekerl. Die Teitekerlken sind Sagengestalten aus den Baumbergen. Kobolde, Erdgeister sollen es gewesen sein, die den Steinbrechern, Steinmetzen und Bildhauern das Leben schwer gemacht haben.\nAufgabe: macht eine Wanderung zum Pannkokenhus und findet den Pferdeparkplatz. Macht ein Foto, wie ihr (wie Kobolde) auf der Stange sitzt (natürlich nur, wenn der Parkplatz nicht belegt ist).",
     "lostopf": "Natur/Wanderbahnhöfe",
-    "latitude": 51.962745,
-    "longitude": 7.386751
+    "latitude": 51.966713,
+    "longitude": 7.407711,
+    "latitude2": 51.962745,
+    "longitude2": 7.386751
   },
   {
     "id": "P-01a",
+    "bahnhof": "Hermsdorf-Klosterlausnitz",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4439,10 +5457,13 @@ const coordinates = [
     "aufgabe": "Info: seit 1990 Partnerstadt von Lahnstein.",
     "lostopf": "Partnerstädte",
     "latitude": 50.903779,
-    "longitude": 11.858626
+    "longitude": 11.858626,
+    "latitude2": 50.903779,
+    "longitude2": 11.858626
   },
   {
     "id": "P-01b",
+    "bahnhof": "Oberlahnstein",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4452,10 +5473,13 @@ const coordinates = [
     "aufgabe": "Info: seit 1990 Partnerstadt von Hermsdorf(Thüringen)",
     "lostopf": "Partnerstädte",
     "latitude": 50.299926,
-    "longitude": 7.603964
+    "longitude": 7.603964,
+    "latitude2": 50.299926,
+    "longitude2": 7.603964
   },
   {
     "id": "P-02a",
+    "bahnhof": "Schwerin Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4465,10 +5489,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Wuppertal (seit 1986)",
     "lostopf": "Partnerstädte",
     "latitude": 53.634739,
-    "longitude": 11.407455
+    "longitude": 11.407455,
+    "latitude2": 53.634739,
+    "longitude2": 11.407455
   },
   {
     "id": "P-02b",
+    "bahnhof": "Wuppertal Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4478,10 +5505,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Schwerin (seit 1986)",
     "lostopf": "Partnerstädte",
     "latitude": 51.254363,
-    "longitude": 7.149543
+    "longitude": 7.149543,
+    "latitude2": 51.254363,
+    "longitude2": 7.149543
   },
   {
     "id": "P-03a",
+    "bahnhof": "Neustadt(Kr Marburg)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4491,10 +5521,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Neustadt am Rübenberge. Neustadt in Europa ist die größte Städtefreundschaft in Europa und umfasst 35 Städte, Gemeinden und Ortsteile mit dem Namen „Neustadt“ in sechs mitteleuropäischen Ländern.",
     "lostopf": "Partnerstädte",
     "latitude": 50.850447,
-    "longitude": 9.120643
+    "longitude": 9.120643,
+    "latitude2": 50.850447,
+    "longitude2": 9.120643
   },
   {
     "id": "P-03b",
+    "bahnhof": "Neustadt am Rübenberge",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4504,10 +5537,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Neustadt (Kr Marburg). Neustadt in Europa ist die größte Städtefreundschaft in Europa und umfasst 35 Städte, Gemeinden und Ortsteile mit dem Namen „Neustadt“ in sechs mitteleuropäischen Ländern.",
     "lostopf": "Partnerstädte",
     "latitude": 52.503325,
-    "longitude": 9.455277
+    "longitude": 9.455277,
+    "latitude2": 52.503325,
+    "longitude2": 9.455277
   },
   {
     "id": "P-04a",
+    "bahnhof": "Salzgitter-Bad",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4517,10 +5553,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Gotha.",
     "lostopf": "Partnerstädte",
     "latitude": 52.049824,
-    "longitude": 10.372335
+    "longitude": 10.372335,
+    "latitude2": 52.049824,
+    "longitude2": 10.372335
   },
   {
     "id": "P-04b",
+    "bahnhof": "Gotha",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4530,10 +5569,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Salzgitter.",
     "lostopf": "Partnerstädte",
     "latitude": 50.93907,
-    "longitude": 10.712568
+    "longitude": 10.712568,
+    "latitude2": 50.93907,
+    "longitude2": 10.712568
   },
   {
     "id": "P-05a",
+    "bahnhof": "Güstrow",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4543,10 +5585,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Neuwied.",
     "lostopf": "Partnerstädte",
     "latitude": 53.800597,
-    "longitude": 12.172836
+    "longitude": 12.172836,
+    "latitude2": 53.800597,
+    "longitude2": 12.172836
   },
   {
     "id": "P-05b",
+    "bahnhof": "Neuwied",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4556,10 +5601,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Güstrow.",
     "lostopf": "Partnerstädte",
     "latitude": 50.431466,
-    "longitude": 7.473132
+    "longitude": 7.473132,
+    "latitude2": 50.431466,
+    "longitude2": 7.473132
   },
   {
     "id": "P-07a",
+    "bahnhof": "Sömmerda",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4569,10 +5617,13 @@ const coordinates = [
     "aufgabe": "Info: Sömmerda ist Partnerstadt mit Böblingen.",
     "lostopf": "Partnerstädte",
     "latitude": 51.164954,
-    "longitude": 11.127584
+    "longitude": 11.127584,
+    "latitude2": 51.164954,
+    "longitude2": 11.127584
   },
   {
     "id": "P-07b",
+    "bahnhof": "Böblingen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4582,10 +5633,13 @@ const coordinates = [
     "aufgabe": "Info: Böblingen ist Partnerstadt mit Sömmerda.",
     "lostopf": "Partnerstädte",
     "latitude": 48.687758,
-    "longitude": 9.004128
+    "longitude": 9.004128,
+    "latitude2": 48.687758,
+    "longitude2": 9.004128
   },
   {
     "id": "P-08a",
+    "bahnhof": "Bautzen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4595,10 +5649,13 @@ const coordinates = [
     "aufgabe": "Partnerstadt von Heidelberg",
     "lostopf": "Partnerstädte",
     "latitude": 51.173097,
-    "longitude": 14.428735
+    "longitude": 14.428735,
+    "latitude2": 51.173097,
+    "longitude2": 14.428735
   },
   {
     "id": "P-08b",
+    "bahnhof": "Heidelberg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4608,10 +5665,13 @@ const coordinates = [
     "aufgabe": "Partnerstadt von Bautzen",
     "lostopf": "Partnerstädte",
     "latitude": 49.403567,
-    "longitude": 8.675442
+    "longitude": 8.675442,
+    "latitude2": 49.403567,
+    "longitude2": 8.675442
   },
   {
     "id": "P-09a",
+    "bahnhof": "St Ingbert",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4621,10 +5681,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Radebeul (seit 1988)",
     "lostopf": "Partnerstädte",
     "latitude": 49.274763,
-    "longitude": 7.110814
+    "longitude": 7.110814,
+    "latitude2": 49.274763,
+    "longitude2": 7.110814
   },
   {
     "id": "P-09b",
+    "bahnhof": "Radebeul Ost",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4634,10 +5697,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von St. Ingbert (seit 1988)",
     "lostopf": "Partnerstädte",
     "latitude": 51.098294,
-    "longitude": 13.680163
+    "longitude": 13.680163,
+    "latitude2": 51.098294,
+    "longitude2": 13.680163
   },
   {
     "id": "P-10a",
+    "bahnhof": "Nürnberg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4647,10 +5713,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Nürnberg ist Gera.",
     "lostopf": "Partnerstädte",
     "latitude": 49.445616,
-    "longitude": 11.082989
+    "longitude": 11.082989,
+    "latitude2": 49.445616,
+    "longitude2": 11.082989
   },
   {
     "id": "P-10b",
+    "bahnhof": "Gera Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4660,10 +5729,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Gera ist Nürnberg.",
     "lostopf": "Partnerstädte",
     "latitude": 50.883421,
-    "longitude": 12.077092
+    "longitude": 12.077092,
+    "latitude2": 50.883421,
+    "longitude2": 12.077092
   },
   {
     "id": "P-11a",
+    "bahnhof": "Meiningen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4673,10 +5745,13 @@ const coordinates = [
     "aufgabe": "Info: Partner-Stadt von Neu-Ulm.",
     "lostopf": "Partnerstädte",
     "latitude": 50.57407,
-    "longitude": 10.421205
+    "longitude": 10.421205,
+    "latitude2": 50.57407,
+    "longitude2": 10.421205
   },
   {
     "id": "P-11b",
+    "bahnhof": "Neu-Ulm",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4686,10 +5761,13 @@ const coordinates = [
     "aufgabe": "Info: Partner-Stadt von Meiningen.",
     "lostopf": "Partnerstädte",
     "latitude": 48.393493,
-    "longitude": 10.005766
+    "longitude": 10.005766,
+    "latitude2": 48.393493,
+    "longitude2": 10.005766
   },
   {
     "id": "P-12a",
+    "bahnhof": "Düsseldorf-Bilk",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4699,10 +5777,13 @@ const coordinates = [
     "aufgabe": "Info: Düsseldorf ist Partnerstadt von Chemnitz.",
     "lostopf": "Partnerstädte",
     "latitude": 51.207994,
-    "longitude": 6.775578
+    "longitude": 6.775578,
+    "latitude2": 51.207994,
+    "longitude2": 6.775578
   },
   {
     "id": "P-12b",
+    "bahnhof": "Chemnitz Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4712,10 +5793,13 @@ const coordinates = [
     "aufgabe": "Info: Chemnitz ist Partnerstadt von Düsseldorf.",
     "lostopf": "Partnerstädte",
     "latitude": 50.839696,
-    "longitude": 12.930877
+    "longitude": 12.930877,
+    "latitude2": 50.839696,
+    "longitude2": 12.930877
   },
   {
     "id": "P-13a",
+    "bahnhof": "Hannover Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4725,10 +5809,13 @@ const coordinates = [
     "aufgabe": "Info: Hannover ist Partnerstadt von Leipzig.",
     "lostopf": "Partnerstädte",
     "latitude": 52.376761,
-    "longitude": 9.741021
+    "longitude": 9.741021,
+    "latitude2": 52.376761,
+    "longitude2": 9.741021
   },
   {
     "id": "P-13b",
+    "bahnhof": "Leipzig Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4738,10 +5825,13 @@ const coordinates = [
     "aufgabe": "Info: Leipzig ist Partnerstadt von Hannover.",
     "lostopf": "Partnerstädte",
     "latitude": 51.345471,
-    "longitude": 12.382064
+    "longitude": 12.382064,
+    "latitude2": 51.345471,
+    "longitude2": 12.382064
   },
   {
     "id": "P-15a",
+    "bahnhof": "Braunschweig Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4751,10 +5841,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Magdeburg.",
     "lostopf": "Partnerstädte",
     "latitude": 52.252218,
-    "longitude": 10.540295
+    "longitude": 10.540295,
+    "latitude2": 52.252218,
+    "longitude2": 10.540295
   },
   {
     "id": "P-15b",
+    "bahnhof": "Magdeburg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4764,10 +5857,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Braunschweig.",
     "lostopf": "Partnerstädte",
     "latitude": 52.130511,
-    "longitude": 11.626963
+    "longitude": 11.626963,
+    "latitude2": 52.130511,
+    "longitude2": 11.626963
   },
   {
     "id": "P-17a",
+    "bahnhof": "Eisenach Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4777,10 +5873,13 @@ const coordinates = [
     "aufgabe": "Info: Bekannt ist Eisenach vor allem durch die Wartburg südlich und oberhalb der Altstadt. Mit der hessischen Universitätsstadt Marburg bestehen seit über 800 Jahren historische Verbindungen im Zusammenhang mit Elisabeth von Thüringen.",
     "lostopf": "Partnerstädte",
     "latitude": 50.976922,
-    "longitude": 10.331986
+    "longitude": 10.331986,
+    "latitude2": 50.976922,
+    "longitude2": 10.331986
   },
   {
     "id": "P-17b",
+    "bahnhof": "Marburg(Lahn)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4790,10 +5889,13 @@ const coordinates = [
     "aufgabe": "Info: Bekannt ist Marburg vor allem als Universitätsstadt, aber auch für das Wirken von Elisabeth von Thüringen, einer Heiligen der katholischen Kirche.",
     "lostopf": "Partnerstädte",
     "latitude": 50.819272,
-    "longitude": 8.775014
+    "longitude": 8.775014,
+    "latitude2": 50.819272,
+    "longitude2": 8.775014
   },
   {
     "id": "P-18a",
+    "bahnhof": "Altenburg",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4803,10 +5905,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Offenburg.",
     "lostopf": "Partnerstädte",
     "latitude": 50.997198,
-    "longitude": 12.443905
+    "longitude": 12.443905,
+    "latitude2": 50.997198,
+    "longitude2": 12.443905
   },
   {
     "id": "P-18b",
+    "bahnhof": "Offenburg",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4816,10 +5921,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Altenburg.",
     "lostopf": "Partnerstädte",
     "latitude": 48.476475,
-    "longitude": 7.946723
+    "longitude": 7.946723,
+    "latitude2": 48.476475,
+    "longitude2": 7.946723
   },
   {
     "id": "P-19a",
+    "bahnhof": "Witten Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4829,10 +5937,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstädte Witten und Bitterfeld.",
     "lostopf": "Partnerstädte",
     "latitude": 51.435544,
-    "longitude": 7.329442
+    "longitude": 7.329442,
+    "latitude2": 51.435544,
+    "longitude2": 7.329442
   },
   {
     "id": "P-19b",
+    "bahnhof": "Bitterfeld",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4842,10 +5953,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstädte Witten und Bitterfeld.",
     "lostopf": "Partnerstädte",
     "latitude": 51.622861,
-    "longitude": 12.31685
+    "longitude": 12.31685,
+    "latitude2": 51.622861,
+    "longitude2": 12.31685
   },
   {
     "id": "P-20a",
+    "bahnhof": "Riesa",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4855,10 +5969,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Mannheim.",
     "lostopf": "Partnerstädte",
     "latitude": 51.309654,
-    "longitude": 13.287734
+    "longitude": 13.287734,
+    "latitude2": 51.309654,
+    "longitude2": 13.287734
   },
   {
     "id": "P-20b",
+    "bahnhof": "Mannheim Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4868,10 +5985,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Riesa.",
     "lostopf": "Partnerstädte",
     "latitude": 49.479354,
-    "longitude": 8.468921
+    "longitude": 8.468921,
+    "latitude2": 49.479354,
+    "longitude2": 8.468921
   },
   {
     "id": "P-22a",
+    "bahnhof": "Schmalkalden",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4881,10 +6001,13 @@ const coordinates = [
     "aufgabe": "Partnerstadt von Recklinghausen",
     "lostopf": "Partnerstädte",
     "latitude": 50.720181,
-    "longitude": 10.440504
+    "longitude": 10.440504,
+    "latitude2": 50.720181,
+    "longitude2": 10.440504
   },
   {
     "id": "P-22b",
+    "bahnhof": "Recklinghausen Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4894,10 +6017,13 @@ const coordinates = [
     "aufgabe": "Partnerstadt von Schmalkalden",
     "lostopf": "Partnerstädte",
     "latitude": 51.616359,
-    "longitude": 7.20349
+    "longitude": 7.20349,
+    "latitude2": 51.616359,
+    "longitude2": 7.20349
   },
   {
     "id": "P-24a",
+    "bahnhof": "Leverkusen Mitte",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4907,10 +6033,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Schwedt (Oder) (seit 1989)",
     "lostopf": "Partnerstädte",
     "latitude": 51.031514,
-    "longitude": 6.991661
+    "longitude": 6.991661,
+    "latitude2": 51.031514,
+    "longitude2": 6.991661
   },
   {
     "id": "P-24b",
+    "bahnhof": "Schwedt(Oder)Mitte",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4920,10 +6049,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt Leverkusen (seit 1989)",
     "lostopf": "Partnerstädte",
     "latitude": 53.068323,
-    "longitude": 14.271588
+    "longitude": 14.271588,
+    "latitude2": 53.068323,
+    "longitude2": 14.271588
   },
   {
     "id": "P-25a",
+    "bahnhof": "Merseburg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4933,10 +6065,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Bottrop.",
     "lostopf": "Partnerstädte",
     "latitude": 51.356889,
-    "longitude": 11.990551
+    "longitude": 11.990551,
+    "latitude2": 51.356889,
+    "longitude2": 11.990551
   },
   {
     "id": "P-25b",
+    "bahnhof": "Bottrop Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4946,10 +6081,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Merseburg.",
     "lostopf": "Partnerstädte",
     "latitude": 51.50945,
-    "longitude": 6.936684
+    "longitude": 6.936684,
+    "latitude2": 51.50945,
+    "longitude2": 6.936684
   },
   {
     "id": "P-27a",
+    "bahnhof": "Erlangen",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4959,10 +6097,13 @@ const coordinates = [
     "aufgabe": "Info: Erlangen ist Partnerstadt von Jena.",
     "lostopf": "Partnerstädte",
     "latitude": 49.59583,
-    "longitude": 11.001638
+    "longitude": 11.001638,
+    "latitude2": 49.59583,
+    "longitude2": 11.001638
   },
   {
     "id": "P-27b",
+    "bahnhof": "Jena West",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4972,10 +6113,13 @@ const coordinates = [
     "aufgabe": "Info: Jena ist Partnerstadt von Erlangen.",
     "lostopf": "Partnerstädte",
     "latitude": 50.923286,
-    "longitude": 11.577848
+    "longitude": 11.577848,
+    "latitude2": 50.923286,
+    "longitude2": 11.577848
   },
   {
     "id": "P-28a",
+    "bahnhof": "Mainz Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4985,10 +6129,13 @@ const coordinates = [
     "aufgabe": "Info: Mainz listet Erfurt offiziell als Partnerstadt; beide sind alte Bischofs-/Domstädte.",
     "lostopf": "Partnerstädte",
     "latitude": 50.001117,
-    "longitude": 8.25872
+    "longitude": 8.25872,
+    "latitude2": 50.001117,
+    "longitude2": 8.25872
   },
   {
     "id": "P-28b",
+    "bahnhof": "Erfurt Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -4998,10 +6145,13 @@ const coordinates = [
     "aufgabe": "Info: Erfurt und Mainz sind Partnerstädte; Mainz ist Karnevalshochburg.",
     "lostopf": "Partnerstädte",
     "latitude": 50.972356,
-    "longitude": 11.037993
+    "longitude": 11.037993,
+    "latitude2": 50.972356,
+    "longitude2": 11.037993
   },
   {
     "id": "P-29a",
+    "bahnhof": "Kaiserslautern Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5011,10 +6161,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Brandenburg.",
     "lostopf": "Partnerstädte",
     "latitude": 49.435859,
-    "longitude": 7.768627
+    "longitude": 7.768627,
+    "latitude2": 49.435859,
+    "longitude2": 7.768627
   },
   {
     "id": "P-29b",
+    "bahnhof": "Brandenburg Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5024,10 +6177,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Kaiserslautern.",
     "lostopf": "Partnerstädte",
     "latitude": 52.400554,
-    "longitude": 12.566138
+    "longitude": 12.566138,
+    "latitude2": 52.400554,
+    "longitude2": 12.566138
   },
   {
     "id": "P-30a",
+    "bahnhof": "Lübben(Spreewald)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5037,10 +6193,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Neunkirchen(Saar) (seit 1986)",
     "lostopf": "Partnerstädte",
     "latitude": 51.939737,
-    "longitude": 13.877182
+    "longitude": 13.877182,
+    "latitude2": 51.939737,
+    "longitude2": 13.877182
   },
   {
     "id": "P-30b",
+    "bahnhof": "Neunkirchen(Saar)Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5050,10 +6209,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Lübben (seit 1986)",
     "lostopf": "Partnerstädte",
     "latitude": 49.353291,
-    "longitude": 7.176655
+    "longitude": 7.176655,
+    "latitude2": 49.353291,
+    "longitude2": 7.176655
   },
   {
     "id": "P-31a",
+    "bahnhof": "Frankenberg(Eder)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5063,10 +6225,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Frankenberg(Sachs)",
     "lostopf": "Partnerstädte",
     "latitude": 51.054565,
-    "longitude": 8.789181
+    "longitude": 8.789181,
+    "latitude2": 51.054565,
+    "longitude2": 8.789181
   },
   {
     "id": "P-31b",
+    "bahnhof": "Frankenberg(Sachs)",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5076,10 +6241,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Frankenberg(Eder)",
     "lostopf": "Partnerstädte",
     "latitude": 50.911233,
-    "longitude": 13.043191
+    "longitude": 13.043191,
+    "latitude2": 50.911233,
+    "longitude2": 13.043191
   },
   {
     "id": "P-32a",
+    "bahnhof": "Naumburg(Saale)Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5089,10 +6257,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Aachen.",
     "lostopf": "Partnerstädte",
     "latitude": 51.163071,
-    "longitude": 11.796984
+    "longitude": 11.796984,
+    "latitude2": 51.163071,
+    "longitude2": 11.796984
   },
   {
     "id": "P-32b",
+    "bahnhof": "Aachen Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5102,10 +6273,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Naumburg.",
     "lostopf": "Partnerstädte",
     "latitude": 50.7678,
-    "longitude": 6.091499
+    "longitude": 6.091499,
+    "latitude2": 50.7678,
+    "longitude2": 6.091499
   },
   {
     "id": "P-33a",
+    "bahnhof": "Stendal Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5115,10 +6289,13 @@ const coordinates = [
     "aufgabe": "Info: Stendal ist Partnerstadt von Lemgo.",
     "lostopf": "Partnerstädte",
     "latitude": 52.594723,
-    "longitude": 11.854412
+    "longitude": 11.854412,
+    "latitude2": 52.594723,
+    "longitude2": 11.854412
   },
   {
     "id": "P-33b",
+    "bahnhof": "Lemgo",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5128,10 +6305,13 @@ const coordinates = [
     "aufgabe": "Info: Lemgo ist Partnerstadt von Stendal.",
     "lostopf": "Partnerstädte",
     "latitude": 52.0224,
-    "longitude": 8.894696
+    "longitude": 8.894696,
+    "latitude2": 52.0224,
+    "longitude2": 8.894696
   },
   {
     "id": "P-34a",
+    "bahnhof": "Wernigerode Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5141,10 +6321,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Neustadt an der Weinstraße.",
     "lostopf": "Partnerstädte",
     "latitude": 51.840254,
-    "longitude": 10.788805
+    "longitude": 10.788805,
+    "latitude2": 51.840254,
+    "longitude2": 10.788805
   },
   {
     "id": "P-34b",
+    "bahnhof": "Neustadt(Weinstr)Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5154,10 +6337,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt mit Wernigerode.",
     "lostopf": "Partnerstädte",
     "latitude": 49.349553,
-    "longitude": 8.140757
+    "longitude": 8.140757,
+    "latitude2": 49.349553,
+    "longitude2": 8.140757
   },
   {
     "id": "P-36a",
+    "bahnhof": "Wittenberge",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5167,10 +6353,13 @@ const coordinates = [
     "aufgabe": "Partnerstadt von Elmshorn",
     "lostopf": "Partnerstädte",
     "latitude": 53.003115,
-    "longitude": 11.762871
+    "longitude": 11.762871,
+    "latitude2": 53.003115,
+    "longitude2": 11.762871
   },
   {
     "id": "P-36b",
+    "bahnhof": "Elmshorn",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5180,10 +6369,13 @@ const coordinates = [
     "aufgabe": "Partnerstadt von Wittenberge",
     "lostopf": "Partnerstädte",
     "latitude": 53.754025,
-    "longitude": 9.659408
+    "longitude": 9.659408,
+    "latitude2": 53.754025,
+    "longitude2": 9.659408
   },
   {
     "id": "P-37a",
+    "bahnhof": "Saarbrücken Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5193,10 +6385,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Cottbus (seit 1987)",
     "lostopf": "Partnerstädte",
     "latitude": 49.241065,
-    "longitude": 6.991021
+    "longitude": 6.991021,
+    "latitude2": 49.241065,
+    "longitude2": 6.991021
   },
   {
     "id": "P-37b",
+    "bahnhof": "Cottbus Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5206,10 +6401,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Saarbrücken (seit 1987)",
     "lostopf": "Partnerstädte",
     "latitude": 51.750957,
-    "longitude": 14.324162
+    "longitude": 14.324162,
+    "latitude2": 51.750957,
+    "longitude2": 14.324162
   },
   {
     "id": "P-38a",
+    "bahnhof": "Plauen(Vogtl) ob Bf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5219,10 +6417,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt Siegen.",
     "lostopf": "Partnerstädte",
     "latitude": 50.506163,
-    "longitude": 12.129419
+    "longitude": 12.129419,
+    "latitude2": 50.506163,
+    "longitude2": 12.129419
   },
   {
     "id": "P-38b",
+    "bahnhof": "Siegen Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5232,10 +6433,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt Plauen.",
     "lostopf": "Partnerstädte",
     "latitude": 50.875939,
-    "longitude": 8.016508
+    "longitude": 8.016508,
+    "latitude2": 50.875939,
+    "longitude2": 8.016508
   },
   {
     "id": "P-39a",
+    "bahnhof": "Arnstadt Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5244,11 +6448,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Partnerstadt von Kassel.",
     "lostopf": "Partnerstädte",
-    "latitude": 50.831084,
-    "longitude": 10.954958
+    "latitude": 50.841939,
+    "longitude": 10.948262,
+    "latitude2": 50.831084,
+    "longitude2": 10.954958
   },
   {
     "id": "P-39b",
+    "bahnhof": "Kassel-Wilhelmshöhe",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5258,10 +6465,13 @@ const coordinates = [
     "aufgabe": "Info: Partnerstadt von Arnstadt.",
     "lostopf": "Partnerstädte",
     "latitude": 51.312559,
-    "longitude": 9.447116
+    "longitude": 9.447116,
+    "latitude2": 51.312559,
+    "longitude2": 9.447116
   },
   {
     "id": "P-40a",
+    "bahnhof": "Potsdam Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5271,10 +6481,13 @@ const coordinates = [
     "aufgabe": "Info: Potsdam ist Partnerstadt von Bonn.",
     "lostopf": "Partnerstädte",
     "latitude": 52.391509,
-    "longitude": 13.066703
+    "longitude": 13.066703,
+    "latitude2": 52.391509,
+    "longitude2": 13.066703
   },
   {
     "id": "P-40b",
+    "bahnhof": "Bonn Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": null,
     "distanz": null,
@@ -5284,10 +6497,13 @@ const coordinates = [
     "aufgabe": "Info: Bonn ist Partnerstadt von Potsdam.",
     "lostopf": "Partnerstädte",
     "latitude": 50.732008,
-    "longitude": 7.097136
+    "longitude": 7.097136,
+    "latitude2": 50.732008,
+    "longitude2": 7.097136
   },
   {
     "id": "R-01",
+    "bahnhof": "Hagen-Vorhalle",
     "aufgabenadresse": "Nöhstraße 4-6",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -5296,11 +6512,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Überblicke den imposanten Rangierbahnhof Hagen-Vorhalle von der Brücke der Nöhstraße",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.385914,
-    "longitude": 7.427943
+    "latitude": 51.388224,
+    "longitude": 7.433726,
+    "latitude2": 51.385914,
+    "longitude2": 7.427943
   },
   {
     "id": "R-02",
+    "bahnhof": "München-Fasanerie",
     "aufgabenadresse": "Feldmochinger Str., 80995 München-Moosach",
     "zeitbedarf": 5,
     "distanz": 0.9,
@@ -5309,11 +6528,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Rangierbahnhof München Nord gibt es erst seit 1991\nAufgabe: Die Feldmochingerstr. Brücke zwischen Moosach und Fasanarie bietet einen guten Ausblick zum Rangierbahnhof. Mach dort ein Teamfoto mit allen sichtbaren Gleisen im Hintergrund.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 48.190766,
-    "longitude": 11.522337
+    "latitude": 48.197811,
+    "longitude": 11.525924,
+    "latitude2": 48.190766,
+    "longitude2": 11.522337
   },
   {
     "id": "R-03",
+    "bahnhof": "Seddin",
     "aufgabenadresse": "Kunersdorfer Str. 3, 14554 Seddiner See-Neuseddin",
     "zeitbedarf": 5,
     "distanz": 0.5,
@@ -5322,11 +6544,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Rangierbahnhof Seddin ist einer der wichtigsten RBF der DB. Glück für euch: zur Anlage gehört auch ein Personenbahnhof.\nAufgabe: erweitert euren Horizont (nicht immer nur an Bahn denken), und schaut euch die Feuerwehr von Seddin an.\nBonus: macht ein Foto, auf dem sowohl ein Personenzug als auch ein Güterzug zu sehen sind.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 52.289857,
-    "longitude": 12.989335
+    "latitude": 52.29184,
+    "longitude": 12.985452,
+    "latitude2": 52.289857,
+    "longitude2": 12.989335
   },
   {
     "id": "R-04",
+    "bahnhof": "Kornwestheim Pbf",
     "aufgabenadresse": "Villeneuvestraße 92, 70806 Kornwestheim",
     "zeitbedarf": 1,
     "distanz": 1.7,
@@ -5335,11 +6560,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Bild des Ablaufberges von der Brücke",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 48.872704,
-    "longitude": 9.179403
+    "latitude": 48.862219,
+    "longitude": 9.179964,
+    "latitude2": 48.872704,
+    "longitude2": 9.179403
   },
   {
     "id": "R-05",
+    "bahnhof": "Bingen(Rhein) Hbf",
     "aufgabenadresse": "Mäuseturm, Park am, 55411 Bingen am Rhein",
     "zeitbedarf": 5,
     "distanz": 0.4,
@@ -5348,11 +6576,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: in Bingerbrück war der Rangierbahnhof ein wichtiger Umschlagknoten zwischen Nahetalbahn und linker Rheinstrecke inkl. Trajekt. Im Rahmen der Landesgartenschau wurde das Areal des stillgelegten Rbf zum \"Park am Mäuseturm\" umgewandelt. \nAufgabe: macht ein Gruppenbild vor dem ehemaligen Stellwerk oder alternativ dem abgestellten Waggon. \nBonus: begebt euch auf Zeitreise und macht ein weiteres Foto aus der Vogelperspektive, indem ihr das Modell des Rbf im Stellwerk (11-17 Uhr, Eintritt frei) abfotografiert.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.968814,
-    "longitude": 7.887419
+    "latitude": 49.968729,
+    "longitude": 7.884263,
+    "latitude2": 49.968814,
+    "longitude2": 7.887419
   },
   {
     "id": "R-07",
+    "bahnhof": "Neuss Hbf",
     "aufgabenadresse": "Fesserstraße, 41462 Neuss",
     "zeitbedarf": 1,
     "distanz": 1.3,
@@ -5361,11 +6592,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Güterbahnhof Neuss Gbf.\nAufgabe: Macht ein Gruppenfoto auf der Mitte der Brücke (Fesserstraße) über die Gütergleise mit dem Rangierbahnhof im Hintergrund.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.211383,
-    "longitude": 6.686205
+    "latitude": 51.204351,
+    "longitude": 6.684527,
+    "latitude2": 51.211383,
+    "longitude2": 6.686205
   },
   {
     "id": "R-08",
+    "bahnhof": "Köln Steinstraße",
     "aufgabenadresse": "Rather Str. 1c, 51149 Köln",
     "zeitbedarf": 10,
     "distanz": 1.7,
@@ -5374,11 +6608,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Rangierbahnhof Gremberg ist einer der größten Deutschlands. Es sind zwei Anlagen in einer, so dass in beide Richtungen Ein- und Ausgefahren werden kann.\nAufgabe: Findet 3 Loks unterschiedlicher Baureihen und bestimmt neben der Baureihe für welche Länder die Lok zugelassen ist (Raster an der Seite). Es dürfen keine Gleise überschritten werden. Dokumentation durch Fotos oder Video inkl. Team.\nBonus: Teambild mit einem Hemmschuh.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 50.899717,
-    "longitude": 7.052123
+    "latitude": 50.895558,
+    "longitude": 7.057173,
+    "latitude2": 50.899717,
+    "longitude2": 7.052123
   },
   {
     "id": "R-09",
+    "bahnhof": "Völklingen",
     "aufgabenadresse": null,
     "zeitbedarf": 2,
     "distanz": 0.35,
@@ -5387,11 +6624,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Besuchen das einzige vollständig erhaltene Eisenwerk aus der Industrialisierung und das erste Industriedenkmal der UNESCO. Die Versorgung per Bahn benötigte viele Gleise. Die verblieben Stahlwerke sind weiterhin in Betrieb. \nAufgabe: Lauft über die Brücke so nah wie möglich zu den Kohlebunkern und macht ein Foto mit der Lok / Güterwagen im Hintergrund.\nBonus: Macht ein Foto eines vollen Torpedowagens mit flüssigem Stahl\n",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.248573,
-    "longitude": 6.845999
+    "latitude": 49.249091,
+    "longitude": 6.848156,
+    "latitude2": 49.248573,
+    "longitude2": 6.845999
   },
   {
     "id": "R-10",
+    "bahnhof": "Dresden-Friedrichstadt",
     "aufgabenadresse": "Waltherstraße 36, 01067 Dresden",
     "zeitbedarf": 2,
     "distanz": 0.1,
@@ -5400,11 +6640,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Der Rangierbahnhof in  Dresden-Friedrichstadt hat auch einen gleichnamigen Haltepunkt. Dieser ist nur über die Waltherbrücke erreichbar.\nAufgabe: Der Bahnhof wird zum hochmodernen Startpunkt des Erzgebirgstunnel für den Güterverkehr ausgebaut. Findet neben dem Bahnhof ein verfallenes Gebäude, das von früheren Plänen zeugt, den Bahnhof zu schließen.\nBonus/Tip: Spaziert durch die Friedrichstadt und setzt eure Reise vom Bahnhof Dresden Mitte fort.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.056566,
-    "longitude": 13.708919
+    "latitude": 51.056034,
+    "longitude": 13.708151,
+    "latitude2": 51.056566,
+    "longitude2": 13.708919
   },
   {
     "id": "R-11",
+    "bahnhof": "Görlitz-Rauschwalde",
     "aufgabenadresse": "Versuchsanlage Schlauroth, 02827 Görlitz",
     "zeitbedarf": 5,
     "distanz": 0.35,
@@ -5413,11 +6656,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Bahnhof Schlauroth Gbf war bis 1994 der zentrale Rangierbahnhof im Eisenbahnknoten Görlitz. Heute sind die meisten Anlagen zurückgebaut. Allerdings nutzt der TÜV Süd noch Teile als Versuchsanlage.\nAufgabe: Macht ein Foto vor der \"Prüfstelle Schienenfahrzeuge\" vom TÜV Süd Rail, auf dem ein Schienenfahrzeug zu sehen ist.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.150166,
-    "longitude": 14.939307
+    "latitude": 51.149078,
+    "longitude": 14.93601,
+    "latitude2": 51.150166,
+    "longitude2": 14.939307
   },
   {
     "id": "R-12",
+    "bahnhof": "Einsiedlerhof",
     "aufgabenadresse": "Kaiserstraße 16A, 67661 Kaiserslautern",
     "zeitbedarf": 5,
     "distanz": 1,
@@ -5426,11 +6672,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die derzeitige Bedeutung des Rangierbahnhofs Einsiedlerhof ist vor allem regionaler Natur. Er dient unter anderem dem nahen Opel-Werk, das pro Tag für mehrere Ganzzüge verantwortlich ist. \nAufgabe: Teamfoto vor dem Ablaufberg mit ehem. Stellwerksgebäude dahinter. Zugang über Kaiserstr. 16A (links am True Life KMC Gemeindegebäude vorbei)",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.43203,
-    "longitude": 7.67134
+    "latitude": 49.431002,
+    "longitude": 7.662227,
+    "latitude2": 49.43203,
+    "longitude2": 7.67134
   },
   {
     "id": "R-13",
+    "bahnhof": "Aachen West",
     "aufgabenadresse": "Im Süsterfeld 14, 52072 Aachen",
     "zeitbedarf": 2,
     "distanz": 2,
@@ -5439,11 +6688,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Rangierbahnhof Aachen-West ist einer der wichtigten Rangierbahnhöfe für den Güterverkehr der Nordseehäfen. Ebenso sorgt er bei angehenden Verkehringenieuren an der RWTH zu entsprechender Ablenkung in Vorlesungen. Der ehemalige Ringlokschuppen kann noch heute gesehen werden. \nAufgabe: Macht ein Bild vor dem Ringlokschuppen in Aachen-West.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 50.789469,
-    "longitude": 6.055877
+    "latitude": 50.78036,
+    "longitude": 6.070715,
+    "latitude2": 50.789469,
+    "longitude2": 6.055877
   },
   {
     "id": "R-14",
+    "bahnhof": "Halle(Saale)Hbf",
     "aufgabenadresse": "Am Güterbahnhof 37, 06112 Halle (Saale)",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -5452,11 +6704,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Halle (Saale) Gbf: Seit der Inbetriebnahme der neuen Zugbildungsanlage Halle (Saale) im Jahr 2018 ist er der zentrale Rangierbahnhof für den mitteldeutschen Raum.\nAufgabe: Stellt Euch vor die Drehscheibe (maximale Entfernung zur Drehscheibe 20m) und dreht ein Video (mindestens 1 min lang) in dem das Team das Drehen einer Drehstromlok auf der Drehscheibe nachstellt. ACHTUNG: Die angegebene Adresse ist nur die nächstgelegene auf Google Maps. Entscheidend für den Standort sind die GOOGLE KOORDINATEN!\nBonus: Foto mit dem Team und einer Lok auf der Drehscheibe",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.482025,
-    "longitude": 11.991181
+    "latitude": 51.477509,
+    "longitude": 11.987085,
+    "latitude2": 51.482025,
+    "longitude2": 11.991181
   },
   {
     "id": "R-15",
+    "bahnhof": "Bottrop-Vonderort",
     "aufgabenadresse": "Vonderbergstraße 222",
     "zeitbedarf": 1,
     "distanz": 0.2,
@@ -5465,11 +6720,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Erhasche durch das Gebüsch einen Blick auf den Rangierbahnhof Oberhausen-Ostefeld. Bonus: Ein Wagen befindet sich gerade auf dem Ablaufberg.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.502232,
-    "longitude": 6.909803
+    "latitude": 51.501728,
+    "longitude": 6.912294,
+    "latitude2": 51.502232,
+    "longitude2": 6.909803
   },
   {
     "id": "R-16",
+    "bahnhof": "Maschen",
     "aufgabenadresse": "Hörstener Str., 21220 Seevetal",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -5478,11 +6736,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Rangierbahnhof Maschen\nAufgabe: Macht ein Gruppenfoto mit dem Rangierbahnhof im Hintergrund\nBonus: Gruppenfoto mit der Decatur-Brücke im Hintergrund",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 53.398186,
-    "longitude": 10.064122
+    "latitude": 53.403815,
+    "longitude": 10.065662,
+    "latitude2": 53.398186,
+    "longitude2": 10.064122
   },
   {
     "id": "R-17",
+    "bahnhof": "Saarbrücken Hbf",
     "aufgabenadresse": "Dudweiler Landstraße 4, 66123 Saarbrücken",
     "zeitbedarf": 3,
     "distanz": 1.2,
@@ -5491,11 +6752,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Am RBF Saarbrücken gibt es auch eine DB Cargo Lokwerkstatt.\nAufgabe: Macht ein Foto vor der Lokwerkstatt\nBonus: Auf dem Foto sind mindestens 4 Loks von mindestens 2 verschiedenen Baureihen zu sehen",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.244078,
-    "longitude": 7.001803
+    "latitude": 49.241065,
+    "longitude": 6.991021,
+    "latitude2": 49.244078,
+    "longitude2": 7.001803
   },
   {
     "id": "R-18",
+    "bahnhof": "Bebra",
     "aufgabenadresse": "Bebritstraße, 36179 Bebra",
     "zeitbedarf": 1,
     "distanz": 0.5,
@@ -5504,11 +6768,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Bild im Tunnel der Bahnunterführung",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 50.966395,
-    "longitude": 9.798999
+    "latitude": 50.969568,
+    "longitude": 9.797788,
+    "latitude2": 50.966395,
+    "longitude2": 9.798999
   },
   {
     "id": "R-19",
+    "bahnhof": "Mainz-Bischofsheim",
     "aufgabenadresse": "Am Alten Gerauer Weg 14, 65474 Bischofsheim",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -5517,11 +6784,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Mainz-Bischhofsheim gehört gar nicht (mehr) zum Stadtgebiet Mainz. Der Rangierbahnhof ist der größte seiner Art im Rhein-Main-Gebiet. \nAufgabe: Macht ein Foto mit dem Rangierbahnhof oder dem Stellwerk im Hintergrund\nBonus: Hemmschuh im Bild (Aber auf keinen Fall diesen von betrieblichen Anlagen klauen)",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.986809,
-    "longitude": 8.366186
+    "latitude": 49.993226,
+    "longitude": 8.3575,
+    "latitude2": 49.986809,
+    "longitude2": 8.366186
   },
   {
     "id": "R-20",
+    "bahnhof": "Wanne-Eickel Hbf",
     "aufgabenadresse": "Heinz-Rühmann-Platz, 44649 Herne, Deutschland",
     "zeitbedarf": 2,
     "distanz": 0.05,
@@ -5530,11 +6800,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vor dem 3-Männer-Eck.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.532284,
-    "longitude": 7.165119
+    "latitude": 51.531256,
+    "longitude": 7.165783,
+    "latitude2": 51.532284,
+    "longitude2": 7.165119
   },
   {
     "id": "R-21",
+    "bahnhof": "Duisburg-Buchholz",
     "aufgabenadresse": "Kreuzung Masurenallee / am See 67, 47279 Duisburg Süd",
     "zeitbedarf": 1,
     "distanz": 2.1,
@@ -5543,11 +6816,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Duisburg-Wedau ist einer der bekanntesten ehemaligen großen Rangierbahnhöfe in Westdeutschland. Das Gelände wurde nach der Stilllegung großflächig umgenutzt beziehungsweise überplant.\nAufgabe: Laufe zur Kreuzung Masurenallee / am See und mache ein Foto des Geländes des ehemaligen Rangierbahnhofs\nBonus: Auf dem Foto sind noch Reste des Rangierbahnhofes zu erkennen, z.B. Gleisanlagen im Hintergrund.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.390969,
-    "longitude": 6.80213
+    "latitude": 51.382919,
+    "longitude": 6.775406,
+    "latitude2": 51.390969,
+    "longitude2": 6.80213
   },
   {
     "id": "R-22",
+    "bahnhof": "Oberhausen-Osterfeld Süd",
     "aufgabenadresse": "Cheruskerstraße 25a, 46117 Oberhausen",
     "zeitbedarf": 1,
     "distanz": 0.75,
@@ -5556,11 +6832,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der erste Teil des Oberhausener Rangierbahnhofs wurde 1891 fertiggestellt. Anfang des 20. Jahrhunderts war er der größte Rangierbahnhof des Ruhrgebiets.\nAufgabe: Seid überzeugt davon, dass Güter auf die Schiene gehören, und macht ein Foto vor dem Standort von DB Cargo.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 51.500408,
-    "longitude": 6.893627
+    "latitude": 51.499889,
+    "longitude": 6.885134,
+    "latitude2": 51.500408,
+    "longitude2": 6.893627
   },
   {
     "id": "R-23",
+    "bahnhof": "Mannheim-Seckenheim",
     "aufgabenadresse": "Parkplatz Schrebergärten, 68239 Mannheim",
     "zeitbedarf": 10,
     "distanz": 1,
@@ -5569,11 +6848,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Kamerabrücken sind mit Hochgeschwindigkeitskameras und Beleuchtungssystemen ausgestattet, die es der KI ermöglichen,  Wagen auf Beschädigungen zu prüfen. Insgesamt 13 solcher Kamerabrücken stehen in Deutschland.\nAufgabe: Erklärt das Prinzip durch ein Theaterstück. Dabei fällt der KI ein Fehler an eurer Jacke / Rucksack auf. (Video)\nBonus: Es wird gerade abgelassen.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.454135,
-    "longitude": 8.528916
+    "latitude": 49.451266,
+    "longitude": 8.53844,
+    "latitude2": 49.454135,
+    "longitude2": 8.528916
   },
   {
     "id": "R-24",
+    "bahnhof": "Seelze",
     "aufgabenadresse": "L390 (Göxer Landstraße), 30926 Seelze",
     "zeitbedarf": 5,
     "distanz": 0.6,
@@ -5582,11 +6864,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Seelze Gbf: Der Güterbahnhof war in den 1960ern das Versuchslabor für Automatisierung und war damit ein Pionier der Computersteuerung.\nAufgabe: Nehmt ein Foto auf, auf dem eine Lok zu sehen ist mit erkennbarem \"DB\"-Logo.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 52.392992,
-    "longitude": 9.586046
+    "latitude": 52.391675,
+    "longitude": 9.594314,
+    "latitude2": 52.392992,
+    "longitude2": 9.586046
   },
   {
     "id": "R-25",
+    "bahnhof": "Darmstadt-Kranichstein",
     "aufgabenadresse": "Steinstraße 7, 64291 Arheilgen",
     "zeitbedarf": 5,
     "distanz": 0.2,
@@ -5595,11 +6880,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der ehemalige Rangier- und Güterbahnhof Kranichstein ist in der Gesamtheit seiner baulichen Anlagen und Verkehrsstrukturen seit rund 160 Jahren prägender Bestandteil  der urbanen Struktur und der Kulturlandschaft Kranichsteins und damit von städtebaulicher Bedeutung.\nAufgabe: Macht ein Foto vor der \"Bahnwelt Kranichstein\", auf dem ein historisches Fahrzeug zu sehen ist.",
     "lostopf": "Rangierbahnhöfe",
-    "latitude": 49.908006,
-    "longitude": 8.679523
+    "latitude": 49.906826,
+    "longitude": 8.679359,
+    "latitude2": 49.908006,
+    "longitude2": 8.679523
   },
   {
     "id": "T-01",
+    "bahnhof": "Kiel Hbf",
     "aufgabenadresse": "Bahnhofsbrücke, Kiel",
     "zeitbedarf": 2,
     "distanz": 0.3,
@@ -5608,11 +6896,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Macht ein Foto auf der Bahnhofsbrücke von der Hörnbrücke in Kiel. Die Hörnbrücke sollte vollständig zu sehen sein.",
     "lostopf": "Tatort",
-    "latitude": 54.315316,
-    "longitude": 10.134933
+    "latitude": 54.314985,
+    "longitude": 10.131976,
+    "latitude2": 54.315316,
+    "longitude2": 10.134933
   },
   {
     "id": "T-02",
+    "bahnhof": "Leipzig Messe",
     "aufgabenadresse": null,
     "zeitbedarf": 2,
     "distanz": 0.4,
@@ -5621,11 +6912,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Tatort aus Leipzig hat eine lange Tradition und gehört zu den Klassikern der ARD-Krimireihe. Obwohl in Leipzig derzeit kein eigenes, aktives Ermittlerteam mehr stationiert ist (da der MDR die sächsischen Fälle nach Dresden verlegt hat), war die Messestadt über viele Jahre Schauplatz für zwei extrem bekannte und beliebte Ermittler-Duos.\nAufgabe: Besucht die Neue Messe Leipzig und macht dort ein Foto mit dem berühmten Messe-Symbol, dem Messeturm Neue Messe Leipzig\nBonus: Lichtet eine Straßenbahn auf dem Foto mit ab.",
     "lostopf": "Tatort",
-    "latitude": 51.396662,
-    "longitude": 12.394702
+    "latitude": 51.396145,
+    "longitude": 12.389278,
+    "latitude2": 51.396662,
+    "longitude2": 12.394702
   },
   {
     "id": "T-03",
+    "bahnhof": "Hamburg Hbf",
     "aufgabenadresse": "An d. Alster 72-79, 20099 Hamburg",
     "zeitbedarf": 5,
     "distanz": 0.5,
@@ -5634,11 +6928,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Im Tatort gibt es mitunter Gastauftritte bekannter Persönlichkeiten. \nAufgabe: Findet heraus, welcher Gaststar in einem Tatort mitspielte, der an dieser Adresse gedreht wurde und macht ein Foto vom Team, auf dem das Team den Vornamen des Gaststars darstellt. \nBonus: Ein Teammitglied verkleidet sich als besagter Gaststar. Nehmt ein Video auf, Bild und passender Ton! Erzählt in dem Video außerdem, was der Gaststar noch mit dem Tatort zu tun hat.",
     "lostopf": "Tatort",
-    "latitude": 53.55683,
-    "longitude": 10.005019
+    "latitude": 53.552736,
+    "longitude": 10.006909,
+    "latitude2": 53.55683,
+    "longitude2": 10.005019
   },
   {
     "id": "T-04",
+    "bahnhof": "Wiesbaden Hbf",
     "aufgabenadresse": "Bahnhofspl. 3, 65189 Wiesbaden",
     "zeitbedarf": 1,
     "distanz": 0.45,
@@ -5647,11 +6944,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild von dem Lili Einkaufszentrum\n",
     "lostopf": "Tatort",
-    "latitude": 50.070821,
-    "longitude": 8.241747
+    "latitude": 50.070791,
+    "longitude": 8.243731,
+    "latitude2": 50.070821,
+    "longitude2": 8.241747
   },
   {
     "id": "T-05",
+    "bahnhof": "Bad Nauheim",
     "aufgabenadresse": "Bahnhofsallee 12, 61231 Bad Nauheim",
     "zeitbedarf": 1,
     "distanz": 0.1,
@@ -5660,11 +6960,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In der Folge \"Im Schmerz geboren\" des Tatort Wiesbaden betrachtet Hauptkommissar Felix Murot die Überwachungsaufnahmen eines Bahnhofs, auf denen drei bewaffnete Männer wie von Geisterhand niedergestreckt werden. Bei dem Bahnhof handelt es sich um den Bahnhof Bad Nauheim-Nord an der ehemaligen Butzbach-Licher Eisenbahn.\nAufgabe: Haltet im Foto ein Schild mit dem Text \"Tschüss Lilly\" in die Kamera.",
     "lostopf": "Tatort",
-    "latitude": 50.367841,
-    "longitude": 8.748345
+    "latitude": 50.367904,
+    "longitude": 8.749334,
+    "latitude2": 50.367841,
+    "longitude2": 8.748345
   },
   {
     "id": "T-06",
+    "bahnhof": "München Marienplatz",
     "aufgabenadresse": "Ettstraße 2, 80333 München-Altstadt-Lehel",
     "zeitbedarf": 9,
     "distanz": 0.7,
@@ -5673,11 +6976,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Das Polizeipräsidium München ist auch im Münchner Tatort immer wieder zentraler Handlungsort.\nAufgabe: macht euch mit dem Ort vertraut, indem ihr das Gebäude einmal komplett umrundet, und dies durch Fotos von allen 4 Seiten dokumentiert.\nBonus: Wo ihr schonmal da seid, könnt ihr euch auch noch die Frauenkirche anschauen - auch hier bitte gründlich von allen Seiten",
     "lostopf": "Tatort",
-    "latitude": 48.138922,
-    "longitude": 11.571744
+    "latitude": 48.137048,
+    "longitude": 11.575386,
+    "latitude2": 48.138922,
+    "longitude2": 11.571744
   },
   {
     "id": "T-07",
+    "bahnhof": "Dortmund Hbf",
     "aufgabenadresse": "Hoher Wall 36, 44137 Dortmund-Innenstadt-West",
     "zeitbedarf": 5,
     "distanz": 0.6,
@@ -5686,11 +6992,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Bergmann-Kiosk ist ein typischer Treffpunkt des Dortmunder Teams und um Kommisar Faber, wo sich sich entweder gegenseitig oder mit Informanten treffen.\nAufgabe: Macht ein Foto von euch, wie ihr euch vor dem Kiosk (gerne bei einem Bier) über den aktuellen Fall austauscht\nBonus: Stellt ganz wie Faber eine Mordszene an einem eurer Teamkollegen nach.",
     "lostopf": "Tatort",
-    "latitude": 51.513165,
-    "longitude": 7.455709
+    "latitude": 51.517896,
+    "longitude": 7.45929,
+    "latitude2": 51.513165,
+    "longitude2": 7.455709
   },
   {
     "id": "T-08",
+    "bahnhof": "Baden-Baden",
     "aufgabenadresse": "Breisgaustraße 19, 76532 Baden-Baden-Oos",
     "zeitbedarf": 5,
     "distanz": 1.6,
@@ -5699,11 +7008,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Wusstet ihr, dass die Kommissarien der \"Südwest-Tatorte\" (Stuttgart, Ludwigshafen, Schwarzwald) allesamt in einem Haus in Baden-Baden gedreht werden? Googlelt mal Tatort-Haus Baden-Baden\nAufgabe: Macht ein Foto vor dem Haus (ehemalige Schule)\nBonus: Stellt eine Büroszene nach",
     "lostopf": "Tatort",
-    "latitude": 48.77948,
-    "longitude": 8.19654
+    "latitude": 48.790327,
+    "longitude": 8.190831,
+    "latitude2": 48.77948,
+    "longitude2": 8.19654
   },
   {
     "id": "T-10",
+    "bahnhof": "Vettweiß-Jakobwüllesheim",
     "aufgabenadresse": "Burg Bubenheim 1, 52388 Nörvenich-Bubenheim",
     "zeitbedarf": 1,
     "distanz": 1.6,
@@ -5712,11 +7024,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Ja, hier wurden Teile des Münster-Tatorts gedreht\nAufgabe: Macht ein Foto vor der Burg\nBonus: Die Burg ist nicht auf dem Foto zu sehen",
     "lostopf": "Tatort",
-    "latitude": 50.771626,
-    "longitude": 6.551073
+    "latitude": 50.766705,
+    "longitude": 6.565209,
+    "latitude2": 50.771626,
+    "longitude2": 6.551073
   },
   {
     "id": "T-11",
+    "bahnhof": "Saarbrücken Hbf",
     "aufgabenadresse": "Bahnhofstraße 68-70, 66111 Saarbrücken",
     "zeitbedarf": 10,
     "distanz": 0.6,
@@ -5725,11 +7040,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: In Saarbrücken wird seit 2020 im Jahr etwa ein Tatort gedreht.\nAufgabe: Observation schräger Vögel. Entfernt euch mindestens 200m vom Bahnhof. Macht ein Video von einem Vogel, auf dem dieser ununterbrochen für mindestens 2 Minuten sichtbar ist. Das Video muss durchgehend und ohne Unterbrechung sein. Sobald der Vogel -auch nur kurz- nicht im Bild sichtbar war beginnt die Zeit von vorne.\nBonus: Ihr macht ein Video auf dem ein Vogel 4 Minuten zu sehen ist.",
     "lostopf": "Tatort",
-    "latitude": 49.236552,
-    "longitude": 6.992781
+    "latitude": 49.241065,
+    "longitude": 6.991021,
+    "latitude2": 49.236552,
+    "longitude2": 6.992781
   },
   {
     "id": "T-12",
+    "bahnhof": "Stuttgart-Bad Cannstatt",
     "aufgabenadresse": "Talstraße 201, 70372 Stuttgart",
     "zeitbedarf": 2,
     "distanz": 0.75,
@@ -5738,11 +7056,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Stuttgarter Tatort \"EX-IT\"(2026) wird ein Auto aus dem Neckar gezogen.  https://www.swr3.de/tatort-und-polizeiruf/tatort-kritik-ex-it-stuttgart-100.html. \nAufgabe: Schaut euch die Stelle an und macht ein Bild aus der gleichen Perspektive. Haltet ein Standbild der Szene ins Bild.",
     "lostopf": "Tatort",
-    "latitude": 48.801954,
-    "longitude": 9.209685
+    "latitude": 48.801377,
+    "longitude": 9.217531,
+    "latitude2": 48.801954,
+    "longitude2": 9.209685
   },
   {
     "id": "T-13",
+    "bahnhof": "Kuppenheim",
     "aufgabenadresse": "Adlerstraße 7, 76456 Kuppenheim",
     "zeitbedarf": 2,
     "distanz": 0.6,
@@ -5751,11 +7072,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Im Tatort \"Im Abseits\" spielten Prominente wie der ehemalige Fußballbundesträner Jogi Löw mit. Der Handlungsort Eppheim ist fiktiv. Die Dreharbeiten im Fußballstadion fanden im Wörtelstadion in Kuppenheim bei Baden-Baden statt. Kuppenheim kann man mit der Netzcard erreichen.\nAufgabe: Fotografiert euch vor dem Eingang des Stadions.",
     "lostopf": "Tatort",
-    "latitude": 48.830943,
-    "longitude": 8.257238
+    "latitude": 48.834128,
+    "longitude": 8.256112,
+    "latitude2": 48.830943,
+    "longitude2": 8.257238
   },
   {
     "id": "T-14",
+    "bahnhof": "Frankfurt(Main)Hbf",
     "aufgabenadresse": "Friedrich-Ebert-Anlage 11, 60327 Frankfurt am Main",
     "zeitbedarf": 10,
     "distanz": 0.6,
@@ -5764,11 +7088,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Das alte Polizeipräsidium in Frankfurt ist ein historischer Ort und steht unter Denkmalschutz. Neben der Polizei waren in den Nebengebäuden auch anderen Mieter untergebracht, wie Discotheken und ein Fitnessstudio. Der Ort ist ein Lost Place, viele Mieter haben ihre Sachen einfach zurück gelassen.\nAufgabe: Stellt eine tatortwürdige Szene vor dem alten Polizeipräsidium dar.\nBonus: Extrapunkte für Verkleidung",
     "lostopf": "Tatort",
-    "latitude": 50.109909,
-    "longitude": 8.658953
+    "latitude": 50.107145,
+    "longitude": 8.663789,
+    "latitude2": 50.109909,
+    "longitude2": 8.658953
   },
   {
     "id": "T-15",
+    "bahnhof": "Bremen Neustadt",
     "aufgabenadresse": "Schlachte 35, 28195 Bremen",
     "zeitbedarf": 2,
     "distanz": 1.1,
@@ -5777,11 +7104,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Stelle eine typische Szene eines Krimis nach. Die Weser sollte im Hintergrund zu sehen sein.",
     "lostopf": "Tatort",
-    "latitude": 53.078256,
-    "longitude": 8.799149
+    "latitude": 53.075782,
+    "longitude": 8.785808,
+    "latitude2": 53.078256,
+    "longitude2": 8.799149
   },
   {
     "id": "T-16",
+    "bahnhof": "Köln-Müngersdorf Technologiepark",
     "aufgabenadresse": "Maarweg 134/136, 50825 Ehrenfeld",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -5790,11 +7120,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Im Kölner Tatort \"Tanzmariechen\" aus 2017 wird die Trainerin einer Tanzgarde ermordet Aufgabe: Sucht das Kölner Karnevalsmuseum auf Bonus: jemand aus eurem Team führt einen einminütigen Tanz analog eines Tanzmariechens auf",
     "lostopf": "Tatort",
-    "latitude": 50.944972,
-    "longitude": 6.898263
+    "latitude": 50.948394,
+    "longitude": 6.888201,
+    "latitude2": 50.944972,
+    "longitude2": 6.898263
   },
   {
     "id": "T-17",
+    "bahnhof": "Duisburg-Ruhrort",
     "aufgabenadresse": "König-Friedrich-Wilhelm-Straße 18, 47119 Duisburg",
     "zeitbedarf": 5,
     "distanz": 0.55,
@@ -5803,11 +7136,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Der wohl legendärste Tatort-Kommissar: Schimanski!\nAufgabe: Geht zu Schimanskis Lieblingskneipe \"Zum Anker\" (heute \"Ankerbar\") und spielt eine (tatsächliche oder ausgedachte) Szene mit Schimanski und Thanner nach (Video, mindestens 1 min).\nBonus: Ihr trinkt ein Bier in der Ankerbar und macht ein Foto vor einer der Schimanski-Devotionalien (falls die noch da sind, ansonsten reicht das Bier).",
     "lostopf": "Tatort",
-    "latitude": 51.453903,
-    "longitude": 6.731136
+    "latitude": 51.45728,
+    "longitude": 6.736015,
+    "latitude2": 51.453903,
+    "longitude2": 6.731136
   },
   {
     "id": "T-18",
+    "bahnhof": "Konstanz",
     "aufgabenadresse": "Seestrasse 11A, 78462 Kreuzlingen, Schweiz",
     "zeitbedarf": 1,
     "distanz": 0.6,
@@ -5816,11 +7152,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besuche Konstanz Hbf und laufe einmal kurz über die Schweizer Grenze zu Fuß",
     "lostopf": "Tatort",
-    "latitude": 47.654996,
-    "longitude": 9.178472
+    "latitude": 47.658754,
+    "longitude": 9.177312,
+    "latitude2": 47.654996,
+    "longitude2": 9.178472
   },
   {
     "id": "T-19",
+    "bahnhof": "Nürnberg-Steinbühl",
     "aufgabenadresse": "Jakobspl. 5, 90402 Nürnberg",
     "zeitbedarf": 6,
     "distanz": 0.6,
@@ -5829,11 +7168,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Kulisse für Hauptkommissar Voss’ ersten Auftritt war der Hauptbahnhof Nürnberg. Für die Tatort-Mordkommission wurde als Kulisse das Polizeipräsidium Mittelfranken mit Sitz am Jakobsplatz in direkter Nähe zur Elisabethkirche gewählt, in dem zugleich Innenaufnahmen stattfanden. \nAufgabe: Macht ein Foto vor dem Polizeipräsidium Mittelfranken\nBonus: Wenn ihr eine Ausschilderung von Felix Voss findet, gibt es 20 Punkte extra",
     "lostopf": "Tatort",
-    "latitude": 49.450709,
-    "longitude": 11.069149
+    "latitude": 49.442836,
+    "longitude": 11.0682,
+    "latitude2": 49.450709,
+    "longitude2": 11.069149
   },
   {
     "id": "T-20",
+    "bahnhof": "Erfurt Hbf",
     "aufgabenadresse": "Krämerbrücke, 99084 Erfurt",
     "zeitbedarf": 15,
     "distanz": 1,
@@ -5842,11 +7184,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Mit nur 2 Folgen hatte Erfurt wohl eine der kürzesten Tatort-Karrieren.\nAufgabe: Als gute Ermittler müsst ihr euch erstmal einen Überblick verschaffen. Besteigt den Glockenturm der Ägidienkirche an der Krämerbrücke und macht ein Panoramabild von oben. Die Kirche hat eine Besonderheit. Sie wird einer Vielzahl von Freiwilligen betreut. Es gibt einen Kalender, wo sich die Freiwilligen für einen Tagesdienst eintragen. Sobald sich ein Freiwilliger findet, ist der Zugang zur Kirche und dem Kirchturm möglich. Sollte sich für einen Tag kein Freiwilliger finden, bleibt die Kirche und der Turm geschlossen. Es gibt also keine verläßlichen Öffnungszeiten. Wenn jedoch geöffnet ist, dann von 11 Uhr bis 17 Uhr. Falls nicht geöffnet ist (oder ihr die Spende für den Aufstieg nicht bezahlen wollt) dürft ihr auch ein Foto vor dem Eingang machen.\nBonus: besteigt den Turm, während die Glocken läuten, und dokumentiert das per Video.",
     "lostopf": "Tatort",
-    "latitude": 50.978878,
-    "longitude": 11.031253
+    "latitude": 50.972356,
+    "longitude": 11.037993,
+    "latitude2": 50.978878,
+    "longitude2": 11.031253
   },
   {
     "id": "T-21",
+    "bahnhof": "Ludwigshafen(Rhein) Mitte",
     "aufgabenadresse": "Dammstraße 16, 67059 Ludwigshafen am Rhein",
     "zeitbedarf": 1,
     "distanz": 0.28,
@@ -5855,11 +7200,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Ist das hässlich! Begebt euch zur gesperrten und teils abgerissenen Hochstraße Süd und macht ein Foto mit den Überresten.",
     "lostopf": "Tatort",
-    "latitude": 49.478088,
-    "longitude": 8.448842
+    "latitude": 49.479005,
+    "longitude": 8.452152,
+    "latitude2": 49.478088,
+    "longitude2": 8.448842
   },
   {
     "id": "T-22",
+    "bahnhof": "Bonn Hbf",
     "aufgabenadresse": "Haydnstraße 49, 53115 Bonn",
     "zeitbedarf": 2,
     "distanz": 0.85,
@@ -5868,11 +7216,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Wusstet ihr, dass sich das Wohnhaus von Börne und Thiel aus dem Münsteraner Tatort gar nicht in Münster, sondern in Bonn befindet? Nämlich in der Haydnstr. 49\nAufgabe: Macht ein Foto von 2 Gruppenmitgliedern vor dem Eingang des Wohnhauses.\nBonus: Ein Gruppenmitglied hält ein Fahrrad in der Hand, das Lieblingsfortbewegungsmittel des Kommissars.",
     "lostopf": "Tatort",
-    "latitude": 50.732541,
-    "longitude": 7.085292
+    "latitude": 50.732008,
+    "longitude": 7.097136,
+    "latitude2": 50.732541,
+    "longitude2": 7.085292
   },
   {
     "id": "T-24",
+    "bahnhof": "Braunschweig Hbf",
     "aufgabenadresse": "Böcklerstraße 16, 38102 Braunschweig",
     "zeitbedarf": 1,
     "distanz": 0.75,
@@ -5881,11 +7232,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:\nIm Jahr 1979 wurde die einzige Folge des Braunschweiger Tatorts gedreht. Es galt einen Mordfall in einer Bäckerei (nicht mehr in Betrieb) aufzuklären.\nAufgabe:\nMit leerem Magen lässt es sich so schwer ermitteln. Gönnt euch ein mitgebrachtes Bäckereierzeugnis.",
     "lostopf": "Tatort",
-    "latitude": 52.25288,
-    "longitude": 10.531558
+    "latitude": 52.252218,
+    "longitude": 10.540295,
+    "latitude2": 52.25288,
+    "longitude2": 10.531558
   },
   {
     "id": "T-25",
+    "bahnhof": "Weimar",
     "aufgabenadresse": "Stéphane-Hessel-Platz 1, 99423 Weimar",
     "zeitbedarf": 12,
     "distanz": 0.9,
@@ -5894,11 +7248,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Weimar war von 2013-2021 Tatort Drehort. Bauhaus steht auch für klare Schrift und reduzierte Gestaltung. \nAufgabe: Erpresserbrief. Fotografiert Buchstaben an öffentlichen Ort an und um das Bauhaus Museum. Diese Buchstaben müsst ihr in einer Fotocollage zusammenfügen, so dass \"TATORT\" zu lesen ist. Macht ein Foto mit dieser Collage vor dem Bauhaus-Museum. Jeder Buchstabe muss individuell sein.\nBonus: Ihr ergänzt die Nachricht durch euren Teamnamen ebenfalls mit individuellen Buchstaben aus der Umgebung.",
     "lostopf": "Tatort",
-    "latitude": 50.985005,
-    "longitude": 11.324611
+    "latitude": 50.991487,
+    "longitude": 11.326458,
+    "latitude2": 50.985005,
+    "longitude2": 11.324611
   },
   {
     "id": "U-01",
+    "bahnhof": "Ibbenbüren",
     "aufgabenadresse": "Ledder Str. 80, 49477 Ibbenbüren",
     "zeitbedarf": 2,
     "distanz": 1.2,
@@ -5907,11 +7264,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Foto vor dem alten Grubenzug.",
     "lostopf": "Unter Tage",
-    "latitude": 52.268082,
-    "longitude": 7.728727
+    "latitude": 52.276867,
+    "longitude": 7.721486,
+    "latitude2": 52.268082,
+    "longitude2": 7.728727
   },
   {
     "id": "U-02",
+    "bahnhof": "Mechernich",
     "aufgabenadresse": "Bleibergstraße 6, 53894 Mechernich",
     "zeitbedarf": 1,
     "distanz": 1.1,
@@ -5920,11 +7280,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:\nDas Bergbaumuseum Mechernich befindet sich in einer ehemaligen Bleierzmine.\nAufgabe:\nMacht ein Foto vor dem Eingang mit mindestens einer Lore im Bild.",
     "lostopf": "Unter Tage",
-    "latitude": 50.586438,
-    "longitude": 6.649587
+    "latitude": 50.591367,
+    "longitude": 6.642296,
+    "latitude2": 50.586438,
+    "longitude2": 6.649587
   },
   {
     "id": "U-03",
+    "bahnhof": "Bochum Hbf",
     "aufgabenadresse": "Am Bergbaumuseum 28, 44791 Bochum",
     "zeitbedarf": 7,
     "distanz": 1.6,
@@ -5933,11 +7296,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das Deutsche Bergbau-Museum Bochum, gegründet 1930, ist als Leibniz-Forschungsmuseum für Georessourcen dem Auftrag verpflichtet, das materielle Erbe des Bergbaus zu sammeln, zu bewahren, zu erforschen, auszustellen und zu vermitteln.\nAufgabe: Findet im Außenbereich folgende Drei Dinge: Ein technisches Element aus Metall, ein Warn- oder Sicherheitshinweis und etwas das wie ein Zugang unter Tage aussieht. Macht von allem ein Bild mit Teammitgliedern.\nBonus: Macht ein Bild \"unter Tage\", also einem dauerhaften Ort ohne natürliches Licht.",
     "lostopf": "Unter Tage",
-    "latitude": 51.488874,
-    "longitude": 7.215928
+    "latitude": 51.478609,
+    "longitude": 7.223275,
+    "latitude2": 51.488874,
+    "longitude2": 7.215928
   },
   {
     "id": "U-04",
+    "bahnhof": "Kaub",
     "aufgabenadresse": "Metzgergasse 12A, 56349 Kaub",
     "zeitbedarf": 1,
     "distanz": 0.6,
@@ -5946,11 +7312,14 @@ const coordinates = [
     "punkte_bonus": 5,
     "aufgabe": "Foto vor Kauber Schiefer e.V.: Museum für Dachschiefer-Bergbau",
     "lostopf": "Unter Tage",
-    "latitude": 50.087694,
-    "longitude": 7.763732
+    "latitude": 50.083197,
+    "longitude": 7.76875,
+    "latitude2": 50.087694,
+    "longitude2": 7.763732
   },
   {
     "id": "U-06",
+    "bahnhof": "Freiberg(Sachs)",
     "aufgabenadresse": "Prüferstraße 6, 09599 Freiberg",
     "zeitbedarf": 10,
     "distanz": 1.4,
@@ -5959,11 +7328,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Freiberg in Sachsen ist eine mittelalterliche Silberstadt mit viel Bergbaugeschichte.\nAufgabe: Gruppiert Euch um die Silberweg-Figur \"Forscher\" (Alexander von Humboldt), so dass es möglichst natürlich aussieht und er wie einer von Euch wirkt.\nBonus: Es gelingt Euch, mindestens einen echten Studenten mit Euch auf's Bild zu locken.",
     "lostopf": "Unter Tage",
-    "latitude": 50.919178,
-    "longitude": 13.34063
+    "latitude": 50.908725,
+    "longitude": 13.344141,
+    "latitude2": 50.919178,
+    "longitude2": 13.34063
   },
   {
     "id": "U-07",
+    "bahnhof": "Bexbach",
     "aufgabenadresse": "Niederbexbacher Straße 62, 66450 Bexbach",
     "zeitbedarf": 3,
     "distanz": 1,
@@ -5972,11 +7344,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Das Saarländische Bergbaumuseum befindet sich in der Stadt Bexbach auf dem Gelände des Blumengartens. Als Museumsgebäude dient der Hindenburgturm, zugleich ein Aussichtsturm. Die Präsentation von Großexponaten wie Lokomotiven, Walzenkörpern oder auch neueren Hydraulikschilden setzt sich im näheren Umfeld des Turmes im Blumengarten fort.\nAufgabe: Foto mit Team am Eingang des Museums\nBonus: sechs Fotos in der Gulliver-Welt 2.0 mit den Miniaturwahrzeichen. Wählt sechs aus den folgenden: Schiefe Turm von Pisa, Pyramide von Gizeh, Eiffelturm, Christusstatue von Rio, Berliner Mauer, Saturnrakete, Freiheitsstatue, Holstentor, Schloss Forbach (Burgruine), Brandenburger Tor",
     "lostopf": "Unter Tage",
-    "latitude": 49.34236,
-    "longitude": 7.26132
+    "latitude": 49.345698,
+    "longitude": 7.254456,
+    "latitude2": 49.34236,
+    "longitude2": 7.26132
   },
   {
     "id": "U-09",
+    "bahnhof": "Hattingen(Ruhr) Mitte",
     "aufgabenadresse": "Werksstraße 31, 45527 Hattingen",
     "zeitbedarf": 10,
     "distanz": 1.5,
@@ -5985,11 +7360,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die 1854 gegründete Henrichshütte entwickelte sich über 150 Jahre zu einem bedeutenden Eisen- und Stahlwerk des Ruhrgebiets, wurde ab den 1980er‑Jahren stillgelegt und anschließend schrittweise in das heutige LWL‑Industriemuseum umgewandelt. In der Nähe der Anlage steht das Kunstwerk \"Die Eisenmänner\".\nAufgabe: Stellt euch wie die Eisenmänner hin und bleibt in der Position für 10 Minuten. Dokumentiert das mit zwei Fotos: Eines zum Beginn und eines zum Ende der 10 Minuten (die Zeitstempel der Fotos gelten als Nachweis).\nBonus: Vertritt die Eisenbahn bei den Eisenmännern, indem einer von euch ein Stück Eisen von der Eisenbahn auf dem Foto trägt (z.B. eine Schienenschraube).",
     "lostopf": "Unter Tage",
-    "latitude": 51.405105,
-    "longitude": 7.184231
+    "latitude": 51.397198,
+    "longitude": 7.180538,
+    "latitude2": 51.405105,
+    "longitude2": 7.184231
   },
   {
     "id": "U-10",
+    "bahnhof": "Wasseralfingen",
     "aufgabenadresse": "Wilhelmstraße 59, 73433 Aalen",
     "zeitbedarf": 1,
     "distanz": 0.3,
@@ -5998,11 +7376,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild von dem SHW Gießerei Denkmal in Wasseralfingen\n",
     "lostopf": "Unter Tage",
-    "latitude": 48.860784,
-    "longitude": 10.103166
+    "latitude": 48.858615,
+    "longitude": 10.103645,
+    "latitude2": 48.860784,
+    "longitude2": 10.103166
   },
   {
     "id": "U-11",
+    "bahnhof": "Weilburg",
     "aufgabenadresse": "Schloßpl. 1, 35781 Weilburg",
     "zeitbedarf": 1,
     "distanz": 1.1,
@@ -6011,11 +7392,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Wer hätte es gedacht - im Westerwald wurde nicht nur im Tagbau (Lahn-)Marmor abgebaut. Sondern auch Erz.  \nAufgabe: Macht ein Foto vor dem Bergbau- und Stadtmuseum in Weilburg",
     "lostopf": "Unter Tage",
-    "latitude": 50.485968,
-    "longitude": 8.260655
+    "latitude": 50.487276,
+    "longitude": 8.268435,
+    "latitude2": 50.485968,
+    "longitude2": 8.260655
   },
   {
     "id": "U-12",
+    "bahnhof": "Dannenberg Ost",
     "aufgabenadresse": "Breese in d. Marsch Kreuzung Graben 303, 29451 Dannenberg (Elbe)-Breese in der Marsch",
     "zeitbedarf": 1,
     "distanz": 1.6,
@@ -6024,11 +7408,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Salzstock Gorleben ist durch die Castor-Transporte bekannt. Da man das Bergwerk selbst nicht gut mit der Bahn erreichen kann, begebt ihr euch zur Verladestation Dannenberg, wo die Castoren von der Bahn auf LKW verladen wurden.\nAufgabe: macht ein Foto von der Verladestation, um zu dokumentieren, wie sie ohne Hundertschaften von Polizisten aussieht\nBonus: Bildet eine Menschenkette vor der Verladestation",
     "lostopf": "Unter Tage",
-    "latitude": 53.105958,
-    "longitude": 11.134242
+    "latitude": 53.104997,
+    "longitude": 11.117734,
+    "latitude2": 53.105958,
+    "longitude2": 11.134242
   },
   {
     "id": "U-13",
+    "bahnhof": "Gelsenkirchen Zoo",
     "aufgabenadresse": "Bismarckstraße, 45889 Gelsenkirchen",
     "zeitbedarf": 1,
     "distanz": 1.4,
@@ -6037,11 +7424,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Foto vor Schacht 9 der ehemaligen Zeche Consolidation",
     "lostopf": "Unter Tage",
-    "latitude": 51.529733,
-    "longitude": 7.11027
+    "latitude": 51.537686,
+    "longitude": 7.111104,
+    "latitude2": 51.529733,
+    "longitude2": 7.11027
   },
   {
     "id": "U-14",
+    "bahnhof": "Essen-Holthausen",
     "aufgabenadresse": "Langenberger Str. 502, 45277 Essen-Stadtbezirke VIII",
     "zeitbedarf": 2,
     "distanz": 0.2,
@@ -6050,11 +7440,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:Die Zeche Heinrich ist eine von unzähligen Steinkohle-Gruben im Ruhrpott. Seit Ende der 60er-Jahre ist hier aber Schicht im Schacht\nAufgabe: Macht ein schönes Bild mit dem Förderturm im Hintergrund",
     "lostopf": "Unter Tage",
-    "latitude": 51.417126,
-    "longitude": 7.074189
+    "latitude": 51.417711,
+    "longitude": 7.072649,
+    "latitude2": 51.417126,
+    "longitude2": 7.074189
   },
   {
     "id": "U-15",
+    "bahnhof": "Mendig",
     "aufgabenadresse": "Brauerstraße 5, 56743 Mendig-Niedermendig",
     "zeitbedarf": 2,
     "distanz": 1.6,
@@ -6063,11 +7456,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Lavakeller Mendig, geöffnet an Wochenenden von 10 - 17:30 Uhr.\nAufgabe: Foto vor dem großen flachen Stein, auf dem u.a.Ort und Jahr der Weltausstellung in Deutschland benannt ist.\nBonus: Mindestens eine Person aus dem Team steigt die 150 Stufen hinab und wieder hinauf.",
     "lostopf": "Unter Tage",
-    "latitude": 50.377976,
-    "longitude": 7.284691
+    "latitude": 50.369658,
+    "longitude": 7.291007,
+    "latitude2": 50.377976,
+    "longitude2": 7.284691
   },
   {
     "id": "U-16",
+    "bahnhof": "Barsinghausen",
     "aufgabenadresse": "Hinterkampstraße 6,30890 Barsinghausen",
     "zeitbedarf": 1,
     "distanz": 0.9,
@@ -6076,11 +7472,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:\nDas Besucherbergwerk Klosterstollens Barsinghausen ist ein ehemaliger Steinkohlebergwerk. Heute können Besucher mit der Grubenbahn etwa 1,4km in den Berg fahren.\nAufgabe:\nMacht ein Foto im Innenhof mit mindestens einer Lore im Bild.",
     "lostopf": "Unter Tage",
-    "latitude": 52.299185,
-    "longitude": 9.470303
+    "latitude": 52.30489,
+    "longitude": 9.467112,
+    "latitude2": 52.299185,
+    "longitude2": 9.470303
   },
   {
     "id": "U-17",
+    "bahnhof": "Glückauf",
     "aufgabenadresse": "Schachtstraße 20, 99706 Sondershausen",
     "zeitbedarf": 6,
     "distanz": 0.95,
@@ -6089,11 +7488,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Das Erlebnisbergwerk Sondershausen gehört zu den tiefsten Kalibergwerken der Welt. Das Bergwerk ist noch aktiv, dient jedoch auch als Ort für Konzerte und Laufveranstaltungen.\nAufgabe: Sucht im Gelände nach Hinweisen oder Darstellungen zur geologischen Entstehung (Infotafel, Grafik, Skulptur). Erstellt eine Skizze über die Entstehung der Lagerstätte und schreibt das Zeitalter dazu. Ein Foto mit der Skizze und dem Team vor dem Haupteingang muss erstellt werden.",
     "lostopf": "Unter Tage",
-    "latitude": 51.389961,
-    "longitude": 10.837848
+    "latitude": 51.389701,
+    "longitude": 10.828367,
+    "latitude2": 51.389961,
+    "longitude2": 10.837848
   },
   {
     "id": "U-18",
+    "bahnhof": "Mainz Hbf",
     "aufgabenadresse": null,
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -6102,11 +7504,14 @@ const coordinates = [
     "punkte_bonus": 5,
     "aufgabe": "Foto vor DGB Gebäude (IG Bergbau dort)",
     "lostopf": "Unter Tage",
-    "latitude": 50.004014,
-    "longitude": 8.263958
+    "latitude": 50.001117,
+    "longitude": 8.25872,
+    "latitude2": 50.004014,
+    "longitude2": 8.263958
   },
   {
     "id": "U-19",
+    "bahnhof": "Dortmund-Bövinghausen",
     "aufgabenadresse": "Grubenweg 5, 44388 Dortmund",
     "zeitbedarf": 5,
     "distanz": 0.6,
@@ -6115,11 +7520,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Das Ruhrgebiet  bietet viel Geschichte und die Zeche Zollern bereitet diese auf.                                                         \nAufgabe: Macht ein Foto mit dem Förderturm, ganz nah dran- Selfiemodus on ",
     "lostopf": "Unter Tage",
-    "latitude": 51.518751,
-    "longitude": 7.333524
+    "latitude": 51.519036,
+    "longitude": 7.327477,
+    "latitude2": 51.518751,
+    "longitude2": 7.333524
   },
   {
     "id": "U-20",
+    "bahnhof": "Goslar",
     "aufgabenadresse": "Markt 7, 38640 Goslar",
     "zeitbedarf": 10,
     "distanz": 0.9,
@@ -6128,11 +7536,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Der historische Marktplatz in Goslar bietet gleich mehrere Sehenswürdigkeiten.\nAufgabe: Macht ein Foto vor dem Marktbrunnen.\nBonus: Viermal täglich (9, 12, 15 und 18 Uhr) kann man am Zwerchgiebel des Kämmereigebäudes an der Ostseite des Marktplatzes in Goslar einen Figurenumlauf mit Glockenspiel bewundern.Es gelingt Euch, beim Figurenumlauf anwesend zu sein.",
     "lostopf": "Unter Tage",
-    "latitude": 51.906665,
-    "longitude": 10.4295
+    "latitude": 51.911573,
+    "longitude": 10.421436,
+    "latitude2": 51.906665,
+    "longitude2": 10.4295
   },
   {
     "id": "U-21",
+    "bahnhof": "Essen-Zollverein Nord",
     "aufgabenadresse": "Gelsenkirchener Straße 181, 45309 Essen",
     "zeitbedarf": 3,
     "distanz": 1,
@@ -6141,11 +7552,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die Zeche Zollverein war ein von 1851 bis 1986 betriebenes Steinkohlebergwerk in Essen und wies zeitweise in der Mitte des 20. Jahrhunderts die höchsten Förderquoten unter den deutschen Steinkohlenbergwerken auf. Sie ist heute ein Architektur- und Industriedenkmal.\nAufgabe: Foto mit Team am Fuß des großen Förderturms mit Perspektive noch oben zum Rad (wie Eiffelturm hochfotografieren)",
     "lostopf": "Unter Tage",
-    "latitude": 51.48616,
-    "longitude": 7.04491
+    "latitude": 51.493609,
+    "longitude": 7.046744,
+    "latitude2": 51.48616,
+    "longitude2": 7.04491
   },
   {
     "id": "U-22",
+    "bahnhof": "Hochneukirch",
     "aufgabenadresse": "Am Wasserturm 32, 41363 Jüchen",
     "zeitbedarf": 5,
     "distanz": 1.9,
@@ -6154,11 +7568,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Tagebau Garzweiler ist ein aktiver Braunkohletagebau, in dem jedes Jahr 25 Mio t Braunkohle gefördert werden. \nAufgabe: schreibt 5 Ortsnamen weggebaggerte Orte in den Untergrund (ohne dauerhafte Beschädigung) Bonus: ergänzt den neuen Wohnort der Einwohner",
     "lostopf": "Unter Tage",
-    "latitude": 51.091737,
-    "longitude": 6.459103
+    "latitude": 51.103293,
+    "longitude": 6.466316,
+    "latitude2": 51.091737,
+    "longitude2": 6.459103
   },
   {
     "id": "U-23",
+    "bahnhof": "Witten Hbf",
     "aufgabenadresse": "Nachtigallstraße 35, 58452 Witten",
     "zeitbedarf": 2,
     "distanz": 1.9,
@@ -6167,11 +7584,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die Zeche Nachtigall in Witten war eine der frühen Steinkohlezechen des Ruhrgebiets, wurde 1892 stillgelegt und nach einer Zwischen­nutzung als Ziegelei später zum Industriemuseum umgestaltet. An ausgewählten Tagen im Jahr kann man die Zeche mit der Muttenthalbahn, einer ehemaligen Bergbaubahn, erreichen.\nAufgabe: Singt mindestens zwei Strophen des Steigerlieds vor dem Eingang zur Zeche (dreht ein Video als Nachweis).\nBonus: Statt vor dem Eingang, dreht das Video mit der auf dem Gelände ausgestellten Dampflokomotive im Hintergrund.",
     "lostopf": "Unter Tage",
-    "latitude": 51.429008,
-    "longitude": 7.313015
+    "latitude": 51.435544,
+    "longitude": 7.329442,
+    "latitude2": 51.429008,
+    "longitude2": 7.313015
   },
   {
     "id": "U-24",
+    "bahnhof": "Papiermühle(Stadtr)",
     "aufgabenadresse": "Dorfstraße 54, 07646 Stadtroda",
     "zeitbedarf": 1,
     "distanz": 0.05,
@@ -6180,11 +7600,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild vor der Papiermühle bei Stadtroda\n",
     "lostopf": "Unter Tage",
-    "latitude": 50.885672,
-    "longitude": 11.790006
+    "latitude": 50.885314,
+    "longitude": 11.790181,
+    "latitude2": 50.885672,
+    "longitude2": 11.790006
   },
   {
     "id": "U-25",
+    "bahnhof": "Neuoelsnitz",
     "aufgabenadresse": "Pflockenstraße 33, 09376 Oelsnitz/Erzgebirge",
     "zeitbedarf": 1,
     "distanz": 1,
@@ -6193,11 +7616,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Neuoelsnitz ist bekannt für die KohleWelt. \nAufgabe: Direkt neben dem Museum findet ihr eine wunderschöne alte Dampflokomotive. Macht ein Gruppenfoto davor.\nBonus: Macht euch zum Bergmann. Bemalt euch auf irgendeine Art und Weise schwarz an, als ob ihr Kohle auf der Haut hättet.",
     "lostopf": "Unter Tage",
-    "latitude": 50.724626,
-    "longitude": 12.730998
+    "latitude": 50.719514,
+    "longitude": 12.723437,
+    "latitude2": 50.724626,
+    "longitude2": 12.730998
   },
   {
     "id": "W-01",
+    "bahnhof": "Neustadt(Holst)",
     "aufgabenadresse": "Am Markt 11-9, 23730 Neustadt",
     "zeitbedarf": 2,
     "distanz": 0.7,
@@ -6206,11 +7632,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die RB 85 wird ggf. bald eingestellt, genießt nochmal eine Fahrt.\nAufgabe: Nehmt das Schwein in eure Mitte.",
     "lostopf": "Wunschlos",
-    "latitude": 54.107738,
-    "longitude": 10.814871
+    "latitude": 54.104002,
+    "longitude": 10.80849,
+    "latitude2": 54.107738,
+    "longitude2": 10.814871
   },
   {
     "id": "W-02",
+    "bahnhof": "Schönberger Strand",
     "aufgabenadresse": "24217 Schönberg (Holstein)-Schönberger Strand",
     "zeitbedarf": 5,
     "distanz": 0.65,
@@ -6219,11 +7648,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Foto auf der Seebrücke. Geht dafür bis ans wasserseitige Ende der Seebrücke!",
     "lostopf": "Wunschlos",
-    "latitude": 54.415062,
-    "longitude": 10.41422
+    "latitude": 54.410736,
+    "longitude": 10.412798,
+    "latitude2": 54.415062,
+    "longitude2": 10.41422
   },
   {
     "id": "W-03",
+    "bahnhof": "Buxtehude",
     "aufgabenadresse": "Glockenspiel, Stavenort 12, 21614 Buxtehude",
     "zeitbedarf": 2,
     "distanz": 1.2,
@@ -6232,11 +7664,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Foto vor dem Glockenspiel",
     "lostopf": "Wunschlos",
-    "latitude": 53.47695,
-    "longitude": 9.702181
+    "latitude": 53.470491,
+    "longitude": 9.688314,
+    "latitude2": 53.47695,
+    "longitude2": 9.702181
   },
   {
     "id": "W-04",
+    "bahnhof": "Lübeck-Travemünde Strand",
     "aufgabenadresse": "Am Leuchtenfeld 12, 23570 Lübeck",
     "zeitbedarf": 1,
     "distanz": 1.2,
@@ -6245,11 +7680,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Geht auf die Nordermole Travemünde und fotografiert den Leuchtturm.\nBonus: Macht ein Foto von einem vorbeifahrenden Fährschiff",
     "lostopf": "Wunschlos",
-    "latitude": 53.961976,
-    "longitude": 10.889142
+    "latitude": 53.964795,
+    "longitude": 10.875604,
+    "latitude2": 53.961976,
+    "longitude2": 10.889142
   },
   {
     "id": "W-05",
+    "bahnhof": "Siegen-Weidenau",
     "aufgabenadresse": "Auf den Hütten 4, 57076 Siegen",
     "zeitbedarf": 1,
     "distanz": 0.3,
@@ -6258,11 +7696,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Vortex Surfer bester Musikclub! Nebenan lecker Pizza bei Presto Presto\nAufgabe: Macht ein Foto vor dem Eingang des Vortex\nBonus: Tut so, als wärt ihr eine Rockband",
     "lostopf": "Wunschlos",
-    "latitude": 50.89801,
-    "longitude": 8.029137
+    "latitude": 50.895966,
+    "longitude": 8.029842,
+    "latitude2": 50.89801,
+    "longitude2": 8.029137
   },
   {
     "id": "W-06",
+    "bahnhof": "Essen-Hügel",
     "aufgabenadresse": "Freiherr-vom-Stein-Straße 206a, 45133 Essen",
     "zeitbedarf": 1,
     "distanz": 0.3,
@@ -6271,11 +7712,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Baldeneysee ist der größte der sechs Ruhrstauseen und wurde 1931-33 angelegt.\nAufgabe: Haltet inne am Baldeneysee",
     "lostopf": "Wunschlos",
-    "latitude": 51.402474,
-    "longitude": 7.007615
+    "latitude": 51.404517,
+    "longitude": 7.008821,
+    "latitude2": 51.402474,
+    "longitude2": 7.007615
   },
   {
     "id": "W-07",
+    "bahnhof": "Capelle(Westf)",
     "aufgabenadresse": "K6, 59394 Nordkirchen",
     "zeitbedarf": 1,
     "distanz": 1.5,
@@ -6284,11 +7728,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht eine Wanderung vom Bahnhof Capelle zur Eisenbahnbrücke an der Sandstraße und beobachtet die  Durchfahrt eines ICE",
     "lostopf": "Wunschlos",
-    "latitude": 51.725038,
-    "longitude": 7.612696
+    "latitude": 51.735268,
+    "longitude": 7.61108,
+    "latitude2": 51.725038,
+    "longitude2": 7.612696
   },
   {
     "id": "W-08",
+    "bahnhof": "Andernach",
     "aufgabenadresse": "Untere Wallstraße 15, 56626 Andernach",
     "zeitbedarf": 5,
     "distanz": 0.75,
@@ -6297,11 +7744,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info:\nDer Helmwartsturm dient zur Verteidigung der Stadt, wie man unschwer an der Kanone an dessen Fuße erkennen kann.\nAufgabe:\nMacht ein Gruppenfoto vor dem Helmwartstrum und zeigt mit einem beliebigen Gegenstand, wie ihr die Kanonenkugel fangen würdet\nBonus:\nBaut aus dem Karten eines Kartenspiels einen Turm mit mindestens 4 Etagen.",
     "lostopf": "Wunschlos",
-    "latitude": 50.438174,
-    "longitude": 7.400095
+    "latitude": 50.434542,
+    "longitude": 7.404839,
+    "latitude2": 50.438174,
+    "longitude2": 7.400095
   },
   {
     "id": "W-09",
+    "bahnhof": "Essen-Kupferdreh",
     "aufgabenadresse": "Hespertalbahn e.V., Prinz-Friedrich-Platz 3, 45257 Essen-Stadtbezirke VIII\n",
     "zeitbedarf": 1,
     "distanz": 0.3,
@@ -6310,11 +7760,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Der Hespertalbahn e.V. bei Essen-Kupferdreh betreibt historische Dampfzüge auf einer ehemaligen Zechenbahn. \nAufgabe: Mache ein Foto vor dem Lok-Schuppen der Hespertalbahn.\nBonus: Fahre ein Stück mit der Hespertalbahn.",
     "lostopf": "Wunschlos",
-    "latitude": 51.392315,
-    "longitude": 7.076991
+    "latitude": 51.390945,
+    "longitude": 7.080247,
+    "latitude2": 51.392315,
+    "longitude2": 7.076991
   },
   {
     "id": "W-10",
+    "bahnhof": "Dortmund Universität",
     "aufgabenadresse": "Vogelpothsweg 76, 44227 Dortmund",
     "zeitbedarf": 15,
     "distanz": 0.07,
@@ -6323,11 +7776,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die H-Bahn ist eine autonome fahrende hängende Bahn und fährt bereits seit 1984. Fahr mit!\nAufgabe: Fahre von Dortmund Uni bis Eichlinghofen und zurück\nAußerhalb der Fahrzeit: Fotos der Station Campus Nord+D Uni\nBonus: Fahre auch bis Technologiezentrum",
     "lostopf": "Wunschlos",
-    "latitude": 51.492343,
-    "longitude": 7.417367
+    "latitude": 51.49274,
+    "longitude": 7.417708,
+    "latitude2": 51.492343,
+    "longitude2": 7.417367
   },
   {
     "id": "W-11",
+    "bahnhof": "Stuttgart Neckarpark",
     "aufgabenadresse": "Mercedesstraße 75, 70372 Stuttgart",
     "zeitbedarf": 10,
     "distanz": 1.3,
@@ -6336,11 +7792,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: WM 2006 Denkmal\nAufgabe: Fahre vor das Stadion zum WM 2006 Denkmal und singe das Lied der Sportfreunde Stiller: 54,74,90, 2006\nBonus: Singt noch ein anderes Fusbald lied Eurer Wahl",
     "lostopf": "Wunschlos",
-    "latitude": 48.792241,
-    "longitude": 9.229635
+    "latitude": 48.791998,
+    "longitude": 9.241052,
+    "latitude2": 48.792241,
+    "longitude2": 9.229635
   },
   {
     "id": "W-12",
+    "bahnhof": "Mainz Römisches Theater",
     "aufgabenadresse": null,
     "zeitbedarf": 1,
     "distanz": 0.5,
@@ -6349,11 +7808,14 @@ const coordinates = [
     "punkte_bonus": 5,
     "aufgabe": "Mache ein Foto vor dem Container der DB Cargo Zentrale in Mainz\n",
     "lostopf": "Wunschlos",
-    "latitude": 49.994915,
-    "longitude": 8.280641
+    "latitude": 49.993465,
+    "longitude": 8.277565,
+    "latitude2": 49.994915,
+    "longitude2": 8.280641
   },
   {
     "id": "W-13",
+    "bahnhof": "Bingen(Rhein) Hbf",
     "aufgabenadresse": "55411 Bingen am Rhein",
     "zeitbedarf": 15,
     "distanz": 0.1,
@@ -6362,11 +7824,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Zähle alle Aufzüge für Reisende im Hbf Bingen (Rhein)",
     "lostopf": "Wunschlos",
-    "latitude": 49.968539,
-    "longitude": 7.884273
+    "latitude": 49.968729,
+    "longitude": 7.884263,
+    "latitude2": 49.968539,
+    "longitude2": 7.884273
   },
   {
     "id": "W-14",
+    "bahnhof": "Koblenz Hbf",
     "aufgabenadresse": "Bahnhofpl. 2, 56068 Koblenz",
     "zeitbedarf": 15,
     "distanz": 0.1,
@@ -6375,11 +7840,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache von jedem Bahnsteigleis in Koblenz Hbf ein Gruppenbild mit der Gleisnummer",
     "lostopf": "Wunschlos",
-    "latitude": 50.350942,
-    "longitude": 7.588501
+    "latitude": 50.350929,
+    "longitude": 7.588345,
+    "latitude2": 50.350942,
+    "longitude2": 7.588501
   },
   {
     "id": "W-15",
+    "bahnhof": "Reinhardsbrunn-Friedrichroda",
     "aufgabenadresse": "99894 Friedrichroda",
     "zeitbedarf": 1,
     "distanz": 1,
@@ -6388,11 +7856,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die Thüringer Waldbahn zählt zu den wenigen echten Überlandstraßenbahnen Deutschlands. Fast einzigartig in Deutschland ist der gemeinsame Verlauf einer Eisenbahn- und einer Straßenbahnstrecke. Rund zwei Kilometer verlaufen die „Friedrichrodaer Bahn“ und die Thüringer Waldbahn parallel zueinander. Dabei kommt es hin und wieder zum Zusammentreffen von Eisenbahn und Straßenbahn.\nAufgabe: Macht ein Selfie eures Teams vor den Gleisen der Waldbahn und der Friedrichrodaer Bahn.\nBonus: Auf einem Foto ist sowohl eine Straßenbahn der Waldbahn als auch ein Zug der Friedrichrodaer Bahn zu sehen.",
     "lostopf": "Wunschlos",
-    "latitude": 50.870635,
-    "longitude": 10.562335
+    "latitude": 50.863498,
+    "longitude": 10.562728,
+    "latitude2": 50.870635,
+    "longitude2": 10.562335
   },
   {
     "id": "W-16",
+    "bahnhof": "Berlin Charlottenburg (S)",
     "aufgabenadresse": "Kaiser-Friedrich-Straße 54, 10627 Berlin",
     "zeitbedarf": 6,
     "distanz": 0.2,
@@ -6401,11 +7872,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Wunschlos von Rudi: Der Stutti - legendärer Ort im alten West-Berlin: Hier lebte die Kommune 1, hier gab es seltsame Rotlichtetablissements (\"Stutti Frutti\") und angeblich wurde hier die Currywurst erfunden...\nAufgabe: Macht ein Foto vor dem \"Hecht\" (einziger noch erhaltener Laden aus der \"alten\" Zeit), auf dem Ihr zeigt, was für tolle Hechte Ihr seid!\nBonus: Macht einen Rundgang um den Block und den Platz und Teamfotos vor folgenden Orten und schreibt jeweils auf einen Zettel, der im Foto lesbar ist, was es mit diesen Orten auf sich hat:\n- Aviation Center Berlin\n- Alano Pizza\n- Kantstr. 97\n- Kaiser-Friedrich-Str. 54a\n- Kantstr. 101",
     "lostopf": "Wunschlos",
-    "latitude": 52.505894,
-    "longitude": 13.30219
+    "latitude": 52.504931,
+    "longitude": 13.303945,
+    "latitude2": 52.505894,
+    "longitude2": 13.30219
   },
   {
     "id": "W-17",
+    "bahnhof": "Frankfurt(M)Hauptwache",
     "aufgabenadresse": "Hinter dem Lämmchen 2-4, 60311 Frankfurt am Main",
     "zeitbedarf": 3,
     "distanz": 0.65,
@@ -6414,11 +7888,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die Geschichte vom Struwwelpeter kennt (fast) jeder - jetzt gibt es das passende Museum dazu!\nAufgabe: Macht einem Teammitglied eine Struwwelpeterfrisur und macht dann gemeinsam ein Teamfoto vor dem Struwwelpetermuseum.\nBonus: Wenn Rapunzel auch auf dem Foto ist, gibt es 10 Bonuspunkte.",
     "lostopf": "Wunschlos",
-    "latitude": 50.111077,
-    "longitude": 8.683608
+    "latitude": 50.113926,
+    "longitude": 8.678947,
+    "latitude2": 50.111077,
+    "longitude2": 8.683608
   },
   {
     "id": "W-18",
+    "bahnhof": "Coesfeld(Westf)",
     "aufgabenadresse": "Bernhard-von-Galen-Straße 10, 48653 Coesfeld",
     "zeitbedarf": 1,
     "distanz": 0.95,
@@ -6427,11 +7904,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mache ein Bild vor der Berkelbühne im Schlosspark\n",
     "lostopf": "Wunschlos",
-    "latitude": 51.944569,
-    "longitude": 7.168822
+    "latitude": 51.939807,
+    "longitude": 7.163687,
+    "latitude2": 51.944569,
+    "longitude2": 7.168822
   },
   {
     "id": "W-19",
+    "bahnhof": "Eckernförde",
     "aufgabenadresse": "An de Dang, 24340 Eckernförde",
     "zeitbedarf": 2,
     "distanz": 0.45,
@@ -6440,11 +7920,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Foto mit der MareMinde (in voller Pracht).",
     "lostopf": "Wunschlos",
-    "latitude": 54.469281,
-    "longitude": 9.840536
+    "latitude": 54.4676,
+    "longitude": 9.835115,
+    "latitude2": 54.469281,
+    "longitude2": 9.840536
   },
   {
     "id": "W-20",
+    "bahnhof": "Rendsburg",
     "aufgabenadresse": "Torstraße 1, 24768 Rendsburg",
     "zeitbedarf": 2,
     "distanz": 0.8,
@@ -6453,11 +7936,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Foto auf dem Schlossplatz vor dem grünen Mini-Dom(Brunnen)",
     "lostopf": "Wunschlos",
-    "latitude": 54.306169,
-    "longitude": 9.662156
+    "latitude": 54.302262,
+    "longitude": 9.671134,
+    "latitude2": 54.306169,
+    "longitude2": 9.662156
   },
   {
     "id": "W-21",
+    "bahnhof": "Bad Neustadt(Saale)",
     "aufgabenadresse": "Marktplatz, 97616 Bad Neustadt an der Saale",
     "zeitbedarf": 5,
     "distanz": 1.2,
@@ -6466,11 +7952,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info:\nAuf dem Marktplatz plätschert ein Wasserspiel vor sich hin. An einem heißen Tag kann das eine schöne Abkühlung sein.\nAufgabe:\nMindestens ein Gruppenmitglied macht sich beide Füße naß.",
     "lostopf": "Wunschlos",
-    "latitude": 50.323079,
-    "longitude": 10.215723
+    "latitude": 50.328127,
+    "longitude": 10.226134,
+    "latitude2": 50.323079,
+    "longitude2": 10.215723
   },
   {
     "id": "W-22",
+    "bahnhof": "Duisburg Hbf",
     "aufgabenadresse": "Schwanenstraße 44, 47051 Duisburg",
     "zeitbedarf": 1,
     "distanz": 1.9,
@@ -6479,11 +7968,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Das Stadtarchiv ist das fensterlose rote Gebäude auf der anderen Seite des Innenhafens\nAufgabe: Macht ein Foto auf dem Schwanentor mit dem Stadtarchiv im Hintergrund\nBonus: Formt mit einem Arm einen eleganten Schwanenhals",
     "lostopf": "Wunschlos",
-    "latitude": 51.436244,
-    "longitude": 6.75784
+    "latitude": 51.429785,
+    "longitude": 6.775903,
+    "latitude2": 51.436244,
+    "longitude2": 6.75784
   },
   {
     "id": "W-23",
+    "bahnhof": "Bad Kleinen",
     "aufgabenadresse": "Rosensteig 7, 23996 Bad Kleinen",
     "zeitbedarf": 5,
     "distanz": 0.1,
@@ -6492,11 +7984,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besuche den Bahnhof in Bad Kleinen und mache ein (1!) Foto mit folgenden Motiven: Bahnhofsschild Bad Kleinen und das Zusatzschild \"Vielfältig. Bunt. Bahnhof.\" und der Regenbogenbrücke im Hintergrund. ",
     "lostopf": "Wunschlos",
-    "latitude": 53.766844,
-    "longitude": 11.466569
+    "latitude": 53.766974,
+    "longitude": 11.466925,
+    "latitude2": 53.766844,
+    "longitude2": 11.466569
   },
   {
     "id": "W-24",
+    "bahnhof": "Rödermark-Urberach",
     "aufgabenadresse": "Am Schwimmbad 3, 63322 Rödermark",
     "zeitbedarf": 1,
     "distanz": 0.8,
@@ -6505,11 +8000,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besuche die Berufsakademie Rhein-Main und mache ein Bild davon",
     "lostopf": "Wunschlos",
-    "latitude": 49.975282,
-    "longitude": 8.806471
+    "latitude": 49.975137,
+    "longitude": 8.798159,
+    "latitude2": 49.975282,
+    "longitude2": 8.806471
   },
   {
     "id": "W-25",
+    "bahnhof": "Dortmund-Hörde",
     "aufgabenadresse": "Am Kai 18, 44263 Dortmund",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -6518,11 +8016,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Besuche den Phönix See in Dortmund Hörde und mache ein Foto auf der Kulturinsel",
     "lostopf": "Wunschlos",
-    "latitude": 51.490206,
-    "longitude": 7.508005
+    "latitude": 51.487782,
+    "longitude": 7.500029,
+    "latitude2": 51.490206,
+    "longitude2": 7.508005
   },
   {
     "id": "W-26",
+    "bahnhof": "Duisburg-Meiderich Süd",
     "aufgabenadresse": "Baustraße 54, 47137 Duisburg",
     "zeitbedarf": 10,
     "distanz": 0.8,
@@ -6531,11 +8032,14 @@ const coordinates = [
     "punkte_bonus": 5,
     "aufgabe": "Sammelt genug Pfandflaschen um euch ein Getränk davon zu kaufen. Macht ein Foto von Kassenbon und Getränk. Ihr dürft kein Geld dazugeben.\nHinweis: der DM im Bahnhof hat auch Sonntags geöffnet und nimmt Pfand entgegen.",
     "lostopf": "Wunschlos",
-    "latitude": 51.470722,
-    "longitude": 6.769916
+    "latitude": 51.468831,
+    "longitude": 6.780191,
+    "latitude2": 51.470722,
+    "longitude2": 6.769916
   },
   {
     "id": "W-27",
+    "bahnhof": "Bad Homburg",
     "aufgabenadresse": "Kisseleffstraße 35, 61348 Bad Homburg vor der Höhe",
     "zeitbedarf": 10,
     "distanz": 1.1,
@@ -6544,11 +8048,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Der Kurpark in Bad Homburg ist für seine vielen Heilquellen und Brunnen bekannt.\nAufgabe: Finde 2 Brunnen und trinke das Wasser (falls die offen sind)\nBonusaufgabe: Kipp einem Teamkollegen das Wasser über den Kopf",
     "lostopf": "Wunschlos",
-    "latitude": 50.227973,
-    "longitude": 8.627095
+    "latitude": 50.219904,
+    "longitude": 8.620624,
+    "latitude2": 50.227973,
+    "longitude2": 8.627095
   },
   {
     "id": "W-28",
+    "bahnhof": "Wuppertal-Zoologischer Garten",
     "aufgabenadresse": "Sonnborner Str. 44, 42327 Wuppertal",
     "zeitbedarf": 1,
     "distanz": 0.6,
@@ -6557,11 +8064,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Macht ein Foto von der ikonischen Fassade des Wuppertaler Stadions am Zoo. Bonus: AUS der Schwebebahn.",
     "lostopf": "Wunschlos",
-    "latitude": 51.239656,
-    "longitude": 7.103038
+    "latitude": 51.243469,
+    "longitude": 7.10702,
+    "latitude2": 51.239656,
+    "longitude2": 7.103038
   },
   {
     "id": "W-29",
+    "bahnhof": "Schwerte(Ruhr)",
     "aufgabenadresse": "Ioannina-Platz 1, 58239 Schwerte",
     "zeitbedarf": 1,
     "distanz": 1.5,
@@ -6570,11 +8080,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Bild vom Klimagarten Schwerte",
     "lostopf": "Wunschlos",
-    "latitude": 51.431321,
-    "longitude": 7.563771
+    "latitude": 51.442281,
+    "longitude": 7.55896,
+    "latitude2": 51.431321,
+    "longitude2": 7.563771
   },
   {
     "id": "W-30",
+    "bahnhof": "Mayschoß",
     "aufgabenadresse": "Ahr-Rotweinstraße 47, 53508 Mayschoß-Lochmühle",
     "zeitbedarf": 1,
     "distanz": 0.1,
@@ -6583,11 +8096,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Bild vor dem renovierten Bahnhof Mayschoß mit den steilen Weinbergen im Hintergrund",
     "lostopf": "Wunschlos",
-    "latitude": 50.517546,
-    "longitude": 7.020224
+    "latitude": 50.517233,
+    "longitude": 7.020463,
+    "latitude2": 50.517546,
+    "longitude2": 7.020224
   },
   {
     "id": "W-31",
+    "bahnhof": "Hamburg-Neugraben",
     "aufgabenadresse": "Königswiesen, 21147 Hamburg",
     "zeitbedarf": 1,
     "distanz": 0.4,
@@ -6596,11 +8112,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Aufgabe: Macht ein Bild mit dem Beachvolleyballfeld\nBonus: baut eine Sandburg inklusive Burggraben",
     "lostopf": "Wunschlos",
-    "latitude": 53.475262,
-    "longitude": 9.849339
+    "latitude": 53.474143,
+    "longitude": 9.852048,
+    "latitude2": 53.475262,
+    "longitude2": 9.849339
   },
   {
     "id": "W-32",
+    "bahnhof": "Ladenburg",
     "aufgabenadresse": "Neckarstraße 50, 68526 Ladenburg",
     "zeitbedarf": 1,
     "distanz": 1.2,
@@ -6609,11 +8128,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Ladenburg ist zentraler Bahnhof der Standard-Testinfrastruktur für die PROTON-Simulation von DB Analytics. Das muss man gesehen haben.\nAufgabe: macht einen kleinen Spaziergang am Neckar und besucht die Pinguine\nBonus: macht ein Foto des Bahnhofsschilds in Ladenburg, auf dem das PROTON Logo (https://proton.lsg.comp.db.de/) auf Handy oder Laptop Display zu sehen ist. ",
     "lostopf": "Wunschlos",
-    "latitude": 49.464976,
-    "longitude": 8.606193
+    "latitude": 49.474242,
+    "longitude": 8.602803,
+    "latitude2": 49.464976,
+    "longitude2": 8.606193
   },
   {
     "id": "W-33",
+    "bahnhof": "Bad Vilbel Süd",
     "aufgabenadresse": "Frankfurter Str. 131, 61118 Bad Vilbel",
     "zeitbedarf": 25,
     "distanz": 0.22,
@@ -6622,11 +8144,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Bad Vilbel ist Quellenstadt mit einer Vielzahl von Mineralbrunnen. In der Stadt sind als \"Kunstwerke\" an verschiedenen Stellen große bunte Wasserflaschen aufgestellt.\nAufgabe: macht Fotos von mindestens 6 dieser Wasserflaschen (die Koordinaten geben den Ort einer Flasche an, bei der ihr starten könnt)\nBonus: findet und fotografiert noch 5 weitere Flaschen (also insgesamt 11)",
     "lostopf": "Wunschlos",
-    "latitude": 50.178688,
-    "longitude": 8.73604
+    "latitude": 50.178585,
+    "longitude": 8.733227,
+    "latitude2": 50.178688,
+    "longitude2": 8.73604
   },
   {
     "id": "W-34",
+    "bahnhof": "Obstfelderschmiede",
     "aufgabenadresse": "98744 Schwarzatal-Lichtenhain/Bergbahn",
     "zeitbedarf": 5,
     "distanz": 1,
@@ -6635,11 +8160,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Von Obstfelderschmiede nach Lichtenhain verkehrt die  (wahrscheinlich) einzige Standseilbahn auf dem DB Netz. Die Bahn selbst ist leider wegen Wartungsarbeiten geschlossen, aber ihr könnt die Strecke entlangehen.\nAufgabe: Geht zur Ausweichstelle der Bergbahn und macht ein Video, auf dem ihr erklärt, wie die Weiche dort ohne bewegliche Teile funktioniert.\nBonus: Lauft weiter bis zur Bergstation und macht oben ein Foto",
     "lostopf": "Wunschlos",
-    "latitude": 50.597708,
-    "longitude": 11.130857
+    "latitude": 50.603622,
+    "longitude": 11.133784,
+    "latitude2": 50.597708,
+    "longitude2": 11.130857
   },
   {
     "id": "W-35",
+    "bahnhof": "Templin Stadt",
     "aufgabenadresse": "Uferweg, 17268 Templin",
     "zeitbedarf": 5,
     "distanz": 1.9,
@@ -6648,11 +8176,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Wunschlos Natur, macht eine Reise nach Templin in den Naturpark Uckermärkische Seen.\nAufgabe: Dort erwartet euch eine kleine Wanderung entlang des Ufers des Templiner Sees zur Badestrand Schinderkuhle. Macht dort ein Gruppenfoto am Strand.\nBonus: Fotografiert mindestens eine Person der Gruppe badend im See",
     "lostopf": "Wunschlos",
-    "latitude": 53.127789,
-    "longitude": 13.511043
+    "latitude": 53.117068,
+    "longitude": 13.508787,
+    "latitude2": 53.127789,
+    "longitude2": 13.511043
   },
   {
     "id": "W-36",
+    "bahnhof": "Ludwigslust",
     "aufgabenadresse": "Schloßfreiheit, 19288 Ludwigslust",
     "zeitbedarf": 5,
     "distanz": 1.3,
@@ -6661,11 +8192,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Ludwigslust war während der Korridorsanierung sehr stark gebeutelt.\nAufgabe: Macht ein Foto vor dem Schloss Ludwigslust",
     "lostopf": "Wunschlos",
-    "latitude": 53.324918,
-    "longitude": 11.487851
+    "latitude": 53.334671,
+    "longitude": 11.494491,
+    "latitude2": 53.324918,
+    "longitude2": 11.487851
   },
   {
     "id": "W-37",
+    "bahnhof": "Nördlingen",
     "aufgabenadresse": "Windgäßchen, 86720 Nördlingen",
     "zeitbedarf": 10,
     "distanz": 0.9,
@@ -6674,11 +8208,14 @@ const coordinates = [
     "punkte_bonus": 25,
     "aufgabe": "Info: Mitten im Nördlinger Ries, einem Meteoritenkrater, liegt die Stadt Nördlingen, die von einer vollständig  erhaltenen Stadtmauer umgeben ist. Den besten Blick hat man vom direkt im Stadtzentrum gelegenen Kirchturm der Kirche St. Georg - dem \"Daniel\". \nAufgabe: begebt euch zur Kirche St. Georg und macht eines dieser Klischeefotos, bei dem ihr durch geschickte Wahl der Perspektive so groß seid, dass ihr euch am Kirchturm anlehnen könnt, ihn umarmt o.Ä. \nBonus: ihr erklimmt die Stufen und lasst die neutrale Tourbegleitung durch ein Beweisfoto an der Aussicht teilhaben (10-18 Uhr, 4 € Eintritt für den Aufstieg, ca. 350 Stufen)",
     "lostopf": "Wunschlos",
-    "latitude": 48.85063,
-    "longitude": 10.488813
+    "latitude": 48.850841,
+    "longitude": 10.497863,
+    "latitude2": 48.85063,
+    "longitude2": 10.488813
   },
   {
     "id": "W-38",
+    "bahnhof": "Bad Dürkheim",
     "aufgabenadresse": "Salinenstraße 17, 67098 Bad Dürkheim",
     "zeitbedarf": 2,
     "distanz": 0.75,
@@ -6687,11 +8224,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Bad Dürkheim ist eine Kurstadt am Rande des Pfälzerwalds\nAufgabe: Besucht die Saline (Gradierbau) in Bad Dürkheim\nBonus: findet auf dem Rückweg das größte Weinfass der Welt",
     "lostopf": "Wunschlos",
-    "latitude": 49.465409,
-    "longitude": 8.174485
+    "latitude": 49.460633,
+    "longitude": 8.170701,
+    "latitude2": 49.465409,
+    "longitude2": 8.174485
   },
   {
     "id": "W-39",
+    "bahnhof": "München-Laim",
     "aufgabenadresse": "Hirschgarten 1, 80639 München",
     "zeitbedarf": 10,
     "distanz": 1,
@@ -6700,11 +8240,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: München - Biergärten - Sommer -geil\nAufgabe: Fahrt zum größten Biergarten der Welt, dem Königlichen Hirschgarten, und machts a 5-sekündiges Video wo mindestens eine Person eurer Gruppe jodelt.\nBonus: Das Video dauert 15 Sekunden, komplett jodelnd ;)",
     "lostopf": "Wunschlos",
-    "latitude": 48.149981,
-    "longitude": 11.511142
+    "latitude": 48.144371,
+    "longitude": 11.503669,
+    "latitude2": 48.149981,
+    "longitude2": 11.511142
   },
   {
     "id": "W-40",
+    "bahnhof": "Bielefeld Hbf",
     "aufgabenadresse": "33602 Bielefeld",
     "zeitbedarf": 15,
     "distanz": null,
@@ -6714,10 +8257,13 @@ const coordinates = [
     "aufgabe": "Info: Seit Jahren wird diskutiert, ob Bielefeld nun exisitiert oder nicht. Ihr müsst das Geheimnis jetzt lüften.\nAufgabe: Fahrt nach Bielefeld und sichert 15 Minuten Beweise, dass Bielefeld exisitiert",
     "lostopf": "Wunschlos",
     "latitude": 52.029261,
-    "longitude": 8.532723
+    "longitude": 8.532722,
+    "latitude2": 52.029261,
+    "longitude2": 8.532723
   },
   {
     "id": "W-41",
+    "bahnhof": "Konstanz",
     "aufgabenadresse": "78462 Konstanz",
     "zeitbedarf": 5,
     "distanz": 0.65,
@@ -6726,11 +8272,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Nicht nur ein Stadtteil von Konstanz heißt Paradies, sondern auch das Steuerparadies in der Schweiz ist nur wenige Gehminuten entfernt.                                                                                              Aufgabe: Mache ein Foto von euch vor einem beliebigen Grenzübergang in die Schweiz in Konstanz. Tritt beliebig nah heran an die Grenze ran.                                                                                                      ",
     "lostopf": "Wunschlos",
-    "latitude": 47.655502,
-    "longitude": 9.17316
+    "latitude": 47.658754,
+    "longitude": 9.177312,
+    "latitude2": 47.655502,
+    "longitude2": 9.17316
   },
   {
     "id": "W-42",
+    "bahnhof": "Siegburg/Bonn",
     "aufgabenadresse": "Siegstraße 79, 53721 Siegburg",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -6739,11 +8288,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Siegburg ist an der Sieg gelegen, nutzt diese Gelegenheit  \nAufgabe: Geht zur Sieg und haltet eure Füße in die Sieg, mache davon ein Foto                                                                                                  \nBonus: Nutze die Seilbahn auf dem Spielplatz und mache ein Video",
     "lostopf": "Wunschlos",
-    "latitude": 50.790429,
-    "longitude": 7.197852
+    "latitude": 50.793915,
+    "longitude": 7.203026,
+    "latitude2": 50.790429,
+    "longitude2": 7.197852
   },
   {
     "id": "W-43",
+    "bahnhof": "Erkner (S)",
     "aufgabenadresse": "Bahnhofstraße 10, 15537 Erkner",
     "zeitbedarf": 2,
     "distanz": 0.1,
@@ -6752,11 +8304,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: In Erkner sitzt der Verein historische S-Bahn Berlin, der sich um die alten Fahrzeuge der Berliner S-Bahn kümmert \nAufgabe: Macht ein Gruppenfoto mit dem Triebkopf am Werk Bonus: Ihr trage dabei etwas (kristall-)blaues, etwas beiges und etwas rotes",
     "lostopf": "Wunschlos",
-    "latitude": 52.429047,
-    "longitude": 13.752155
+    "latitude": 52.428851,
+    "longitude": 13.751758,
+    "latitude2": 52.429047,
+    "longitude2": 13.752155
   },
   {
     "id": "W-44",
+    "bahnhof": "Möttingen",
     "aufgabenadresse": "RJ56+MC, 86753 Möttingen",
     "zeitbedarf": 2,
     "distanz": 1.4,
@@ -6765,11 +8320,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die Riesbahn ist immer eine Reise wert - steuert den Bahnhof Möttingen mit seinem mechanischen Stellwerk an\nAufgabe: Steuert die \"Hexenküche\" im benachbarten Lierheim an und macht dort ein Foto\nBonus: Wenn auf dem Foto ein Zug auf der Riesbahn zu erkennen ist.",
     "lostopf": "Wunschlos",
-    "latitude": 48.809253,
-    "longitude": 10.611068
+    "latitude": 48.806806,
+    "longitude": 10.597832,
+    "latitude2": 48.809253,
+    "longitude2": 10.611068
   },
   {
     "id": "W-46",
+    "bahnhof": "Oberwesel",
     "aufgabenadresse": "Koblenzer Str. 89, 55430 Oberwesel",
     "zeitbedarf": 10,
     "distanz": 1.5,
@@ -6778,11 +8336,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Oberwesel ist ein aufgrund der Lage im mittel Rheintal ein beliebter Ort, um dort Bilder von Zügen zu machen. Besonders häufig wurden dort Züge des Fernverkehrs fotografiert. \nAufgabe: Begebt euch zu den Koordinaten und macht von dort ein Bild mit einem Zug und Oberwesel im Hintergrund. \nBonus: Auf dem Bild ist ein Zug des Fernverkehrs zu sehen.\n",
     "lostopf": "Wunschlos",
-    "latitude": 50.114711,
-    "longitude": 7.718939
+    "latitude": 50.10446,
+    "longitude": 7.731542,
+    "latitude2": 50.114711,
+    "longitude2": 7.718939
   },
   {
     "id": "W-48",
+    "bahnhof": "Warnemünde",
     "aufgabenadresse": "Am Leuchtturm, 18119 Rostock",
     "zeitbedarf": 5,
     "distanz": 0.8,
@@ -6791,11 +8352,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Genießt die frische Briese an der Ostsee\nAufgabe: Macht ein Gruppenfoto mit dem Leuchtturm von Warnemünde\nBonus: Eine Fähre im Hintergrund des Gruppenbildes",
     "lostopf": "Wunschlos",
-    "latitude": 54.182333,
-    "longitude": 12.08618
+    "latitude": 54.176852,
+    "longitude": 12.091271,
+    "latitude2": 54.182333,
+    "longitude2": 12.08618
   },
   {
     "id": "W-49",
+    "bahnhof": "Bonn UN Campus",
     "aufgabenadresse": "Willy-Brandt-Allee 14, 53113 Bonn",
     "zeitbedarf": 5,
     "distanz": 0.5,
@@ -6804,11 +8368,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der Salonwagen 10 205 wurde bis 1974 von Bundeskanzlern als reisendes Büro genutzt und befindet sich heute im Untergeschoss im Haus der Geschichte, welches entgeltfrei besichtigt werden kann. \nAufgabe: Überprüft das letzte Wartungsdatum und macht ein Gruppenfoto vor dem prächtigen Wagen",
     "lostopf": "Wunschlos",
-    "latitude": 50.717236,
-    "longitude": 7.119473
+    "latitude": 50.71454,
+    "longitude": 7.11801,
+    "latitude2": 50.717236,
+    "longitude2": 7.119473
   },
   {
     "id": "W-50",
+    "bahnhof": "Hadamar",
     "aufgabenadresse": "Gymnasiumstraße 4, 65589 Hadamar",
     "zeitbedarf": 1,
     "distanz": 0.1,
@@ -6817,11 +8384,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: In Hadamar gibt es einiges an Geschichte zu entdecken. Unter Anderem viel Tradition im Glashandwerk\nAufgabe: Macht ein Gruppenfoto vor dem Eingang des Glasmuseums im Hadamarer Schloss",
     "lostopf": "Wunschlos",
-    "latitude": 50.447559,
-    "longitude": 8.044942
+    "latitude": 50.4469,
+    "longitude": 8.043513,
+    "latitude2": 50.447559,
+    "longitude2": 8.044942
   },
   {
     "id": "W-51",
+    "bahnhof": "Plochingen",
     "aufgabenadresse": "DB Regio AG\nS-Bahn Stuttgart\nAm Nordseekai 36/1-3\n73207 Plochingen",
     "zeitbedarf": 15,
     "distanz": 1.4,
@@ -6830,11 +8400,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Am Nordsee Kai kann man auch in Stuttgart sein ;-)\nAufgabe: Findet ein Schild der S Bahn und sagt ein Kleines Gedicht auf, bsp. über die baureihe 423 und oder 430.  Gern mit Norddeutschem Dialekt vortragen ;-) ",
     "lostopf": "Wunschlos",
-    "latitude": 48.718099,
-    "longitude": 9.401106
+    "latitude": 48.71308,
+    "longitude": 9.41081,
+    "latitude2": 48.718099,
+    "longitude2": 9.401106
   },
   {
     "id": "W-52",
+    "bahnhof": "Oppenheim",
     "aufgabenadresse": "Vorstädterstraße 2, 55276 Oppenheim",
     "zeitbedarf": 10,
     "distanz": 0.21,
@@ -6843,11 +8416,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Der 175-jährige Oppenheimer Uhrturm steht mit seinen Mauern auf einem Fundament aus dem Mittelalter. Über den Zweck der Zeitanzeige, wurde er auch als Beobahtungsturm verwendet. \nAufgabe: Neben dem Turm ist der Partnerschaftsbrunnen. Sucht auf Maps nach den Partnerstädten. Wie lange braucht man zu Fuß um den Weg des Wassers nachzugehen? Macht ein Bild mit der Distanz zwischen den Stadtwappen.",
     "lostopf": "Wunschlos",
-    "latitude": 49.856748,
-    "longitude": 8.356985
+    "latitude": 49.85756,
+    "longitude": 8.358078,
+    "latitude2": 49.856748,
+    "longitude2": 8.356985
   },
   {
     "id": "W-53",
+    "bahnhof": "Görlitz",
     "aufgabenadresse": "02826 Görlitz",
     "zeitbedarf": 20,
     "distanz": 0.1,
@@ -6856,11 +8432,14 @@ const coordinates = [
     "punkte_bonus": 15,
     "aufgabe": "Info: Der Bahnhof Görlitz ist ein wunderschöner Jugendstil-Bahnhof.\nAufgabe: Schaut Euch den Bahnhof an und macht mindestens drei Gruppenbilder, auf denen typische Jugendstildetails über, neben oder unter Euch zu sehen sind.\nBonus: Ihr trefft einen polnischen Zug an und fotografiert Euch mit diesem.",
     "lostopf": "Wunschlos",
-    "latitude": 51.147299,
-    "longitude": 14.979366
+    "latitude": 51.146767,
+    "longitude": 14.97908,
+    "latitude2": 51.147299,
+    "longitude2": 14.979366
   },
   {
     "id": "W-54",
+    "bahnhof": "Aachen West",
     "aufgabenadresse": "Eilfschornsteinstraße 15, 52062 Aachen",
     "zeitbedarf": 10,
     "distanz": 0.9,
@@ -6869,11 +8448,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die RWTH Aachen steht teilweise auf historischen Gebäuden. Der Torbogen aus dem Jahre 1786 ist als freistehendes Mauerwerk aus dem ehemaligen Klosterrather Hof übrig geblieben. Den Erstsemestern wird erzählt, sie würden ihren Abschluss nicht schaffen, wenn man durch das Tor ginge.\nAufgabe: Macht ein Foto im Torbogen von allen Teammitgliedern mit Hochschulabschluss, den sie als Beweis in der Hand halten (digital erlaubt). ",
     "lostopf": "Wunschlos",
-    "latitude": 50.777138,
-    "longitude": 6.079791
+    "latitude": 50.78036,
+    "longitude": 6.070715,
+    "latitude2": 50.777138,
+    "longitude2": 6.079791
   },
   {
     "id": "W-56",
+    "bahnhof": "Hamburg Königstraße",
     "aufgabenadresse": "Van-der-Smissen-Straße 143a, 22767 Altona",
     "zeitbedarf": 15,
     "distanz": 1.5,
@@ -6882,11 +8464,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das Dockland ist ein Bürogebäude an der Elbe in der Nähe des ehemaligen England-Fähranlegers. Das sechsgeschossige Gebäude hat einen markanten Querschnitt in Form eines Parallelogramms und ragt wie ein Schiffsbug über das Wasser hinaus.\nAufgabe: Genießt den Ausblick auf den Hamburger Hafen und beobachtet das bunte Treiben. Macht ein Foto vom Dockland zusammen mit einem großen Schiff darauf.\nBonus: Erklimmt das Dockland und macht ein Treppenfoto mit allen Teammitgliedern.",
     "lostopf": "Wunschlos",
-    "latitude": 53.543326,
-    "longitude": 9.934372
+    "latitude": 53.547796,
+    "longitude": 9.944088,
+    "latitude2": 53.543326,
+    "longitude2": 9.934372
   },
   {
     "id": "W-57",
+    "bahnhof": "Düsseldorf Flughafen",
     "aufgabenadresse": "40472 Düsseldorf",
     "zeitbedarf": 12,
     "distanz": 0.23,
@@ -6895,11 +8480,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Fahrt mit dem SkyTrain am Flughafen DUS.\nInfo: Nach der H-Bahn in Dortmund ist Skytrain eine zweite Großkabinen-Hängebahn von Siemens. Seit 2002 ist sie in Betrieb und operiert nach der BOStrab als unabhängige Bahn ohne Fahrpersonal.\nZur Fahrt berechtigt u. a. das Deutschlandticket, von End- zu Endstation dauert eine Fahrt 7 min.\nAufgabe: Macht ein Foto eures Teams in einem fahrenden Zug des SkyTrains.\nBonus: Fotografiert den Mast \"F1-55\" der Strecken-Aufständerung aus einem Zug des SkyTrains. ",
     "lostopf": "Wunschlos",
-    "latitude": 51.291011,
-    "longitude": 6.786016
+    "latitude": 51.292009,
+    "longitude": 6.786836,
+    "latitude2": 51.291011,
+    "longitude2": 6.786016
   },
   {
     "id": "W-99",
+    "bahnhof": "Kattenvenne",
     "aufgabenadresse": "Ladberger Str. 34, 49536 Lienen-Kattenvenne",
     "zeitbedarf": 2,
     "distanz": 0.75,
@@ -6908,11 +8496,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die „Kattenvenner Lok“ steht als Skulptur im Kattenvenner Kreisel an der B 475. Allerdings musste sie mal für einen Schwertransport umziehen.\nAufgabe: Schaut nach, ob die Lok noch da ist. Macht ein Foto mit Gruppe und Kreisverkehr, um eure Recherche zu dokumentieren.\nBonus: Fertigt eine handgemalte Zeichnung  (ggf. fiktiv, wenn das Vorbild nicht da ist) der Lok auf Papier an.\n",
     "lostopf": "Wunschlos",
-    "latitude": 52.115751,
-    "longitude": 7.852449
+    "latitude": 52.113144,
+    "longitude": 7.860109,
+    "latitude2": 52.115751,
+    "longitude2": 7.852449
   },
   {
     "id": "WK-01",
+    "bahnhof": "Würzburg Süd",
     "aufgabenadresse": "Residenzpl. 2, 97070 Würzburg",
     "zeitbedarf": 1,
     "distanz": 0.9,
@@ -6921,11 +8512,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die Würzburger Residenz ist der ehemalige Sitz der Fürstbischöfe in der bayerischen Stadt Würzburg. Die barocke Dreiflügelanlage wurde in den Jahren 1720 bis 1780 im Auftrag von Johann Philipp Franz und Friedrich Karl von Schönborn nach Entwurf von Balthasar Neumann erbaut\nAufgabe: Haltet die Füße in den Felsenbrunnen der Residenz Würzburg und mache ein Foto davon.\nBonus: Macht auch Fotos vor dem Frankoniabrunnen auf dem Residenzplatz und vor dem Hofgartenbrunnen.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 49.792585,
-    "longitude": 9.939924
+    "latitude": 49.788193,
+    "longitude": 9.943503,
+    "latitude2": 49.792585,
+    "longitude2": 9.939924
   },
   {
     "id": "WK-02",
+    "bahnhof": "Potsdam-Babelsberg",
     "aufgabenadresse": "Park Babelsberg Schlosspark, 14482 Potsdam",
     "zeitbedarf": 1,
     "distanz": 2.1,
@@ -6934,11 +8528,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Mache ein Foto vor der Blumenfontäne von Fürst Pückler. Bonus mit Pückler Eis.\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 52.404486,
-    "longitude": 13.0949
+    "latitude": 52.391391,
+    "longitude": 13.092871,
+    "latitude2": 52.404486,
+    "longitude2": 13.0949
   },
   {
     "id": "WK-03",
+    "bahnhof": "Wismar",
     "aufgabenadresse": "Am Markt 1, 23966 Wismar",
     "zeitbedarf": 2,
     "distanz": 0.7,
@@ -6947,11 +8544,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die Hansestadt Wismar bildet zusammen mit Stralsund das Welterbe \"Historische Altstädte Stralsund und Wismar\"\nAufgabe: Macht ein Bild vom Marktplatz (Rathaus im Hintergrund)\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 53.891505,
-    "longitude": 11.466094
+    "latitude": 53.896837,
+    "longitude": 11.469433,
+    "latitude2": 53.891505,
+    "longitude2": 11.466094
   },
   {
     "id": "WK-04",
+    "bahnhof": "Lutherstadt Eisleben",
     "aufgabenadresse": "Lutherstadt Eisleben,06295, Lutherstadt Eisleben",
     "zeitbedarf": 1,
     "distanz": 1.6,
@@ -6960,11 +8560,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mach ein Foto vor dem Lutherdenkmal in Eisleben.\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 51.528354,
-    "longitude": 11.546315
+    "latitude": 51.518314,
+    "longitude": 11.55088,
+    "latitude2": 51.528354,
+    "longitude2": 11.546315
   },
   {
     "id": "WK-05",
+    "bahnhof": "Bamberg",
     "aufgabenadresse": "Ob. Brücke 1, 96047 Bamberg",
     "zeitbedarf": 2,
     "distanz": 1.5,
@@ -6973,11 +8576,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info: Die Altstadt von Bamberg ist seit 1993 UNESCO-Weltkulturerbe und gilt als herausragendes Beispiel einer mitteleuropäischen Stadt auf frühmittelalterlicher Grundstruktur.\nAufgabe: Mache ein Foto vor dem Alten Rathaus.\nBonus: Trinke ein Rauchbier in der Altstadt vom Bamberg.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 49.891729,
-    "longitude": 10.887108
+    "latitude": 49.900759,
+    "longitude": 10.899489,
+    "latitude2": 49.891729,
+    "longitude2": 10.887108
   },
   {
     "id": "WK-06",
+    "bahnhof": "Völklingen",
     "aufgabenadresse": "Rathausstraße 75-79, 66333 Völklingen",
     "zeitbedarf": 1,
     "distanz": 0.35,
@@ -6986,11 +8592,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Die Völklinger Hütte (1873-1986)  ist das weltweit einzige vollständig erhaltene Eisenwerk aus der Blütezeit der Industrialisierung und zugleich das erste Industriedenkmal dieser Epoche, das in die Welterbeliste der UNESCO aufgenommen wurde. \nAufgabe: Denkt an die harte Arbeit im Eisenwerk und flext deshalb eure Muskeln, während ihr ein Foto vor dem Haupteingang der Völklinger Hütte macht.\nBonus: Gönt euch darauf eine Stärkung aus dem lokalen Shop.\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 49.248462,
-    "longitude": 6.844351
+    "latitude": 49.249091,
+    "longitude": 6.848156,
+    "latitude2": 49.248462,
+    "longitude2": 6.844351
   },
   {
     "id": "WK-07",
+    "bahnhof": "Berlin Hackescher Markt",
     "aufgabenadresse": "Bodestraße 1, 10178 Berlin",
     "zeitbedarf": 1,
     "distanz": 0.45,
@@ -6999,11 +8608,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Stell eine obszöne Gesten im Lustgarten dar.\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 52.519822,
-    "longitude": 13.398569
+    "latitude": 52.522622,
+    "longitude": 13.402364,
+    "latitude2": 52.519822,
+    "longitude2": 13.398569
   },
   {
     "id": "WK-08",
+    "bahnhof": "Quedlinburg",
     "aufgabenadresse": "Markt 7-6, 06484 Quedlinburg",
     "zeitbedarf": 1,
     "distanz": 1,
@@ -7012,11 +8624,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Mach drei unterschiedliche Bilder vom Stadtwappen von Quedlinburg",
     "lostopf": "Weltkulturerbe",
-    "latitude": 51.789334,
-    "longitude": 11.141536
+    "latitude": 51.785268,
+    "longitude": 11.153001,
+    "latitude2": 51.789334,
+    "longitude2": 11.141536
   },
   {
     "id": "WK-09",
+    "bahnhof": "Maulbronn Stadt/Kloster",
     "aufgabenadresse": "Heilbronner Str. 2, 75433 Maulbronn",
     "zeitbedarf": 2,
     "distanz": 1,
@@ -7025,11 +8640,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Das Kloster Maulbronn gilt als die am besten erhaltene Klosteranlage des Mittelalters nördlich der Alpen.\nAufgabe: Macht ein Foto von der Stauferstele Maulbronn.\nBonus: Mindestens ein Gruppenmitglied macht einen Handstand neben der Stele (natürlich nicht an der Stele - ausreichend Abstand lassen!).\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 49.000736,
-    "longitude": 8.813832
+    "latitude": 48.996933,
+    "longitude": 8.803726,
+    "latitude2": 49.000736,
+    "longitude2": 8.813832
   },
   {
     "id": "WK-10",
+    "bahnhof": "Weimar Berkaer Bf",
     "aufgabenadresse": "Theaterpl., 99423 Weimar",
     "zeitbedarf": 1,
     "distanz": 1.4,
@@ -7038,11 +8656,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Mach ein Selfie mit Goethe und Schiller\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 50.980035,
-    "longitude": 11.325656
+    "latitude": 50.980626,
+    "longitude": 11.313686,
+    "latitude2": 50.980035,
+    "longitude2": 11.325656
   },
   {
     "id": "WK-11",
+    "bahnhof": "Stuttgart Nord",
     "aufgabenadresse": "Rathenaustraße 1, 70191 Stuttgart",
     "zeitbedarf": 2,
     "distanz": 1.2,
@@ -7051,11 +8672,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Le Corbusier ist ein Architekt mit bedeutenden Werken der Moderne. Aufgabe: Macht ein Gruppenbild mit kreativen Posen.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 48.799678,
-    "longitude": 9.177671
+    "latitude": 48.803769,
+    "longitude": 9.188026,
+    "latitude2": 48.799678,
+    "longitude2": 9.177671
   },
   {
     "id": "WK-12",
+    "bahnhof": "Cölbe",
     "aufgabenadresse": "Kasseler Str. 41, 35091 Cölbe",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -7064,11 +8688,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Macht ein Teamfoto vor dem Haus mit dem hessischen Kratzputz im Hintergrund (Hier: florale Motive im Fachwerk)\n",
     "lostopf": "Weltkulturerbe",
-    "latitude": 50.847444,
-    "longitude": 8.778531
+    "latitude": 50.848589,
+    "longitude": 8.787963,
+    "latitude2": 50.847444,
+    "longitude2": 8.778531
   },
   {
     "id": "WK-13",
+    "bahnhof": "Darmstadt Ost",
     "aufgabenadresse": "Olbrichweg 11, 64287 Darmstadt",
     "zeitbedarf": 1,
     "distanz": 0.7,
@@ -7077,11 +8704,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Bewundere den Fünffingerturm (Hochzeitsturm) im Mathildenhof Darmstadt. Bonus: Auf dem Foto zeigen alle Team-Mitglieder fünf Finger",
     "lostopf": "Weltkulturerbe",
-    "latitude": 49.877125,
-    "longitude": 8.667311
+    "latitude": 49.874604,
+    "longitude": 8.674023,
+    "latitude2": 49.877125,
+    "longitude2": 8.667311
   },
   {
     "id": "WK-14",
+    "bahnhof": "Hamburg Stadthausbrücke",
     "aufgabenadresse": "Kehrwieder 2/Block D, 20457 Hamburg",
     "zeitbedarf": 5,
     "distanz": 0.9,
@@ -7090,11 +8720,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Miniaturwunderland\nAufgabe: Macht ein Bild vor dem Miniaturwunderland",
     "lostopf": "Weltkulturerbe",
-    "latitude": 53.543747,
-    "longitude": 9.989112
+    "latitude": 53.549465,
+    "longitude": 9.984804,
+    "latitude2": 53.543747,
+    "longitude2": 9.989112
   },
   {
     "id": "WK-15",
+    "bahnhof": "Kassel-Wilhelmshöhe",
     "aufgabenadresse": "Willy-Brandt-Platz, Wilhelmshöher Allee 257, 34131 Kassel-Bad Wilhelmshöhe",
     "zeitbedarf": 1,
     "distanz": 0.2,
@@ -7103,11 +8736,14 @@ const coordinates = [
     "punkte_bonus": 30,
     "aufgabe": "Info: Der Bergpark Wilhelmhöhe ist der größte Bergpark in Europa, besonders die Wasserspiele sind berühmt.\nAufgabe: Zum Hinlaufen ist es leider etwas weit, aber dank der guten Sichtachse kann man auch vom Bahnhofsvorplatz ein Foto machen, auf dem der Park mit Herkules zu erkennen sind.\nBonus: Wenn ihr (oder einige von euch) sportlich ambitioniert seid, nehmt die 2,5 km Laufdistanz in Angriff und macht ein Foto direkt vor dem Schloss Wilhelmshöhe (es muss ausnahmsweise nicht das ganze Team mitkommen).",
     "lostopf": "Weltkulturerbe",
-    "latitude": 51.31316,
-    "longitude": 9.44579
+    "latitude": 51.312559,
+    "longitude": 9.447116,
+    "latitude2": 51.31316,
+    "longitude2": 9.44579
   },
   {
     "id": "WK-17",
+    "bahnhof": "Regensburg Hbf",
     "aufgabenadresse": "Müllerstraße 1, 93059 Regensburg",
     "zeitbedarf": 5,
     "distanz": 1.5,
@@ -7116,11 +8752,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Besucht das Weltkulturerbe \"Altstadt Regensburg mit Stadtamhof\". Stadtamhof ist ein Inselstadtteil am Nordufer der Donau, der aus der Altstadt über die Steinerne Brücke erreichbar ist.\nAufgabe: Macht ein Gruppenfoto mit dem Inselstadtteil Stadtamhof und der Steinernen Brücke im Hintergrund von der Jahninsel aus. Es eignet sich besonders die Stelle vor dem Wirtshaus und Biergarten Alte Linde aus dem Jahr 1901.\nBonus: Bringt ein Erfrischungsgetränk aus der Alten Linde mit aufs Foto.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 49.023046,
-    "longitude": 12.095738
+    "latitude": 49.011672,
+    "longitude": 12.099617,
+    "latitude2": 49.023046,
+    "longitude2": 12.095738
   },
   {
     "id": "WK-18",
+    "bahnhof": "Bremen Hbf",
     "aufgabenadresse": "Am Markt, 28195 Bremen, Deutschland",
     "zeitbedarf": 3,
     "distanz": 1,
@@ -7129,11 +8768,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Aufgabe: Stellt euch vor dem Bremer Roland auf, dabei sollte jeder etwas zu Verteidigendes vor dem Körper tragen.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 53.075969,
-    "longitude": 8.807306
+    "latitude": 53.083481,
+    "longitude": 8.813834,
+    "latitude2": 53.075969,
+    "longitude2": 8.807306
   },
   {
     "id": "WK-19",
+    "bahnhof": "Alfeld(Leine)",
     "aufgabenadresse": "Hannoversche Str. 58, 31061 Alfeld (Leine)",
     "zeitbedarf": 5,
     "distanz": 0.75,
@@ -7142,11 +8784,14 @@ const coordinates = [
     "punkte_bonus": 20,
     "aufgabe": "Info:\ndie Schuhleistenfabrik (\"Fagus-Werk\") ist seit 2011 Unesco-Weltkulturerbe. Entworfen wurden die Gebäude von Walter Gropius und Adolf Meyer.\nAufgabe:\nMacht ein Gruppenfoto vor dem großen Schriftzug \"Welterbe\" am Besucherzentrum, wobei jeder nur noch einen Schuh anhat und auf einem Bein steht.\nBonus:\nauf dem Bild ist ein durchfahrender Zug im Hintergrund zu sehen",
     "lostopf": "Weltkulturerbe",
-    "latitude": 51.984489,
-    "longitude": 9.812252
+    "latitude": 51.981417,
+    "longitude": 9.817779,
+    "latitude2": 51.984489,
+    "longitude2": 9.812252
   },
   {
     "id": "WK-20",
+    "bahnhof": "Mainz Hbf",
     "aufgabenadresse": "Alter jüdischer Friedhof Mainz, Mombacher Str., 55122 Mainz",
     "zeitbedarf": 1,
     "distanz": 0.8,
@@ -7155,11 +8800,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Als SchUM wird der Verbund bezeichnet, den die jüdischen Gemeinden der oberrheinischen Städte Speyer, Worms und Mainz im Mittelalter bildeten. SchUM ist ein Akronym aus den Anfangsbuchstaben der mittelalterlichen hebräischen Städtenamen\nSchin (Sch) = SchPIRA = Speyer\nWaw (U) = Warmaisa = Worms\nMem (M) = Magenza = Mainz\nSie wurden auch als \"heilige Gemeinden\" bezeichnet und prägten die jüdische Kultur, Religion und Rechtsprechung in Mittel-/Osteuropa signifikant.\nAufgabe: Macht ein Foto vor dem alten jüdischen Friedhof in Mainz (von der Straße aus/vor dem Zaun)",
     "lostopf": "Weltkulturerbe",
-    "latitude": 50.005514,
-    "longitude": 8.250292
+    "latitude": 50.001117,
+    "longitude": 8.25872,
+    "latitude2": 50.005514,
+    "longitude2": 8.250292
   },
   {
     "id": "WK-21",
+    "bahnhof": "Essen-Zollverein Nord",
     "aufgabenadresse": "Gelsenkirchener Str. 181, 45309 Essen",
     "zeitbedarf": 5,
     "distanz": 1,
@@ -7168,11 +8816,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Die Zeche Zollverein zählt zum kulturellen Erbe des Ruhrgebietes. Bekannteste Zeichen ist der Förderturm Schacht XII.\nAufgabe: Stellt euch so zusammen, dass Ihr die Stützen des Turms mit den Händen haltet. Die Perspektive ist entscheident! ",
     "lostopf": "Weltkulturerbe",
-    "latitude": 51.486484,
-    "longitude": 7.044746
+    "latitude": 51.493609,
+    "longitude": 7.046744,
+    "latitude2": 51.486484,
+    "longitude2": 7.044746
   },
   {
     "id": "WK-22",
+    "bahnhof": "Köln Hbf",
     "aufgabenadresse": "Trankgasse 11, 50667 Köln",
     "zeitbedarf": 15,
     "distanz": null,
@@ -7181,11 +8832,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Der Kölner Dom ist das Wahrzeichen in Köln und netterweise direkt neben dem Bahnhof.                            \nAufgabe: Lauft einmal um den Kölner Dom                            \nBonus: Schafft es in unter 10 min ",
     "lostopf": "Weltkulturerbe",
-    "latitude": 50.943423,
-    "longitude": 6.958398
+    "latitude": 50.94303,
+    "longitude": 6.958729,
+    "latitude2": 50.943423,
+    "longitude2": 6.958398
   },
   {
     "id": "WK-23",
+    "bahnhof": "Aachen Schanz",
     "aufgabenadresse": "Domhof 1, 52062 Aachen",
     "zeitbedarf": 10,
     "distanz": 1,
@@ -7194,11 +8848,14 @@ const coordinates = [
     "punkte_bonus": 10,
     "aufgabe": "Info: Aufgrund seiner besonderen architekturgeschichtlichen Bedeutung wurde der Aachener Dom 1978 als erste Kulturstätte Deutschlands in die UNESCO-Welterbeliste eingeschrieben.\nAufgabe: Mach ein Foto vor dem Weltkulturerbe in Aachen.\nBonus:  Beißt dabei in eine Printe einer Aachener Bäckerei, die Bäckertüte muss als Beweis mit aufs Foto.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 50.774844,
-    "longitude": 6.083981
+    "latitude": 50.769862,
+    "longitude": 6.07384,
+    "latitude2": 50.774844,
+    "longitude2": 6.083981
   },
   {
     "id": "WK-24",
+    "bahnhof": "Lübeck Hbf",
     "aufgabenadresse": "Holstentorplatz, 23552 Lübeck",
     "zeitbedarf": 2,
     "distanz": 0.75,
@@ -7207,11 +8864,14 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: Lübeck war die Königin der Hanse.\nAufgabe: Foto vor dem Holstentor, sodass das gesamte Tor auf dem Foto sichtbar ist.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 53.866159,
-    "longitude": 10.67968
+    "latitude": 53.867547,
+    "longitude": 10.669821,
+    "latitude2": 53.866159,
+    "longitude2": 10.67968
   },
   {
     "id": "WK-99",
+    "bahnhof": "Drensteinfurt",
     "aufgabenadresse": "Mühlenstraße 15, 48317 Drensteinfurt",
     "zeitbedarf": 2,
     "distanz": 0.6,
@@ -7220,8 +8880,10 @@ const coordinates = [
     "punkte_bonus": null,
     "aufgabe": "Info: zwar kein Weltkulturerbe, aber immerhin ein Baudenkmal von 1647 (und die Stadt feiert dieses Jahr 1175-jähriges Stadtjubiläum): die alte Post.\nAufgabe: findet auf beiden dreidimensionalen Stadtplänen vor dem Gebäude euren aktuellen Standort und zeigt darauf.",
     "lostopf": "Weltkulturerbe",
-    "latitude": 51.798383,
-    "longitude": 7.740479
+    "latitude": 51.799158,
+    "longitude": 7.733609,
+    "latitude2": 51.798383,
+    "longitude2": 7.740479
   }
 ];
 
@@ -7901,8 +9563,8 @@ const partnerCityLines = [
   ],
   [
     [
-      50.831084,
-      10.954958
+      50.841939,
+      10.948262
     ],
     [
       51.312559,
