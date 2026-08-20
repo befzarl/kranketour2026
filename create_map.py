@@ -121,31 +121,29 @@ def main():
     lots["LosID"] = lots["LosID"].astype(str).str.strip()
     lots = lots.drop_duplicates("LosID", keep="first")
 
+    map_input = lots.rename(
+        columns={
+            "Bonus-punkte": "Punkte Bonus",
+            "Aufgaben-zeit (min)": "Zeit-bedarf (min)",
+        }
+    ).copy()
+    for column in draw.columns:
+        if column not in map_input.columns:
+            map_input[column] = pd.NA
+    map_input = map_input[draw.columns]
+
     if ONLY_DRAWN_LOTS:
-        map_input = draw
-    else:
-        map_input = lots.rename(
-            columns={
-                "Bonus-punkte": "Punkte Bonus",
-                "Aufgaben-zeit (min)": "Zeit-bedarf (min)",
-            }
-        ).copy()
-        for column in draw.columns:
-            if column not in map_input.columns:
-                map_input[column] = pd.NA
-        map_input = map_input[draw.columns]
+        drawn_los_ids = set(draw["LosID"])
+        map_input = map_input[map_input["LosID"].isin(drawn_los_ids)].copy()
 
     stations = stations.copy()
     stations["station_key"] = stations["NAME"].map(normalize)
     stations = stations.drop_duplicates("station_key", keep="first")
-
     records = map_input.merge(
-        lots[["LosID", "Bahnhof", "Breitengrad Aufgabe", "Längengrad Aufgabe"]],
+        lots[["LosID", "Breitengrad Aufgabe", "Längengrad Aufgabe"]],
         on="LosID",
         how="left",
-        suffixes=("", "_los"),
     ).copy()
-    records["Bahnhof"] = records["Bahnhof"].fillna(records["Bahnhof_los"])
     records["station_key"] = records["Bahnhof"].map(normalize)
     records = records.merge(
         stations[["station_key", "Breitengrad Bahnhof", "Längengrad Bahnhof"]],
