@@ -14,24 +14,24 @@ STATIONS_SHEET = "Hafas"
 PARAMETERS_SHEET = "Parameter"
 ONLY_DRAWN_LOTS = False
 COLORS = [
-    "#1f77b4",
-    "#2ca02c",
-    "#9467bd",
-    "#17becf",
-    "#4c78a8",
-    "#54a24b",
-    "#b279a2",
-    "#7f7f7f",
-    "#bcbd22",
-    "#5f9ea0",
-    "#3b6fb6",
-    "#2e8b57",
-    "#6a5acd",
-    "#00a6a6",
-    "#708090",
-    "#8a2be2",
-    "#556b2f",
-    "#4682b4",
+    "#1f77b4",  # Bhf-Paare
+    "#2ca02c",  # Ehemalige FV-Bahnhöfe
+    "#551fb2",  # Essen+Trinken/Eisdiele
+    "#00b4d8",  # Frankfurt & Rhein-Main-Region
+    "#023e8a",  # Kleine Hochschulorte
+    "#52b788",  # Kranke Ortsnamen
+    "#c77dff",  # Hanse/Meer/Küste/Deich
+    "#a0522d",  # Mini-Golf in Mini-Städten
+    "#b5e48c",  # Münster Stadt & Umland/Fahrrad
+    "#3a86ff",  # Eisenbahnmuseum
+    "#1b4332",  # Natur/Wanderbahnhöfe
+    "#6b6f2a",  # Partnerstädte
+    "#5e60ce",  # Rangierbahnhöfe
+    "#e040fb",  # Tatort
+    "#d4a373",  # Turm/Insel/Keil/Kopf-Bahnhöfe
+    "#7b2d8b",  # Unter Tage
+    "#006d77",  # Weltkulturerbe
+    "#e07a9e",  # Wunschlos
 ]
 
 
@@ -214,6 +214,17 @@ def main():
     print(
         f"Generated {output_path.name} with {len(coordinates)} locations; skipped {skipped} lots without coordinates."
     )
+
+    colors_entries = "\n".join(
+        f'      {{ name: {json.dumps(name)}, hex: {json.dumps(hex)} }},'
+        for name, hex in color_map.items()
+        if name != "Unbekannt"
+    )
+    colors_html_path = excel_path.parent / "colors" / "colors.html"
+    template_path = Path(__file__).parent / "colors" / "colors_template.html"
+    colors_html = template_path.read_text(encoding="utf-8").replace("__COLORS_PLACEHOLDER__", colors_entries)
+    colors_html_path.write_text(colors_html, encoding="utf-8")
+    print("Generated colors.html")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>Farbpalette – 2D Plane</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #1a1a1a; color: #eee; }
+    h2 { margin-bottom: 4px; }
+    p { font-size: 13px; color: #aaa; margin: 0 0 16px; }
+    canvas { display: block; border-radius: 6px; cursor: crosshair; }
+    #info { margin-top: 12px; font-size: 13px; color: #ccc; min-height: 20px; }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+    .leg { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+    .legdot { width: 14px; height: 14px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.4); flex-shrink:0; }
+  </style>
+</head>
+<body>
+  <h2>2D Farbpalette — Hue × Lightness</h2>
+  <p>X-Achse: Farbton (Hue 0°–360°) &nbsp;|&nbsp; Y-Achse: Helligkeit (Lightness 0%–100%) &nbsp;|&nbsp; Sättigung: 70% &nbsp;|&nbsp; Markierte Farben = aktuelle Palette</p>
+  <canvas id="c" width="900" height="400"></canvas>
+  <div id="info">Hover über die Fläche für Hex-Wert</div>
+  <div class="legend" id="legend"></div>
+
+  <script>
+    const colors = [
+__COLORS_PLACEHOLDER__
+    ];
+
+    const ormZones = [
+      { hMin:  0, hMax: 20  },
+      { hMin: 20, hMax: 40  },
+      { hMin: 40, hMax: 55  },
+      { hMin: 340, hMax: 360 },
+    ];
+
+    function hexToHsl(hex) {
+      let r = parseInt(hex.slice(1,3),16)/255;
+      let g = parseInt(hex.slice(3,5),16)/255;
+      let b = parseInt(hex.slice(5,7),16)/255;
+      const max = Math.max(r,g,b), min = Math.min(r,g,b);
+      let h, s, l = (max+min)/2;
+      if (max === min) { h = s = 0; }
+      else {
+        const d = max - min;
+        s = l > 0.5 ? d/(2-max-min) : d/(max+min);
+        switch(max) {
+          case r: h = ((g-b)/d + (g<b?6:0))/6; break;
+          case g: h = ((b-r)/d + 2)/6; break;
+          case b: h = ((r-g)/d + 4)/6; break;
+        }
+      }
+      return [h*360, s*100, l*100];
+    }
+
+    function hslToHex(h, s, l) {
+      s /= 100; l /= 100;
+      const k = n => (n + h/30) % 12;
+      const a = s * Math.min(l, 1-l);
+      const f = n => l - a*Math.max(-1, Math.min(k(n)-3, Math.min(9-k(n), 1)));
+      const toHex = x => Math.round(x*255).toString(16).padStart(2,'0');
+      return `#${toHex(f(0))}${toHex(f(8))}${toHex(f(4))}`;
+    }
+
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width, H = canvas.height;
+    const PAD = 30;
+    const PW = W - PAD*2, PH = H - PAD*2;
+
+    for (let x = 0; x < PW; x++) {
+      const hue = (x / PW) * 360;
+      for (let y = 0; y < PH; y++) {
+        const light = 100 - (y / PH) * 100;
+        ctx.fillStyle = `hsl(${hue},70%,${light}%)`;
+        ctx.fillRect(PAD + x, PAD + y, 1, 1);
+      }
+    }
+
+    for (const zone of ormZones) {
+      const x1 = PAD + (zone.hMin / 360) * PW;
+      const x2 = PAD + (zone.hMax / 360) * PW;
+      ctx.fillStyle = 'rgba(0,0,0,0.35)';
+      ctx.fillRect(x1, PAD, x2-x1, PH);
+      ctx.strokeStyle = 'rgba(255,255,255,0.5)';
+      ctx.setLineDash([4,3]);
+      ctx.strokeRect(x1, PAD, x2-x1, PH);
+      ctx.setLineDash([]);
+    }
+
+    ctx.fillStyle = 'rgba(255,255,255,0.7)';
+    ctx.font = '11px sans-serif';
+    ctx.fillText('⚠ ORM', PAD + 2, PAD + 14);
+    ctx.strokeStyle = '#555'; ctx.lineWidth = 1;
+    ctx.strokeRect(PAD, PAD, PW, PH);
+
+    ctx.fillStyle = '#aaa'; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
+    for (let h = 0; h <= 360; h += 30) {
+      const x = PAD + (h/360)*PW;
+      ctx.fillText(h+'°', x, H-6);
+      ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+      ctx.beginPath(); ctx.moveTo(x, PAD); ctx.lineTo(x, PAD+PH); ctx.stroke();
+    }
+
+    ctx.textAlign = 'right';
+    for (let l = 0; l <= 100; l += 20) {
+      const y = PAD + ((100-l)/100)*PH;
+      ctx.fillStyle = '#aaa';
+      ctx.fillText(l+'%', PAD-4, y+4);
+      ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+      ctx.beginPath(); ctx.moveTo(PAD, y); ctx.lineTo(PAD+PW, y); ctx.stroke();
+    }
+
+    for (const c of colors) {
+      const [h, s, l] = hexToHsl(c.hex);
+      const x = PAD + (h/360)*PW;
+      const y = PAD + ((100-l)/100)*PH;
+      ctx.beginPath(); ctx.arc(x, y, 10, 0, Math.PI*2);
+      ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.fill();
+      ctx.beginPath(); ctx.arc(x, y, 8, 0, Math.PI*2);
+      ctx.fillStyle = c.hex; ctx.fill();
+      ctx.strokeStyle = 'white'; ctx.lineWidth = 1.5; ctx.stroke();
+      c._x = x; c._y = y;
+    }
+
+    const info = document.getElementById('info');
+    canvas.addEventListener('mousemove', e => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      const hue = Math.round(((mx - PAD) / PW) * 360);
+      const light = Math.round(100 - ((my - PAD) / PH) * 100);
+      if (hue < 0 || hue > 360 || light < 0 || light > 100) { info.textContent = ''; return; }
+      const hex = hslToHex(hue, 70, light);
+      let nearest = null, minD = Infinity;
+      for (const c of colors) {
+        const d = Math.hypot(mx - c._x, my - c._y);
+        if (d < minD) { minD = d; nearest = c; }
+      }
+      const nearLabel = minD < 14 ? ` — ${nearest.name}` : '';
+      info.innerHTML = `Hue: ${hue}° &nbsp; Lightness: ${light}% &nbsp; → &nbsp; <span style="display:inline-block;width:14px;height:14px;background:${hex};border-radius:3px;vertical-align:middle;border:1px solid #555"></span> <code>${hex}</code>${nearLabel}`;
+    });
+
+    const legend = document.getElementById('legend');
+    for (const c of colors) {
+      const div = document.createElement('div');
+      div.className = 'leg';
+      div.innerHTML = `<div class="legdot" style="background:${c.hex}"></div>${c.name} <span style="color:#666;font-size:11px">${c.hex}</span>`;
+      legend.appendChild(div);
+    }
+  </script>
+</body>
+</html>
