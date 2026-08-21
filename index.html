@@ -108,7 +108,7 @@
     const mobileScale = isMobile ? 0.75 : 1;
 
     function markerRadius(points) {
-      return Math.min(17, Math.max(5, Math.sqrt(Number(points || 0)) * 1.1)) * mobileScale;
+      return Math.max(5, Math.sqrt(Number(points || 0)) * 1.1) * mobileScale;
     }
 
     function makePieMarker(latlng, radius, colors, popup, popupOptions) {
@@ -209,7 +209,7 @@
           const coordLayer = categoryLayers[coord.lostopf] || categoryLayers.Unbekannt;
           const aufgabe = Number(coord.punkte_aufgabe || 0);
           if (aufgabe > 0) {
-            currentRadius = Math.min(40, currentRadius + Math.max(4, Math.sqrt(aufgabe) * 1.1));
+            currentRadius = currentRadius + Math.max(4, Math.sqrt(aufgabe) * 1.1);
             rings.push({ marker: L.circleMarker(latlng, {
               radius: currentRadius * mobileScale,
               color: coordColor, fill: false, weight: 2
@@ -217,10 +217,18 @@
           }
           const bonus = Number(coord.punkte_bonus || 0);
           if (bonus > 0) {
-            currentRadius = Math.min(50, currentRadius + Math.max(4, Math.sqrt(bonus) * 1.1));
+            currentRadius = currentRadius + Math.max(4, Math.sqrt(bonus) * 1.1);
             rings.push({ marker: L.circleMarker(latlng, {
               radius: currentRadius * mobileScale,
               color: coordColor, fill: false, weight: 2, dashArray: '4, 5'
+            }).bindPopup(groupPopup(group)), categoryLayer: coordLayer, coord });
+          }
+          // Pair bonus ring: dashed ring sized by sqrt(punkte_bahnhof * 2), uncapped
+          if (coord.lostopf === 'Bhf-Paare' || coord.lostopf === 'Partnerstädte') {
+            const pairR = Math.sqrt(Number(coord.punkte_bahnhof || 0) * 2) * 1.1 * mobileScale;
+            rings.push({ marker: L.circleMarker(latlng, {
+              radius: pairR,
+              color: coordColor, fill: false, weight: 2, dashArray: '2, 4'
             }).bindPopup(groupPopup(group)), categoryLayer: coordLayer, coord });
           }
         }
@@ -239,11 +247,11 @@
           const aufgabeR = markerRadius(coord.punkte_bahnhof) / mobileScale
             + Math.max(4, Math.sqrt(Number(coord.punkte_aufgabe || 0)) * 1.1);
           const aufgabeRing = L.circleMarker(aufgabeLatlng, {
-            radius: Math.min(28, aufgabeR) * mobileScale,
+            radius: aufgabeR * mobileScale,
             color: taskColor, fill: false, weight: 2
           }).bindPopup(taskPopup(coord));
           const bonusRing = coord.punkte_bonus ? L.circleMarker(aufgabeLatlng, {
-            radius: Math.min(38, aufgabeR + Math.max(4, Math.sqrt(Number(coord.punkte_bonus)) * 1.1)) * mobileScale,
+            radius: (aufgabeR + Math.max(4, Math.sqrt(Number(coord.punkte_bonus)) * 1.1)) * mobileScale,
             color: taskColor, fill: false, weight: 2, dashArray: '4, 5'
           }).bindPopup(taskPopup(coord)) : null;
 
@@ -285,7 +293,10 @@
           else { classicMarkers.removeLayer(classicMarker); map.removeLayer(classicMarker); }
           categoryMarker.addTo(ownerLayer);
           if (showTasks) {
-            rings.forEach(({ marker: r }) => ownerLayer.removeLayer(r));
+            rings.forEach(({ marker: r, coord: rc }) => {
+              const isPairRing = rc.lostopf === 'Bhf-Paare' || rc.lostopf === 'Partnerstädte';
+              if (isPairRing) r.addTo(ownerLayer); else ownerLayer.removeLayer(r);
+            });
           } else {
             rings.forEach(({ marker: r }) => r.addTo(ownerLayer));
           }
