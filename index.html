@@ -203,6 +203,8 @@
 
         // Stacked rings: each coord contributes its own colored solid + dashed ring
         const rings = []; // { marker, categoryLayer }
+        const isMuted = mutedStations.includes(first.bahnhof);
+        const ringCap = isMuted ? 12 : Infinity;
         let currentRadius = markerRadius(owner.punkte_bahnhof) / mobileScale;
         for (const coord of group) {
           const coordColor = lostopfColors[coord.lostopf] || lostopfColors.Unbekannt;
@@ -211,7 +213,7 @@
           if (aufgabe > 0) {
             currentRadius = currentRadius + Math.max(4, Math.sqrt(aufgabe) * 1.1);
             rings.push({ marker: L.circleMarker(latlng, {
-              radius: currentRadius * mobileScale,
+              radius: Math.min(ringCap, currentRadius) * mobileScale,
               color: coordColor, fill: false, weight: 2
             }).bindPopup(groupPopup(group)), categoryLayer: coordLayer, coord });
           }
@@ -219,7 +221,7 @@
           if (bonus > 0) {
             currentRadius = currentRadius + Math.max(4, Math.sqrt(bonus) * 1.1);
             rings.push({ marker: L.circleMarker(latlng, {
-              radius: currentRadius * mobileScale,
+              radius: Math.min(ringCap, currentRadius) * mobileScale,
               color: coordColor, fill: false, weight: 2, dashArray: '4, 5'
             }).bindPopup(groupPopup(group)), categoryLayer: coordLayer, coord });
           }

@@ -1,13 +1,13 @@
 const lostopfColors = {
   "Bhf-Paare": "#1f77b4",
   "Ehemalige FV-Bahnhöfe": "#2ca02c",
-  "Essen+Trinken/Eisdiele": "#4a1a6e",
+  "Essen+Trinken/Eisdiele": "#551fb2",
   "Frankfurt & Rhein-Main-Region": "#00b4d8",
   "Kleine Hochschulorte": "#023e8a",
   "Kranke Ortsnamen": "#52b788",
   "Hanse/Meer/Küste/Deich": "#c77dff",
   "Mini-Golf in Mini-Städten": "#a0522d",
-  "Münster Stadt & Umland/Fahrrad": "#b5e48c",
+  "Münster Stadt & Umland/Fahrrad": "#94e052",
   "Eisenbahnmuseum": "#3a86ff",
   "Natur/Wanderbahnhöfe": "#1b4332",
   "Partnerstädte": "#6b6f2a",
@@ -19,6 +19,10 @@ const lostopfColors = {
   "Wunschlos": "#e07a9e",
   "Unbekannt": "#7f7f7f"
 };
+
+const mutedStations = [
+  "Münster(Westf)Hbf"
+];
 
 const coordinates = [
   {

@@ -13,6 +13,9 @@ LOTS_SHEET = "Lose"
 STATIONS_SHEET = "Hafas"
 PARAMETERS_SHEET = "Parameter"
 ONLY_DRAWN_LOTS = False
+MUTED_STATIONS = [
+    "Münster(Westf)Hbf",
+]
 COLORS = [
     "#1f77b4",  # Bhf-Paare
     "#2ca02c",  # Ehemalige FV-Bahnhöfe
@@ -22,7 +25,7 @@ COLORS = [
     "#52b788",  # Kranke Ortsnamen
     "#c77dff",  # Hanse/Meer/Küste/Deich
     "#a0522d",  # Mini-Golf in Mini-Städten
-    "#b5e48c",  # Münster Stadt & Umland/Fahrrad
+    "#94e052",  # Münster Stadt & Umland/Fahrrad
     "#3a86ff",  # Eisenbahnmuseum
     "#1b4332",  # Natur/Wanderbahnhöfe
     "#6b6f2a",  # Partnerstädte
@@ -202,6 +205,8 @@ def main():
     output_path.write_text(
         "const lostopfColors = "
         + json.dumps(color_map, ensure_ascii=False, indent=2)
+        + ";\n\nconst mutedStations = "
+        + json.dumps(MUTED_STATIONS, ensure_ascii=False, indent=2)
         + ";\n\nconst coordinates = "
         + json.dumps(coordinates, ensure_ascii=False, indent=2)
         + ";\n\nconst bhfPaarLines = "
