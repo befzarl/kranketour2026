@@ -110,37 +110,27 @@ def main():
         raise FileNotFoundError(f"Excel file not found: {excel_path}")
 
     with readable_workbook_path(excel_path) as workbook_path:
-        draw = pd.read_excel(workbook_path, sheet_name=DRAW_SHEET).dropna(
-            subset=["LosID"]
-        )
+        draw = pd.read_excel(workbook_path, sheet_name=DRAW_SHEET).dropna(subset=["LosID"])
         lots = pd.read_excel(workbook_path, sheet_name=LOTS_SHEET)
         stations = pd.read_excel(workbook_path, sheet_name=STATIONS_SHEET)
         parameters = pd.read_excel(workbook_path, sheet_name=PARAMETERS_SHEET)
 
     draw["LosID"] = draw["LosID"].astype(str).str.strip()
-    lots = lots.dropna(subset=["LosID"]).copy()
+    draw = draw.drop_duplicates("LosID", keep="first")
+
     lots["LosID"] = lots["LosID"].astype(str).str.strip()
     lots = lots.drop_duplicates("LosID", keep="first")
 
-    map_input = lots.rename(
-        columns={
-            "Bonus-punkte": "Punkte Bonus",
-            "Aufgaben-zeit (min)": "Zeit-bedarf (min)",
-        }
-    ).copy()
-    if ONLY_DRAWN_LOTS:
-        drawn_los_ids = set(draw["LosID"])
-        map_input = map_input[map_input["LosID"].isin(drawn_los_ids)].copy()
-
-    stations = stations.copy()
     stations["station_key"] = stations["NAME"].map(normalize)
     stations = stations.drop_duplicates("station_key", keep="first")
-    records = map_input.copy()
-    records["station_key"] = records["Bahnhof"].map(normalize)
-    records = records.merge(
+
+    draw["station_key"] = draw["Bahnhof"].map(normalize)
+    records = draw.merge(
         stations[["station_key", "Breitengrad Bahnhof", "Längengrad Bahnhof"]],
-        on="station_key",
-        how="left",
+        on="station_key", how="left"
+    ).merge(
+        lots[["LosID", "Breitengrad Aufgabe", "Längengrad Aufgabe"]],
+        on="LosID", how="left"
     )
 
     prefix_mapping = lostopf_mapping(parameters)
@@ -169,14 +159,15 @@ def main():
             {
                 "id": clean_value(row["LosID"]),
                 "bahnhof": clean_value(row["Bahnhof"]),
-                "aufgabenadresse": clean_value(row["Google Adresse"]),
+                "aufgabenadresse": clean_value(row["Adresse"]),
                 "zeitbedarf": clean_value(row["Zeit-bedarf (min)"]),
                 "distanz": clean_value(row["Distanz (km)"]),
                 "punkte_bahnhof": clean_value(row["Punkte Bahnhof"]),
                 "punkte_aufgabe": clean_value(row["Punkte Aufgabe"]),
                 "punkte_bonus": clean_value(row["Punkte Bonus"]),
                 "aufgabe": clean_value(row["Beschreibung"]),
-                "lostopf": get_lostopf(row["LosID"], prefix_mapping),
+                "lostopf": clean_value(row["Lostopf"]) or get_lostopf(row["LosID"], prefix_mapping),
+
                 "latitude": round(float(primary_latitude), 6),
                 "longitude": round(float(primary_longitude), 6),
                 "latitude2": round(float(task_latitude), 6)

@@ -87,6 +87,10 @@
       maxZoom: 19,
       attribution: '&copy; OpenStreetMap contributors & CartoDB'
     }).addTo(map);
+    const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
     const railwayLayer = L.tileLayer('https://tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
       minZoom: 2,
       maxZoom: 19,
@@ -141,19 +145,28 @@
       }).bindPopup(popup, popupOptions);
     }
 
+    function pointsLine(bhf, aufgabe, bonus) {
+      const total = Number(bhf || 0) + Number(aufgabe || 0) + Number(bonus || 0);
+      const parts = `Bf: ${bhf ?? '-'} - A: ${aufgabe ?? '-'}${bonus ? ` - B: ${bonus}` : ''}`;
+      return `<b>Gesamt: ${total} Pkt.</b> (${parts})`;
+    }
+
     function groupPopup(group) {
       const first = group[0];
-      let html = `<b>Bahnhof: ${first.bahnhof || '-'}</b><br>Punkte Bahnhof: ${first.punkte_bahnhof ?? '-'}`;
+      let html = `<b>Bahnhof: ${first.bahnhof || '-'}</b>`;
       if (group.length === 1) {
         const c = group[0];
         html += `<br>Los: ${c.id} &mdash; Lostopf: ${c.lostopf}`
-          + `<br>Punkte Aufgabe: ${c.punkte_aufgabe ?? '-'}${c.punkte_bonus ? ` + ${c.punkte_bonus} Bonus` : ''}`
+          + (c.zeitbedarf ? `<br>Zeitbedarf: ${c.zeitbedarf} min` : '')
+          + `<br>${pointsLine(c.punkte_bahnhof, c.punkte_aufgabe, c.punkte_bonus)}`
           + `<br>${c.aufgabe || ''}`;
       } else {
+        html += `<br>Punkte Bahnhof: ${first.punkte_bahnhof ?? '-'}`;
         html += group.map(c =>
           `<hr style="margin:4px 0">`
           + `<b>${c.id}</b> &mdash; ${c.lostopf}<br>`
-          + `Aufgabe: ${c.punkte_aufgabe ?? '-'}${c.punkte_bonus ? ` + ${c.punkte_bonus} Bonus` : ''} Pkt.<br>`
+          + (c.zeitbedarf ? `Zeitbedarf: ${c.zeitbedarf} min<br>` : '')
+          + `${pointsLine(c.punkte_bahnhof, c.punkte_aufgabe, c.punkte_bonus)}<br>`
           + `${c.aufgabe || ''}`
         ).join('');
       }
@@ -164,8 +177,8 @@
     function stationPopup(coord) {
       return `<b>Bahnhof: ${coord.bahnhof || '-'}</b><br>
         Los: ${coord.id}<br>
-        Punkte Bahnhof: ${coord.punkte_bahnhof ?? '-'}<br>
         Lostopf: ${coord.lostopf}<br>
+        ${pointsLine(coord.punkte_bahnhof, coord.punkte_aufgabe, coord.punkte_bonus)}<br>
         Aufgabenbeschreibung: ${coord.aufgabe || '-'}`;
     }
 
@@ -174,8 +187,7 @@
         Los: ${coord.id}<br>
         Zeitbedarf: ${coord.zeitbedarf ?? '-'} min<br>
         Distanz: ${coord.distanz ?? '-'} km<br>
-        Punkte Aufgabe: ${coord.punkte_aufgabe ?? '-'}<br>
-        Punkte Bonus: ${coord.punkte_bonus ?? '-'}<br>
+        ${pointsLine(coord.punkte_bahnhof, coord.punkte_aufgabe, coord.punkte_bonus)}<br>
         Lostopf: ${coord.lostopf}<br>
         Aufgabenbeschreibung: ${coord.aufgabe || '-'}`;
     }
@@ -368,7 +380,7 @@
       allOverlays[`Lostopf: ${name}`] = layer;
     });
     const compactLayout = window.matchMedia('(max-width: 600px)').matches;
-    const layerControl = L.control.layers({ 'Schwarz-Weiß': bw }, allOverlays, { collapsed: compactLayout }).addTo(map);
+    const layerControl = L.control.layers({ 'Schwarz-Weiß': bw, 'OpenStreetMap': osm }, allOverlays, { collapsed: compactLayout }).addTo(map);
 
     // Collapse button for layer control — wrap with a header div matching the legend style
     let lcCollapsed = false;
