@@ -183,13 +183,16 @@
     }
 
     function taskPopup(coord) {
+      const mapsLink = (coord.latitude2 !== null && coord.longitude2 !== null)
+        ? `<br><a href="https://www.google.com/maps/dir/?api=1&origin=${coord.latitude},${coord.longitude}&destination=${coord.latitude2},${coord.longitude2}&travelmode=walking" target="_blank">Route in Google Maps</a>`
+        : '';
       return `<b>Aufgabe: ${coord.aufgabenadresse || '-'}</b><br>
         Los: ${coord.id}<br>
         Zeitbedarf: ${coord.zeitbedarf ?? '-'} min<br>
         Distanz: ${coord.distanz ?? '-'} km<br>
         ${pointsLine(coord.punkte_bahnhof, coord.punkte_aufgabe, coord.punkte_bonus)}<br>
         Lostopf: ${coord.lostopf}<br>
-        Aufgabenbeschreibung: ${coord.aufgabe || '-'}`;
+        Aufgabenbeschreibung: ${coord.aufgabe || '-'}${mapsLink}`;
     }
 
     if (Array.isArray(coordinates)) {
@@ -262,11 +265,11 @@
             + Math.max(4, Math.sqrt(Number(coord.punkte_aufgabe || 0)) * 1.1);
           const aufgabeRing = L.circleMarker(aufgabeLatlng, {
             radius: aufgabeR * mobileScale,
-            color: taskColor, fill: false, weight: 2
+            color: taskColor, fillOpacity: 0, weight: 2
           }).bindPopup(taskPopup(coord));
           const bonusRing = coord.punkte_bonus ? L.circleMarker(aufgabeLatlng, {
             radius: (aufgabeR + Math.max(4, Math.sqrt(Number(coord.punkte_bonus)) * 1.1)) * mobileScale,
-            color: taskColor, fill: false, weight: 2, dashArray: '4, 5'
+            color: taskColor, fillOpacity: 0, weight: 2, dashArray: '4, 5'
           }).bindPopup(taskPopup(coord)) : null;
 
           const zoomedMarkers = [bhfDot, aufgabeRing, ...(bonusRing ? [bonusRing] : [])];
