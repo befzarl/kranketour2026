@@ -12,7 +12,7 @@ DRAW_SHEET = "Ziehung 2026"
 LOTS_SHEET = "Lose"
 STATIONS_SHEET = "Hafas"
 PARAMETERS_SHEET = "Parameter"
-ONLY_DRAWN_LOTS = False
+ONLY_DRAWN_LOTS = True
 MUTED_STATIONS = [
     "Münster(Westf)Hbf",
 ]
@@ -80,9 +80,7 @@ def readable_workbook_path(excel_path):
                 "powershell.exe",
                 "-NoProfile",
                 "-Command",
-                "Copy-Item -LiteralPath $args[0] -Destination $args[1] -Force",
-                str(excel_path),
-                str(temporary_path),
+                f"Copy-Item -LiteralPath '{excel_path}' -Destination '{temporary_path}' -Force",
             ],
             check=True,
         )
@@ -181,8 +179,12 @@ def main():
                 "lostopf": get_lostopf(row["LosID"], prefix_mapping),
                 "latitude": round(float(primary_latitude), 6),
                 "longitude": round(float(primary_longitude), 6),
-                "latitude2": round(float(task_latitude), 6) if has_station and has_task else None,
-                "longitude2": round(float(task_longitude), 6) if has_station and has_task else None,
+                "latitude2": round(float(task_latitude), 6)
+                if has_station and has_task
+                else None,
+                "longitude2": round(float(task_longitude), 6)
+                if has_station and has_task
+                else None,
             }
         )
 
@@ -221,13 +223,15 @@ def main():
     )
 
     colors_entries = "\n".join(
-        f'      {{ name: {json.dumps(name)}, hex: {json.dumps(hex)} }},'
+        f"      {{ name: {json.dumps(name)}, hex: {json.dumps(hex)} }},"
         for name, hex in color_map.items()
         if name != "Unbekannt"
     )
     colors_html_path = excel_path.parent / "colors" / "colors.html"
     template_path = Path(__file__).parent / "colors" / "colors_template.html"
-    colors_html = template_path.read_text(encoding="utf-8").replace("__COLORS_PLACEHOLDER__", colors_entries)
+    colors_html = template_path.read_text(encoding="utf-8").replace(
+        "__COLORS_PLACEHOLDER__", colors_entries
+    )
     colors_html_path.write_text(colors_html, encoding="utf-8")
     print("Generated colors.html")
 
